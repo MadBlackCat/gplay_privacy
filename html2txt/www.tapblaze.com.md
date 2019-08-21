@@ -1,0 +1,355 @@
+TapBlaze
+
+  * Home
+  * About
+  * Games
+  * Careers
+  * Support
+
+© 2018 TapBlaze. All Rights Reserved.
+
+![TapBlaze Logo](/images/logo-dark.png) ![TapBlaze Logo](/images/logo.png)
+
+  * 
+
+  * Home
+  * About
+  * Games
+  * Careers
+  * Support
+
+Back Up Top
+
+PRIVACY POLICY
+
+TapBlaze, LLC (“Company”, “We", “TapBlaze” or "Lai Systems, LLC") respects the
+privacy rights of our users and are committed to protecting the information
+collected through its online products, online services and websites including,
+but not limited to TapBlaze’s games (together “Services”). TapBlaze has
+adopted this privacy policy (“Privacy Policy”) to explain how TapBlaze
+collects, stores, and uses the information collected in connection with
+TapBlaze’s Services.
+
+BY INSTALLING, USING, REGISTERING TO OR OTHERWISE ACCESSING THE SERVICES, YOU
+AGREE TO THIS PRIVACY POLICY AND GIVE AN EXPLICIT AND INFORMED CONSENT TO THE
+PROCESSING OF YOUR PERSONAL DATA IN ACCORDANCE WITH THIS PRIVACY POLICY. IF
+YOU DO NOT AGREE TO THIS PRIVACY POLICY, PLEASE DO NOT INSTALL, USE, REGISTER
+TO OR OTHERWISE ACCESS THE SERVICES. TapBlaze reserves the right to modify
+this Privacy Policy at reasonable times, so please review it frequently. If
+TapBlaze makes material or significant changes to this Privacy Policy,
+TapBlaze may post a notice on TapBlaze’s website along with the updated
+Privacy Policy.  Your continued use of Services will signify your acceptance
+of the changes to this Privacy Policy.
+
+**Our Policy Regarding Children Under 13 (Global)**
+
+We do not knowingly collect or solicit personal information from anyone under
+the age of 13 or knowingly allow such persons to use our Service. If you are
+under 13, please do not send any information about yourself to us, including
+your name, address, telephone number, email address or any other personal
+information. No one under the age of 13 may provide any personal information.
+If you believe that we might have any information from or about a child under
+the age of 13, please contact us here.
+
+**Please note that in-game advertising in TapBlaze games and apps deemed
+directed to children under the age of thirteen (13), including without
+limitation the following mobile apps: My Pizza Shop, My Pizza Shop 2, Friday
+Party Makeover, Hair Salon Makeover, My Donut Shop, My Cake Shop
+(collectively, “Kids Apps”) are only CONTEXTUAL.**
+
+**Our Policy Regarding Children Under 16 (European Union and United Kingdom)**
+
+We do not knowingly collect or solicit personal information from anyone under
+the age of 16 or knowingly allow such persons to use our Service. If you are
+under 16, please do not send any information about yourself to us, including
+your name, address, telephone number, email address or any other personal
+information. No one under the age of 16 may provide any personal information.
+If you believe that we might have any information from or about a child under
+the age of 16, please contact us here.
+
+**Please note that in-game advertising in TapBlaze games and apps deemed
+directed to children under the age of sixteen (16), including without
+limitation the following mobile apps: My Pizza Shop, My Pizza Shop 2, Friday
+Party Makeover, Hair Salon Makeover, My Donut Shop, My Cake Shop
+(collectively, “Kids Apps”) are only CONTEXTUAL.**
+
+**Log Files and Cookies**
+
+This website utilizes industry standard analytic packages which gathers
+limited information on visitors to our website automatically, and stores this
+anonymous information in server log files. This information may include IP
+addresses, browser type, basic IP information, referring pages, operating
+system used and date/time stamps. This information does not identify
+individual users; it is used only for site administration, as well as for
+analysis of website usage and trends.
+
+The TapBlaze website does not use any non-technical cookies.
+
+**Links to Other Websites**
+
+This website may contain links to other sites that are not controlled in any
+way by us. Please be aware of this when you click on any such links; we are
+not responsible for the privacy practices and/or policies of any website other
+than our own. Consequently, we strongly suggest that you review the privacy
+policy of every website you visit, whether or not they are linked to by our
+own site.
+
+**Registration and Use of Personal Information**
+
+Registration is not required in order to use or access this website. However,
+this site may make forums, blogs, message boards or similar available to its
+users. You may be required to register for these features, particularly if you
+wish to leave comments or provide articles. In addition, this site collects
+personal information when:
+
+  1. You request support for a TapBlaze product;
+  2. You submit questions or comments to us.
+
+The types of personal information collected may include (but are not limited
+to):
+
+  1. Your first and last name;
+  2. Your e-mail address;
+
+If you do contact us for questions or comments, please rest assured that any
+such information you provide will not be shared with any third-party
+organization except with your express consent.
+
+**Non-personal Data**
+
+For purposes of this Privacy Policy, “non-personal data” means information
+that does not directly identify you. Additionally, non-personal data means
+“aggregate” and “de-personalized” information, which is data TapBlaze
+collects about the use of TapBlaze Services, from which any personally
+identifiable data has been removed.
+
+TapBlaze may use tools or third party analytical software to automatically
+collect and use certain non-personal data that does not directly enable
+TapBlaze to identify you. The types of non-personal data TapBlaze may collect
+and use include, but are not limited to: (i) device properties; (ii) device
+software platform and firmware; (iii) mobile phone carrier; (iv) geographical
+data; (v) game score and achievements; (vi) other non-personal data as
+reasonably required by TapBlaze to enhance the Services and other TapBlaze
+products and services.
+
+TapBlaze may use and disclose to TapBlaze’s partners and contractors the
+collected non-personal data for purposes of analyzing usage of the Services,
+advertisement serving, managing and providing the Services and to further
+develop the Services and other TapBlaze services and products.
+
+You recognize and agree that the analytics companies utilized by TapBlaze may
+combine the information collected with other information they have
+independently collected from other services or products relating to your
+activities. These companies collect and use information under their own
+privacy policies.
+
+**Personal Data**
+
+For purposes of this Privacy Policy, “personal data” means personally
+identifiable information that specifically identifies you as an individual.
+
+Likely situations when you make personal data available to TapBlaze include,
+but are not limited to: (i) registration for Services, contests and special
+events; (ii) accessing Services using a third party ID, such as social
+networking sites or gaming services; (iii) subscribing to newsletters; (iv)
+purchasing a product or services through TapBlaze’s online stores; (v) using
+“tell a friend,” “email this page,” or other similar features; (vi)
+requesting technical support; and (vii) otherwise through use of TapBlaze
+Services where personal data is required for use and/or participation.
+
+The types of personal data may vary depending on the type of activity you are
+engaged in. The personal data TapBlaze may collect, process and use may
+include, but are not limited to your name, screen/nick name, TapBlaze Services
+or third party service ID, e-mail address, phone number, photo or other image,
+birthdate, sex, address, friend connections, avatar image, credit card
+information, shipping information; and location (only if directly identifiable
+to you, otherwise TapBlaze treats location as non-personal data).
+
+TapBlaze may use collected personal data for purposes of analyzing usage of
+the Services, providing customer and technical support, managing and providing
+Services (including managing advertisement serving) and to further develop the
+Services and other TapBlaze services and products. TapBlaze may combine non-
+personal data with personal data.
+
+TapBlaze may use your personal data to send messages to you with informative
+and/or commercial content about TapBlaze’s services or third party products
+and services TapBlaze thinks may be of interest to you, such as new features
+and services, special offers and updated information.
+
+Please note that certain features of the Services may be able to connect to
+your social networking sites to obtain additional information about you. In
+such cases, TapBlaze may be able to collect certain information from your
+social networking profile when your social networking site permits it, and
+when you consent to allow your social networking site to make that information
+available to TapBlaze. This information may include, but is not limited to,
+your name, profile picture, gender, user ID, email address, your country, your
+language, your time zone, the organizations and links on your profile page,
+the names and profile pictures of your social networking site “friends” and
+other information you have included in your social networking site profile.
+TapBlaze may associate and/or combine as well as use information collected by
+TapBlaze and/or obtained through such social networking sites in accordance
+with this Privacy Policy.
+
+**Ad Serving Technology**
+
+Please note that all "Kids Apps" from TapBlaze that feature in-game
+advertising only allow for contextual advertising. The third party ad networks
+which may display advertisements in our “Kids Apps” are as follows:
+
+Admob: https://policies.google.com/privacy
+
+Chartboost: https://answers.chartboost.com/en-us/articles/200780269
+
+Unity: https://unity3d.com/legal/privacy-policy
+
+Mobile games and applications which are not directed to children under the age
+of thirteen (13) ("General Apps") may display advertisements, in various
+formats (such as banners, interstitials, rewarded videos, etc.) from third
+party ad networks. Please note that if you click on any of these
+advertisements, the advertisers may use cookies and other web-tracking
+technologies to collect data regarding advertisement performance, your
+interaction with such ads and your interests (which may include, non-personal
+and/or personal information (such as, device and network information, unique
+identifiers, gender, age and geo-location) in order to serve you
+advertisements and for the legitimate business interests of such third party
+ad networks. We recommend that you review the terms of use and privacy policy
+of any 3rd party advertisers with whom you are interacting before doing so.
+Their privacy policy, not ours, will apply to any of those interactions. The
+third party ad networks which may display advertisements in our “General Apps”
+are as follows:
+
+Admob: https://policies.google.com/privacy
+
+Adcolony: https://www.adcolony.com/privacy-policy/
+
+Chartboost: https://answers.chartboost.com/en-us/articles/200780269
+
+Unity: https://unity3d.com/legal/privacy-policy
+
+**Disclosure and Transfer of Personal Data**
+
+TapBlaze collects and processes personal data on a voluntary basis and it is
+not in the business of selling your personal data to third parties. Personal
+data may, however, occasionally be disclosed in accordance with applicable
+legislation and this Privacy Policy. Additionally, TapBlaze may disclose
+personal data to its parent companies and its subsidiaries in accordance with
+this Privacy Policy.
+
+TapBlaze may hire agents and contractors to collect and process personal data
+on TapBlaze’s behalf and in such cases such agents and contractors will be
+instructed to comply with our Privacy Policy and to use personal data only for
+the purposes for which the third party has been engaged by TapBlaze. These
+agents and contractors may not use your personal data for their own marketing
+purposes. TapBlaze may use third party service providers such as credit card
+processors, e-mail service providers, shipping agents, data analyzers and
+business intelligence providers. TapBlaze has the right to share your personal
+data as necessary for the aforementioned third parties to provide their
+services for TapBlaze. TapBlaze is not liable for the acts and omissions of
+these third parties, except as provided by mandatory law.
+
+TapBlaze may disclose your personal data to third parties as required by law
+enforcement or other government officials in connection with an investigation
+of fraud, intellectual property infringements, or other activity that is
+illegal or may expose you or TapBlaze to legal liability. TapBlaze may also
+disclose your personal data to third parties when TapBlaze has a reason to
+believe that a disclosure is necessary to address potential or actual injury
+or interference with TapBlaze’s rights, property, operations, users or others
+who may be harmed or may suffer loss or damage, or TapBlaze believes that such
+disclosure is necessary to protect TapBlaze’s rights, combat fraud and/or
+comply with a judicial proceeding, court order, or legal process served on
+TapBlaze.
+
+**Third Party Data Collection and Use of End-User Information**
+
+When you use or connect to a TapBlaze website or download a TapBlaze mobile
+application by or through a Third Party Platform—including Facebook—you allow
+us to access and/or collect certain information from your Third Party Platform
+profile/account. You additionally allow us to access information contained in
+cookies placed on your device by the Third Party Platform as permitted by the
+terms of your agreement and privacy settings with the Third Party Platform. We
+may share this information with the Third Party Platform for their use as
+permitted by the terms of your agreement and privacy settings with the Third
+Party Platform.
+
+We will share some of the information we collect from you with vendors and
+other service providers who work with us to support the internal operations of
+our website and/or mobile application. For example, we use a third-party
+service for ad tracking and to help us prepare website and mobile application
+analytics.
+
+Our third-party ad tracking and analytics company never sends emails,
+notifications, or other communications to our end users. If you would like to
+opt out of third-party ad tracking and analytics, please visit here. Your
+choice to opt out of ad tracking and analytics services does not limit our
+ability to email you or collect other information.
+
+**Your Tracking Options and California Do Not Track Disclosures**
+
+You may adjust your browser or operating system settings to limit certain
+tracking through cookies or other identifiers or to decline cookies. Check the
+“Help” menu of your browser or operating system to learn how to adjust your
+tracking settings or cookie preferences. Note that our system may not
+recognize Do Not Track (DNT) headers or requests from some or all browsers.
+
+**Your Rights and Choices**
+
+Upon request, TapBlaze will provide you with information about whether we hold
+any of your Personal Information. You can update or correct Personal
+Information (e.g., your email address) by accessing your account. You can also
+access or rectify your information by reaching out to us at
+support@tapblaze.com. You can delete your information by sending an email to
+privacy@tapblaze.com with your first name, last name, and the respective email
+addresses you would like for us to delete.
+
+**Legal Disclaimer**
+
+We reserve the right to disclose your personally identifiable information as
+required by law and when we believe that disclosure is necessary to protect
+our rights and/or to comply with a judicial proceeding, court order or legal
+process served on our website.
+
+**How to Contact Us**
+
+If you have any questions or concerns regarding this privacy policy, or you
+wish to contact us, you may do so here or at the following address:  
+  
+TapBlaze Legal Department  
+11901 Santa Monica Blvd  
+STE 507  
+Los Angeles, CA 90025
+
+NOTICE TO CHILDREN UNDER THE AGE OF 13 AND THEIR PARENTS OR LEGAL GUARDIANS:
+THE TAPBLAZE SITE IS INTENDED FOR ADULTS. WE DO NOT KNOWINGLY OR INTENTIONALLY
+COLLECT PERSONAL INFORMATION FROM ANYONE UNDER THE AGE OF 13. IF YOU ARE UNDER
+THE AGE OF 13, PLEASE DO NOT PROVIDE ANY PERSONAL INFORMATION TO TAPBLAZE. IF
+YOU KNOW OF ANYONE UNDER THE AGE OF 13 WHO HAS PROVIDED US WITH INFORMATION,
+PLEASE CONTACT US IMMEDIATELY AND WE WILL REMOVE THE INFORMATION.
+
+_This privacy policy was last updated on May 23rd, 2018_.  
+
+Back Home Contact Us
+
+#### We're TapBlaze
+
+TapBlaze is founded by three brothers from Queens, NY. Currently with offices
+in Los Angeles and Irvine, CA. We always had childhood dreams of teaming up
+together one day to build an enduring game company. Although each of us have
+had ups and downs in our journeys in life, we had each other and the common
+uplifting experience of games.
+
+2100 Sawtelle Blvd  
+Los Angeles, CA 90025, U.S.  
+© TapBlaze
+
+#### Follow Us
+
+  
+  
+  
+
+  *   *   *   * 
+
+  * EULA
+  * Privacy Policy
+  * Terms and Conditions
+

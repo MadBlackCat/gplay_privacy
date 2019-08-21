@@ -1,0 +1,7 @@
+USE APP
+person
+Menu
+menu
+Privacy Policy
+Your privacy is important to us. Please read Section 1 of the Microsoft Services Agreement and the Microsoft Privacy Statement , which generally describe the types of data we collect from you and your devices (“Data”), how we use your Data, and the legal bases we have to process your Data. For more information about your Data on Mixer and the Data controls provided in the Service, see My Data .
+Last updated/Effective date: May 22, 2018

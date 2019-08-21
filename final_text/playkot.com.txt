@@ -1,0 +1,93 @@
+GAMES ABOUT CAREERS CONTACTS SUPPORT
+RU
+If you visit this page, it means that you care about your data safety and protection. Our Privacy Policy covers the most important aspects of our company data protection, such as:
+Reasons and means of personal data acquisition
+Rules and methods of personal data processing
+Your personal data protection rights and their fulfilment
+This Privacy Policy applies to all games, web services, and related services provided by Playkot (such as the customer support, forums, official game communities), referred to jointly herein as «Services.» This policy is subject to change and update. The current version is always available on playkot.com. If we make any significant changes to our policy, we may notify the users in the Services. If the user continues using the Services after the update, it means they agree with the revised version. We strongly recommend that you visit the page from time to time (see the date of the latest update at the top of the page).
+1. Contact us
+If this Policy doesn’t contain the information you need or if you encounter issues related to your personal data, please do not hesitate to contact us.
+The fastest way to do so is to use the in-game support menu or our website at https://en.playkot.com/support
+You can also send us an e-mail.
+Company name: Playkot LTD
+Address: Office 104, 56, Stavrou, 2035, Strovolos, Nicosia, Cyprus
+E-mail: info@playkot.com
+2. General Terminology
+Playkot («we,» «us,» «our») refers to the company «Playkot LTD», located at the following address: Office 104, 56, Stavrou, 2035, Strovolos, Nicosia, Cyprus, as well as other subsidiaries or affiliated organizations that handle the Services.
+Personal data («data,» «personal information») is any data that can be used to directly or indirectly identify a private individual or can be linked to the identified private individual. Anonymous data that cannot be directly or indirectly linked to an individual is not classified as personal data.
+«Services»: online, mobile, PC and other games, including but not limited to SuperCity (web-version), SuperСity Mobile, Tropic Storm, Titans, Age of Magic, Knights: Clash of Heroes, Solitaire Social, Solitaire Dash, Solitaire Club, as well as other related services, including the Playkot Ltd. website (playkot.com), on which this policy is published.
+Personal data processing refers to all the means and tools for processing personal data.
+3. Purposes of the Privacy Policy
+Protection of the Service users’ rights
+Safety and protection from fraud when using the Services
+Ensuring correct performance and improving the quality of the Services
+Providing equal and fair game rules
+4. What data do we collect? Reasons and Means to Collect Data
+Data you Submit Directly
+Contact information (name, email address). Usually submitted when contacting the customer support or signing up to our forum. We require this data to make sure that we can get in touch with you and help resolve the issues you have encountered.
+Nickname, avatar, password, and other data from the game profile or other profiles. Required to identify players and ensure proper functioning of the Services.
+Your messages related to the Services: chat messages, posts in official communities, on the forums, and on the mobile app distribution platforms (such as Google Play, App Store) as well as messages sent to the support team and our games reviews. This data is used to provide the Services and monitor their quality.
+Other data you choose to submit, such as data required for account verification if you lose access to your account as well as for messaging and participating in online or offline events hosted by us.
+Public data. Information that is published and is available on the Internet falls into this category. We may collect and analyze this data for the purpose of improving the quality of the Services.
+Data Collected Automatically
+Information provided in your game profile, as well as information about using the Services. Used to ensure proper functioning of the Services, personification of the Services, game analytics, recording in-game events, achievements, and progress.
+Identification data for the devices used to launch the game, such as IP address, device ID, advertising ID, MAC address, IMEI number, general location data. Used to ensure safety and fraud countermeasures when needed.
+Technical information about devices (e.g. device name, operating system, language, browser type, additional plugin versions). Used to monitor the quality of the Services.
+Cookie files and other similar technologies (e.g. marketing beacons). Used for personalization, use analysis, and ensuring the safety of the Services. You may modify or disable these technologies in browsers or the corresponding device settings. However, we cannot guarantee that our Services will operate properly when personalization technologies are disabled and therefore do not recommend that you disable them completely.
+Data Provided by our Partners
+Data from third-party services if you choose to link them to our Services (Facebook profile, Google and Apple services). This data is used for various purposes, such as recording in-game progress, integration with other game services, integration with mobile platform gaming profiles, and for game account security.
+Platform data (e.g. Facebook, Google, Apple) required for payment verification and combating fraud. We do not gain access to your payment information and transaction history from the platforms. All payments are carried out via secure protocols on the platform’s side.
+Demographic data, analytics, and other information required for personalizing ads and improving the quality of our Services.
+These are the main data collection reasons for particular data categories. Overall, this is a comprehensive list of reasons. We may also analyze, profile, and segment all the data listed above.
+5. Who Can Handle Your Data?
+Playkot employees, representatives of subsidiaries and affiliated companies.
+Other users of the Services: For instance, your game profile data (nickname, avatar), guild profile (motto, avatar), chat messages, and your game progress can be accessed by other players and can be a part of the Services.
+Partners (mobile platforms and social networks; hardware providers; providers of user support, moderation, QA, community management, data storage, data analytics, advertisement, cross-promotion tools; logistics companies): We cooperate with a wide array of partners throughout the world. These partners handle the data only as instructed and requested by Playkot. Such partners include, but are not limited to:
+Game publishing platforms:
+https://www.apple.com/lae/ios/app-store/
+https://play.google.com
+https://www.facebook.com/games/
+In-game and demographic analytics:
+https://www.tableau.com/
+https://analytics.google.com/
+https://analytics.facebook.com/
+https://unity.com/solutions/analytics
+Software services:
+https://www.atlassian.com/
+https://unity3d.com/
+https://www.adobe.com/
+Data storage:
+http://aws.amazon.com
+http://hetzner.de/
+Marketing and advertisement partners:
+http://appannie.com
+https://unity3d.com/unity/features/ads
+https://www.fyber.com
+https://www.applovin.com
+https://searchads.apple.com
+https://adwords.google.com
+https://www.appsflyer.com/
+Personal data protection services:
+https://www.fabric.io/home
+User support and community services:
+http://helpshift.com
+http://zendesk.com
+https://vanillaforums.com
+Public authorities: We reserve the right to disclose personal data legitimately requested by regulatory agencies or auditors.
+Anonymous data: We reserve the right to disclose anonymous and aggregated data based on your personal data to our partners. This data cannot be used to identify you or linked to you directly or indirectly (e.g. game progress stats for users from a particular country).
+We may also process personal data we receive from other companies as an operator. In such an event the data is handled in strict accordance with the contract with our partners and in accordance with the EU principles for personal data protection.
+As an international company, Playkot may disclose your personal data to parties outside the EU. We guarantee compliance with the EU rules and methods of data protection in regard to these parties.
+6. Rights and Obligations
+Opting out of direct marketing: For our Services, we use direct marketing tools, such as e-mail marketing distribution. You have the right to opt out of receiving such information.
+Opting out of personalized ads: Many ad tools and services utilize so-called personalized ads that take into account your personal interests and experience. You may opt out of personalized ads in browser and/or device settings. Please note that we cannot guarantee that our Services will function properly in this case.
+We also give you the right to correct, delete, dispute and restrict use of, and access the data we store, as well as other rights guaranteed by the EU laws based on your substantiated request.
+We will do everything in our power to promptly resolve your request. We reserve the right to ask for identity authentication before fulfilling your request.
+7. Data Storage and Protection
+Personal data is usually kept for the duration of using the game account or longer, as per our legal interests. Requests to delete personal data are resolved in up to 30 calendar days. We reserve the right to depersonalize your data (remove all direct or indirect references to your identity) and continue using it for our own legal interests.
+8. Age Restrictions
+We acknowledge our responsibility to protect children’s data and do not deliberately collect data from individuals younger than 18 years of age. If it comes to your knowledge that children’s rights have been infringed when using our Services, please contact us immediately so we can take all the reasonable steps to amend the situation.
+If you are older than 13 but younger than 18 years old, we reserve the right to collect your personal data only if your parent or legal guardian has explicitly agreed that you can use our Services, and Playkot can collect and process your personal data. We strongly recommend that the underage users older than 13 but younger than 18 years of age receive a permission from a parent or legal guardian before accessing and/or using our Services and submitting their personal data.
+By using our Services, you explicitly confirm that your parent or legal guardian gave the permission to collect and process your personal data when you use our Services. Children younger than 13 years of age cannot submit any personal data, such as name, address, telephone number or email. If you discover that we have received personal data from individuals younger than 13 years old, please contact us immediately.
+Privacy Policy in Other Languages
+This Policy was originally written in English and may be translated to other languages. In the event of an inconsistency, the English version has the precedence.
+STYLE GUIDE

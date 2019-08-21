@@ -1,0 +1,120 @@
+Navigation
+Privacy Policy
+Vertigo Games respects your right to privacy. This Privacy Notice explains who we are, how we collect, share and use personal information about you, and how you can exercise your privacy rights. This Privacy Notice applies to personal information that we collect through our games, like the Critical Strike mobile game (“Games”) and website at https://vertigogames.co (“Websites”) (together “Services”).
+If you use our Services, you agree to this Privacy Notice and processing of your personal information in accordance with this Privacy Notice. If you do not agree to this Privacy Notice, please do not use the Services.
+If you have any questions or concerns about our use of your personal information, then please contact us using the contact details provided at the bottom of this Privacy Notice. We recommend that you read this Privacy Notice in full to ensure you are fully informed.
+What personal information we collect and where?
+We collect the following categories of personal information about you through the Services:
+Information that you provide voluntarily
+Certain parts of our Services may ask you to provide personal information voluntarily: for example, we may ask you to provide your contact details in order to contact our player support (although you can also contact directly through the Games without providing additional personal information), and/or to subscribe to marketing communications (like newsletters) from us. The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+Specifically, the information we collect directly from you includes information like (i) your user name; (ii) your email address; (ii) your user ID; and (iii) other personal information required in order to help you with any queries or support matters you may need assistance with via our forums or customer support service. In addition, you may choose to provide us your name, other contact information and other information but this is not necessary, and we urge you to keep this to the minimum when contacting us.
+Information that we collect automatically
+When you use our Services, we may collect certain information automatically from your device. This information may be considered personal information under applicable data protection laws.
+Specifically, the information we collect automatically may include information like your IP address, device type, unique device identification numbers, advertising identifiers, operating system, browser-type, broad geographic location (e.g. country or city-level location) and other technical information. We may also collect information about how you use the Services and how your device has interacted with our Services, including the Games played and the pages of our Website accessed.
+Collecting this information enables us to better understand the players of our Games and visitors who come to our Website, where they come from, and what content or features on our Games and Website is of interest to them. We use this information to serve interest-based advertising to you, for our internal analytics purposes, to prevent fraudulent behaviour in our Services and to improve the quality and relevance of our Services to our players and visitors.
+Some of this information may be collected using advertising identifiers, cookies and similar tracking technology, as explained further under the heading “Cookies and similar tracking technology”
+Information that we obtain from third party sources
+We may receive personal information about you from third party sources, like social networking and sign-in services. You can log in to our Services using sign-in services such as Facebook Connect, Apple Game Center or Google account. These services will authenticate your identity and provide you the option to share certain personal information with us. Services like Facebook Connect give you the option to post information about your activities on our Services to your profile page to share with others within your network.
+We may collect and record information through the social networking and sign-in services in accordance with the policies and terms of those services. The information we collect when you connect your user account to a sign-in service may include: (i) your name, (ii) your user identification number and/or user name, (iii) locale, city, state and country, (iv) gender, (v) birth date, (vi) email address, (vii) profile picture or its URL, and (viii) the user identification numbers for your friends that are also connected to our Games. If you want us to delete the data we receive from Facebook or other sign-in services please contact us via our in-game customer support portal.
+Furthermore, we may offer you the opportunity to invite your contacts from a social networking service (such as your Facebook friends) so that those contacts can be located in our Games and/or you can invite them to join you in our Games. Such contact information will be used only for the purpose of sending communications to the addressee. You or the third party may contact us at support@vertigogames.co to request the removal of this information from our database to the extent we store any of this information.
+Why we process your personal information and on what legal basis?
+We collect and use your personal information for the following purposes. Our legal basis for collecting and using the personal information is also described below.
+For the performance of the contract between us and you
+For the performance of the contract we collect necessary personal information to
+create accounts and user profiles and allow players to play our Games and use our Services;
+verify and confirm payments;
+provide and deliver products and services you request; and
+send you related information, including confirmations and administrative messages.
+To provide you with optimal Games and Services
+To customize and provide you with optimal Games and Services we have a legitimate interest to collect and process necessary personal information to
+update and develop user profiles;
+operate our Games and Services;
+analyse, develop and improve Games, other Services and user experience;
+manage our relationship with you;
+identify and suggest connections with other users of our Games;
+respond to your comments and questions, resolve the problems and provide other kind of player support;
+analyse, profile and customize your use of the Games and Services;
+provide you our offers in our Games and Services as well as in other web sites and services, or by email;
+send you related information, including technical notices, updates, security alerts, and support and administrative messages;
+enable you to communicate with other players; and
+link or combine information with other information we get from third parties, to help understand your preferences and provide you with better services.
+Show you personalized advertisements
+Unless you have opted out, to show you personalized advertisements (so called behavioural ads) in our Games and Services as well as in other web sites and services, or by email we have a legitimate interest to collect and use necessary personal information to
+track the content you access when you use our Games or your device, and other online behaviour;
+use cookies, advertising identifiers, or similar tracking technologies; and
+deliver, enable, target and optimize advertising and promotional information.
+If you wish to “opt out” of targeted advertising, please check the privacy settings of your mobile device and select “limit ad tracking” (Apple iOS) or “opt-out of interest based ads” (Android). To review our advertising and social media partners please visit https://vertigogames.co/
+Please note that if you choose to “opt out” it does not mean that you will no longer receive advertising. It just means that the advertising you see displayed will not be customized to you and your interests and may be less relevant to you.
+The advertisements in our games are provided by third party service providers (not by Vertigo Games) who collect and use your personal information for their own purposes in accordance with their own privacy policies. Please see the list of these partners and more information at https://vertigogames.co
+Prevent fraud and ensure acceptable use of our services
+To identify, prevent, and investigate fraud and provide a fair, equal and enjoyable game experience to players, we have a legitimate interest to collect and process necessary personal information to
+analyse use of Games and Services and the behaviour of players to detect frauds and other misbehaviour;
+determine accounts or players connected to fraudulent schemes or other misbehaviour;
+monitor and moderate chat discussions and forum posts either automatically or manually; and
+take actions against fraudulent or misbehaving players.
+If you have questions about or need further information concerning the purposes or legal basis on which we collect and use your personal information, please contact us using the contact details provided under the “How to contact us” heading below.
+With whom do we share your personal information with?
+We may disclose your personal information to the following recipients or categories of recipients:
+Advertising and social media partners who provide in-game advertising (including interest-based advertising), tracking and measuring services as well as interaction with social media. These partners are listed below, and they can use your personal information and other data. These partners operate under their own privacy policies. We encourage you to check those privacy policies to learn more about their data collection and use practices, use of advertising identifiers, cookies and other similar tracking technologies. These partners collect information through our Services and use the information according to their own policies:
+Firebase
+https://firebase.google.com/support/privacy/
+Unity Analytics
+https://unity3d.com/legal/privacy-policy
+Facebook Analytics
+https://www.facebook.com/policy.php
+For these purposes, our Services may contain third-party tracking, data collection and analytics tools of our partners. Such third parties may use advertising identifiers, cookies, APIs, and SDKs in our Services to enable them to collect and analyse user and device related data and information. These third-parties may have access to, collect and use data and information about you, such as your device identifier, advertising identifiers, MAC address, IMEI, coarse geo-location information, IP address, application usage, access and session times, applications present on the device or in use at a particular time on the device, and your viewing of and interactions with advertising.
+Our services providers and partners who process your information only on our behalf and according to our instructions. These partners provide data processing services to us, for example, to provide (i) data hosting, (ii) player support, (iii) analytics for Games and Services as well as (iv) development and maintenance. A complete list of our third parties can be found at https://vertigogames.co to any competent law enforcement body, regulatory, government agency, court or other third party where we believe disclosure is necessary (i) as a matter of applicable law or regulation, (ii) to exercise, establish or defend our legal rights, or (iii) to protect your vital interests or those of any other person; to a potential or actual buyer (and its agents and advisers) in connection with any proposed or actual purchase, merger or acquisition of any part of our business, provided that we inform the buyer it must use your personal information only for the purposes disclosed in this Privacy Notice; to any other person with your consent to the disclosure.
+Cookies and similar tracking technology
+To provide our Games and interest-based advertising, we use advertising identifiers, cookies and similar technologies. This section describes our use of these technologies and how you can manage your preferences.
+Advertising identifiers, cookies and similar technologies are used by us to provide our Services to you and in order to collect data from your device. These technologies allow us and our third-party advertising partners to (i) recognise you and your device; (ii) provide interest-based advertising to you; (iii) allow our Services to interact with a third party social network or platform (where you have chosen to allow such interaction); (iv) allow our payment processors to process your payment instructions; and (v) enable us and third parties to provide you with more customized services, for example to provide our Services in the correct language (subject to availability).
+Advertising identifiers are non-permanent, non-personal identifiers such as the Android advertising ID and/or Apple’s ID for advertising (IDFA), which are uniquely associated with your device. Similar technologies include cookies on Websites and tracking pixels within ads. These technologies allow companies (including marketers and advertisers) to recognise your device when you use websites and applications.
+If you wish to prevent your device’s advertising identifier being used for interest-based advertising, please check the privacy settings of your mobile device and select “limit ad tracking” (Apple iOS) or “opt-out of interest-based ads” (Android). You can also choose to reset your device’s ad identifier from the device settings. In a similar way, you can also disable cookies from your browser’s settings if you do not want to be tracked by websites. This Privacy Notice does not apply to, and we are not responsible for the data collection practices of these third-party advertisers. Please see more information about these partners under the “With whom do we share your personal information” heading above. You may also see our own advertisements in other games and services. If you click such advertisements and install our Game(s), we may share a device identifier with our partners to verify installs.
+How do we keep your personal information secure?
+We use appropriate technical and organisational measures designed to protect the personal information that we collect and process about you. The measures we use are designed to provide a level of security appropriate to the risk of processing your personal information. Specific measures we use include that only those of our employees, who on behalf of their work are entitled to process personal information, are entitled to use a system containing personal information. Each user has a personal username and password to the system. The information is collected into databases that are protected by firewalls, passwords and other technical measures. The databases and the backup copies are in locked premises and can be accessed only by certain pre-designated persons. We also aim to minimize the personal information that we process, for example, our Games do not require you to register an account with your name and other details. Moreover, we use only advertiser identifiers and other more technical information to recognize players.
+International data transfers
+Your personal information may be transferred to, and processed in, countries other than the country in which you are resident. These countries may have data protection laws that are different to the laws of your country.
+Specifically, our servers are managed by Photon (look at https://dashboard.photonengine.com/en/Account/PrivacyAndCookiePolicy) , and our third-party service providers and partners operate around the world. This means that when we collect your personal information we may process it in any of these countries.
+However, we have taken appropriate safeguards to require that your personal information will remain protected in accordance with this Privacy Notice. These include implementing the European Commission’s Standard Contractual Clauses or other similar arrangements (such as the Privacy Shield certification regarding transfers to United States) for transfers of personal information between us and our third-party service providers and partners located outside the European Union or European Economic Area.
+Data retention
+We retain personal information we collect from you where we have an ongoing legitimate business need to do so (for example, to provide you with a service you have requested or to comply with applicable legal, tax or accounting requirements).
+When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymise it or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
+Your data protection rights
+We are always ready to help you with all matters related to your personal information processed in our Games or Services. You can always contact us by using the contact details provided under the “How to contact us” heading below.
+You have the following data protection rights:
+If you wish to access, correct, update or request deletion of your personal information, you can do so at any time by contacting us using the contact details provided under the “How to contact us” heading below.
+In addition, you can object to processing of your personal information, ask us to restrict processing of your personal information or request portability of your personal information. Again, you can exercise these rights by contacting us using the contact details provided under the “How to contact us” heading below.
+You have the right to opt-out of marketing communications we send you at any time. You can exercise this right by clicking on the “unsubscribe” or “opt-out” link in the marketing e-mails we send you. To opt-out of other forms of marketing (such as postal marketing or telemarketing), then please contact us using the contact details provided under the “How to contact us” heading below.
+Similarly, if we have collected and process your personal information with your consent, then you can withdraw your consent at any time. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect processing of your personal information conducted in reliance on lawful processing grounds other than consent.
+You have the right to complain to a data protection authority about our collection and use of your personal information. For more information, please contact your local data protection authority.
+We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws.
+Updates to this privacy notice
+We may update this Privacy Notice from time to time in response to changing legal, technical or business developments. When we update our Privacy Notice, we will take appropriate measures to inform you, consistent with the significance of the changes we make. We will obtain your consent to any material Privacy Notice changes if and where this is required by applicable data protection laws.
+You can see when this Privacy Notice was last updated by checking the “last updated” date displayed at the top of this Privacy Notice.
+Special note about children’s privacy
+We comply with all applicable laws that are designed to protect children’s privacy, such as the GDPR and the Children’s Online Privacy Protection Act (“COPPA”).
+Our Games are not intended to children under 16 years of age, therefore no one under 16 years of age is allowed to use or access the Games or provide any personal information to us. We do not knowingly collect or solicit personal information from or direct or target behaviorally targeted advertising to anyone under 16 years of age or knowingly allow such persons to use or access our Games. If you are under 16 years of age, please do not send any information about yourself to us including your name, address, telephone number, or email address.
+If we learn that we have collected personal information from a child under age 16, we will delete that information as quickly as possible. If you believe that we might have any information from or about a child under the age of 16, please contact us using the contact details provided under the “How to contact us” heading below.
+If we learn that we have inadvertently gathered personal information from children under 16 years of age, we will dispose of that information, or otherwise treat it in accordance with COPPA and other applicable laws and regulations. If you are a parent or guardian and you believe that your child under 16 years of age has provided us with personal information, please contact us using the contact details provided under the “How to contact us” heading below.
+How to contact us?
+The data controller is Vertigo Games, Sepapaja 6, Tallinn 15551, Estonia, Registry code: 14340159
+Should you have any questions regarding this Privacy Notice or the processing of your personal information, please contact us at support@vertigogames.co.
+To restrict the use of your personal data, to remove, correct or access it, please contact us.
+Please note that removing your personal data will also remove the social media link that grants you access to your account. After your data is removed, your account will no longer be accessible or recoverable for use.
+Contact
+Vertigo Games
+Turkey / Istanbul
+info@vertigogames.co
+CONTACT US
+Recent Blog Posts
+How do I become a good game developer?
+MAY 22, 2019
+Neden Vertigo ile çalışmalısınız? Ya da çalışmamalısınız?
+SEPTEMBER 26, 2018
+Story of Vertigo – 2/3
+FEBRUARY 26, 2018
+Story of Vertigo 1/3
+JANUARY 25, 2018
+Visual Studio Shortcuts
+OCTOBER 29, 2017
+HOME
+Copyright © 2019 Vertigo Games

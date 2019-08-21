@@ -1,0 +1,923 @@
+<html lang="en" class="pc"><head><title>LingoDeer: Learn Japanese, Korean, Chinese and more languages</title><link rel="dns-prefetch" href="https://www.lingodeer.com"><link rel="dns-prefetch" href="https://webjson.lingodeer.com"><link rel="dns-prefetch" href="https://unpkg.com"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="keywords" content="learn, spanish, german, french, portuguese, russian, english, chinese, japanese, korean, lessons, course, language, study, flashcards"><meta name="description" content="Learn languages smarter, not harder! Rated 4.9/5, LingoDeer teaches languages most effectively through fun lessons created by real teachers!"><meta name="twitter:site" content="@lingodeer"><meta name="twitter:image" content="https://webjson.lingodeer.com/mediaSource/static/images/share/tw_share.png"><meta name="twitter:description" content="Learn languages smarter, not harder! Rated 4.9/5, LingoDeer teaches languages most effectively through fun lessons created by real teachers!"><meta name="twitter:title" content="LingoDeer: Learn Japanese, Korean, Chinese and more languages"><meta name="twitter:card" content="summary_large_image"><meta property="og:url" content="https://www.lingodeer.com"><meta property="og:site_name" content="Lingodeer"><meta property="og:type" content="website"><meta property="fb:app_id" content="2137566076533390"><meta property="og:description" content="Learn languages smarter, not harder! Rated 4.9/5, LingoDeer teaches languages most effectively through fun lessons created by real teachers!"><meta property="og:title" content="LingoDeer: Learn Japanese, Korean, Chinese and more languages"><meta property="og:image" content="https://webjson.lingodeer.com/mediaSource/static/images/share/fb_share.png"><link rel="stylesheet" href="https://webjson.lingodeer.com/froala_style.min.css" as="style" onload="this.rel='stylesheet'"><link rel="stylesheet" href="https://webjson.lingodeer.com/nprogress.css" as="style" onload="this.rel='stylesheet'"><link rel="stylesheet" href="https://unpkg.com/element-ui@2.7.2/lib/theme-chalk/index.css" as="style" onload="this.rel='stylesheet'"><link href="https://webjson.lingodeer.com/favicon.ico" rel="icon" type="image/x-icon"><style type="text/css">@charset "UTF-8";
+/*---------标点和特殊符号的处理 start--------- */
+/*
+  data-bd="'wordType_'+ wordObj.ty" 普通的标点
+  data-specwd="wordObj.modelSource"  特殊字符(具有统配性质)
+  data-specbd="sysLanguage + '_' + wordObj.id" 特殊标点或字符(只能通过wordId的形式来表达)(具体的某一个)
+*/
+.mainCourse {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+/*Story 标点处理start*/
+.story {
+  /*fr中!和?需要距离前面的单词一个空格*/
+  /*fr special -t-*/ }
+  .story.wrapOption[data-specwd$="."] {
+    margin-left: -5px !important; }
+  .story.wrapOption[data-specwd$=","] {
+    margin-left: -5px !important; }
+  .story.wrapOption[data-specwd$="¿"] {
+    margin-right: -5px !important; }
+  .story.wrapOption[data-specwd$="?"] {
+    margin-left: -5px !important; }
+  .story.wrapOption[data-specwd$="¡"] {
+    margin-right: -5px !important; }
+  .story.wrapOption[data-specwd$="!"] {
+    margin-left: -5px !important; }
+  .story.wrapOption[data-specwd$="！"] {
+    margin-left: -5px !important; }
+  .story.wrapOption[data-specwd$="？"] {
+    margin-left: -5px !important; }
+  .story.wrapOption[data-specwd$="'"] {
+    margin-right: -3px !important; }
+  .story.wrapOption[data-specwd$="fr_!"] {
+    margin-left: 12px !important; }
+  .story.wrapOption[data-specwd$="fr_?"] {
+    margin-left: 12px !important; }
+  .story.wrapOption[data-specwd$="fr_！"] {
+    margin-left: 12px !important; }
+  .story.wrapOption[data-specwd$="fr_？"] {
+    margin-left: 12px !important; }
+  .story.wrapOption[data-specwd$="fr_-t-"] {
+    margin-left: -3px !important; }
+  .story.wrapOption[data-specwd$="fr_-t-"] + .story.wrapOption {
+    margin-left: -3px !important; }
+  .story.wrapOption[data-specwd$="fr_-"] {
+    margin-left: -3px !important; }
+  .story.wrapOption[data-specwd$="fr_-"] + .story.wrapOption {
+    margin-left: -3px !important; }
+
+/*Story 标点处理end*/
+/*匹配所有的标点*/
+/*---wrapOption start ---*/
+.wrapOption[data-bd="1"] {
+  margin: 0 !important;
+  margin-left: -6px !important;
+  margin-right: 13px !important; }
+  .wrapOption[data-bd="1"]:hover {
+    cursor: default !important;
+    box-shadow: none !important; }
+
+/*es*/
+.wrapOption[data-specbd="es_477"] {
+  /*¡*/
+  margin: 0 !important;
+  margin-right: -4px !important; }
+
+.wrapOption[data-specbd="es_507"] {
+  /*¿*/
+  margin: 0 !important;
+  margin-left: 10px !important;
+  margin-right: 0px !important; }
+
+.wrapOption[data-specbd="es_507"] + .wrapOption {
+  margin-left: 0px !important; }
+
+/*fr*/
+.wrapOption[data-specbd="fr_544"] {
+  /*-t-*/
+  margin: 0 !important;
+  margin-left: -4px !important; }
+
+.wrapOption[data-specbd="fr_544"] + .wrapOption {
+  margin-left: -1px !important; }
+
+.wrapOption[data-specbd="fr_1858"] {
+  /*-*/
+  margin: 0 !important;
+  margin-left: -9px !important; }
+
+.wrapOption[data-specbd="fr_1858"] + .wrapOption {
+  margin-left: -2px !important; }
+
+.wrapOption[data-specwd$="'"] + .wrapOption {
+  margin-left: -5px !important; }
+
+/*fr中!和?需要距离前面的单词一个空格*/
+.wrapOption[data-specbd="fr_1859"] {
+  margin-left: -4px !important; }
+
+.wrapOption[data-specbd="fr_1860"] + .wrapOption {
+  margin-left: 12px !important; }
+
+/*---wrapOption end ---*/
+/*---stemOption start ---*/
+.stemOption[data-bd="1"] {
+  margin: 0 !important;
+  margin-left: -4px !important; }
+
+/*es*/
+.stemOption[data-specbd="es_477"] {
+  /*¡*/
+  margin: 0 !important;
+  margin-right: -4px !important; }
+
+.stemOption[data-specbd="es_507"] {
+  /*¿*/
+  margin: 0 !important;
+  margin-left: 10px !important;
+  margin-right: -4px !important; }
+
+/*fr*/
+.stemOption[data-specbd="fr_544"] {
+  /*-t-*/
+  margin: 0 !important;
+  margin-left: -1px !important; }
+
+.stemOption[data-specbd="fr_544"] + .stemOption {
+  margin-left: 0 !important; }
+
+.stemOption[data-specbd="fr_1858"] {
+  /*-*/
+  margin: 0 !important;
+  margin-left: -1px !important; }
+
+.stemOption[data-specbd="fr_1858"] + .stemOption {
+  margin-left: 0 !important; }
+
+.stemOption[data-specbd="fr_1858"] + .stemOption {
+  margin-left: 0 !important; }
+
+.stemOption[data-specwd$="'"] {
+  margin-right: -4px !important; }
+
+/* 特殊处理 " */
+.stemOption[data-specwd$='"']:first-child {
+  margin-right: -4px !important; }
+
+/*---stemOption end---*/
+/*---------标点和特殊符号的处理end---------*/
+.localCoverParent {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  z-index: 1001; }
+  .localCoverParent.active {
+    width: 100vw;
+    height: 100vh; }
+
+.localCoverBase {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.4s; }
+
+.localCover {
+  opacity: 1;
+  animation: coverAni 0.4s forwards;
+  cursor: pointer; }
+
+.rightNowGlobalCover {
+  background: #F4F5F7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2000; }
+
+.globalCoverBase {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.4s; }
+
+.globalCover {
+  opacity: 1;
+  animation: coverAni 0.4s forwards;
+  cursor: pointer; }
+
+@keyframes coverAni {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*userSettingPanel start*/
+.userSettingPanel {
+  position: absolute;
+  text-align: center;
+  max-width: 270px;
+  min-width: 130px;
+  z-index: 300;
+  top: 70px;
+  display: none;
+  right: -3px; }
+  .userSettingPanel.active {
+    display: block; }
+  .userSettingPanel .panelContent {
+    text-align: center;
+    position: relative; }
+    .userSettingPanel .panelContent .in {
+      width: 0;
+      height: 0;
+      border: 11px solid transparent;
+      border-left-width: 8px;
+      border-right-width: 8px;
+      border-bottom-color: white;
+      position: absolute;
+      top: -22px;
+      transform: translateX(-50%);
+      right: 5px; }
+    .userSettingPanel .panelContent .out {
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-bottom-color: #ddd;
+      border-left-width: 7px;
+      border-right-width: 7px;
+      position: absolute;
+      top: -25px;
+      transform: translateX(-50%);
+      right: 5px;
+      opacity: 0.1; }
+    .userSettingPanel .panelContent .userSettingContent {
+      box-shadow: 2px 3px 15px 1px #efe6e6;
+      background-color: white;
+      padding: 8px 10px;
+      font-size: 2rem;
+      border-radius: 7px;
+      color: #3C3C3C;
+      padding-bottom: 10px; }
+
+/*userSettingPanel end*/
+/*lansChoosePanel start*/
+.lansChoosePanel {
+  position: absolute;
+  text-align: center;
+  z-index: 300;
+  top: 50px;
+  right: -16px;
+  display: none; }
+  .lansChoosePanel.active {
+    display: block; }
+  .lansChoosePanel .panelContent {
+    text-align: center;
+    position: relative;
+    min-width: 330px; }
+    .lansChoosePanel .panelContent .in {
+      width: 0;
+      height: 0;
+      border: 12px solid transparent;
+      border-left-width: 10px;
+      border-right-width: 10px;
+      border-bottom-color: white;
+      position: absolute;
+      top: -24px;
+      transform: translateX(-50%);
+      right: 12px; }
+    .lansChoosePanel .panelContent .out {
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-bottom-color: #ddd;
+      border-left-width: 7px;
+      border-right-width: 7px;
+      position: absolute;
+      top: -26px;
+      transform: translateX(-50%);
+      right: 13px;
+      opacity: 0.1; }
+    .lansChoosePanel .panelContent .content {
+      box-shadow: 2px 3px 15px 1px #efe6e6;
+      background-color: white;
+      padding: 5px 0px;
+      font-size: 2rem;
+      border-radius: 7px;
+      color: #3C3C3C;
+      padding-bottom: 0px; }
+
+/*lansChoosePanel end*/
+/*toolTipPanel start*/
+.toolTipPanel {
+  position: absolute;
+  text-align: center;
+  z-index: 300;
+  display: none;
+  transform: translateX(calc(-50% + 13px)); }
+  .toolTipPanel .panelContent {
+    text-align: center;
+    position: relative; }
+    .toolTipPanel .panelContent .in {
+      width: 0;
+      height: 0;
+      border: 11px solid transparent;
+      border-left-width: 8px;
+      border-right-width: 8px;
+      border-bottom-color: #ffffff;
+      transform: translateX(0%);
+      text-align: center;
+      margin: auto; }
+    .toolTipPanel .panelContent .out {
+      width: 0;
+      height: 0;
+      border: 13px solid transparent;
+      border-left-width: 10px;
+      border-right-width: 10px;
+      border-bottom-color: #eee;
+      transform: translateX(-50%);
+      text-align: center;
+      margin: auto;
+      position: absolute;
+      z-index: -1;
+      left: 50%;
+      top: -4px; }
+    .toolTipPanel .panelContent .toolTipContent {
+      box-shadow: 2px 3px 5px 0px #efe6e6;
+      background-color: white;
+      font-size: 18px;
+      border-radius: 7px;
+      color: #3C3C3C;
+      padding: 8px 10px;
+      padding-bottom: 10px; }
+      .toolTipPanel .panelContent .toolTipContent:hover {
+        opacity: 0.8; }
+      .toolTipPanel .panelContent .toolTipContent:active {
+        opacity: 1; }
+
+/*userSettingPanel end*/
+/*wordTipPanel start*/
+.wordTipPanel {
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  max-width: 270px;
+  min-width: 68px;
+  z-index: 300;
+  top: -300px;
+  left: 50%; }
+  .wordTipPanel .panelContent {
+    text-align: center;
+    position: relative; }
+    .wordTipPanel .panelContent .in {
+      width: 0;
+      height: 0;
+      border: 14px solid transparent;
+      border-left-width: 12px;
+      border-right-width: 12px;
+      border-bottom-color: white;
+      position: absolute;
+      top: -27px;
+      transform: translateX(-50%);
+      left: 50%; }
+    .wordTipPanel .panelContent .out {
+      width: 0;
+      height: 0;
+      border: 16px solid transparent;
+      border-bottom-color: #ddd;
+      border-left-width: 13px;
+      border-right-width: 13px;
+      position: absolute;
+      top: -32px;
+      transform: translateX(-50%);
+      left: 50%;
+      opacity: 0.1; }
+    .wordTipPanel .panelContent .content {
+      box-shadow: 0 0 10px 5px #eae0e0;
+      background-color: white;
+      text-align: center;
+      padding: 13px 15px;
+      font-size: 2rem;
+      border-radius: 0.5rem;
+      color: #3C3C3C; }
+
+/*wordTipPanel end*/
+/*modelTipPanel start*/
+.modelTipPanel {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  left: 123px;
+  display: none; }
+  .modelTipPanel.active {
+    display: block; }
+  .modelTipPanel .panelContent {
+    text-align: center;
+    position: relative; }
+    .modelTipPanel .panelContent .in {
+      width: 0;
+      height: 0;
+      border: 14px solid transparent;
+      border-top-width: 12px;
+      border-bottom-width: 12px;
+      border-right-color: white;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -28px; }
+    .modelTipPanel .panelContent .out {
+      width: 0;
+      height: 0;
+      border: 16px solid transparent;
+      border-top-width: 13px;
+      border-bottom-width: 13px;
+      border-right-color: #ddd;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -33px;
+      opacity: 0.1; }
+    .modelTipPanel .panelContent .content {
+      background-color: white;
+      text-align: center;
+      padding: 20px 15px;
+      font-size: 1.7rem;
+      border-radius: 0.5rem;
+      color: #4A4A4A;
+      width: 280px; }
+
+/*modelTipPanel end*/
+.fade-enter-active {
+  animation: switchEnter 0.6s; }
+
+.fade-leave-active {
+  animation: switchLeave 0.6s; }
+
+@keyframes switchEnter {
+  0% {
+    opacity: 0;
+    transform-origin: center;
+    transform: translate(20px, -20px); }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px); } }
+
+@keyframes switchLeave {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.modelContainerSent {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute; }
+  .modelContainerSent .sentenceLearnTranslations {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #999;
+    margin: auto; }
+  .modelContainerSent .sentenceLearnTranslations.jp {
+    font-size: 1.6rem; }
+  .modelContainerSent .sentenceLearnTranslations.kr {
+    font-size: 1.6rem; }
+  .modelContainerSent .sentenceTitleTranslation {
+    font-size: 1.85rem; }
+  .modelContainerSent .sentenceTitleGreyTranslation.jp {
+    font-size: 1.6rem;
+    color: #999; }
+  .modelContainerSent .sentenceTitleGreyTranslation.kr {
+    font-size: 1.6rem;
+    color: #999; }
+  .modelContainerSent .sentenceTitleGreyTranslation {
+    font-size: 1.6rem;
+    color: #999; }
+  .modelContainerSent .sentenceOptionTranslation {
+    font-size: 2.2rem; }
+  .modelContainerSent .sentenceTitle {
+    text-align: center;
+    margin: auto; }
+  .modelContainerSent .sentenceTitlePinyin {
+    color: #999;
+    font-size: 1.6rem; }
+  .modelContainerSent .sentenceTitleWord {
+    font-size: 2.2rem; }
+  .modelContainerSent .sentenceTitleWord.jp {
+    font-size: 2.1rem; }
+  .modelContainerSent .sentenceTitleWord.kr {
+    font-size: 2.2rem; }
+  .modelContainerSent .sentenceTitleLM {
+    font-size: 1.3rem;
+    color: #999; }
+  .modelContainerSent .sentenceStemOptionPinyin {
+    color: #999;
+    font-size: 1.4rem; }
+    .modelContainerSent .sentenceStemOptionPinyin.ty_1 {
+      opacity: 0; }
+  .modelContainerSent .sentenceStemOptionWord {
+    font-size: 2.0rem; }
+  .modelContainerSent .sentenceStemOptionWord.jp {
+    font-size: 1.9rem; }
+  .modelContainerSent .sentenceStemOptionWord.kr {
+    font-size: 2rem; }
+  .modelContainerSent .sentenceStemOptionLM {
+    font-size: 1.2rem;
+    color: #999; }
+  .modelContainerSent .sentenceSliderPinyin {
+    color: #999;
+    font-size: 1.6rem; }
+  .modelContainerSent .sentenceSliderPinyin.jp {
+    font-size: 1.6rem; }
+  .modelContainerSent .sentenceSliderPinyin.kr {
+    font-size: 1.6rem; }
+  .modelContainerSent .sentenceSliderWord {
+    font-size: 2.2rem; }
+  .modelContainerSent .sentenceSliderWord.jp {
+    font-size: 2.2rem; }
+  .modelContainerSent .sentenceSliderWord.kr {
+    font-size: 2.2rem; }
+  .modelContainerSent .sentenceSliderLM {
+    font-size: 1.3rem;
+    color: #999; }
+  .modelContainerSent .sentenceSliderOnlyPinyin {
+    font-size: 2.1rem; }
+
+.modelContainerWord {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  position: absolute;
+  /*modelSource slider*/ }
+  .modelContainerWord .wordCardTranslation {
+    font-size: 2.5rem; }
+  .modelContainerWord .wordCardPinyin {
+    font-size: 1.5rem;
+    color: #999; }
+  .modelContainerWord .wordCardWord {
+    font-size: 2.2rem; }
+  .modelContainerWord .wordCardLM {
+    color: #999;
+    font-size: 1.3rem; }
+  .modelContainerWord .wordTitleWithLaba {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center; }
+  .modelContainerWord .wordTitleOnlyPinyin {
+    font-size: 2.4rem;
+    text-align: center; }
+  .modelContainerWord .wordTitle {
+    width: 100%;
+    text-align: center; }
+  .modelContainerWord .wordTitleTranslation {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: auto; }
+  .modelContainerWord .wordOptionTranslation {
+    font-size: 2rem;
+    word-break: keep-all;
+    white-space: nowrap; }
+  .modelContainerWord .wordTitlePinyin {
+    color: #999;
+    font-size: 1.7rem;
+    text-align: center; }
+  .modelContainerWord .wordTitleWord {
+    font-size: 2.7rem;
+    text-align: center; }
+  .modelContainerWord .wordTitleLM {
+    font-size: 1.6rem;
+    color: #999;
+    text-align: center; }
+  .modelContainerWord .wordSliderPinyin {
+    color: #999;
+    font-size: 1.9rem; }
+  .modelContainerWord .wordSliderWord {
+    font-size: 2.6rem; }
+  .modelContainerWord .wordSliderWord.jp {
+    font-size: 2.4rem; }
+  .modelContainerWord .wordSliderWord.kr {
+    font-size: 2.5rem; }
+  .modelContainerWord .wordSliderLM {
+    font-size: 1.7rem;
+    color: #999; }
+  .modelContainerWord .wordSliderOnlyPinyin {
+    font-size: 2.5rem; }
+  .modelContainerWord .wordSliderOnlyPinyin.jp {
+    font-size: 2.6rem; }
+  .modelContainerWord .wordSliderOnlyPinyin.kr {
+    font-size: 2.6rem; }
+  .modelContainerWord .wordSliderOnlyWord {
+    font-size: 2.6rem; }
+  .modelContainerWord .wordSliderOnlyWord.jp {
+    font-size: 2.6rem; }
+  .modelContainerWord .wordSliderOnlyWord.kr {
+    font-size: 2.6rem; }
+
+/*check panel laba start*/
+@keyframes checkLabaRun {
+  0% {
+    background-position: 0 0; }
+  50% {
+    background-position: -23px 0; }
+  100% {
+    background-position: 0 0; } }
+
+.checkLabaWrapContainer {
+  width: 23px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: checkLabaRun 0.6s steps(1, end) infinite;
+  -webkit-animation: checkLabaRun 0.6s steps(1, end) infinite;
+  animation-play-state: paused;
+  margin: auto; }
+  .checkLabaWrapContainer.right {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAmCAMAAAB3Y6y3AAAAflBMVEUAAAAwt34wt4Axt4Avt340uYExuYE1vIZJ0JIwt34zuYEvt38wuIEvt38vt34wtn88w4Mvtn4xuoEvt38vt34wt4Awt38wuH8wuH8wuH82vIQvt38wt34vt34vt34xuIEvt34vt38vt38wt34zuIIwt34vuH8wt38wtn4vtn7wB8m2AAAAKXRSTlMA3HNu+B05DwXQJo5Q2LF8C+806cqlnXdeWRXz7NWrSb23h2QvwoFsutKvlkAAAAGXSURBVEjHrdbrboJAFATgQkFWwAtVUfFetTrv/4LdqaSbIGEnyvzxQL6cIHthP1qTD4dfz3fftxMAx/7tdA+boHcbD9HASeW1QgYzNHAeITMe688qQhPfAeyNx/qS0Tns7pXd1pPkhBZsFry+eWxX0hHacQlgE0vWxazDOpMCTTwI4z9z5WuWrMsC7QlogSInijlMqWJdog68ZLGk+rFFplgXdOB0w+pgq8r2LIxgpcb1EG258Lh0L4oVGjNJYMvQFmfOOMWKjTkmGNlfPm2pWKkxw20mfriTZNXGXLjcyLfAXLJqY27knJ8je0uyamPO4INr7Ldq41J7Fc6qjXe2Th7urll9us05/QEsJKs1Nvz7y3qBhIrVGk/HtiqSehMcKFZqnASsVqwiIDKC1bbNnEVGxbdQKtZl3IHjDaIJUbLlm9Cs+zR91glnz1vhOf3/zFz9tvNc47DLDZz5XdaT6bgVh7zOPNaT7xZ84OXV+K1+xHIPvKs89pVDYRzglHjsa8dYU2lWG8KgX+uG5di7ZdbB7vKm/QX4SOV8kp2TDgAAAABJRU5ErkJggg==); }
+  .checkLabaWrapContainer.wrong {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAmCAMAAAB3Y6y3AAAAh1BMVEUAAADcOTneOTndOjrhPj7iQ0PdODjdODj/bW3/VFTdOTndODjeOTnfOzvdODjeOTndOjreOzvcOTndOTndOTngOjrdOTndOTndODjeOjrdOTnjPz/pRETdODjdODjdODjeOTneOjrfODjdODjeODjdOTneOTnfOjrhPDzfPj7dODjcOTncODiZtJWxAAAALHRSTlMA3HRuHg7r0gIF99dQJrF7cjL77804uKWNXlkSC8e9q4BJOvOQh2Q2KhegmqcM0CYAAAGnSURBVEjHrdbrboJAEAXggtxBgYJ4QbxXi877P19n7LabAGFPIuePR/JlorsL+jGYxC/z/tX37ZGI9tPb3YE41uTWKamD3dZogZw96uAkonUwaJfaGrOJqIsrfncIDdaQYE3Uw69rj3FriFvRAA5XxJkZ7FjmMQ3jJ7+PHMjqhFtbJS2oi8/2a1ywl2WGrM6KdLp4SVQkghzZpjlidT5HsC0l/bu/rojVoRH8fZF24tbyzCIALDRYbZFXcztwyRELDJa4FteMy01OHGKRwZIz11i+qdwkiIUGS3zufI5kfSvIooPX3O/86hE1kEUHp9zlfMZ8CbLo4KM6RBZfgiw6+Mk9/12KErLo4Jh7rTfPbMHBd66lOm4ryGKDw4arrW6QDLHYYHfBrXDVQ3CJWGiwa0nbSIuIohCw2GMzkXIVlXF5IFZnMYKdC32mglxPVgKz+qdpppJ5/Ufhbf7/M9MgdjiO38UqM+LkY9aQ3WIQZ6/lG7WmBF8D+EScJuzhnsX/YukP7NdmqwP+0WstqmqDReL4XRy0mMW20JrW6i3cT24lW8vP37Q/u6D3xLFTiKEAAAAASUVORK5CYII=); }
+
+.checkLabaWrapContainer.run {
+  animation-play-state: running;
+  -webkit-animation-play-state: running; }
+
+.checkLabaWrapContainer.stop {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: none;
+  animation-name: none; }
+
+/*check panel laba end*/
+/*大喇叭的动画样式 start*/
+@keyframes labaRun {
+  0%, 100% {
+    background-position: 0 0; }
+  20.0% {
+    background-position: -250px 0; }
+  40.0% {
+    background-position: -500px 0; }
+  60.0% {
+    background-position: -750px 0; }
+  80.0% {
+    background-position: -1000px 0; } }
+
+.labaWrapContainer:hover {
+  opacity: 0.8; }
+
+.labaWrapContainer {
+  cursor: pointer;
+  width: 250px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-size: 500% 100%;
+  animation: labaRun 1.5s steps(1, end) infinite;
+  -webkit-animation: labaRun 1.5s steps(1, end) infinite;
+  margin: auto;
+  animation-play-state: paused;
+  background-image: url(data:image/png;base64,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); }
+
+.labaWrapContainer.run {
+  animation-play-state: running;
+  -webkit-animation-play-state: running; }
+
+.labaWrapContainer.stop {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: none;
+  animation-name: none; }
+
+/*大喇叭的动画样式 end*/
+/*title喇叭的动画样式 start*/
+@keyframes titleLabaRun {
+  0% {
+    background-position: 0 0; }
+  25% {
+    background-position: -23px 0; }
+  50% {
+    background-position: -46px 0; }
+  75% {
+    background-position: -69px 0; }
+  100% {
+    background-position: 0 0; } }
+
+.titleLabaWrapContainer:hover {
+  opacity: 0.7; }
+
+.titleLabaWrapContainer {
+  cursor: pointer;
+  width: 23px;
+  height: 18px;
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: 400% 100%;
+  animation: titleLabaRun 0.6s steps(1, end) infinite;
+  -webkit-animation: titleLabaRun 0.6s steps(1, end) infinite;
+  animation-play-state: paused;
+  margin: auto;
+  position: relative;
+  left: -8px; }
+
+.titleLabaWrapContainer.run {
+  animation-play-state: running;
+  -webkit-animation-play-state: running; }
+
+.titleLabaWrapContainer.stop {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: none;
+  animation-name: none; }
+
+/*title喇叭的动画样式 end*/
+/*alphabet的动画样式 start-------------------- */
+@keyframes phLabaRun {
+  0% {
+    background-position: 0 0; }
+  25% {
+    background-position: -23px 0; }
+  50% {
+    background-position: -46px 0; }
+  75% {
+    background-position: -69px 0; }
+  100% {
+    background-position: 0 0; } }
+
+.phLabaWrapContainer {
+  cursor: pointer;
+  width: 23px;
+  height: 18px;
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: 400% 100%;
+  animation: phLabaRun 0.6s steps(1, end) infinite;
+  -webkit-animation: phLabaRun 0.6s steps(1, end) infinite;
+  animation-play-state: paused;
+  margin: auto;
+  position: relative; }
+
+.phLabaWrapContainer.run {
+  animation-play-state: running;
+  -webkit-animation-play-state: running; }
+
+.phLabaWrapContainer.stop {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: none;
+  animation-name: none; }
+
+/*alphabet的动画样式 end-------------------- */
+.el-loading-spinner .el-loading-text {
+  color: #FF6A00 !important;
+  margin: 3px 0;
+  font-size: 14px; }
+
+.el-loading-spinner .path {
+  -webkit-animation: loading-dash 1.5s ease-in-out infinite;
+  animation: loading-dash 1.5s ease-in-out infinite;
+  stroke-dasharray: 90, 150;
+  stroke-dashoffset: 0;
+  stroke-width: 2;
+  stroke: #FF6A00 !important;
+  stroke-linecap: round; }
+
+.el-loading-spinner i {
+  color: #FF6A00 !important; }
+
+.privacypolicy .logo {
+  height: 21px;
+  margin: auto;
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 70px; }
+
+.privacypolicy .wrapContentExt {
+  padding-bottom: 60px;
+  padding-top: 40px; }
+  .privacypolicy .wrapContentExt.pc {
+    background-color: #ffffff;
+    width: 590px;
+    padding: 13px 70px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px 3px #d3b3b3;
+    margin-bottom: 100px;
+    padding-bottom: 60px; }
+  .privacypolicy .wrapContentExt.phone {
+    background-color: #ffffff;
+    padding: 0 18px;
+    padding-bottom: 60px; }
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+  cursor: pointer; }
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ddd;
+  border-radius: 10px;
+  cursor: pointer; }
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px #F0F0F0;
+  background: #F4F5F7; }
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px #ffffff;
+  background: #ffffff; }
+
+/*press ripple animation start*/
+.rippleOuter {
+  background: #F4F5F7;
+  transition: 0.1s; }
+
+.rippleOuter:active {
+  background: #ddd; }
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+  height: 100%; }
+
+.ripple::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(15, 15);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.5s; }
+
+.ripple:active::after {
+  opacity: 0.3;
+  transform: scale(0, 0);
+  transition: transform 0s, opacity 0s; }
+
+/*press ripple animation end*/
+/*press ripple animation start  for unitList*/
+.rippleOuter_1 {
+  background: #F4F5F7;
+  transition: 0.1s; }
+
+.rippleOuter_1:active {
+  background: #ddd; }
+
+.ripple_1 {
+  position: relative;
+  overflow: hidden;
+  height: 100%; }
+
+.ripple_1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(15, 15);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.5s; }
+
+.ripple_1:active::after {
+  opacity: 0.3;
+  transform: scale(0, 0);
+  transition: transform 0s, opacity 0s; }
+
+/*press ripple animation end for unitList*/
+html {
+  height: 100%;
+  font-size: 10px;
+  background-color: #F4F5F7;
+  user-select: none;
+  font-family: 'Helvetica Neue', Helvetica, -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif; }
+  html.pc {
+    min-width: 1080px; }
+
+body {
+  height: 100%;
+  margin: 0;
+  user-select: none; }
+
+#app {
+  height: 100%;
+  user-select: none; }
+</style><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script charset="utf-8" src="/app/21.build.js"></script><script type="text/javascript" src="https://static.zdassets.com/ekr/asset_composer.5e12e43b022a913c3713.js" charset="utf-8" async=""></script></head><body><audio id="globalAudio"></audio><div id="app"><div class="privacypolicy"><div class="wrapContentExt pc"><div><img alt="lingodeer-website-logo" src="https://webjson.lingodeer.com/mediaSource/static/images/header/logo.png" class="logo"></div> <div class="fr-view"><h1 style="margin: 0px 0px 15px; text-align: center; font-family: Cambria, serif; font-size: 27px;"><strong><span style="font-family: Helvetica, sans-serif;">PRIVACY POLICY</span></strong></h1> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: 宋体;"><br></span><span style="font-family: Helvetica, sans-serif;">LingoDeer takes your privacy seriously. We are committed to safeguarding your privacy, and this privacy policy explains our data collection, use, and disclosure practices. <br><br>This policy covers:</span></p> <ul type="disc" style="margin-bottom: 0px;"><li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">important information and who we are</span></li> <li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">the information we collect</span></li> <li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">how and why we collect and use the information</span></li> <li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">your legal rights&nbsp;</span></li> <li style="margin: 0px 0px 12pt; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">how we protect children's online privacy<br><br></span></li></ul> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">1. IMPORTANT INFORMATION AND WHO WE ARE</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer Inc. provides its service (the "Service") to you subject to the Terms of Service, and the following Privacy Policy. We may update this Privacy Policy from time to time. All changes will be posted on our website (the “Site”). You can review the most current version of the Privacy Policy at any time here&nbsp;www.lingodeer.com/privacy-policy. Your continued use of the Service or the Site after any such changes have been made constitutes your acceptance of the new Privacy Policy. This website is not intended for children and we do not knowingly collect data relating to children. Words beginning with capital letters in this Privacy Policy which are not defined in this Privacy Policy are defined in the Terms of Service.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer Inc. is the controller and responsible for your personal data (collectively referred to as "LingoDeer", "we", "us" or "our" in this Privacy Policy). Our website and softwares may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit. <br><br><br><strong>2. INFORMATION WE COLLECT AND RECEIVE</strong></span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">2.1 Personal Data</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">When you register for a LingoDeer account, LingoDeer collects personal data that you submit such as your username, email address and any other personal or preference information that you voluntarily enter into the Service, as well as your profile picture.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). Nor do we collect any information about criminal convictions and offenses.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">When you use the Service, you may set up your personal profile, form relationships, log study progress, perform searches and queries, enroll in events and courses, and transmit information through various channels.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">There is no statutory or contractual obligation to provide this data, however, where the data is not provided, we will be unable to provide the service.&nbsp;</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">2.2 Cookies</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Cookies are also used generally on the website, e.g. to show ads or to measure the success rates of advertising. Cookies are small files stored on your computer or mobile device which identify the device to our server and also provide additional data. Other technologies such as pixel tags, web bugs, web storage and similar files fulfill the same purpose. A cookie is saved on your computer.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">You can switch off the use of cookies for our website or in general in the settings of your Internet browser. You can find out how this functions from the website of your Internet browser supplier. For the Internet Explorer, you can find the relevant instructions at&nbsp;<a href="http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies">http://windows.microsoft.com/en-US/windows-vista/Block-or-allow-cookies</a>, for Firefox at&nbsp;<a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences</a>, for Apple Safari at&nbsp;<a href="http://support.apple.com/kb/index?page=search&amp;fac=all&amp;q=cookies%20safari">http://support.apple.com/kb/index?page=search&amp;fac=all&amp;q=cookies%20safari</a> and for Google Chrome at&nbsp;<a href="https://support.google.com/chrome/answer/95647?hl=en"></a>. However, deactivating cookies will mean that a number of functionalities, e.g. automatically logging in to the website, will no longer operate as intended.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">We may use the services of third parties to collect and use anonymous information about your visits to and interactions with our website through the use of technologies such as cookies to personalize advertisements for goods and services. To learn more, or to opt-out of receiving online display advertisements tailored to your interests by our third party partners, visit the Network Advertising Initiative at <u><a href="http://www.networkadvertising.org/choices">http://www.networkadvertising.org/choices</a></u>.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">2.3 Social Plugins</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Where the Site, or any other part of the Service, links to other websites, such other websites do not operate under this Privacy Policy (e.g. Facebook, Twitter, YouTube). We recommend that you examine the privacy statements posted on such other websites to understand their procedures for collecting, using, and disclosing personal data.&nbsp;</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">2.4 Aggregated Data</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">We collect data on the use of the application by means of software from external suppliers for the purpose of detecting and correcting errors and to improve our applications. However, no data are collected in the process from which any external supplier could directly establish any personal connection. In this way, we receive aggregated information on how the apps are used and which features are especially popular, and from this information, we can draw conclusions for future improvements in product development. You can prevent this analysis by changing this in “settings” on the mobile device on which the app is installed.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">In addition, we will also be informed if apps crash - if you have enabled this through your device settings. These so-called crash reports are provided by external suppliers. However, no data are processed from which any external supplier could derive any personal connection.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">2.5 Emails and newsletters</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">We send you emails for a variety of reasons. These may include confirmations of an order or of a registration. However, communication may also concern information about our services, provided you have not revoked your consent for such usage.&nbsp;</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Any email messages we send are saved by us and any emails that may be regarded as business letters will not be deleted during the statutory retention period. We also record any email addresses to which a message could not be delivered in order to request an updated email address.&nbsp;</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Furthermore,In the case of our newsletter emails, we record (e.g. by means of a so-called “tracking pixel”) whether an email is opened and which links in the email are clicked on; we do so to optimize our offers and tailor their design to meet your needs. We use these data to enable us to send newsletter contents to match your profile. If you wish to object to this use of your data, you can do so by&nbsp;canceling&nbsp;our newsletters in any of the emails we sent.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">2<strong>.6 Third-party advertising</strong></span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer reserves the right to display&nbsp;targeted advertisements based on personal information. Advertisers may assume that people who interact with, view, or click targeted ads meet the relevant targeting criteria (for example, men ages 18-24 from a particular geographic area). LingoDeer does not provide any personal information to the advertiser when you interact with or view a targeted ad. However, by interacting with or viewing an ad you are consenting to the possibility that the advertiser will make the assumption that you meet the targeting criteria used to display the ad.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: 宋体;"><br></span><strong><span style="font-family: Helvetica, sans-serif;">3. INFORMATION USE</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer will use your personal data in furtherance of our legitimate interests for the following general purposes:</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">(i) to provide, update, maintain and protect our services, websites, apps and business<br>(ii) as required by applicable law, legal process or regulation<br>(iii) to respond to your questions and comments<br>(iv) to communicate with you via email or within the Service about the Service<br>(v) statistical purposes<br>(vi) for billing, account management and other administrative matters<br>(vii) to investigate and help prevent security issues and abuse<br>(viii) other purposes as described to you at the point of collection</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer uses such information to customize the marketing and Content you see, fulfil your requests for products and services, improve our Service to you, contact you, conduct research, and provide anonymised reporting for internal purposes and for external clients such as advertisers. If you choose to use our invitation service to tell a friend about our site, we will ask you for your friend's email address. We will automatically send your friend an email inviting them to visit the site. LingoDeer may attempt to send invitations more than once. LingoDeer stores this information to send such emails, to register a friend connection if your invitation is accepted, and to track the success of our referral program. Your friend may unsubscribe from any communication with us within that email or contact us via privacy@lingodeer.com to request that we remove this information from our database.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Please note that if you enter payment details into the Service when purchasing a Paid Service (including any “Buy a Coffee” purchases), LingoDeer itself does not receive or store such payment information, and as such information is received, it is stored and used by our payment service providers for the purpose of completing the purchase.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">You can opt out of email communication initiated by LingoDeer including newsletters, marketing, and progress reports when registering for the Service, after this you will need to unsubscribe from communications within the email itself.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">4. TRANSFER OF YOUR PERSONAL DATA</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer does not forward the personal data of its users to third parties unless the user has given his/her explicit consent or there is a legal requirement to forward the data. Personal details may also be passed on to third parties if this is legally permissible, and it is necessary to pass them on for the fulfillment of our contractual obligations towards our customers. In the case of payment processing, the data for processing the payment transaction are forwarded to the payment services provider if you do not supply the data directly. If you send your payment data directly to the payment services provider, we receive only very limited data. In such cases, we are merely informed whether or not the transaction relating to a specific transaction number has actually taken place. In such cases we do not receive your account data.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">5. RETENTION</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer will retain your personal data for as long as we need to in order to fulfill legitimate business interests, conduct audits, comply with (and demonstrate compliance with) legal obligations, resolve disputes and enforce our agreements. To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorised use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements. You have the right to delete your personal data by sending an email requesting so to <u><a href="mailto:support@lingodeer.com">support@lingodeer.com</a></u>. Please note in this case any financial information will be kept in accordance with local laws. <br><br><br><strong>6. DISCLOSURE OF PERSONAL INFORMATION</strong></span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">We display your Profile information (except for your email address and password) to people browsing for friends, and to support other Site functions. LingoDeer does not rent, sell, or share personal information about you with third parties except to provide products or services you've requested when we have your permission, or in the following circumstances:</span></p> <ul type="disc" style="margin-bottom: 0px;"><li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">where LingoDeer is responding to a subpoena, court order, or legal process, or to establish or exercise our legal rights or to defend ourselves against legal claims;</span></li> <li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">where LingoDeer believes it is necessary to share information in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of LingoDeer's Terms of Service, or as otherwise required by law;</span></li> <li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">where you are using a Paid Service (including a Premium membership) in your capacity as a student or an employee or other third party using the Paid Service, we may in such circumstances share your personal information with your educational establishment, your employer or any third party paying for the Service on your behalf (as the case may be) to allow them to monitor your use of the Paid Service;</span></li> <li style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">where LingoDeer transfers information about you if LingoDeer is acquired by or merged with another company. If this happens, LingoDeer will notify you before information about you is transferred and becomes subject to a different privacy policy.</span></li></ul> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: 宋体;"><br></span><strong><span style="font-family: Helvetica, sans-serif;">7. CONFIDENTIALITY AND SECURITY</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer&nbsp;employs safety precautions to guarantee that your data are protected against loss, modification or misuse. To this end, LingoDeer works with constantly updated firewalls meeting the industry standard as well as other security systems. At the same time, the user should be aware of the fact that one hundred percent protection against attacks cannot be guaranteed because of the continual appearance of new viruses and other means of attacking the protected data systems of Internet services. LingoDeer will instigate civil and criminal proceedings against any attack by hackers and the like and will inform the users of any cases in which their data have been compromised.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: 宋体;"><br></span><strong><span style="font-family: Helvetica, sans-serif;">8. YOUR LEGAL RIGHTS</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">You have the right to:</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Request access&nbsp;to your personal data (commonly known as a "data subject access request"). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.<br>Request correction&nbsp;of the personal data that we hold about you. If the user alters or corrects the details that he/she has provided and deletes old entries, the data previously entered by the user will be completely deleted automatically. An application for correction or deletion is not required. You can edit your personal data at any time within the App’s profile page. This notwithstanding, the user has the right at all times to demand the correction of any inaccurate data concerning him/her stored with LingoDeer. However, the easiest option is for users to correct any such entries themselves.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">Request erasure of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. Please note that due to caching systems, search engines, the interposition of proxy servers and the like, deleted data may continue to remain accessible even though they are no longer <br>within our systems.present</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: 宋体;"><br></span><span style="font-family: Helvetica, sans-serif;">Withdraw consent at any time&nbsp;where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">If you wish to exercise any of the rights set out above, please contact us as detailed below. You will not have to pay a fee to access your personal data (or to exercise any of the other rights). However, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive. Alternatively, we may refuse to comply with your request in these circumstances. We may need to request specific information from you to help us confirm your identity and ensure your right to access your personal data (or to exercise any of your other rights). This is a security measure to ensure that personal data is not disclosed to any person who has no right to receive it. We may also contact you to ask you for further information in relation to your request to speed up our response. We try to respond to all legitimate requests within 30 days. Occasionally it may take us longer than a month if your request is particularly complex or you have made a number of requests. In this case, we will notify you and keep you updated.&nbsp;</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 13.5pt; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-size: 18px; font-family: Arial, sans-serif;">9. SAFEGUARDING CHILDREN'S PRIVACY</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Arial, sans-serif;">LINGODEER provides some features and services intended for use by children. LingoDeer uses age-gating to restrict what services are available to children depending on the age of the user and the applicable laws of their country.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><u><span style="font-family: Arial, sans-serif;">Children under 16</span></u></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Arial, sans-serif;">Each child users will receive the following service restrictions: profile picture upload is disabled.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Arial, sans-serif;">Additionally, Lingodeer will: (1) notify parents or guardians about LingoDeer's privacy and information practices regarding children, including what personal data we collect and how we use, share, and protect that personal data; (2) limit our collection of personal data to ensure that we collect no more than is necessary to provide LingoDeer's services; (3) obtain parental consent before collecting personal data from children; and (4) allow parents to request that LingoDeer change or delete personal data about their children.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><strong><span style="font-family: Helvetica, sans-serif;">10. CONTACTING LINGODEER</span></strong></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">LingoDeer is the trading name of Lingodeer Co. Ltd., with registered address at Rm.1501, Grand Millennium Plaza, 181 Queen's Road Central, Hong Kong.</span></p> <p style="margin: 0px 0px 12pt; text-align: left; font-size: 16px; font-family: Cambria, serif;"><span style="font-family: Helvetica, sans-serif;">You may obtain a copy of the personal data held about you that you provide through the Site or otherwise request that LingoDeer updates, make changes or deletes personal information by sending an email to privacy@lingodeer.com. If you have any questions or suggestions regarding our Privacy Policy, you can contact Lingodeer at the same email address.</span></p> <p style="margin: 0px 0px 10px; text-align: left; font-size: 16px; font-family: Cambria, serif;"><br></p> <p style="margin: 0px 0px 10px; text-align: justify; font-size: 16px; font-family: Cambria, serif;"><br></p></div></div></div></div><script src="https://webjson.lingodeer.com/vue.min.js"></script><script src="https://webjson.lingodeer.com/vue-i18n.min.js"></script><script src="https://webjson.lingodeer.com/vue-router.min.js"></script><script src="https://webjson.lingodeer.com/vuex.min.js"></script><script src="https://webjson.lingodeer.com/localforage.min.js"></script><script src="https://webjson.lingodeer.com/axios.min.js"></script><script src="https://webjson.lingodeer.com/crypto-js.js"></script><script src="https://webjson.lingodeer.com/recorder.js"></script><script src="https://webjson.lingodeer.com/nprogress.js"></script><script src="https://webjson.lingodeer.com/jquery.min.js"></script><script src="https://webjson.lingodeer.com/echarts.common.min.js"></script><script defer="defer" id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=9f5425c3-8b6e-4c2e-9ebe-9094cf3383a5"></script><script defer="defer" src="https://www.googletagmanager.com/gtag/js?id=UA-114609605-3"></script><script>window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-114609605-3');</script><script src="/app/build.js"></script><iframe data-product="web_widget" title="No content" tabindex="-1" aria-hidden="true" src="about:blank" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe><div><iframe title="Opens a widget where you can find more information" id="launcher" tabindex="0" class="zEWidget-launcher zEWidget-launcher--active" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; transition: opacity 250ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, top, bottom; opacity: 1; width: 115px; height: 50px; max-height: 551px; min-height: 50px; margin: 10px 20px; right: 0px; bottom: 0px;"></iframe></div><div><iframe title="Find more information here" id="webWidget" tabindex="-1" class="zEWidget-webWidget " style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; transition: opacity 250ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, top, bottom; opacity: 0; width: 357px; height: 100%; max-height: 165px; min-height: 150px; margin-left: 8px; margin-right: 8px; top: -9999px;"></iframe></div></body></html>

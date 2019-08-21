@@ -1,0 +1,35 @@
+VPN 360
+Privacy Policy
+VPN 360 believes in privacy and online freedom and that it should be very clear how we manage and protect your personal information. If you have any questions or concerns, please contact us.
+The VPN 360 Private Network
+The core of our service is the VPN 360 Private Network which provides private and secure data transmission. If you are using the VPN 360 Virtual Private Network (VPN) Service, we route all of your Internet traffic through our network. Our VPN client establishes and maintains an encrypted tunnel between your device and our network.
+The VPN 360 network is a no-log network. That means, except for the limited exceptions below, we do not collect any information transmitted through our network. More specifically, we do not collect any information regarding the websites you visit assigned to you when you access the VPN 360 Private Network, and with respect to our VPN service, we do not collect any data stored on or transmitted from your device, including any data that applications on your device may transmit through our network.
+There are a few exceptions where we may need to collect or monitor traffic through our network:
+What information do we collect?
+We will record your aggregate bandwidth usage for billing and network operations and support;
+It may become necessary to temporarily maintain usage data to assist in debugging a problem with the service. This usage data may include such information as the date and time of your login and the IP addresses you visited. This personal information is not retained once the troubleshooting is resolved;
+We may collect and disclose personal information, including your usage data, to governmental authorities or agencies, including law enforcement agencies, at their request or pursuant to a court order, subpoena or other legal process, if there is a good faith belief that such collection or disclosure is required by law;
+We perform automated rules-based traffic management for the purposes of maintaining and improving our service. Applying these rules may require real-time analysis of Internet and data traffic including destination websites or IP addresses, originating IP addresses. However, no log is maintained regarding this information as it is a real-time process.
+Since we manage a global network, your Internet traffic may be routed through one or more different countries.
+Account Information
+In order to enroll you in our service and maintain your account we need to collect your email address. We may also use your email address for billing and customer support. From time to time we may use your email address to request your feedback on our service, advise you of promotional offers regarding our current and new services and provide you with updates on our new products and product features.
+We may also collect information such as your name, address, phone number and payment information in connection with your purchase of our products and services. This information is used to fulfill your purchase and to bill you as necessary based on your service plan.
+How do we protect your information?
+We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information.
+We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database is only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential.
+After a transaction, your private information (credit cards, social security numbers, financials, etc.) will not be stored on our servers.
+Do we use cookies?
+Yes. Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the sites or service providers systems to recognize your browser and capture and remember certain information.
+We use cookies to help us remember and process the items in your shopping cart and compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.
+Do we disclose any information to outside parties?
+We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
+Customer Support
+We collect your email address and other contact information when you request customer support. We also collect information regarding your support request. This information is used to address your inquiry or service problem and to improve our service.
+Advertisements
+REPORT THIS AD
+Posted on 2017年1月17日 by vpn360
+NEXT POSTTerms of Services
+Blog at WordPress.com.
+Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use.
+To find out more, including how to control cookies, see here: Cookie Policy
+Follow

@@ -1,0 +1,865 @@
+<html lang="en" class=" b-header--white--black orb-js id-svg js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths orb-more-loaded" style=""><head>
+    <!-- Nav Env: live -->
+<!-- Analytics Web Module: 0.0.1-320.48d0d61 -->
+<!-- NavID Web Module: 0.2.0-75.de8f099 -->
+<!-- Detectview Web Module: 0.0.1-320.48d0d61 -->
+<!-- Searchbox Web Module: 3.0.0-4.9a69f1b -->
+<!-- Promo Web Module: 3.0.0-164.963a563 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="fb:admins" content="100004154058350"><link rel="stylesheet" href="https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/css/orb-ltr.min.css"><!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/css/orb-ie-ltr.min.css">
+    <![endif]--><script type="text/javascript">/*<![CDATA[*/
+        window.orb = {
+            lang: 'en',
+            bbcBaseUrl: 'https://www.bbc.co.uk',
+            bbcUrlPrefix: 'https://www.',
+            staticHost: 'https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8',
+            figUrl: 'https://fig.bbc.co.uk/frameworks/fig/2/fig.js',
+            partialCookieOvenUrl: 'https://cookie-oven.api.bbc'
+        };
+
+        document.documentElement.className += (document.documentElement.className? ' ' : '') + 'orb-js';
+        window.orb.worldwideNavlinks = '<li class="orb-nav-home"><a href="https://www.bbc.com/">Home</a></li><li class="orb-nav-newsdotcom-old"><a href="https://www.bbc.com/news">News</a></li><li class="orb-nav-sport"><a href="https://www.bbc.com/sport">Sport</a></li><li class="orb-nav-weather"><a href="https://www.bbc.com/weather">Weather</a></li><li class="orb-nav-shop"><a href="https://shop.bbc.com/">Shop</a></li><li class="orb-nav-reeldotcom"><a href="https://www.bbc.com/reel/">Reel</a></li><li class="orb-nav-traveldotcom"><a href="https://www.bbc.com/travel/">Travel</a></li><li class="orb-nav-capital"><a href="https://www.bbc.com/capital/">Capital</a></li><li class="orb-nav-culture"><a href="https://www.bbc.com/culture/">Culture</a></li><li class="orb-nav-future-old"><a href="https://www.bbc.com/future/">Future</a></li><li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds">Sounds</a></li><li class="orb-nav-cbbc"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies"><a href="https://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food"><a href="https://www.bbc.co.uk/food/">Food</a></li><li class="orb-nav-bitesize"><a href="https://www.bbc.com/bitesize">Bitesize</a></li><li class="orb-nav-arts"><a href="https://www.bbc.co.uk/arts/">Arts</a></li><li class="orb-nav-taster"><a href="https://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-nature"><a href="https://www.bbc.com/nature/">Nature</a></li><li class="orb-nav-local"><a href="https://www.bbc.co.uk/news/localnews">Local</a></li><li class="orb-nav-tv"><a href="https://www.bbc.co.uk/tv/">TV</a></li><li class="orb-nav-radio"><a href="https://www.bbc.co.uk/radio/">Radio</a></li><li class="orb-nav-three"><a href="https://www.bbc.co.uk/bbcthree">Three</a></li>';
+
+
+     /*]]>*/</script><script>// Promise polyfill from https://github.com/bramstein/promis
+        (function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void 0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var c=!1;try{var d=b&&b.then;if(null!=b&&"object"==typeof b&&"function"==typeof d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}} function r(a,b){if(a.a==p){if(b==a)throw new TypeError;a.a=1;a.b=b;v(a)}}function v(a){l(function(){if(a.a!=p)for(;a.f.length;){var b=a.f.shift(),c=b[0],d=b[1],e=b[2],b=b[3];try{0==a.a?"function"==typeof c?e(c.call(void 0,a.b)):e(a.b):1==a.a&&("function"==typeof d?e(d.call(void 0,a.b)):b(a.b))}catch(h){b(h)}}})}n.prototype.g=function(a){return this.c(void 0,a)};n.prototype.c=function(a,b){var c=this;return new n(function(d,e){c.f.push([a,b,d,e]);v(c)})}; function w(a){return new n(function(b,c){function d(c){return function(d){h[c]=d;e+=1;e==a.length&&b(h)}}var e=0,h=[];0==a.length&&b(h);for(var k=0;k<a.length;k+=1)u(a[k]).c(d(k),c)})}function x(a){return new n(function(b,c){for(var d=0;d<a.length;d+=1)u(a[d]).c(b,c)})};window.Promise||(window.Promise=n,window.Promise.resolve=u,window.Promise.reject=t,window.Promise.race=x,window.Promise.all=w,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype["catch"]=n.prototype.g);}());
+    
+    
+        // Polyfill Event constructor for IE ref: https://jira.dev.bbc.co.uk/browse/ORBITEN-919
+        // see: https://stackoverflow.com/questions/26596123
+        (function () {
+          if (typeof window.CustomEvent === "function") {
+            return false;
+          }
+          function CustomEvent(event, params) {
+            params = params || { bubbles: false, cancelable: false, detail: undefined };
+            var evt = document.createEvent('CustomEvent');
+            evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+            return evt;
+          }
+          CustomEvent.prototype = window.Event.prototype;
+          window.Event = CustomEvent;
+        })();
+    
+    
+        //Element.prototype.matches polyfill
+        //from https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
+        if (!Element.prototype.matches) {
+          Element.prototype.matches = Element.prototype.msMatchesSelector ||
+                                      Element.prototype.webkitMatchesSelector;
+        }
+        //NodeList.forEach Polyfill
+        //from https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill
+        if (window.NodeList && !NodeList.prototype.forEach) {
+          NodeList.prototype.forEach = Array.prototype.forEach;
+        }
+    
+        // Object.assign polyfill from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill
+        if (typeof Object.assign != 'function') {
+          // Must be writable: true, enumerable: false, configurable: true
+          Object.defineProperty(Object, "assign", {
+            value: function assign(target, varArgs) { // .length of function is 2
+              'use strict';
+              if (target == null) { // TypeError if undefined or null
+                throw new TypeError('Cannot convert undefined or null to object');
+              }
+    
+              var to = Object(target);
+    
+              for (var index = 1; index < arguments.length; index++) {
+                var nextSource = arguments[index];
+    
+                if (nextSource != null) { // Skip over if undefined or null
+                  for (var nextKey in nextSource) {
+                    // Avoid bugs when hasOwnProperty is shadowed
+                    if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+                      to[nextKey] = nextSource[nextKey];
+                    }
+                  }
+                }
+              }
+              return to;
+            },
+            writable: true,
+            configurable: true
+          });
+        }
+    
+        if (typeof window.CustomEvent !== 'function') {
+    
+          function CustomEvent(event, params) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent('CustomEvent');
+            evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+            return evt;
+          }
+    
+          CustomEvent.prototype = window.Event.prototype;
+    
+          window.CustomEvent = CustomEvent;
+    
+        }
+    
+        (function() {
+    
+            var language = 'en';
+                language = 'en';
+    
+            var modal = false;
+    
+    
+            var istatsLabels = {name: '' || undefined};
+    
+            function getMetaValue(propertyName) {
+              var metaTag = document.querySelector(
+                "meta[property='" + propertyName + "'], " +
+                "meta[name='" + propertyName + "']");
+              if (metaTag) {
+                return metaTag.getAttribute("content");
+              } else {
+                throw new Error('No meta tag called: ' + propertyName)
+              }
+            }
+    
+            function generateCountername() {
+                var pathName = window.location.pathname
+                    .replace(/\/$/, "")
+                    .replace(/^\//, "")
+                    .replace(/\//g, '.');
+                return pathName + '.page';
+            }
+    
+            var additionalPageProperties = {};
+    
+            var page = {
+                name: '' || istatsLabels.name || generateCountername(),
+                destination: '' || null,
+                producer: '' || null,
+                section: '' || null,
+                site: '' || istatsLabels.bbc_site || istatsLabels.app_name || istatsLabels.prod_name || null,
+                contentId: '' || null,
+                contentType: '' || null,
+                edition: '' || null,
+                additionalProperties: additionalPageProperties
+            };
+    
+            function updatePageData(newData) {
+                page = Object.assign(page, newData);
+            }
+    
+            document.addEventListener('bbc-page-reset', function(event) {
+                if (event.detail && event.detail.page) {
+                    updatePageData(event.detail.page);
+                }
+                document.dispatchEvent(new Event('bbc-page-updated'));
+            });
+    
+            window.bbcpage = {
+                loadModule: function(deps) {
+                    return new Promise(function (resolve, reject) {
+                        window.require(deps, function () {
+                            resolve.apply(this, arguments);
+                        },
+                        function (error) {
+                            reject(error);
+                        });
+                    })
+                },
+                loadCSS: function (url, timeout) {
+                    return window.bbcpage.loadModule(['orb/lib/_$'])
+                        .then(function($) {
+                            return new Promise(function(resolve, reject) {
+                                var stylesheet = loadCSS(url);
+                                $.onloadCSS(stylesheet, function() {
+                                    resolve();
+                                });
+                                if (timeout) {
+                                    setTimeout(function () { reject(); }, timeout);
+                                }
+                            });
+                    });
+                },
+                isModal: function () {
+                    return modal;
+                },
+                getLanguage: function () {
+                    return new Promise(function(resolve, reject) {
+                        resolve(language);
+                    });
+                },
+                trackRegion: function (region, labels) {
+                    return window.bbcpage.loadModule(['istats-1'])
+                        .then(function(istats) {
+    
+                            var trackLabels = {
+                                region: region
+                            };
+    
+                            for (var label in labels) {
+                                trackLabels[label] = labels[label];
+                            }
+    
+                            var linkType = labels.linkType || 'internal';
+    
+                            istats.track(linkType, trackLabels);
+                        });
+                },
+                getName: function() {
+                    return Promise.resolve(page.name);
+                },
+                getDestination: function() {
+                    return Promise.resolve(page.destination);
+                },
+                getProducer: function() {
+                    return Promise.resolve(page.producer);
+                },
+                getSite: function() {
+                    return Promise.resolve(page.site);
+                },
+                getSection: function() {
+                    return Promise.resolve(page.section);
+                },
+                getContentType: function() {
+                    return Promise.resolve(page.contentType);
+                },
+                getContentId: function() {
+                    return Promise.resolve(page.contentId);
+                },
+                getEdition: function() {
+                  return new Promise(function (resolve, reject) {
+                    if (page.edition) {
+                      resolve(page.edition);
+                      return;
+                    }
+                    try {
+                      resolve(getMetaValue('x-audience').toLowerCase());
+                    } catch (err){
+                      // This property is related to Chartbeat; see http://support.chartbeat.com/docs/
+                      if (window._sf_async_config) {
+                        resolve(window._sf_async_config.region || null);
+                      }
+                    }
+                    resolve(null);
+                  });
+                },
+                getAdditionalProperties: function() {
+                  return Promise.resolve(page.additionalProperties);
+                }
+            };
+    
+            var country;
+    
+            var sanitiseCountry = function(country) {
+                return country ? country.replace(/ /g, '') : undefined;
+            }
+    
+            window.bbcuser = {
+                getHashedId: function() {
+                    if (modal) {
+                        return undefined;
+                    }
+                    return window.bbcpage.loadModule(['idcta-v2/idcta-1'])
+                        .then(function(idcta) {
+                            return idcta.getCookieInstance().getHidFromCookie();
+                    });
+                },
+                getCountry: function() {
+                    if (country) {
+                        return new Promise(function(resolve, reject) {
+                            resolve(sanitiseCountry(country));
+                        })
+                    }
+                    else {
+                        return window.bbcpage.loadModule(['orb/fig'])
+                            .then(function(orbFig) {
+                                return new Promise(function(resolve, reject) {
+                                    orbFig.load(function (fig) {
+                                        if (fig.geo.isUK()) {
+                                            resolve('GB');
+                                        } else if (fig.geo.isEU()) {
+                                            resolve('EU');
+                                        } else {
+                                            resolve(undefined);
+                                        }
+                                    }, function () {
+                                        reject('Error determining country. Timeout?');
+                                    });
+                                });
+                            });
+    
+                    }
+                },
+                isUKCombined: function(inputCountry) {
+                    return window.bbcpage.loadModule(['orb/bbcuser'])
+                        .then(function(service) {
+                            return new Promise(function(resolve, reject) {
+                                if (inputCountry) {
+                                    resolve(service.isUKCombined(sanitiseCountry(inputCountry)));
+                                }
+                                else {
+                                    window.bbcuser.getCountry().then(function(fetchedCountry){
+                                        resolve(service.isUKCombined(fetchedCountry));
+                                    })
+                                }
+                            });
+                        });
+                },
+                isEU: function(inputCountry) {
+                    return window.bbcpage.loadModule(['orb/bbcuser'])
+                        .then(function(service) {
+                            return new Promise(function(resolve, reject) {
+                                if (inputCountry) {
+                                    resolve(service.isEU(sanitiseCountry(inputCountry)));
+                                }
+                                else {
+                                    window.bbcuser.getCountry().then(function(fetchedCountry){
+                                        resolve(service.isEU(fetchedCountry));
+                                    })
+                                }
+                            });
+                        });
+                },
+                isSignedIn: function() {
+                    return window.bbcpage.loadModule(['idcta-v2/idcta-1'])
+                        .then(function(idcta) {
+                            return (idcta && idcta.getCookieInstance().hasCookie());
+                        });
+                },
+                allowsPerformanceCookies: function() {
+                    return window.bbcpage.loadModule(['orb/cookies'])
+                            .then(function(bbccookies) {
+                                return !!bbccookies.cookiesEnabled() && !!bbccookies.readPolicy('performance');
+                            });
+                },
+                allowsFunctionalCookies: function() {
+                    return window.bbcpage.loadModule(['orb/cookies'])
+                            .then(function(bbccookies) {
+                                return !!bbccookies.cookiesEnabled() && !!bbccookies.readPolicy('personalisation');
+                            });
+                },
+                getCookieValue: function(cookieName) {
+                    return window.bbcpage.loadModule(['orb/cookies'])
+                            .then(function(bbccookies) {
+                                return bbccookies.get(cookieName);
+                            });
+                },
+                resetCookiesPreferences: function() {
+                    return window.bbcpage.loadModule(['orb/cookies'])
+                            .then(function(bbccookies) {
+                                bbccookies.setDefaultCookiesSingleDomain();
+                            });
+                },
+                hasCookiesEnabled: function() {
+                    return window.bbcpage.loadModule(['orb/cookies'])
+                            .then(function(bbccookies) {
+                                return !!bbccookies.cookiesEnabled();
+                            });
+                },
+                hasSeenCookieBanner: function() {
+                    return window.bbcpage.loadModule(['orb/cookies'])
+                            .then(function (bbccookies) {
+                                return !!bbccookies.isCookiePolicySet();
+                            });
+                },
+                logEvent: function (verb, noun, extraLabels) {
+                    return window.bbcuser.hasCookiesEnabled()
+                        .then(function(allowsCookies) {
+                            if (allowsCookies) {
+                                return window.bbcpage.loadModule(['istats-1'])
+                                    .then(function(istats) {
+                                        istats.log(verb, noun, extraLabels);
+                                    });
+                            } else {
+                                throw new Error('User cannot be tracked due to cookies preferences.');
+                            }
+                        });
+                },
+            };
+    
+        }());</script><script src="https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/js/require.min.js"></script>     <script src="https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-320.48d0d61/cookie-banner/cookie-library.min.js"></script><script type="text/javascript">if (window.define !==  undefined) {
+        define('orb/cookies', function() {
+          return window.bbccookies;
+        });
+      }</script> <script src="https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/js/api.min.js"></script><script type="text/javascript">window.bbcFlagpoles_istats="ON",require.config({paths:{"istats-1":"https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-320.48d0d61/istats/istats-1"}}),require(["istats-1","orb/cookies"],function(t,a){if(a.isAllowed("s1")){var e=(o=document.location.href.match(/^(?:https|http):\/\/\w*\.(?:(int|test|stage|live|)\.)?bbc\.(?:co\.uk|com)/))?void 0===o[1]||""===o[1]||"live"===o[1]?"//sa.bbc.co.uk/bbc/bbc/s":"//sa.bbc.co.uk/bbc/"+o[1]+"/s":"//sa.bbc.co.uk/bbc/test/s";t.addCollector({name:"default",url:e,separator:"&"});var s="unknown";t.setCountername(s),window.istats_countername&&t.setCountername(window.istats_countername),t.addLabels("ml_name=webmodule&ml_version=0.0.1-320.48d0d61&blq_e=orbit&blq_r=orbit&blq_s=orbit&blq_v=default&language=en")}var o});</script><link rel="stylesheet" href="https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/style/id-cta.css"><!--[if IE 8]><link href="https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/style/ie8.css" rel="stylesheet"/> <![endif]--><script type="text/javascript">(function() {if (!window.require) {throw new Error('idcta: could not find require module');}if (typeof(map) == 'undefined') {var map = {};}if (!!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect) {document.documentElement.className += ' id-svg';}var ptrt = new RegExp("[\\?&]ptrt=([^&]*)").exec(document.location.href);var ENDPOINT_URL = 'https://idcta.api.bbc.co.uk';var ENDPOINT_CONFIG = ('/idcta/config?callback=&ptrt=' + encodeURIComponent((ptrt ? ptrt[1] : document.location.href))).replace(/\&amp;/g, '&');var ENDPOINT_TRANSLATIONS = '/idcta/translations?callback=';function hasPromise() {var P = window.Promise;var promiseToString = null;if (P) {try {promiseToString = Object.prototype.toString.call(P.resolve());} catch(e) {/*silently ignored*/}}return (promiseToString === '[object Promise]' && !P.cast);}if (hasPromise()) {define('idcta/es6-promise', function() {return window.Promise;});define('idcta-v2/es6-promise', function() {return window.Promise;});}map['idcta-v2'] = 'https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/modules/idcta-v2';map['idcta-v2/config'] = ENDPOINT_URL + ENDPOINT_CONFIG;map['idcta-v2/translations'] = ENDPOINT_URL + ENDPOINT_TRANSLATIONS;map['idcta'] = 'https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.8.2/modules/idcta';map['idcta-v2/idcta-1'] = 'https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/modules/idcta-v2/dist/idcta-1.min';const idctaShim = {deps: ['idcta-v2/idcta-1'],};require({shim: {'idcta-v2/statusbar': idctaShim,'idcta-v2/id-config': idctaShim},map: {'*': {'idcta/idcta-1': 'idcta-v2/idcta-1','idcta': 'idcta-v2',}},paths: map});window.idctaBaseUrl = ENDPOINT_URL;define('idcta/config', ['idcta-v2/config'], function(data) {return data;});define('idcta/translations', ['idcta-v2/translations'], function(data) {return data;});})();</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="istats-1" src="https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-320.48d0d61/istats/istats-1.js"></script>  <!-- BBCDOTCOM head --><script type="text/javascript">/*<![CDATA[*/ var _sf_startpt = (new Date()).getTime(); /*]]>*/</script><style type="text/css">.bbccom_display_none{display:none;}</style><script type="text/javascript">/*<![CDATA[*/ var bbcdotcomConfig, googletag = googletag || {}; googletag.cmd = googletag.cmd || [], bbcdotcomScripts = [], tp = window.tp || []; var bbcdotcom = false; (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"https://static.bbc.co.uk/bbcdotcom/2.6.0/script" } }); } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ var bbcdotcom = { adverts: { keyValues: { set: function() {} } }, advert: { write: function () {}, show: function () {}, isActive: function () { return false; }, layout: function() { return { reset: function() {} } } }, config: { init: function() {}, isActive: function() {}, setSections: function() {}, isAdsEnabled: function() {}, setAdsEnabled: function() {}, isAnalyticsEnabled: function() {}, setAnalyticsEnabled: function() {}, setAssetPrefix: function() {}, setFlagpoles: function() {}, setVersion: function () {}, setJsPrefix: function() {}, setSwfPrefix: function() {}, setCssPrefix: function() {}, setConfig: function() {}, getAssetPrefix: function() {}, getJsPrefix: function () {}, getSwfPrefix: function () {}, getCssPrefix: function () {}, isOptimizelyEnabled: function() {} }, survey: { init: function(){ return false; } }, data: {}, init: function() {}, objects: function(str) { return false; }, locale: { set: function() {}, get: function() {} }, setAdKeyValue: function() {}, utils: { addEvent: function() {}, addHtmlTagClass: function() {}, log: function () {} }, addLoadEvent: function() {} }; /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (typeof orb !== 'undefined' && typeof orb.fig === 'function') { if (orb.fig('ad') && orb.fig('uk') == 0) { bbcdotcom.data = { ads: (orb.fig('ad') ? 1 : 0), stats: (orb.fig('uk') == 0 ? 1 : 0), statsProvider: orb.fig('ap') }; } } else { document.write('<script type="text/javascript" src="https://www.bbc.com/wwscripts/data">\x3C/script>'); } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (typeof orb === 'undefined' || typeof orb.fig !== 'function') { bbcdotcom.data = { ads: bbcdotcom.data.a, stats: bbcdotcom.data.b, statsProvider: bbcdotcom.data.c }; } if (bbcdotcom.data.ads == 1) { document.write('<script type="text/javascript" src="https://www.bbc.com/wwscripts/flag">\x3C/script>'); } })(); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (window.bbcdotcom && (typeof bbcdotcom.flag == 'undefined' || (typeof bbcdotcom.data.ads !== 'undefined' && bbcdotcom.flag.a != 1))) { bbcdotcom.data.ads = 0; } if (/[?|&]ads/.test(window.location.href) || /(^|; )ads=on; /.test(document.cookie) || /; ads=on(; |$)/.test(document.cookie)) { bbcdotcom.data.ads = 1; bbcdotcom.data.stats = 1; } if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcom.assetPrefix = "https://static.bbc.co.uk/bbcdotcom/2.6.0/"; if (/(sandbox|int)(.dev)*.bbc.co*/.test(window.location.href) || /[?|&]ads-debug/.test(window.location.href) || document.cookie.indexOf('ads-debug=') !== -1) { document.write('<script type="text/javascript" src="https://static.bbc.co.uk/bbcdotcom/2.6.0/script/dist/bbcdotcom.dev.js">\x3C/script>'); } else { document.write('<script type="text/javascript" src="https://static.bbc.co.uk/bbcdotcom/2.6.0/script/dist/bbcdotcom.js">\x3C/script>'); } } })(); /*]]>*/</script><script type="text/javascript">if (window.bbcdotcom && bbcdotcom.data.stats == 1) { document.write('<link rel="dns-prefetch" href="//secure-us.imrworldwide.com/">'); document.write('<link rel="dns-prefetch" href="//me-cdn.effectivemeasure.net/">'); document.write('<link rel="dns-prefetch" href="//ssc.api.bbc.com/">'); } if (window.bbcdotcom && bbcdotcom.data.ads == 1) { document.write('<link rel="dns-prefetch" href="//www.googletagservices.com/">'); document.write('<link rel="dns-prefetch" href="//bbc.gscontxt.net/">'); document.write('<link rel="dns-prefetch" href="//tags.crwdcntrl.net/">'); document.write('<link rel="dns-prefetch" href="//ad.crwdcntrl.net/">'); }</script><script type="text/javascript">if (window.bbcdotcom && bbcdotcom.data.ads == 1) { document.write('<meta name="google-site-verification" content="auTeTTwSt_KBY_4iDoR00Lwb7-qzx1IgzJy6ztaWgEI" />'); }</script><script type="text/javascript">/*<![CDATA[*/ (function(){ if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcomConfig = {"adFormat":"standard","adKeyword":"","adMode":"smart","adsEnabled":true,"appAnalyticsSections":"","asyncEnabled":true,"disableInitialLoad":false,"advertInfoPageUrl":"https:\/\/www.bbc.com\/privacy\/cookies\/international\/","advertisementText":"Advertisement","analyticsEnabled":true,"sherlockEnabled":false,"appName":"","assetPrefix":"https:\/\/static.bbc.co.uk\/bbcdotcom\/2.6.0\/","customAdParams":[],"customStatsParams":[],"headline":"","id":"","inAssociationWithText":"in association with","keywords":"","language":"","orbTransitional":false,"lotameWSEnabled":false,"optimizelyEnabled":true,"palEnv":"live","productName":"","sections":[],"comScoreEnabled":true,"comscoreSite":"bbc","comscoreID":"19293874","comscorePageName":"","slots":"","sponsoredByText":"is sponsored by","adsByGoogleText":"Ads by Google","summary":"","type":"","features":{"testfeature":{"name":"testfeature","envs":["sandbox","int","test"],"on":true,"options":{},"override":null},"lxadverts":{"name":"lxadverts","envs":[],"on":true,"options":{},"override":null}},"staticBase":"\/bbcdotcom","staticHost":"https:\/\/static.bbc.co.uk","staticVersion":"2.6.0","staticPrefix":"https:\/\/static.bbc.co.uk\/bbcdotcom\/2.6.0","dataHttp":"tps.bbc.com","dataHttps":"www.bbc.com","flagHttp":"www.bbc.co.uk","flagHttps":"www.bbc.co.uk","analyticsHttp":"sa.bbc.com","analyticsHttps":"ssa.bbc.com"}; bbcdotcom.config.init(bbcdotcomConfig, bbcdotcom.data, window.location, window.document); bbcdotcom.config.setFlagpoles(bbcdotcom.flag || {}); bbcdotcom.config.setAssetPrefix("https://static.bbc.co.uk/bbcdotcom/2.6.0/"); bbcdotcom.config.setVersion("2.6.0"); document.write('<!--[if IE 7]><script type="text/javascript">bbcdotcom.config.setIE7(true);\x3C/script><![endif]-->'); document.write('<!--[if IE 8]><script type="text/javascript">bbcdotcom.config.setIE8(true);\x3C/script><![endif]-->'); document.write('<!--[if IE 9]><script type="text/javascript">bbcdotcom.config.setIE9(true);\x3C/script><![endif]-->'); if (/[?|&]ex-dp/.test(window.location.href) || document.cookie.indexOf('ex-dp=') !== -1) { bbcdotcom.utils.addHtmlTagClass('bbcdotcom-ex-dp'); } } })(); /*]]>*/</script><script type="text/javascript">var initOptimizely = (function(isEnabled){ if(!isEnabled) return; var logger = window.bbcdotcom.Logger('bbcdotcom:head:optimizely'); /* Allow Optimizely in these paths */ var allowPaths = ['/', '/wwhp']; /* Only run on optimizely on homepage */ if (bbcdotcom.utils && allowPaths.indexOf(window.location.pathname) !== -1 && window.bbccookies && bbccookies.readPolicy('necessary') ){ /* set correct OptimizelyURL for prod or sandbox */ var optimizelyURL = "https://cdn.optimizely.com/public/4621041136/s/bbccom_sandbox.js"; if(window.location.hostname === 'www.bbc.com') { optimizelyURL = "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js"; } /* Set cookie to 1 year */ window['optimizely'] = window['optimizely'] || []; window['optimizely'].push({ "type": "cookieExpiration", "cookieExpirationDays": 365 }); document.write('<script type="text/javascript" src="'+optimizelyURL+'">\x3C/script>'); } })( bbcdotcom.config.isOptimizelyEnabled() );</script><script type="text/javascript">/*<![CDATA[*/ if ( window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.ads && bbcdotcom.data.ads == 1 && bbcdotcom.config && bbcdotcom.config.isGrapeshotEnabled && bbcdotcom.config.isGrapeshotEnabled() && bbcdotcom.config.isWorldService && !bbcdotcom.config.isWorldService() ) { var gs_channels="DEFAULT"; (function () { var gsurl = window.location.href.split("?")[0]; bbcdotcomScripts.push({src:'https://bbc.gscontxt.net/?url='+encodeURIComponent(gsurl)}); })(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats == 1 && bbcdotcom.config && bbcdotcom.config.isLotameEnabled && bbcdotcom.config.isLotameEnabled()){ (function () { var clientId, lotameUrl, lotameAudienceUrl; clientId = (bbcdotcom.config.isWorldService && bbcdotcom.config.isWorldService()) ? '10826' : '10816'; lotameUrl = 'https://tags.crwdcntrl.net/c/'+clientId+'/cc.js?ns='+clientId; lotameAudienceUrl = 'https://ad.crwdcntrl.net/5/c=10815/pe=y/var=ccauds'; bbcdotcomScripts.push({src:lotameUrl,id:"LOTCC"+clientId}); bbcdotcomScripts.push({src:lotameAudienceUrl}); })(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ /** * ASYNC waits to make any gpt requests until the bottom of the page */ if ( window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.ads && bbcdotcom.data.ads == 1 && bbcdotcom.config && bbcdotcom.config.isAsync && bbcdotcom.config.isAsync() ) { (function () { bbcdotcomScripts.push({src:'https://www.googletagservices.com/tag/js/gpt.js'}); })(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ /* Load Lotame, Grapeshot and GPT without blocking rendering but executing in order */ if ( bbcdotcomScripts && bbcdotcomScripts.length > 0 ) { (function () { bbcdotcomScripts.forEach(function(item) { var script = document.createElement('script'); script.async = false; if(item.id) script.id = item.id; script.src = item.src; document.head.appendChild(script); }); })(); } /*]]>*/</script><script type="text/javascript" async="true">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats == 1 && bbcdotcom.config && bbcdotcom.config.isLotameEnabled && bbcdotcom.config.isLotameEnabled() && bbcdotcom.lotame){ (function () { bbcdotcom.lotame.callback(); })(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function() { window.bbcdotcom.head = true; }()); /*]]>*/</script><script type="text/javascript">// Globally available search context
+  window.SEARCHBOX={"variant":"default","locale":"en","navSearchboxStaticPrefix":"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b","searchboxAppStaticPrefix":"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/drawer","searchFormHtml":"<div tabindex=\"-1\" data-reactroot=\"\" data-reactid=\"1\" data-react-checksum=\"729995048\"><div data-reactid=\"2\"><section class=\"se-searchbox-panel\" data-reactid=\"3\"><div class=\"se-g-wrap\" data-reactid=\"4\"><div class=\"se-g-layout\" data-reactid=\"5\"><div class=\"se-g-layout__item se-searchbox-title\" aria-hidden=\"true\" data-reactid=\"6\">search</div><div class=\"se-g-layout__item se-searchbox\" data-reactid=\"7\"><form accept-charset=\"utf-8\" id=\"searchboxDrawerForm\" method=\"get\" action=\"https://search.bbc.co.uk/search\" data-reactid=\"8\"><label class=\"se-searchbox__input\" for=\"se-searchbox-input-field\" data-reactid=\"9\"><span class=\"se-sr-only\" data-reactid=\"10\">Search Term</span><input type=\"text\" name=\"q\" value=\"\" id=\"se-searchbox-input-field\" class=\"se-searchbox__input__field\" maxlength=\"512\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" data-reactid=\"11\"/></label><input type=\"hidden\" name=\"scope\" value=\"\" data-reactid=\"12\"/><button type=\"submit\" class=\"se-searchbox__submit\" tabindex=\"0\" data-reactid=\"13\">Search</button><button type=\"button\" class=\"se-searchbox__clear se-searchbox__clear--visible\" tabindex=\"0\" data-reactid=\"14\">Close</button></form></div></div></div></section><div aria-live=\"polite\" aria-atomic=\"true\" class=\"se-suggestions-container\" data-reactid=\"15\"><section class=\"se-g-wrap\" data-reactid=\"16\"></section></div></div></div>","searchScopePlaceholder":"","searchScopeParam":"","searchScopeTemplate":"","searchPlaceholderWrapperStart":"","searchPlaceholderWrapperEnd":""};
+  window.SEARCHBOX.suppress = false;
+  window.SEARCHBOX.searchScope = SEARCHBOX.searchScopeTemplate.split('-')[0];</script><link rel="stylesheet" href="https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/css/main.css"><!--[if IE 8]>
+  <script type="text/javascript" src="https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/script/html5shiv.min.js"></script>
+  <script type="text/javascript">window['searchboxIEVersion'] = 8;</script>
+  <link rel="stylesheet" href="https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/css/ie8.css">
+<![endif]--><!--[if IE 9]>
+  <script type="text/javascript">window['searchboxIEVersion'] = 9;</script>
+<![endif]--><script type="text/javascript">require.config({
+        "paths": {
+            "orb/async/_footerpromo": 'https://nav.files.bbci.co.uk/navpromo/3.0.0-164.963a563/js/async/_footerpromo'
+        }
+    });</script> <script type="text/javascript">"use strict";require.config({paths:{reverb:"https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/reverb-0.10.0"}}),function(){var i=function(r,a){require(["reverb"],function(e){if(r&&r.detail){var i=r.detail.label,t=r.detail.type,n=r.detail.elem,c=r.detail.originalEvent;r.detail.isClick&&(a=r.detail.isClick),e.invoke(!1).then(function(){e.userActionEvent(t,i,r.detail,n,c,a)})}})};document.addEventListener("bbc-user-event",function(e){i(e,!1)}),document.addEventListener("bbc-user-click",function(e){i(e,!0)}),document.addEventListener("bbc-page-updated",function(){require(["reverb"],function(e){e.invoke(!0)})})}();</script>
+<script type="text/javascript">
+    require.config({
+        "baseUrl": "//static.bbci.co.uk/",
+        "paths": {
+            "jquery-1": "//static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2",
+            "jquery-1.9": "//static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.9.1",
+            "swfobject-2": "//static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2",
+            "bump-3": "//emp.bbci.co.uk/emp/bump-3/bump-3"
+        }
+    });
+</script>
+<title>
+    
+    Your Information &amp; Privacy - Using the BBC
+    
+</title>
+<meta name="description" content="description">
+<meta name="keywords" content="privacy,cookies,cookie,personal,data">
+
+<meta property="og:type" content="website">
+<meta property="og:description" content="description">
+
+<meta property="og:site_name" content="Your Information &amp; Privacy - Using the BBC">
+
+<meta property="og:locale" content="en_GB">
+<meta charset="utf-8">
+
+<link href="/usingthebbc/static/css/app.css?ver=8.5.1" rel="stylesheet">
+<link href="/usingthebbc/static/css/mybbc-privacy-hub.min.css?ver=1.0.20180724" rel="stylesheet">
+<script type="text/javascript">
+    window.usingthebbcIDCTA = {
+        locale: 'en_GB',
+        idcta: 'https://ssl.bbc.co.uk/idcta/init',
+        notifications: {
+            get: 'https://preferences.notifications.api.bbc.co.uk/subscriptions',
+            set: 'https://preferences.notifications.api.bbc.co.uk/preference'
+        },
+        url: 'https://www.bbc.co.uk/usingthebbc/privacy/',
+        renderIDCTAButton: false
+    };
+</script>
+<script src="/usingthebbc/static/js/script.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-1" src="//static.bbci.co.uk/frameworks/jquery/0.3.0/sharedmodules/jquery-1.7.2.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/idcta-1" src="https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/modules/idcta-v2/dist/idcta-1.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mybbc/notifications/NotificationsMain" src="//mybbc.files.bbci.co.uk/notification-ui/3.9.9/js/NotificationsMain.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="reverb" src="https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/reverb-0.10.0.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/config" src="https://idcta.api.bbc.co.uk/idcta/config?callback=&amp;ptrt=http%3A%2F%2Fwww.bbc.com%2Fprivacy%2F"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/translations" src="https://idcta.api.bbc.co.uk/idcta/translations?callback="></script><script type="text/javascript" async="" src="https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-5.17.1.min.js"></script><style type="text/css"></style><style type="text/css"></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idcta-v2/statusbar" src="https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/modules/idcta-v2/statusbar.js"></script></head>
+<body class="page-subject">
+
+<noscript><p style="position: absolute; top: -999em"><img src="https://a1.api.bbc.co.uk/hit.xiti?&col=1&from=p&ptag=js&s=598253&p=unknown&x2=[responsive]&x3=[bbc_website]&x4=[en]&x8=[reverb-0.10.0-nojs]&x10=[]&x11=[]" height="1" width="1" alt=""></p></noscript>  <!-- BBCDOTCOM bodyFirst --><div id="bbccom_interstitial_ad" class="bbccom_display_none"></div><div id="bbccom_interstitial" class="bbccom_display_none"><script type="text/javascript">/*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { googletag.cmd.push(function() { googletag.display('bbccom_interstitial'); }); } }()); /*]]>*/</script></div><div id="bbccom_wallpaper_ad" class="bbccom_display_none"></div><div id="bbccom_wallpaper" class="bbccom_display_none"><script type="text/javascript">/*<![CDATA[*/ (function() { var wallpaper; if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function() { googletag.display('bbccom_wallpaper'); }); } else if (typeof googletag !== "undefined" && typeof googletag.display === "function") { googletag.display("wallpaper"); } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper'); } }()); /*]]>*/</script></div><script type="text/javascript">/*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { document.write(unescape('%3Cscript id="gnlAdsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript id="gnlAnalyticsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } }()); /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function() { window.bbcdotcom.bodyFirst = true; }()); /*]]>*/</script> <div id="cookiePrompt"></div>  <!--[if (gt IE 8) | (IEMobile)]><!--><header id="orb-banner" role="banner" aria-label="BBC"><!--<![endif]--><!--[if (lt IE 9) & (!IEMobile)]>
+            <![if (IE 8)]>
+                <header id="orb-banner" role="banner" class="orb-old-ie orb-ie8" aria-label="BBC">
+            <![endif]>
+
+            <![if (IE 7)]>
+                <header id="orb-banner" role="banner" class="orb-old-ie orb-ie7" aria-label="BBC">
+            <![endif]>
+
+            <![if (IE 6)]>
+                <header id="orb-banner" role="banner" class="orb-old-ie orb-ie6" aria-label="BBC">
+            <![endif]>
+        <![endif]--><div id="orb-header" class="orb-nav-pri orb-nav-pri-white orb-nav-dyn" dir="ltr"><div class="orb-nav-pri-container b-r b-g-p"><div class="orb-nav-section orb-nav-blocks"><a href="https://www.bbc.com">Homepage</a></div><section><div class="orb-skip-links"><h2>Accessibility links</h2><ul><li><a href="#orb-modules">Skip to content</a></li><li><a id="orb-accessibility-help" href="/accessibility/">Accessibility Help</a></li></ul></div></section><div id="mybbc-wrapper" class="orb-nav-section orb-nav-id orb-nav-focus orb-nav-id-default"><div id="idcta-statusbar" class="orb-nav-section orb-nav-focus"><a id="idcta-link" href="https://session.bbc.com/session?ptrt=http%3A%2F%2Fwww.bbc.com%2Fprivacy%2F&amp;context=&amp;userOrigin="><span id="idcta-username">Sign in</span></a></div><script type="text/javascript">require(['idcta/statusbar'], function (statusbar) {new statusbar.Statusbar({id: 'idcta-statusbar', publiclyCacheable: true});});</script><!-- Because we are now loading the notification bell CSS asynchronously, we need this inline style hack to ensure that the notification div 
+		 is hidden by default, and shown only if and when the bell code is loaded from notification-ui --><a id="notification-link" class="js-notification-link animated three" href="#" style="display: none"><span class="hidden-span">Notifications</span><div class="notification-link--triangle"></div><div class="notification-link--triangle"></div><span id="not-num"></span></a></div><nav role="navigation" aria-label="BBC" class="orb-nav"><div class="orb-nav-section orb-nav-links orb-nav-focus" id="orb-nav-links"><ul><li class="orb-nav-home"><a href="https://www.bbc.com/">Home</a></li><li class="orb-nav-newsdotcom-old"><a href="https://www.bbc.com/news">News</a></li><li class="orb-nav-sport"><a href="https://www.bbc.com/sport">Sport</a></li><li class="orb-nav-weather"><a href="https://www.bbc.com/weather">Weather</a></li><li class="orb-nav-shop"><a href="https://shop.bbc.com/">Shop</a></li><li class="orb-nav-reeldotcom"><a href="https://www.bbc.com/reel/">Reel</a></li><li class="orb-nav-traveldotcom"><a href="https://www.bbc.com/travel/">Travel</a></li><li class="orb-nav-capital orb-nav-hide"><a href="https://www.bbc.com/capital/">Capital</a></li><li class="orb-nav-culture orb-nav-hide"><a href="https://www.bbc.com/culture/">Culture</a></li><li class="orb-nav-future-old orb-nav-hide"><a href="https://www.bbc.com/future/">Future</a></li><li class="orb-nav-sounds orb-nav-hide"><a href="https://www.bbc.co.uk/sounds">Sounds</a></li><li class="orb-nav-cbbc orb-nav-hide"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies orb-nav-hide"><a href="https://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food orb-nav-hide"><a href="https://www.bbc.co.uk/food/">Food</a></li><li class="orb-nav-bitesize orb-nav-hide"><a href="https://www.bbc.com/bitesize">Bitesize</a></li><li class="orb-nav-arts orb-nav-hide"><a href="https://www.bbc.co.uk/arts/">Arts</a></li><li class="orb-nav-taster orb-nav-hide"><a href="https://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-nature orb-nav-hide"><a href="https://www.bbc.com/nature/">Nature</a></li><li class="orb-nav-local orb-nav-hide"><a href="https://www.bbc.co.uk/news/localnews">Local</a></li><li class="orb-nav-tv orb-nav-hide"><a href="https://www.bbc.co.uk/tv/">TV</a></li><li class="orb-nav-radio orb-nav-hide"><a href="https://www.bbc.co.uk/radio/">Radio</a></li><li class="orb-nav-three orb-nav-hide"><a href="https://www.bbc.co.uk/bbcthree">Three</a></li><li id="orb-nav-more" style="width: 130px;" aria-controls="orb-panel-more" class=""><a href="#orb-footer" data-alt="More" class="istats-notrack" style="null">More<span class="orb-icon orb-icon-arrow"></span></a></li></ul></div></nav><div class="orb-nav-section orb-nav-search"><a class="orb-search__button" href="https://search.bbc.co.uk/search" title="Search the BBC">Search</a><form class="b-f" id="orb-search-form" role="search" method="get" action="https://search.bbc.co.uk/search" accept-charset="utf-8"><div><label for="orb-search-q">Search the BBC</label><input id="orb-search-q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="q" placeholder="Search"><button id="orb-search-button" class="orb-search__button">Search the BBC</button><input type="hidden" name="suggid" id="orb-search-suggid"></div></form></div></div><div id="orb-panels"><div id="orb-panel-more" class="orb-panel"><div class="orb-panel-content b-g-p b-r orb-nav-sec"><h2 id="orb-panel-more-title">More<span class="orb-icon orb-icon-arrow"></span></h2><ul><li class="orb-nav-home orb-panel-hide"><a href="https://www.bbc.com/">Home</a></li><li class="orb-nav-newsdotcom-old orb-panel-hide"><a href="https://www.bbc.com/news">News</a></li><li class="orb-nav-sport orb-panel-hide"><a href="https://www.bbc.com/sport">Sport</a></li><li class="orb-nav-weather orb-panel-hide"><a href="https://www.bbc.com/weather">Weather</a></li><li class="orb-nav-shop orb-panel-hide"><a href="https://shop.bbc.com/">Shop</a></li><li class="orb-nav-reeldotcom orb-panel-hide"><a href="https://www.bbc.com/reel/">Reel</a></li><li class="orb-nav-traveldotcom orb-panel-hide"><a href="https://www.bbc.com/travel/">Travel</a></li><li class="orb-nav-capital orb-first-visible"><a href="https://www.bbc.com/capital/">Capital</a></li><li class="orb-nav-culture"><a href="https://www.bbc.com/culture/">Culture</a></li><li class="orb-nav-future-old"><a href="https://www.bbc.com/future/">Future</a></li><li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds">Sounds</a></li><li class="orb-nav-cbbc"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies"><a href="https://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food"><a href="https://www.bbc.co.uk/food/">Food</a></li><li class="orb-nav-bitesize"><a href="https://www.bbc.com/bitesize">Bitesize</a></li><li class="orb-nav-arts"><a href="https://www.bbc.co.uk/arts/">Arts</a></li><li class="orb-nav-taster"><a href="https://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-nature"><a href="https://www.bbc.com/nature/">Nature</a></li><li class="orb-nav-local"><a href="https://www.bbc.co.uk/news/localnews">Local</a></li><li class="orb-nav-tv"><a href="https://www.bbc.co.uk/tv/">TV</a></li><li class="orb-nav-radio"><a href="https://www.bbc.co.uk/radio/">Radio</a></li><li class="orb-nav-three"><a href="https://www.bbc.co.uk/bbcthree">Three</a></li></ul></div></div></div></div></header>  <!-- Styling hook for shared modules only -->
+<div id="orb-modules">
+
+
+<nav class="navbar navbar-subject">
+    <div class="container-fluid">
+        <div class="navbar-tabs">
+            <div class="navbar-item">
+                <div class="navbar-header">
+                    <a class="navbar-brand gel-great-primer-bold gel-header-link text-color-white" href="/usingthebbc/" title="Using the BBC">Using the BBC</a>
+                    <button aria-expanded="true" class="navbar-toggle" type="button"><span class="icon-label gel-long-primer">Menu</span></button>
+                </div>
+            </div>
+            <div class="navbar-item navbar-list" aria-expanded="false">
+
+                <!-- navigation mobile -->
+                <ul class="nav navbar-mobile">
+                    <li class="dropdown open"><a class="gel-brevier-bold active" data-id="9695fab2-d67d-4d2b-93be-39d7a74967dc" href="#" title="Your Information &amp; Privacy">Your Information &amp; Privacy <span class="caret"></span></a><ul id="9695fab2-d67d-4d2b-93be-39d7a74967dc" class="dropdown-menu" aria-expanded="false">
+                                <li><a class="gel-brevier-bold" href="/usingthebbc/privacy/" title="Your Information &amp; Privacy Home">Your Information &amp; Privacy Home</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/privacy/what-are-you-doing-with-my-data/" title="Personal Information">Personal Information</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/privacy/privacy-promise/" title="Privacy and Your Activity">Privacy and Your Activity</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/privacy/keeping-my-children-safe-online/" title="Children and Safety">Children and Safety</a></li></ul></li><li class="dropdown"><a class="gel-brevier-bold" data-id="eb47bba9-bd19-496a-86c0-e7d327b5a5ad" href="#" title="Cookie &amp; Browser Settings">Cookie &amp; Browser Settings <span class="caret"></span></a><ul id="eb47bba9-bd19-496a-86c0-e7d327b5a5ad" class="dropdown-menu" aria-expanded="false">
+                                <li><a class="gel-brevier-bold" href="/usingthebbc/cookies/" title="Cookie &amp; Browser Settings Home">Cookie &amp; Browser Settings Home</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/" title="About Cookies">About Cookies</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/" title="Cookie Settings">Cookie Settings</a></li></ul></li><li class="dropdown"><a class="gel-brevier-bold" data-id="d56a7dec-4194-4b04-8aa2-1ef3ea347c8a" href="#" title="Creating &amp; Using Your Account">Creating &amp; Using Your Account <span class="caret"></span></a><ul id="d56a7dec-4194-4b04-8aa2-1ef3ea347c8a" class="dropdown-menu" aria-expanded="false">
+                                <li><a class="gel-brevier-bold" href="/usingthebbc/account/" title="Creating &amp; Using Your Account Home">Creating &amp; Using Your Account Home</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/account/what-is-a-bbc-account/" title="Help Registering &amp; Signing In">Help Registering &amp; Signing In</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/account/adding-things-on-the-bbc/" title="Account Features">Account Features</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/account/how-is-the-bbc-personalised-to-me/" title="Personalisation &amp; Recommendations">Personalisation &amp; Recommendations</a></li></ul></li><li class="dropdown"><a class="gel-brevier-bold" data-id="316b35c9-45f4-482f-9869-98765474c4a2" href="#" title="Terms of Use">Terms of Use <span class="caret"></span></a><ul id="316b35c9-45f4-482f-9869-98765474c4a2" class="dropdown-menu" aria-expanded="false">
+                                <li><a class="gel-brevier-bold" href="/usingthebbc/terms/" title="Terms of Use Home">Terms of Use Home</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/terms/do-i-need-a-tv-licence/" title="Accessing the BBC">Accessing the BBC</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/terms/what-are-the-rules-for-commenting/" title="Joining in">Joining in</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/terms/can-i-use-bbc-content/" title="Using BBC Content">Using BBC Content</a></li></ul></li></ul>
+                <!-- navigation mobile -->
+
+                <!-- navigation desktop -->
+                <div class="navbar-desktop">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a class="gel-brevier-bold" href="/usingthebbc/privacy/" title="Your Information &amp; Privacy">Your Information &amp; Privacy <span class="caret"></span></a></li><li class=""><a class="gel-brevier-bold" href="/usingthebbc/cookies/" title="Cookie &amp; Browser Settings">Cookie &amp; Browser Settings <span class="caret"></span></a></li><li class=""><a class="gel-brevier-bold" href="/usingthebbc/account/" title="Creating &amp; Using Your Account">Creating &amp; Using Your Account <span class="caret"></span></a></li><li class=""><a class="gel-brevier-bold" href="/usingthebbc/terms/" title="Terms of Use">Terms of Use <span class="caret"></span></a></li>
+                    </ul>
+                </div>
+                <!-- navigation desktop -->
+            </div>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-topic">
+    <div class="container-fluid">
+        <div class="navbar-tabs">
+            <div class="navbar-item">
+                <a class="navbar-brand gel-double-pica-bold gel-header-link text-color-white" href="/usingthebbc/privacy/" title="Your Information &amp; Privacy">Your Information &amp; Privacy</a>
+            </div>
+            <div class="navbar-item navbar-list">
+                <ul class="navbar-nav">
+                    <li><a class="gel-brevier-bold" href="/usingthebbc/privacy/what-are-you-doing-with-my-data/" title="Personal Information">Personal Information</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/privacy/privacy-promise/" title="Privacy and Your Activity">Privacy and Your Activity</a></li><li><a class="gel-brevier-bold" href="/usingthebbc/privacy/keeping-my-children-safe-online/" title="Children and Safety">Children and Safety</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<section class="bg-color-blue-light">
+    <div class="gel-wrap">
+        <div class="gel-layout">
+            <div class="gel-layout__item">
+                <div class="gel-head-panel">
+                    <div class="gel-head-panel--item gel-bp-l-1/3 gel-head-panel--item-va-top">
+                        <h1 class="gel-canon-bold text-color-white gel-bp-l-text-padding-lrg">Keeping your info safe &amp; sound</h1>
+                        <div class="gel-pica text-color-white"><p>We take your privacy very seriously. And so should you.</p>
+<p>So have a look around to see what we’re doing with your personal information and how we’re keeping it secure.</p>
+<p><a title="Privacy Promise" href="/usingthebbc/privacy-promise">Read our privacy promise.</a></p></div>
+                    </div>
+                    <div class="gel-head-panel--item gel-bp-l-2/3 gel-head-panel--item-va-bottom"><img src="//ichef.bbci.co.uk/images/ic/960xn/p0492qj1.png" class="img-responsive" title="Privacy v1 01" alt="Privacy v1 01" longdesc="Privacy v1 01"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-color-light grid-padding">
+    <div class="gel-wrap">
+        <div class="gel-layout gel-topic-opts">
+
+            <!-- Repeater Panels -->
+            <div class="gel-layout__item gel-bp-s-1/1 gel-bp-l-10/12 gel-bp-l-center-align">
+                
+                
+                <div class="gel-panel list-grid">
+                    
+
+                    <h3 id="personal-information" class="gel-great-primer icons icon-personal"><a href="/usingthebbc/privacy/what-are-you-doing-with-my-data/" title="Personal Information">Personal Information</a></h3>
+
+                    <ul class="full-width">
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/what-are-you-doing-with-my-data/" title="What are you doing with my information?">What are you doing with my information?</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/do-you-share-my-data/" title="Do you share my information with other organisations?">Do you share my information with other organisations?</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/how-long-will-the-bbc-keep-my-information/" title="How long will you keep my information?">How long will you keep my information?</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/what-are-my-rights/" title="What are my rights?">What are my rights?</a></h3>
+                        </li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+                
+                
+                
+                <div class="gel-panel list-grid">
+                    
+
+                    <h3 id="privacy-and-your-activity" class="gel-great-primer icons icon-privacy"><a href="/usingthebbc/privacy/privacy-promise/" title="Privacy and Your Activity">Privacy and Your Activity</a></h3>
+
+                    <ul class="full-width">
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/privacy-promise/" title="The BBC privacy promise">The BBC privacy promise</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/how-does-the-bbc-collect-data-about-me/" title="How do you collect information about me?">How do you collect information about me?</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/who-else-can-see-how-i-use-the-bbc/" title="Who else can see how I've been using the BBC?">Who else can see how I've been using the BBC?</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/how-do-apps-capture-my-data/" title="How do apps, devices and TVs capture my data?">How do apps, devices and TVs capture my data?</a></h3>
+                        </li>
+                        
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/privacy-notices/" title="Privacy notices">Privacy notices</a></h3>
+                        </li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+                
+                
+                
+                <div class="gel-panel list-grid">
+                    
+
+                    <h3 id="children-and-safety" class="gel-great-primer icons icon-children"><a href="/usingthebbc/privacy/keeping-my-children-safe-online/" title="Children and Safety">Children and Safety</a></h3>
+
+                    <ul class="full-width">
+                        
+                        
+                        <li class="">
+                            <h3><a class="gel-pica-bold" href="/usingthebbc/privacy/keeping-my-children-safe-online/" title="How can I keep my child safe online?">How can I keep my child safe online?</a></h3>
+                        </li>
+                        
+                        
+                    </ul>
+                    
+                </div>
+                
+                
+                
+                
+            </div>
+
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Link to Full Account Terms of Use -->
+            <div class="gel-layout__item">
+                <ul class="button-block">
+                    <li class="gel-pica-bold icons icon-document"><a href="/usingthebbc/privacy-policy/" title="View the full version of the BBC Privacy and Cookies Policy">View the full version of the BBC Privacy and Cookies Policy</a></li>
+                </ul>
+            </div>
+            
+            
+            
+
+        </div>
+
+        
+<div class="gel-layout gel-features-opts">
+    <div class="gel-layout__item">
+        <h2 class="gel-double-pica gel-mv">Learn more about Privacy and Terms across the BBC</h2>
+        <ul class="gel-feature-list">
+            
+            <li class="gel-feature-item navp-card-gallery primary-item">
+                <a class="" href="http://www.bbc.co.uk/news/topics/62d838bb-2471-432c-b4db-f134f98157c2/cybersecurity" aria-label="All the latest cybersecurity news BBC News">
+                    <div class="gel-feature--content">
+                        <div class="gel-feature--image-container"><img src="//ichef.bbci.co.uk/images/ic/272x153/p043l59x.png" class="img-responsive"></div>
+                        <span class="gel-feature--headline"><h3>All the latest cybersecurity news</h3></span>
+                        <h4 class="gel-feature--attribution">BBC News</h4>
+                    </div>
+                </a>
+            </li>
+            
+            <li class="gel-feature-item navp-card-gallery secondary-item">
+                <a class="" href="http://www.bbc.co.uk/education/guides/zw3cwmn/activity" aria-label="Data Security BBC BITESIZE">
+                    <div class="gel-feature--content">
+                        <div class="gel-feature--image-container"><img src="//ichef.bbci.co.uk/images/ic/272x153/p0452pqy.png" class="img-responsive"></div>
+                        <span class="gel-feature--headline"><h3>Data Security</h3></span>
+                        <h4 class="gel-feature--attribution">BBC BITESIZE</h4>
+                    </div>
+                </a>
+            </li>
+            
+            <li class="gel-feature-item navp-card-gallery tertiary-item">
+                <a class="" href="http://www.bbc.co.uk/webwise/0/22717881" aria-label="What is internet security? BBC Webwise">
+                    <div class="gel-feature--content">
+                        <div class="gel-feature--image-container"><img src="//ichef.bbci.co.uk/images/ic/272x153/p0452ptv.png" class="img-responsive"></div>
+                        <span class="gel-feature--headline"><h3>What is internet security?</h3></span>
+                        <h4 class="gel-feature--attribution">BBC Webwise</h4>
+                    </div>
+                </a>
+            </li>
+            
+            <li class="gel-feature-item navp-card-gallery quaternary-item">
+                <a class="" href="http://www.bbc.co.uk/cbbc/topics/stay-safe" aria-label="Stay safe information from CBBC CBBC">
+                    <div class="gel-feature--content">
+                        <div class="gel-feature--image-container"><img src="//ichef.bbci.co.uk/images/ic/272x153/p0452pyl.png" class="img-responsive"></div>
+                        <span class="gel-feature--headline"><h3>Stay safe information from CBBC</h3></span>
+                        <h4 class="gel-feature--attribution">CBBC</h4>
+                    </div>
+                </a>
+            </li>
+            
+            
+            
+            
+        </ul>
+    </div>
+</div>
+
+
+        
+<div class="gel-layout">
+    <!-- Dynamic Dropdown -->
+    <div class="gel-layout__item">
+        <div class="gel-language-opts bg-color-white gel-long-primer"><span>Choose language: </span><a class="gel-long-primer-bold" href="/usingthebbc/privacy/cy/" title="Cymraeg">Cymraeg</a><a class="gel-long-primer-bold" href="/usingthebbc/privacy/gd/" title="Gàidhlig">Gàidhlig</a></div>
+    </div>
+</div>
+
+
+    </div>
+</section>
+
+</div>
+<div id="orb-footer" class="orb-footer" dir="ltr"><div id="navp-orb-footer-promo"></div><aside role="complementary"><div id="orb-aside" class="orb-nav-sec b-r b-g-p"><div class="orb-footer-inner" role="navigation" aria-label="BBC"><h2 class="orb-footer-lead">Explore the BBC</h2><div class="orb-footer-primary-links"><ul><li class="orb-nav-home"><a href="https://www.bbc.com/">Home</a></li><li class="orb-nav-newsdotcom-old"><a href="https://www.bbc.com/news">News</a></li><li class="orb-nav-sport"><a href="https://www.bbc.com/sport">Sport</a></li><li class="orb-nav-weather"><a href="https://www.bbc.com/weather">Weather</a></li><li class="orb-nav-shop"><a href="https://shop.bbc.com/">Shop</a></li><li class="orb-nav-reeldotcom"><a href="https://www.bbc.com/reel/">Reel</a></li><li class="orb-nav-traveldotcom"><a href="https://www.bbc.com/travel/">Travel</a></li><li class="orb-nav-capital"><a href="https://www.bbc.com/capital/">Capital</a></li><li class="orb-nav-culture"><a href="https://www.bbc.com/culture/">Culture</a></li><li class="orb-nav-future-old"><a href="https://www.bbc.com/future/">Future</a></li><li class="orb-nav-sounds"><a href="https://www.bbc.co.uk/sounds">Sounds</a></li><li class="orb-nav-cbbc"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></li><li class="orb-nav-cbeebies"><a href="https://www.bbc.co.uk/cbeebies">CBeebies</a></li><li class="orb-nav-food"><a href="https://www.bbc.co.uk/food/">Food</a></li><li class="orb-nav-bitesize"><a href="https://www.bbc.com/bitesize">Bitesize</a></li><li class="orb-nav-arts"><a href="https://www.bbc.co.uk/arts/">Arts</a></li><li class="orb-nav-taster"><a href="https://www.bbc.co.uk/taster">Taster</a></li><li class="orb-nav-nature"><a href="https://www.bbc.com/nature/">Nature</a></li><li class="orb-nav-local"><a href="https://www.bbc.co.uk/news/localnews">Local</a></li><li class="orb-nav-tv"><a href="https://www.bbc.co.uk/tv/">TV</a></li><li class="orb-nav-radio"><a href="https://www.bbc.co.uk/radio/">Radio</a></li><li class="orb-nav-three"><a href="https://www.bbc.co.uk/bbcthree">Three</a></li></ul></div></div></div></aside><footer role="contentinfo"><div id="orb-contentinfo" class="orb-nav-sec b-r b-g-p"><script>window.orb.worldwideFooterlinks = '<li class="orb-footer-ads"><a href="https://advertising.bbcworldwide.com/">Advertise with us<'+'/a><'+'/li><li class="orb-footer-adchoices"><a href="https://www.bbc.com/usingthebbc/cookies/how-does-the-bbc-use-cookies-for-advertising/">Ad choices<'+'/a><'+'/li>';</script><div class="orb-footer-inner"> <ul><li class="orb-footer-terms"><a href="https://www.bbc.co.uk/usingthebbc/terms/">Terms of Use</a></li><li class="orb-footer-about"><a href="https://www.bbc.co.uk/aboutthebbc">About the BBC</a></li><li class="orb-footer-privacy"><a href="https://www.bbc.co.uk/usingthebbc/privacy/">Privacy Policy</a></li><li class="orb-footer-cookies"><a href="https://www.bbc.co.uk/usingthebbc/cookies/">Cookies</a></li><li class="orb-footer-accessibility"><a href="https://www.bbc.co.uk/accessibility/">Accessibility Help</a></li><li class="orb-footer-parental"><a href="https://www.bbc.co.uk/guidance">Parental Guidance</a></li><li class="orb-footer-contact"><a href="https://www.bbc.co.uk/contact">Contact the BBC</a></li><li class="orb-footer-newsletter"><a href="https://www.bbc.co.uk/bbcnewsletter">Get Personalised Newsletters</a></li><li class="orb-footer-ads"><a href="https://advertising.bbcworldwide.com/">Advertise with us</a></li><li class="orb-footer-adchoices"><a href="https://www.bbc.com/usingthebbc/cookies/how-does-the-bbc-use-cookies-for-advertising/">Ad choices</a></li></ul><small><em class="orb-hilight">Copyright © 2019 BBC.</em> The BBC is not responsible for the content of external sites. <span class="orb-footer-links"><a href="https://www.bbc.co.uk/help/web/links/" class="orb-hilight">Read about our approach to external linking.</a></span></small></div></div></footer></div><script id="orb-js-script" data-assetpath="https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/" src="https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/js/orb.min.js"></script> <script type="text/javascript">require(['orb/lib/_$'], function($) {
+        $.ready(function() {
+            initialiseFooter();
+        });
+
+        var scrollCheckTimer;
+        var didScroll;
+        var previousPosition = 0;
+        var delta = 5;
+        var PROMO_SHOW_BREAKPOINT = 1500;
+        var pageLength = 0;
+
+        function initialiseFooter() {
+            // Suppress this feature on browsers we no longer test
+            var myNav = navigator.userAgent.toLowerCase();
+            var oldIE = (myNav.indexOf('msie') !== -1) && parseInt(myNav.split('msie')[1], 10) <= 10;
+            if (!oldIE) {
+                require(['orb/cookies'], function (bbccookies) {
+                    var disabledByCookie = (parseInt(bbccookies.get('ckns_nav_promofail')) || 0) >= 3;
+                    if (!disabledByCookie) {
+                        require(['orb/fig'], function (orbFig) {
+                            orbFig.load(function (fig) {
+                                if (fig.geo.isUK()) {
+                                    setUpLazyLoading();
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+        }
+
+        function setUpLazyLoading() {
+            // offsetHeight is expensive to calculate, only do it once.
+            pageLength = Math.abs(document.body.offsetHeight);
+
+            if (pageLength < getViewportHeight() + 300 || pageLength - getCurrentPosition() < PROMO_SHOW_BREAKPOINT) {
+                loadPromo();
+
+            } else {
+                window.onscroll = function () {
+                    didScroll = true;
+                };
+
+                scrollCheckTimer = setInterval(function () {
+                    if (didScroll) {
+                        hasScrolled();
+                        didScroll = false;
+                    }
+                }, 250);
+            }
+        }
+
+        function loadPromo() {
+            clearInterval(scrollCheckTimer);
+
+            require(['orb/async/_footerpromo'], function(promo) {
+                promo.init('https://navpromo.api.bbci.co.uk', '');
+            });
+        }
+
+        function getViewportHeight() {
+            return window.innerHeight;
+        }
+
+        function getCurrentPosition() {
+            return Math.abs(window.scrollY || document.body.scrollTop || document.documentElement.scrollTop);
+        }
+
+        function hasScrolled() {
+            var currentPosition = getCurrentPosition();
+            if (Math.abs(previousPosition - currentPosition) <= delta) {
+                return;
+            }
+            if (currentPosition > previousPosition) {
+                if ((pageLength - currentPosition) <= PROMO_SHOW_BREAKPOINT) {
+                    loadPromo();
+                }
+            }
+            previousPosition = currentPosition;
+        }
+
+    })</script><script type="text/javascript">/*<![CDATA[*/
+                require(['orb/fig', 'orb/nav'], function(fig, nav) {
+                    fig.load(function(fig) {
+                        if (fig.geo.isUK()) {
+                            nav.loadJs('https://nav.files.bbci.co.uk/orbit/3.0.0-638.c83ebdf8/js/edr.min.js');
+                        }
+                    });
+                });
+            /*]]>*/</script><script type="text/javascript">require.config({
+            paths: {
+                "mybbc/templates": '//mybbc.files.bbci.co.uk/notification-ui/3.9.9/templates',
+                "mybbc/notifications": '//mybbc.files.bbci.co.uk/notification-ui/3.9.9/js'
+            }
+        });
+
+        require(['mybbc/notifications/NotificationsMain', 'idcta/idcta-1'], function (NotificationsMain, idcta) {
+
+            var loadNotifications = function (isUK) {
+                if (isUK) {
+                    window.bbcpage.loadCSS('//mybbc.files.bbci.co.uk/notification-ui/3.9.9/css/main.min.css').then(function() {
+                        NotificationsMain.run(idcta, '//mybbc.files.bbci.co.uk/notification-ui/3.9.9/');
+                    });
+                }
+            };
+            
+            if (window.bbcuser && window.bbcuser.isUKCombined && typeof(window.bbcuser.isUKCombined) === 'function') {
+                // Use new API from Orbit if available
+                window.bbcuser.isUKCombined().then(function(isUK) {
+                    loadNotifications(isUK);  
+                });
+            } else {
+                // Fallback to fig (ORB support)
+                var orbFig = window.orb.fig;
+                loadNotifications(orbFig.geo.isUK());
+            }
+        });</script><!-- BBCDOTCOM bodyLast --><div class="bbccom_display_none"><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && window.bbcdotcom.analytics && bbcdotcom.config && !bbcdotcom.config.isSportApp() && !bbcdotcom.config.isReel()) { bbcdotcom.analytics.page(); } /*]]>*/</script><noscript><img src="//ssc.api.bbc.com/?c1=2&c2=19293874&ns_site=bbc&name=" height="1" width="1" alt=""></noscript><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.write(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats === 1 && bbcdotcom.utils && window.location.pathname === '/' && window.bbccookies && bbccookies.readPolicy('necessary') ) { var wwhpEdition = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition'); var _sf_async_config={}; /** CONFIGURATION START **/ _sf_async_config.uid = 50924; _sf_async_config.domain = "bbc.co.uk"; _sf_async_config.title = "Homepage"+(wwhpEdition !== '' ? ' - '+wwhpEdition : ''); _sf_async_config.sections = "Homepage"+(wwhpEdition !== '' ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region = wwhpEdition; _sf_async_config.path = "/"+(wwhpEdition !== '' ? '?'+wwhpEdition : ''); /** CONFIGURATION END **/ (function(){ function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement("script"); e.setAttribute("language", "javascript"); e.setAttribute("type", "text/javascript"); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != "function") ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/</script><script type="text/javascript">/*<![CDATA[*/ (function() { window.bbcdotcom.bodyLast = true; }()); /*]]>*/</script></div><!-- BBCDOTCOM all code in page --><script type="text/javascript">if (window.SEARCHBOX.suppress === false && window.SEARCHBOX.locale && /^en-?.*?/.test(window.SEARCHBOX.locale)) {
+    require.config({
+      paths: {
+        "search/searchbox": window.SEARCHBOX.searchboxAppStaticPrefix,
+      }
+    });
+
+    if (bbcuser && bbcuser.isUKCombined) {
+        bbcuser.isUKCombined().then(function (isUK) {
+            if (isUK) {
+                require(['search/searchbox/searchboxDrawer'], function (SearchboxDrawer) {
+                  SearchboxDrawer.run(window.SEARCHBOX);
+                });
+            }
+        });
+    }
+
+  }</script>  <script type="text/javascript">window.COOKIES_STATIC_HOST = 'https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-320.48d0d61/cookie-banner//cookie-prompt/';</script><script src="https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-320.48d0d61/cookie-banner/cookie-banners.bundle.js" async=""></script><script type="text/javascript">require(["istats-1","orb/cookies"],function(o,t){if(t.isAllowed("s1"))try{if(!require.s.contexts._.config.paths.idcta)return void i();require(["idcta/idcta-1"],function(t){t&&"function"==typeof t.getIStatsLabels&&o.addLabels(t.getIStatsLabels()),i()},function(t){throw t})}catch(t){console&&"function"==typeof console.log&&console.log("an exception occurred while adding idcta labels to istats, invoking istats without them",t),i()}function i(){o.invoke()}});</script><script type="text/javascript">"use strict";require(["reverb"],function(e){return e.invoke(!1)});</script><script>if(function(){"use strict";if("object"==typeof window)if("IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype)"isIntersecting"in window.IntersectionObserverEntry.prototype||Object.defineProperty(window.IntersectionObserverEntry.prototype,"isIntersecting",{get:function(){return 0<this.intersectionRatio}});else{var p=window.document,e=[];t.prototype.THROTTLE_TIMEOUT=100,t.prototype.POLL_INTERVAL=null,t.prototype.USE_MUTATION_OBSERVER=!0,t.prototype.observe=function(e){if(!this._observationTargets.some(function(t){return t.element==e})){if(!e||1!=e.nodeType)throw new Error("target must be an Element");this._registerInstance(),this._observationTargets.push({element:e,entry:null}),this._monitorIntersections(),this._checkForIntersections()}},t.prototype.unobserve=function(e){this._observationTargets=this._observationTargets.filter(function(t){return t.element!=e}),this._observationTargets.length||(this._unmonitorIntersections(),this._unregisterInstance())},t.prototype.disconnect=function(){this._observationTargets=[],this._unmonitorIntersections(),this._unregisterInstance()},t.prototype.takeRecords=function(){var t=this._queuedEntries.slice();return this._queuedEntries=[],t},t.prototype._initThresholds=function(t){var e=t||[0];return Array.isArray(e)||(e=[e]),e.sort().filter(function(t,e,n){if("number"!=typeof t||isNaN(t)||t<0||1<t)throw new Error("threshold must be a number between 0 and 1 inclusively");return t!==n[e-1]})},t.prototype._parseRootMargin=function(t){var e=(t||"0px").split(/\s+/).map(function(t){var e=/^(-?\d*\.?\d+)(px|%)$/.exec(t);if(!e)throw new Error("rootMargin must be specified in pixels or percent");return{value:parseFloat(e[1]),unit:e[2]}});return e[1]=e[1]||e[0],e[2]=e[2]||e[0],e[3]=e[3]||e[1],e},t.prototype._monitorIntersections=function(){this._monitoringIntersections||(this._monitoringIntersections=!0,this.POLL_INTERVAL?this._monitoringInterval=setInterval(this._checkForIntersections,this.POLL_INTERVAL):(n(window,"resize",this._checkForIntersections,!0),n(p,"scroll",this._checkForIntersections,!0),this.USE_MUTATION_OBSERVER&&"MutationObserver"in window&&(this._domObserver=new MutationObserver(this._checkForIntersections),this._domObserver.observe(p,{attributes:!0,childList:!0,characterData:!0,subtree:!0}))))},t.prototype._unmonitorIntersections=function(){this._monitoringIntersections&&(this._monitoringIntersections=!1,clearInterval(this._monitoringInterval),this._monitoringInterval=null,r(window,"resize",this._checkForIntersections,!0),r(p,"scroll",this._checkForIntersections,!0),this._domObserver&&(this._domObserver.disconnect(),this._domObserver=null))},t.prototype._checkForIntersections=function(){var a=this._rootIsInDom(),c=a?this._getRootRect():{top:0,bottom:0,left:0,right:0,width:0,height:0};this._observationTargets.forEach(function(t){var e=t.element,n=v(e),r=this._rootContainsTarget(e),i=t.entry,o=a&&r&&this._computeTargetAndRootIntersection(e,c),s=t.entry=new u({time:window.performance&&performance.now&&performance.now(),target:e,boundingClientRect:n,rootBounds:c,intersectionRect:o});i?a&&r?this._hasCrossedThreshold(i,s)&&this._queuedEntries.push(s):i&&i.isIntersecting&&this._queuedEntries.push(s):this._queuedEntries.push(s)},this),this._queuedEntries.length&&this._callback(this.takeRecords(),this)},t.prototype._computeTargetAndRootIntersection=function(t,e){if("none"!=window.getComputedStyle(t).display){for(var n,r,i,o,s,a,c,u,h=v(t),d=g(t),l=!1;!l;){var f=null,b=1==d.nodeType?window.getComputedStyle(d):{};if("none"==b.display)return;if(d==this.root||d==p?(l=!0,f=e):d!=p.body&&d!=p.documentElement&&"visible"!=b.overflow&&(f=v(d)),f&&(n=f,r=h,void 0,i=Math.max(n.top,r.top),o=Math.min(n.bottom,r.bottom),s=Math.max(n.left,r.left),u=o-i,!(h=0<=(c=(a=Math.min(n.right,r.right))-s)&&0<=u&&{top:i,bottom:o,left:s,right:a,width:c,height:u})))break;d=g(d)}return h}},t.prototype._getRootRect=function(){var t;if(this.root)t=v(this.root);else{var e=p.documentElement,n=p.body;t={top:0,left:0,right:e.clientWidth||n.clientWidth,width:e.clientWidth||n.clientWidth,bottom:e.clientHeight||n.clientHeight,height:e.clientHeight||n.clientHeight}}return this._expandRectByRootMargin(t)},t.prototype._expandRectByRootMargin=function(n){var t=this._rootMarginValues.map(function(t,e){return"px"==t.unit?t.value:t.value*(e%2?n.width:n.height)/100}),e={top:n.top-t[0],right:n.right+t[1],bottom:n.bottom+t[2],left:n.left-t[3]};return e.width=e.right-e.left,e.height=e.bottom-e.top,e},t.prototype._hasCrossedThreshold=function(t,e){var n=t&&t.isIntersecting?t.intersectionRatio||0:-1,r=e.isIntersecting?e.intersectionRatio||0:-1;if(n!==r)for(var i=0;i<this.thresholds.length;i++){var o=this.thresholds[i];if(o==n||o==r||o<n!=o<r)return!0}},t.prototype._rootIsInDom=function(){return!this.root||i(p,this.root)},t.prototype._rootContainsTarget=function(t){return i(this.root||p,t)},t.prototype._registerInstance=function(){e.indexOf(this)<0&&e.push(this)},t.prototype._unregisterInstance=function(){var t=e.indexOf(this);-1!=t&&e.splice(t,1)},window.IntersectionObserver=t,window.IntersectionObserverEntry=u}function u(t){this.time=t.time,this.target=t.target,this.rootBounds=t.rootBounds,this.boundingClientRect=t.boundingClientRect,this.intersectionRect=t.intersectionRect||{top:0,bottom:0,left:0,right:0,width:0,height:0},this.isIntersecting=!!t.intersectionRect;var e=this.boundingClientRect,n=e.width*e.height,r=this.intersectionRect,i=r.width*r.height;this.intersectionRatio=n?Number((i/n).toFixed(4)):this.isIntersecting?1:0}function t(t,e){var n,r,i,o=e||{};if("function"!=typeof t)throw new Error("callback must be a function");if(o.root&&1!=o.root.nodeType)throw new Error("root must be an Element");this._checkForIntersections=(n=this._checkForIntersections.bind(this),r=this.THROTTLE_TIMEOUT,i=null,function(){i||(i=setTimeout(function(){n(),i=null},r))}),this._callback=t,this._observationTargets=[],this._queuedEntries=[],this._rootMarginValues=this._parseRootMargin(o.rootMargin),this.thresholds=this._initThresholds(o.threshold),this.root=o.root||null,this.rootMargin=this._rootMarginValues.map(function(t){return t.value+t.unit}).join(" ")}function n(t,e,n,r){"function"==typeof t.addEventListener?t.addEventListener(e,n,r||!1):"function"==typeof t.attachEvent&&t.attachEvent("on"+e,n)}function r(t,e,n,r){"function"==typeof t.removeEventListener?t.removeEventListener(e,n,r||!1):"function"==typeof t.detatchEvent&&t.detatchEvent("on"+e,n)}function v(t){var e;try{e=t.getBoundingClientRect()}catch(t){}return e?(e.width&&e.height||(e={top:e.top,right:e.right,bottom:e.bottom,left:e.left,width:e.right-e.left,height:e.bottom-e.top}),e):{top:0,bottom:0,left:0,right:0,width:0,height:0}}function i(t,e){for(var n=e;n;){if(n==t)return!0;n=g(n)}return!1}function g(t){var e=t.parentNode;return e&&11==e.nodeType&&e.host?e.host:e&&e.assignedSlot?e.assignedSlot.parentNode:e}}(),"function"!=typeof window.CustomEvent){function CustomEvent(t,e){e=e||{bubbles:!1,cancelable:!1,detail:null};var n=document.createEvent("CustomEvent");return n.initCustomEvent(t,e.bubbles,e.cancelable,e.detail),n}CustomEvent.prototype=window.Event.prototype,window.CustomEvent=CustomEvent}require(["detectview","parseContentForEvent"],function(t,n){window.addEventListener("pageshow",function(t){var e=navigator.vendor&&-1<navigator.vendor.indexOf("Apple");t.persisted&&e&&document.location.reload()}),t(["[data-bbc-context]","[data-bbc-container]"],function(t){if(!t.hasAttribute("data-bbc-ignore-views")){var e=new CustomEvent("bbc-user-event",{bubbles:!0,detail:n(t)});t.dispatchEvent(e)}})}),require(["parseContentForEvent","getParentWithSelector"],function(c,u){var h=function(t){return null===t.which?4===t.button:1===t.button},e=function(t){if(0===t.button||h(t)){var e,n,r,i=u(t.target,"[data-bbc-container]"),o=u(t.target,"a, button");if(i&&o){"A"===o.tagName&&(n=o,r=1500,(e=t).altKey||e.ctrlKey||e.metaKey||e.shiftKey||h(e)||n.target&&!n.target.match(/^_(self|parent|top)$/i)||(e.preventDefault(),setTimeout(function(){window.location.href=n.href},r)));var s=c(i);s.elem=o,s.originalEvent=t;var a=new CustomEvent("bbc-user-click",{bubbles:!0,detail:s});o.dispatchEvent(a)}}};["click","auxclick"].forEach(function(t){document.body.addEventListener(t,e)})}),define("getParentWithSelector",function(){return function t(e,n){return e.matches(n)?e:!!e.parentElement&&t(e.parentElement,n)}}),define("getParentChildPosition",["getParentWithSelector"],function(i){function o(t){var e=i(t,"[data-stats]");return JSON.parse(e.getAttribute("data-stats")).link_location}return function(t){var e=i(t,"[data-stats]"),n=Array.prototype.slice.call(document.querySelectorAll("[data-stats]")).indexOf(e)+1,r=Array.prototype.slice.call(t.parentElement.children).indexOf(t)+1;return{PAR:o(t)+"::"+n,CHD:function(t){var e={"iplayer-video":"iplayer",video:"video",audio:"audio","iplayer-radio":"audio"};if(-1<["message-banner","message-banner-signed-in"].indexOf(o(t)))return"button";var n=t.getAttribute("data-bbc-asset-type");return e[n]?"card-"+e[n]:"card"}(t)+"::"+r}}}),define("parseContentForEvent",["getParentWithSelector","getParentChildPosition"],function(i,o){function r(t){return t.hasAttribute("data-bbc-result")?t.getAttribute("data-bbc-result"):function t(e){if(e.hasAttribute("href"))return encodeURIComponent(e.getAttribute("href"));for(var n=e.children||[],r=0;r<n.length;r++){var i=t(n[r]);if(null!==i)return i}return null}(t)}return function(t){return{container:t.getAttribute("data-bbc-container")||t.getAttribute("data-bbc-context"),label:(n=t,encodeURIComponent(n.getAttribute("data-bbc-title")||n.getAttribute("data-bbc-content-label")||n.innerText.split("\n")[0])),type:function(t){if(t.hasAttribute("data-bbc-event-type"))return t.getAttribute("data-bbc-event-type")}(t),source:(e=t,e.getAttribute("data-bbc-source")),personalisation:function(t){var e=i(t,"[data-bbc-personalisation]");if(e)return JSON.parse(e.getAttribute("data-bbc-personalisation"));var n=i(t,"[data-stats]");if(!n)return{};var r=JSON.parse(n.getAttribute("data-stats"));return r.hp_sgm_id||r.hp_sgm_user_score?{SEG:r.hp_sgm_id+"::"+r.hp_sgm_user_score}:{}}(t),metadata:function(t){var e=i(t,"[data-bbc-metadata]"),n=e?JSON.parse(e.getAttribute("data-bbc-metadata")):{};if(i(t,"[data-bbc-track-position]")){var r=o(t);if(!n.PAR)return Object.assign({},r,n)}return n}(t),result:r(t)};var e,n}}),define("detectview",function(){var h=.5,d=1e3,t={threshold:[0,.2,.5,.8,1]};return function(n,s){var e=0,a=[],c={};function u(t){clearTimeout(c[t]),delete c[t]}var r=new IntersectionObserver(function(t){t.forEach(function(t){var e,n,r,i=t.target,o=i.getAttribute("data-x-bbc-element-id");r=i,!(-1<a.indexOf(r))&&t.intersectionRatio>=h?(c[o]&&u(o),e=function(){var t;t=i,a.push(t),s(t)},n=d,c[o]=setTimeout(e,n)):u(o)})},t),i=function(t){t.setAttribute("data-x-bbc-element-id","el-"+e),r.observe(t),e+=1};function o(t,r){t.forEach(function(t){for(var e=(r||document).querySelectorAll(t),n=0;n<e.length;n++)i(e[n])})}o(n),new MutationObserver(function(t){t.forEach(function(t){Array.prototype.slice.call(t.addedNodes).forEach(function(e){!1!=(e instanceof Element||e instanceof HTMLDocument)&&(o(n,e),n.forEach(function(t){e.matches(t)&&i(e)}))})})}).observe(document,{childList:!0,subtree:!0})}});</script>
+
+
+
+</body></html>

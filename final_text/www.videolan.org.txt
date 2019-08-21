@@ -1,0 +1,66 @@
+VideoLAN
+VLC
+Projects
+Contribute
+Support
+Donate
+VideoLAN, a project and a non-profit organization.
+Privacy
+VLC Mobile
+This privacy policy covers the use of the 'VLC for Android', 'VLC for WinRT' and 'VLC for iOS' / 'VLC for tvOS' applications.
+It may not be applicable to other software produced or released by VideoLAN.
+VideoLAN does not collect any statistics, personal information, or analytics from our users, other than built in mechanisms that are present for all the mobile or embedded applications in their respective main distribution channels.
+The mobile or embedded versions of 'VLC' do allow for videos to be played via various network transports. Cookies are not stored at any point. Authentication credentials can be stored optionally on the user's local device upon the user's explicit request. On iOS and tvOS, authentication credentials can be shared across devices using proprietary encryption mechanisms provided by the host operating system, dubbed iCloud Keychain. VideoLAN does not have access to any information stored within.
+VLC MEDIA PLAYER
+VLC
+VLC for Windows
+VLC for Mac OS X
+VLC for Ubuntu
+VLC for Android
+VLC for iOS
+Skins
+Extensions
+Features
+Screenshots
+VLC Skin Editor
+ALL PROJECTS
+VideoLan Movie Creator
+DVBlast
+x264
+x262
+x265
+multicat
+VLMa
+libdvdcss
+libdvdnav
+libdvdread
+libbluray
+libdvbpsi
+libaacs
+libdvbcsa
+biTStream
+COMMUNITY
+Wiki
+Forums
+Mailing-Lists
+FAQ
+Donate money
+Donate time
+Get Goodies
+VIDEOLAN
+Project and Organization
+Team
+Legal
+Contact us
+Partners
+Mirrors
+Press center
+Events
+Security center
+Get Involved
+News
+Legal | Report Trademark Abuse
+VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the VideoLAN non-profit organization.
+VideoLAN software is licensed under various open-source licenses: use and distribution are defined by each software license.
+Design by Made By Argon. Some icons are licensed under the CC BY-SA 3.0+.
+The VLC cone icon was designed by Richard Øiestad. Icons for VLMC, DVBlast and x264 designed by Roman Khramov.

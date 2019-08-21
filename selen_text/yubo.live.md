@@ -1,0 +1,95 @@
+Privacy Policy
+By registering and using YUBO you will provide to us, and we will collect, information about you, including information used to identify you. This is what we call your “Personal Data”. This means data that lets you identify yourself directly, like your family name, first name or your image, or indirectly such as your password, phone number, or your browsing or session data. It is important for you to know how this Data is collected, what we do with it and for how long, so you can be fully informed about your rights. This is why we have prepared this document, which we have tried to make as clear and simple as possible. If, despite our efforts, you would still like to ask us any questions please do not hesitate to contact us using the contact details in section 10.
+This Privacy Policy is an integral part of our General Terms of Use for YUBO. It should therefore be read alongside our General Terms of Use.
+WHO IS RESPONSIBLE FOR PROCESSING YOUR PERSONAL DATA?
+It’s TWELVE APP. We are a French company and our head office is at 8 rue de Charonne, 75011 Paris, France.
+TWELVE APP publishes the YUBO application, a social network that enables you to make friends and chat with them, in particular through live video.
+WHAT DATA DO WE COLLECT?
+In order to operate YUBO, we collect the information (i) which you provide to us directly, as well as (ii) data which we collect automatically.
+(i) Data you provide to us directly
+Registration data: in order to be able to use YUBO, you must create an account and provide us with the following personal details:
+Your mobile number (which is not shared with other users)
+Your name and pseudonym (both of which are visible to other users)
+Your date of birth: this information will not be provided to other users, although they will be able to see your age. Minors under 13 are not permitted to use YUBO.
+If you are a minor aged between 13 and 16, you may require permission from your legal guardian in order to register on YUBO.
+Your gender: you can choose whether or not to specify you are male or female, but you must tick one of the boxes. This information will not be visible to other users.
+Your profile picture: the photo that you choose to use as your profile picture must be of you. This will allow other users to identify you on YUBO and allow us to ensure that people do not use false profiles, which guarantees not only the security of the application, but your security too.
+The password that will enable you to log into your account. Naturally, this data is not visible to other users, and you should never share it with other users. Your password is personal and secret. It must contain at least 8 alphanumeric characters. It is required to ensure the security of your account.
+All this information is mandatory in order for you to create your profile and to register on YUBO.
+You may, if you so wish, complete other sections of your profile (emoji biog, social networks, e-mail). This information is optional.
+Data concerning your interaction with YUBO: if you report a problem to us, request help or exercise your rights, we will process the information you provide to us.
+(ii) The Data we collect when you use YUBO
+Data concerning your activity on YUBO: when you use YUBO, we can collect and process information such as the date you register, the date you last logged in, your interactions with other users (number of likes or dislikes via swipes) and your posts.
+Data concerning your location (geolocation): subject to your consent and the consent of your legal guardian where required, we collect and process data concerning your location. This enables you, depending on your settings, to include the town/city where you are located in your profile and/or to suggest people in your town/city to add as friends. Your city is hidden by default unless you change the settings to make it visible.
+If you no longer wish us to know your location, simply untick the relevant box in your account settings. We will therefore no longer be able to display your town/city or suggest meeting nearby friends.
+Data concerning content: the photos and/or videos that you decide to upload to your profile will be visible to all users. Be careful what you share with others and don’t forget that all users can save the content you share and that we cannot do anything to stop this. When you are using the application, be aware that it is possible to deactivate screenshots and screen-record (images and video) by other users in the application, but it is also possible for other users to make screenshots and screen-record (images and video) using the tools on their device, over which we have no control. The same goes for the videos you post and comments you make via the YUBO live video service.
+The messaging service is only available to users who are friends. Messages exchanged between users remain private and are not forwarded to other users or third parties under any circumstances, except in the event of a judicial inquiry and/or in accordance with the laws and regulations in force.
+Data concerning search preferences: you can configure your settings for privacy and discovery settings by going to ‘Settings’ in your account.
+You can also use your settings to choose to meet female friends, male friends or both.
+You can also choose whether or not you wish your contacts that are registered on YUBO to be able to find you and send you a friend request via the application.
+Data concerning devices and hardware: we collect information from and on the devices and hardware you use to access YUBO such as the IP address, type of device, advertising identifier (e.g. Google’s AAID and Apple’s IDFA, both of which are randomly-generated numbers that you can reset by going to your device settings), application bugs, version and language, operating system, etc.
+Device address book: as YUBO is an application for making and staying in touch with friends, you are permitted to identify your contacts who are already registered on YUBO and to add them, if you so wish, as friends on the application. You can also choose to send a message to your contacts who are not on YUBO to ask them to join you on the app. In order for us to provide this service, we need access to your address book, which we will use to collect data for the above purpose only. We will never add your contacts without your permission, or send them any spam.
+Cameras and photos: in order to be able to send and upload your photos from your camera, you must give us permission to access them.
+WHAT ARE THE LEGAL REASONS WHY WE COLLECT DATA?
+When we collect and process your Personal Data, we may do so for the following reasons:
+To enable you to access YUBO and use the services we provide: this actually means that you are performing the contract we have with you, which corresponds to our General Terms of Use, which includes this Privacy Policy. For example, when you use YUBO, we use your data to operate your account, make your profile accessible, suggest friends, send your messages and the content you share, and broadcast your videos live.
+In the legitimate interests of TWELVE APP: we may use your data if we have a legitimate reason to do so. For example, we process data for administrative purposes, to guard against fraudulent and illegal conduct, and to ensure that the application remains secure.
+To fulfil a legal obligation: we are required, for example, to keep data identifying new content and to forward it to the authorities if requested to do so.
+With your consent or that of your legal guardian: while we process data with your consent, you may withdraw such consent at any time by going to ‘Settings’.
+HOW DO WE USE THE DATA WE COLLECT?
+We collect, use and store your Personal Data in order to process your requests, manage our relationship and your use of YUBO, optimize our services and tools in order to create and maintain a secure environment, and fulfill our legal obligations, as explained below.
+Managing our relationship and access to YUBO
+To create and manage your user account (including access to YUBO services and Help)
+Geolocation to put you in touch with friends nearby
+To manage and store messages exchanged between users who have become friends and live videos
+Proposition: To manage and store live videos and messages exchanged between users who have become friends
+Where appropriate, to show you offers, content and adverts we think you’ll like, in particular when using certain paid services (‘Power Pack’).
+To send information message concerning YUBO services and your interactions with other users (Notifications)
+Security and fulfilment of legal and contractual obligations
+To respond to requests from administrative and judicial authorities, law enforcement officials and legal officers, and to abide by court decisions;
+To identify and prevent fraudulent activity and threats to the security of YUBO pursuant to and in accordance with the law;
+To analyse reports concerning users who have breached our Terms of Use and/or the regulations in force;
+To improve the safety and security of our services;
+To use information collected via cookies or any other technology to improve our services and your user experience. You can read our Cookies Policy by clicking here;
+To enforce our General Terms of Use and this Privacy Policy;
+To counter fraud (for example related to age), confirm your identity, and fight against illegal activity.
+HOW LONG DO WE KEEP YOUR DATA FOR?
+You can delete your account at any time by clicking on the relevant button in your ‘Settings’. When you delete your account, you will immediately stop communicating your current and future details to TWELVE APP and your profile will no longer be accessible.
+We will only keep your Personal Data for the period of time required to fulfil the purposes for which we process your details unless we are permitted or required by law to keep it for a longer period of time. Generally, we will delete your Data as soon as you delete your account, unless:
+We are required to retain it as proof that we comply with the legislation in force (e.g. recordings of consent to our Terms of Use, Privacy Policy, and other similar consents are retained for five years);
+We are required, due to an unresolved issue, claim or dispute, to retain relevant information until the matter has been resolved; or
+If the data must be retained in our legitimate commercial interests, for example in order to prevent fraud and improve users’ safety and security. For example, we may be required to retain data in order to prevent a user who has been banned from opening a new account due to their dangerous conduct or a security incident.
+WHO HAS ACCESS TO THE DATA WE COLLECT?
+The data we collect is intended solely for internal use by TWELVE APP and our partners and service providers.
+Only certain TWELVE APP authorized managers and employees will process your Personal Data for the above purposes, and they are only permitted to access the data strictly required in order to carry out their work. TWELVE APP may also enter into an agreement with authenticated and reliable service providers and partners who may access and/or process users’ personal data and who guarantee that such data will remain secure and confidential in accordance with this Policy.
+These service providers and partners help us to operate and improve YUBO, particularly in relation to the hosting of data, studies, analyses, and statistics, the use and/or operation of the application, targeted advertising, the fight against fraud linked to the age of the user, and the assistance required by users. Lastly, the data we process may be forwarded to the police and to the judicial and administrative authorities in order for us to fulfil our legal obligations.
+WILL YOUR DATA BE TRANSFERRED OUTSIDE THE EUROPEAN UNION?
+In order for your Personal Data to be processed in accordance with this Privacy Policy, such data may be transferred to one or more other countries that may or may not be within the European Economic Area, including in particular the United States.
+We guarantee that such transfers are carried out in such a way as to ensure that the data remains confidential and secure and that it is adequately protected in accordance with the regulations in force for the protection of personal data. In this case, we offer guarantees provided by current regulations, such as standard contractual clauses approved by the European Commission, which represent commitments made between companies that transfer Personal Data in order to ensure that such data remains confidential and secure.
+HOW IS YOUR DATA PROTECTED?
+TWELVE APP will ensure that your data is processed securely and confidentially, including in cases where certain operations are carried out by partners. Accordingly, appropriate technical and organizational measures are implemented to prevent the loss, misuse, alteration and erasure of your Personal Data.
+Nevertheless, there is no ‘zero risk’ on the internet and we cannot guarantee the security of your Personal Data 100%.
+That’s why it is important to let us know right away if you think you have been a victim of an attack on your Personal Data, by writing to us here.
+YOUR RIGHTS
+You have the right to access your Personal Data and to request that it be corrected, completed or updated. You may also request that your Data be deleted (or you can delete your account in the “Settings” section of the application), refuse the processing of your Data, or request that it be limited within the terms of current legislation. You may ask to exercise your right to data portability; in other words, your right to receive your Personal Data in a frequently used structured format and your right to send such data to another processor. As indicated in Section 3 above, your data is processed with your consent and you can withdraw your consent at any time by going to “Settings”.
+You also have the right to issue instructions as to how your Personal Data should be used after you die. In order to exercise your rights, you will be asked to produce proof of your identity of any kind. You may submit your request by sending a letter or an e-mail to privacy@yubo.live or on YUBO in the ‘Assistance’ section. We will do our utmost to fulfil your requests, but don’t forget that this right is not unlimited and must be exercised according to the conditions of current legislation. Any request to exercise your rights should be reasonable. Where necessary, we will explain the reasons why we are unable to meet your request.
+Should you have any other complaint, please contact the appropriate national data protection authority.
+CONTACT
+Should you have any questions concerning this Privacy Policy or requests concerning your Personal Data, you can contact us:
+By completing the online contact form on the YUBO website (www.yubo.live) or directly via the application;
+By sending an e-mail to privacy@yubo.live; or
+By writing to us at the following postal address: TWELVE APP – Privacy, 8, rue de Charonne 75011 Paris, France.
+Updates to our Privacy Policy
+It may be necessary to update this Privacy Policy, in particular for us to comply with current regulations, or in case of changes to the way we use your Personal Data.
+You will be informed in advance of any modifications or updates by any appropriate means, in particular messages displayed on the YUBO application, or by email. These changes may require your confirmation in some cases. In any event, continuing to use YUBO implies full acceptance of the changes made to this Privacy Policy.
+Last updated: 4 July 2019
+About
+Blog
+Assistance
+FAQ
+Guidelines
+Terms
+Privacy
+Safety
+Cookies help us deliver our Services. By using our Services or clicking I agree, you agree to our use of cookies. Learn More.
+I agree

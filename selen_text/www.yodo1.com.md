@@ -1,0 +1,281 @@
+Privacy Policy
+日本語
+Last update: July 1,2019
+What does this Privacy Policy Cover?
+  Yodo1 respects your privacy and is committed to protecting your Personal Data. We want to be transparent with you about how we collect and use your Personal Data in making available our games, (“Site”) and tell you about your privacy rights and how the law protects you.
+With that in mind, this Privacy Policy is designed to describe:
+Who we are and how to contact us.
+Your rights relating to your Personal Data.
+What Personal Data we collect.
+How we use your Personal Data and why.
+What happens when you do not provide necessary Personal Data?
+Personal Data from Third Party Sources.
+How we use cookies and other tracking or profiling technologies.
+Who we share your Personal Data with.
+How we keep your Personal Data secure.
+How long we store your Personal Data.
+Our policy on children.
+Third party links.
+This Privacy Policy aims to give you information on how Yodo1 collects and processes your Personal Data through your use of this Site, including any data you may provide through this Site.
+The Privacy Policy is intended to meet our duties of Transparency under the “General Data Protection Regulation” or “GDPR”.
+We will post any modifications or changes to this Privacy Policy on this page.
+    Who we are and how to contact us.
+  Who we are.
+Yodo1 Ltd is the Controller (for the purposes of the GDPR) of your Personal Data (referred to as either “Yodo1”, “we”, “us” or “our” in this Privacy Policy).
+Our address is: Room A, 22/F Southtex Building, NO.51 Tsun Yip Street, Kwun Tong, Kowloon, Hong Kong.
+How to contact us.
+You can contact us by emailing: privacy@yodo1.com .
+Our EU Representative.
+As Yodo1 does not have an establishment in the European Union, we have appointed a representative based in England , who you may address to raise any issues or queries you may have relating to our processing of your Personal Data and/or this Privacy Policy more generally.
+Our EU representative can be contacted directly by emailing them at the following address: EURep@Yodo1.com .
+    Your rights relating to your Personal Data.
+  Under certain circumstances, by law you have the right to:
+Request access to your Personal Data . This enables you to receive a copy of the Personal Data we hold about you and to check that we are lawfully processing it.
+Request correction of the Personal Data that we hold about you . This enables you to have any incomplete or inaccurate information we hold about you corrected.
+Request erasure of your Personal Data . This enables you to ask us to delete or remove Personal Data where there is no good reason for us continuing to process it (including legal requirements to keep such data). You also have the right to ask us to delete or remove your Personal Data where you have exercised your right to object to processing (see below).
+Object to processing of your Personal Data . This right exists where we are relying on a Legitimate Interest as the legal basis for our processing and there is something about your particular situation, which makes you want to object to processing on this ground.
+Request the restriction of processing of your Personal Data . This enables you to ask us to suspend the processing of Personal Data about you, for example if you want us to establish its accuracy or the reason for processing it.
+Request the transfer of your Personal Data . We will provide to you, or a third party you have chosen, your Personal Data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.
+Withdraw consent . This right only exists where we are relying on consent to process your Personal Data (“ Consent Withdrawal ”). If you withdraw your consent, we may not be able to provide you with access to the certain specific functionalities of our Site. We will advise you if this is the case at the time you withdraw your consent.
+How to exercise your rights.
+If you want to exercise any of the rights described above, please contact us using the contact details shown here .
+Typically, you will not have to pay a fee to access your Personal Data (or to exercise any of the other rights). However, except in relation to Consent Withdrawal, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive, or, we may refuse to comply with your request in these circumstances.
+We may need to request specific information from you to help us confirm your identity and ensure your right to access your Personal Data (or to exercise any of your other rights). This is a security measure to ensure that Personal Data is not disclosed to any person who has no right to receive it. We may also contact you to ask you for further information in relation to your request to speed up our response.
+We try to respond to all legitimate requests within one month. Occasionally it may take us longer than a month if your request is particularly complex or you have made a number of requests. In this case, we will notify you and keep you updated.
+Complaints
+If you would like to make a complaint regarding this Privacy Policy or our practices in relation to your Personal Data, please contact us at: privacy@yodo1.com.
+We will reply to your complaint as soon as we can.
+If you feel that your complaint has not been adequately resolved, please note that the GDPR gives you the right to contact your local data protection supervisory authority. You can find your data protection regulator here .
+    What Personal Data we collect.
+  All the Personal Data we collect, both from you and from third parties about you, is outlined in the table below.
+Before you read that table, it might be useful to explain what “Personal Data” is. The GDPR definition of Personal Data can be found here . Essentially, it boils down to: information about an individual, from which that individual is either directly identified or can be identified.
+It does not include ‘anonymous data’ (i.e., information where the identity of individual has been permanently removed).
+However, it does include ‘indirect identifiers’ or ‘pseudonymous data’ (i.e., information which alone doesn’t identify an individual but, when combined with certain additional and reasonably accessible information, could be attributed to a particular person).
+Category of Personal Data Collected Definition
+Identity Data Depending on the game you download, this may include your first name, surname, last name, username, Game Centre ID, social network ID such as Google+ (if you sign up that way), or similar identifier, title, age and gender.
+Contact Data Your email address and telephone numbers.
+Transaction Data Any details about payments to and from you and other details of subscriptions and services you have purchased from us (including in-game purchases). Data in respect of your transactions with third parties, including payments [in relation to the Yodo1 games] made through the app store. This does not include your bank account or payment card details.
+Behavioural Data Inferred or assumed information relating to your behaviour and interests, based on your online (including in-game) activity. This is most often collated and grouped into “segments”.
+Technical Data Internet protocol (IP) address, your login data , app ID and version , browser type and version, timestamp, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access this website or use our services.
+User Content Data Any Personal Data that you post on our Site in user-generated information and content, including in text, photos, videos, private chats, and feedback.
+Aggregated Data
+We also collect, use and share “ Aggregated Data ” such as statistical or demographic data for any purpose. Aggregated Data may be derived from your Personal Data, but once in aggregated form it will not constitute considered Personal Data for the purposes of the GDPR as this data does not directly or indirectly reveal your identity. For example, we may aggregate your Behavioural Data and Technical Data to calculate the percentage of users accessing a specific Site feature. However, if we combine or connect Aggregated Data with your Personal Data so that it can directly or indirectly identify you, we treat the combined data as Personal Data which will be used in accordance with this Privacy Policy.
+No Special Categories of Personal Data
+We do not collect any “ Special Categories of Personal Data ” about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data). Nor do we collect any information about criminal convictions and offences.
+    How we use your Personal Data and why.
+We will only use your Personal Data for the purposes for which we collected it as listed below, unless we reasonably consider that we need to use it for another reason and that reason is compatible with the original purpose.
+If we need to use your Personal Data for an unrelated purpose, we will update this Privacy Policy and we will explain the legal basis which allows us to do so.
+What is our “legal basis” for processing your Personal Data?
+In respect of each of the purposes for which we use your Personal Data, the GDPR requires us to ensure that we have a “legal basis” for that use. Most commonly, we will rely on one of the following legal bases:
+Where we need to perform a contract we are about to enter into or have entered into with you (“ Contractual Necessity ”).
+Where it is necessary for our legitimate interests and your interests and fundamental rights do not override those interests (“ Legitimate Interests ”). More detail about the specific legitimate interests pursued in respect of each Purpose we use your Personal Data for is set out in the table below.
+Where we need to comply with a legal or regulatory obligation (“ Compliance with Law ”).
+Where we have your specific consent to carry out the processing for the Purpose in question (“ Consent ”).
+Generally we do not rely on your Consent as a legal basis for using your Personal Data.
+We have set out below, in a table format, the legal bases we rely on in respect of the relevant Purposes for which we use your Personal Data.
+Purpose Category(ies) of Personal Data involved Why do we do this Our legal basis for this use of data
+Account Creation
+Identity Data
+Contact Data
+To register you as a new customer. Contractual Necessity.
+Game Operations
+Identity Data
+Contact Data
+User Content Data
+Behavioural Data
+To allow you to interact with other users of our Sites. To keep improving our Sites, games, our services and associated systems.
+Legitimate Interests.
+We have a legitimate interest in improving, and ensuring the proper operation of, our services, Sites and associated IT services and networks.
+In-game Purchase
+Identity
+DataContact
+DataTransaction
+Data
+To process and deliver your orders including manage in-game purchases.
+Contractual Necessity.
+    Fraud Prevention
+Identity Data
+Contact Data
+Technical Data
+To keep our website, our services and associated systems operational and secure.
+Legitimate Interests.
+We have a legitimate interest in ensuring the ongoing security and proper operation of our services, website and associated IT services and networks.
+Troubleshooting Technical Data To track issues that might be occurring on our systems.
+Legitimate Interests.
+It is in our legitimate interests that we are able to monitor and ensure the proper operation of our Sites and associated systems and services.
+    What happens when you do not provide necessary Personal Data?
+Where we need to process your Personal Data either to comply with law, or to perform the terms of a contract we have with you and you fail to provide that data when requested, we may not be able to perform the contract we have or are trying to enter into with you (for example, to provide you with the functionalities of the Site).
+In this case, we may have to stop you using our Site.
+    Personal Data from Third Party Sources
+In addition to the Personal Data that we collect directly from you (as described in the section immediately above this one), we also collect certain of your Personal Data from third party sources. These sources are broken down in the table below, together with a description of whether they are publicly available or not.
+Third party data source Publicly available? Category(ies) or other types of personal data received.
+Social Media sites Yes
+Identity Data
+Contact Data
+Analytics Providers No
+Behavioural Data
+Transaction Data
+Technical Data
+Game Developers – where you did not download the game from the Yodo1 Sites No
+Identity Data
+Contact Data
+Behavioural Data
+Transaction Data
+Technical Data
+    How we use cookies & other tracking or profiling technologies.
+What are cookies?
+We may collect information using “cookies”. Cookies are small data files stored on the hard drive of your computer or mobile device by a website. We may use both session cookies (which expire once you close your web browser) and persistent cookies (which stay on your computer or mobile device until you delete them) to provide you with a more personal and interactive experience on our Site.
+We use two broad categories of cookies:
+first party cookies, served directly by us to your computer or mobile device; and
+third party cookies, which are served by our partners or service providers on our Site.
+Cookies we use.
+Our Site uses the following types of cookies and other tracking technologies for the purposes set out below:
+Type of Cookies Purpose
+Essential Cookies These cookies are essential to provide you with services available through our Site and to enable you to use some of its features. Without these cookies, the services that you have asked for cannot be provided, and we only use these cookies to provide you with those services.
+Functionality Cookies These cookies allow our Site to remember choices you make when you use our Site, such as remembering your language preferences, remembering your login details and remembering the changes you make to other parts of our Site which you can customise. The purpose of these cookies is to provide you with a more personal experience and to avoid you having to re-enter your preferences every time you visit our Site.
+Analytics and Performance Cookies
+These cookies are used to collect information about traffic to our Site and how users use our Site. The information gathered via these cookies does not “directly” identify any individual visitor. However, it may render such visitors “indirectly identifiable”. This is because the information collected is typically linked to a pseudonymous identifier associated with the device you use to access our Site. The information collected is aggregated and anonymous. It includes the number of visitors to our Site, the websites that referred them to our Site, the pages they visited on our Site, what time of day they visited our Site, whether they have visited our Site before, and other similar information. We use this information to help operate our Site more efficiently, to gather broad demographic information and to monitor the level of activity on our Site.We use Google Analytics for this purpose. Google Analytics uses its own cookies. It is only used to improve how our Site works.You can find out more information about Google Analytics cookies here.
+You can find out more about how Google protects your data here.
+We also use Baidu Tongji for this purpose.
+You can find out more information about how Baidu Tongji cookies here .
+You can find out more about how Baidu Tongji protects your data here . For more information on our use of the Baidu Tongii services, please contact us here.
+Targeted and advertising technologies These tracking technologies track your browsing habits to enable us to show advertising which is more likely to be of interest to you. They use information about your browsing history to group you with other users who have similar interests. Based on that information, and with our permission, third party advertisers can place cookies and/or similar technologies to enable them to show adverts which we think will be relevant to your interests while you are on third party websites or mobile applications . See “Mobile Advertising Identifiers” below, for further information on the targeted and advertising technologies we use on your mobile applications .
+Social Media Cookies These cookies are used when you share information using a social media sharing button or “like” button on our Site or you link your account or engage with our content on or through a social networking website such as Facebook, Twitter or Google+. The social network will record that you have done this.
+Disabling cookies
+You can typically remove or reject cookies via your browser settings. In order to do this, follow the instructions provided by your browser (usually located within the “settings”, “help” “tools” or “edit” facility).  Many browsers are set to accept cookies until you change your settings.
+If you do not accept our cookies, you may experience some inconvenience in your use of our Site. For example, we may not be able to recognise your computer or mobile device and you may need to log in every time you visit our Site.
+Further information about cookies, including how to see what cookies have been set on your computer or mobile device and how to manage and delete them, visit www.allaboutcookies.org .
+In particular, you can disable cookies which remember your browsing habits and target advertising at you by visiting the Your Online Choices website . If you choose to remove targeted or advertising cookies, you will still see adverts but they may not be relevant to you. Even if you do choose to remove cookies by the companies listed at the above link, not all companies that serve online behavioral advertising are included in this list, and so you may still receive some cookies and tailored adverts from companies that are not listed.
+You can also prevent the use of Google Analytics relating to your use of our Site by downloading and installing the browser plugin available here.
+Web Storage: Local Storage
+We may also use localStorage which is a way to store persistent data , such as tracking ID , locally on your web browser (i.e. information is not transferred to the server) . This technology fulfils a similar purpose as cookies, but is more secure and allows the storage of larger amounts of data.
+Blocking/Clearing localStorage
+Same as Cookies. 
+Clearing Cache and Local Storage:
+Chrome
+Safari
+Firefox
+Mobile Advertising Identifiers
+We, or third party Ad Networks, may collect, and may associate information with, mobile advertising IDs (such as iOS Advertising Identifiers and Google’s Advertising IDs) on the Sites. These are unique identifiers (which are resettable) set by the applicable mobile operating system provider (“ Mobile Advertising IDs ”).
+How to opt-out of / reset Mobile Advertising IDs
+iOS
+Go to ’Settings’
+Scroll down to ‘ Privacy’
+Scroll down to ‘ Advertising’
+Shift the ‘ Limit Ad Tracking ’ slider to the right.
+Reset your iOS Advertising Identifier: if at any time you wish to reset your iOS Advertising Identifier, you can do so by replacing the final step with “ Click on ‘Reset Advertising Identifier ’”.
+Android
+Go to ‘Settings’
+Scroll down and click on ‘Google’
+Scroll down and click on ‘Ads’
+Shift the ‘Opt out of Ads Personalisation‘ slider to the right.
+Reset your Android Advertising ID: if at any time you wish to reset your Android Advertising ID, you can do so by replacing the final step with “ Click on ‘Reset advertising id ’”.
+We provide access to our Sites third party Ad Networks and they will directly collect and process information via the above cookies and other tracking technologies. This is so Ad Networks can serve you with content that is tailored to your preferences. Ad Networks are controllers of the Personal Data that is collected in that way (i.e. they decide of the purposes and means of processing such data, independently of our instructions). For more information on such Ad Networks’ collection and processing of your Personal Data, please see the relevant Ad Networks’ privacy policies. For ease of reference, we provide here links to such Ad Networks privacy policies:
+Unity Ads
+Admob
+Vungle
+AdColony
+AppLovin
+Tapjoy
+Inmobi
+Facebook
+Chartboost
+Supersonic/ ironSource
+Mobvista
+Chance
+Tencent
+Redmobi
+Zplay
+Adview
+Kingsoft
+Mintegral
+Bytedance
+Baidu
+For more information on our use of Ad Network services, please contact us here:
+Do Not Track Signals
+Some Internet browsers may be configured to send “Do Not Track” signals to the online services that you visit. We currently do not respond to do not track signals. To find out more about “Do Not Track,” please visit the All About DNT website.
+No Cross Device Tracking
+Although we collect information via the various “tracking technologies” referred to above – we do not engage in ‘cross-device tracking’ .
+This means that we do not link information collected via multiple identifiers across your different devices and browsers to create a consolidated picture of your cross-device online activity or behaviour.
+    Who we share your Personal Data with.
+The table below describes who we share your Personal Data with, what we share and why we share it.
+Recipients Category(ies) of Personal Data we share. Why we share it Location(s)
+Game Developers
+Identity Data
+Contact Data
+Transaction Data
+Behavioural Data
+Technical Data
+Content Data
+Game Developers use the Yodo1 services, including to understand how users use their games, how their games perform, and to optimise their revenue. We share your data with developers for these purposes. We may also provide support services to game users, in which case we share data with Game Developers to provide such support. Worldwide
+Ad Networks
+Identity Data
+Contact Data
+Behavioural Data
+Technical Data
+Content Data
+Ad Networks provide us with advertisement that is tailored to your preferences based on your online behaviour, and Yodo1 sends them data about you to improve their ability to tailor their offering to you. Worldwide
+Service Providers
+Identity Data
+Contact Data
+Technical Data
+Transaction Data
+Behavioural Data
+User Content Data
+Our service providers provide us with IT and system administration services.
+China
+USA
+Japan
+Hong Kong
+  Professional advisers
+Identity Data
+Contact Data
+Technical Data
+Transaction Data
+Behavioural Data
+User Content Data
+Our lawyers, bankers, auditors and insurers provide consultancy, banking, legal, insurance and accounting services.
+China
+Hong Kong
+Singapore
+Revenue & Customs, regulators and other authorities
+Identity Data
+Contact Data
+Technical Data
+Transaction Data
+Behavioural Data
+User Content Data
+Authorities may require reporting of processing activities in certain circumstances
+Within Europe
+China
+Data transfers
+Although we do not have an establishment within the European Economic Area (“ Europe ”), because we target the Site at individuals who are located in Europe, the GDPR (which is a European piece of data protection legislation) applies to us.
+For this reason, we take appropriate steps to ensure that when we process your Personal Data (despite the fact that we are not based in Europe) we do so in accordance with the GDPR.
+In addition, where we transfer your Personal Data to any of the third parties outlined above, we also take appropriate steps to ensure that we have implemented appropriate safeguards to ensure that such protection is maintained and is not undermined as a result of that disclosure.
+    How we keep your Personal Data secure.
+We have put in place appropriate security measures to prevent your Personal Data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed.
+We limit access to your Personal Data to those employees and other staff who have a business need to have such access. All such people are subject to a contractual duty of confidentiality.
+We have put in place procedures to deal with any actual or suspected Personal Data breach. In the event of any such breach, we have systems in place to work with applicable regulators. In addition, in certain circumstances (e.g., where we are legally required to do so) we may notify you of breaches affecting your Personal Data.
+    How long we store your Personal Data.
+We will only retain your Personal Data for so long as we reasonably need to use it for the purposes set out above here, unless a longer retention period is required by law (for example for regulatory purposes).
+The table below shows our standard retention practices:
+Category of Personal Data Retention Period
+Behavioural Data To the extent there is any Personal Data in Behavioural Data: two months from the date on which we collected or received it. However, we only store Behavioural Data that constitutesAggregated Data and/or anonymous data, and keep this record forever. Please refer to our Ad Networks ’ privacy policies for further information on how long they keep your Personal Data (if any) – see Mobile Advertising Identifiers .
+Contact Data
+Identity Data
+For so long as retention is necessary to fulfil the Purposes/Use for which it is used here.
+Transaction Data
+User Content Data
+For 12 months following the discontinuation of the applicable game, or upon request from the Game Developer (if earlier), unless a longer period is required by law.
+Technical Data Two months from the date on which we collected or received it.
+    Our policy on children.
+This Site is not intended for children below 13 and we do not knowingly collect data relating to such children.
+    Third party links.
+This Site may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share your Personal Data. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our Site, we encourage you to read the privacy policy of every site you visit.
+More About Yodo1
+DEVELOPER PORTAL
+CONTACT US
+Reach Out via Social
+中文   |   English
+Privacy Policy   |   Terms of Use   |   Player Support   |   Business Contact   |   Press Contact   |   Developer Portal
+© 2019 Yodo1, Ltd. All Rights Reserved.

@@ -1,0 +1,35 @@
+Privacy policy
+
+Protecting your privacy is important to us. We hope the following statement
+will help you understand how our app deals with the personal identifiable
+information ('PII') you may occasionally provide to us via Internet
+(the'Google Play'Platform).
+
+Generally, we do not collect any PII from you when you download our Android
+applications. To be specific, we do not require the consumers to get
+registered before downloading the application, nor do we keep track of the
+consumers' visits of our application, we even don't have a Server to store
+such PII.
+
+Our app uses Facebook as ads provider. Facebook wants to show ads that are
+relevant to you. For more information, please check
+https://m.facebook.com/ads/ad_choices.
+
+The only situation we may get access to your PII is when you personally decide
+to email us your feedback or to provide us with a bug report. The PII we may
+get from you in that situation are strictly limited to your name, email
+address and your survey response only.
+
+In above situation, we guarantee that your PII will only be used for
+contacting you and improving our services. We will never use such information
+(e.g. your name and email address) for any other purposes, such as to further
+market our products, or to disclose your personal information to a third party
+for commercial gains.
+
+It should be noted that whether or not to send us your feedback or bug report
+is a completely voluntary initiative upon your own decision. If you have
+concern about your PII being misused, or if you want further information about
+our privacy policy and what it means, please feel free to email us at
+northpark.android@gmail.com, we will endeavor to provide clear answers to your
+questions in a timely manner.
+

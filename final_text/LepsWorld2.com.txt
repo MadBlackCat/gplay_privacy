@@ -1,0 +1,139 @@
+Privacy Policy
+
+
+Last updated January 2, 2019
+We have created this privacy statement in order to demonstrate our firm commitment to your privacy. This Privacy Policy explains how information about you is collected, used and disclosed by nerByte GmbH ("nerByte") when you use the Lep's World and Lep's World 2 mobile application (the "App").
+If you download/play our games you agree to let nerByte collect, use and disclose information about you in accordance with the purposes listed below. We reserve the right to change this policy from time to time, so be sure to check it periodically.
+Kids: Remember to be smart and safe online! Never give someone your information without first asking your parent/guardian if it is OK. Don't give anyone your photo, or tell anyone your name, email, home address, telephone, your school or any other information about you that they could use to contact you either online or in the real world.
+Parents: We are committed to the safety and privacy of the children who use our games. We encourage parents/guardians to actively monitor their children's online activities.
+
+Personal information
+Information You Provide to Us
+The App does not allow you to submit any information directly to us. If you submit any information to nerByte through our website or other sites or services, please refer to the following information about how we collect, use and disclose such information:
+Information you provide to nerByte via our website www.LepsWorld2.com
+We collect information you provide directly to us, such as when you participate in a
+request customer support, and/or
+send us an e-mail or otherwise interact with us.
+At www.LepsWorld2.com we log information about your use of the website, including the type of browser you use, access times, pages viewed at our website and the page you visited before navigating to www.LepsWorld2.com. We immediately delete customer support requests (message and e-mail address) from our mail servers after we solved/answerd the customer request.
+Information Collected by Cookies and Other Tracking Technologies
+We use various technologies to collect information, and this may include sending cookies to your computer or mobile device. Cookies are small data files stored on your computer's hard drive or in device memory that help us to improve our Services and your experience and see which areas and features of our Services are popular. We may also collect information using web beacons. Web beacons are electronic images that may be used in our Services or emails and help deliver cookies, count visits, and understand usage and campaign effectiveness.
+
+Information We Collect Automatically through the App
+When you access or use the App, we automatically collect information about you, including:
+Log Information: We log information about your use of the App, including the type of device you use, the features you use, access times, and your IP address.
+Device Information: We collect information about the device you use to access the App, including information about the device's software and hardware, unique device identifiers, push or other device tokens, mobile network information and time zone.
+Usage Information: We collect information relating to your use of the App at an aggregated level only.
+Consumption information: We collect information about your consumption habits relating to your use of the App, including which purchases you make with both virtual and real currencies.
+
+Information We Collect from Other Sources
+We may also obtain information from other sources and combine that with information we collect through the App. For example, if you log into the App using a third-party site or platform such as Facebook, we may access information about you from that site or platform, such as your screen name, profile information and friend lists, in accordance with the authorization procedures determined by such third party site or platform. We may also collect information from app stores when you download or update one of our applications.
+If you log into the App using a third-party site or platform, you represent and warrant that your access and use of such features in connection with the App will comply with the applicable terms and policies of such site or platform.
+
+Use of Information
+We may use information about you for various purposes, including to:
+Provide, maintain and improve the App
+Develop new apps, sites and services
+Provide and deliver the products and services you request and send you related information
+Send you technical notices, updates, security alerts and support and administrative messages
+Provide news and information about the App we think will be of interest to you
+Personalize and improve the App and provide tailored content and features
+Monitor and analyze trends, usage and activities in connection with the App
+Link or combine with information we get from others to help understand your needs and provide you with better service
+Carry out any other purpose for which the information was collected.
+By accepting our Privacy Policy or otherwise providing information to us, you consent to the processing and transfer of information in and to the U.S. and other countries.
+
+Childrens' Privacy
+If you permit your child to use one of our Services that is not labelled a Child Safe App, you should disable in-app purchases on your phone and actively monitor your child's use. You should also familiarise yourself with this privacy policy, as by permitting your child to use our Services you consent to this privacy policy on their behalf. If you don't agree, please do not permit your child to use our Services.
+We do not knowingly contact or collect information from children under 13 without the permission of their parent/guardians. If you believe that we have inadvertently collected such information, please contact us so we can promptly obtain parental/guardian consent or delete the information.
+
+Third Party Services
+When you use our Services, you might also use third party services, such as Facebook, Twitter, Goole Play Services and Game Center. We do not control how they interact with you and you should ensure that you consent to the terms of use and privacy policies offered by the third party services before providing them with your information. You acknowledge that we are not liable when third party services use information you provide to them.
+We encourage you to be careful about the protection of your own personal information when using third party services such as social media platforms.
+We also work with certain business partners, such as other game developers and advertising partners, and information collected from you may be shared through these partnerships.
+Analytic Data from Firebase or Google Analytics that been stored will be deleted after 90 days to only use data for the minimum of time.
+Below is a list of some of our business partners, but not all, that we actively share user information and site usage data with:
+Admob/Adsense: Located in United States; Read their Privacy Policy;
+AppLovin: Located in United States; Read their Privacy Policy;
+Chartboost: Located in United States; Read their Privacy Policy;
+Facebook: Located in United States; Read their Privacy Policy;
+Firebase: Located in United States; Read their Privacy Policy;
+Google Analytics: Located in United States; Read their Privacy Policy;
+Ironsource: Located in Israel; Read their Privacy Policy;
+UnityAds: Headquartered in the United States with offices throughout the Americas, Asia and Europe; Read their Privacy Policy;
+Vungle: Located in United States, United Kingdom, Germany and China; Read their Privacy Policy;
+
+In-app Purchase
+Some of our games offer in-app purchases. Examples of in-app purchases are items you can purchase (for real or in-game currency) or other additional features. If you don't want to make in-app purchases, don't use these paid-for options and consider disabling in-app purchases on your device.
+
+Sharing of Information
+We may share information about you as follows or as otherwise described in this Privacy Policy:
+With vendors, consultants and other service providers who need access to such information to carry out work on our behalf
+In response to a request for information if we believe disclosure is in accordance with any applicable law, regulation or legal process, or as otherwise required by any applicable law, rule or regulation
+If we believe your actions are inconsistent with the spirit or language of our user agreements or policies, or to protect the rights, property and safety of nerByte or others
+In connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business to another company
+If you log into the App using a third-party service, such as Facebook, Google Play Services or Apple Game Center, we may share information provided by those services with other players for certain in-app features, such as achievements and leaderboards.
+
+Social Sharing Features
+The App may offer social sharing features and other integrated tools (such as the Facebook "Like" button), which let you share actions you take in the App with other media, and vice versa. You must be at least 13 years of age to use any social sharing features integrated in the App. The use of such features enables the sharing of information with your friends or the public, depending on the settings you establish with the entity that provides the social sharing feature. For more information about the purpose and scope of data collection and processing in connection with social sharing features, please visit the privacy policies of the entities that provide these features.
+
+Advertising and Analytics Services Provided by Others
+We may allow third parties to serve contextual advertisements and provide analytics services in connection with the App. These entities may use various identifiers to collect information about your use of the App, including your IP address, MAC address, device identifiers, software and hardware information, time zone and usage information. This information may be used by nerByte to determine the popularity of certain content, deliver contextual advertising and content and better understand your activity on the App.
+Third-party ad serving and analytics technologies are integrated into the App, so if you do not want to be subject to these technologies, do not use or access the App.
+
+Security
+nerByte takes reasonable measures to help protect information about you from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction.
+
+Storage of Information
+nerByte will store your information for as long as necessary in order to provide you with the App.
+
+Data Subject Rights and Your Choices
+You have certain rights with respect to your information as further described in this section.
+
+Your Legal Rights
+If you would like further information about your legal rights under applicable law or would like to exercise any of them, please contact us using the information in the "Contact Us" section below at any time. Your local laws may permit you to request that we:
+provide access to and/or a copy of certain information we hold about you
+prevent the processing of your information for direct-marketing purposes (including any direct marketing processing based on profiling)
+update information which is out of date or incorrect
+delete certain information which we are holding about you
+restrict the way that we process and disclose certain of your information
+transfer your information to a third party provider of services
+revoke your consent for the processing of your information
+We will consider all requests and provide our response within the time period stated by applicable law. Please note, however, that certain information may be exempt from such requests in some circumstances, which may include if we need to keep processing your information for our legitimate interests or to comply with a legal obligation. We may request you provide us with information necessary to confirm your identity before responding to your request.
+If you no longer want nerByte to use your information, contact us at support@lepsworld2.com. Place "Delete My Account" in the subject line and include your first name, last name, e-mail address and your social network ID for the social network from which you access our Services (if applicable) in the body of the e-mail (for example, your Facebook user ID). We will respond to your request within the time period stated by applicable law. If you make such a request, you may no longer be able to play such app or use our Services.
+If applicable, you may also make a complaint to the data protection supervisory authority in the country where you are based. Alternatively you may seek a remedy through local courts if you believe your rights have been breached.
+
+Information We Receive From a Social Network Where You Play Our Apps or From Your Mobile Device
+To manage the information nerByte receives about you from a social network, like Facebook, where you play our apps, you will need to follow that social network's instructions in order to update your information and change your privacy settings.
+To review and update information associated with your nerByte app profile in certain apps, visit the "privacy policy" button in that app. You also can manage some aspects of information collection and use by visiting the "settings" page of your mobile device and reviewing the permissions of each application or "app".
+Once nerByte receives your information from a social network or your mobile device, that information is stored and used by nerByte in accordance with this Privacy Policy. You may access and update that information as described below.
+
+Opting Out of Geolocation
+If you have previously allowed us to access your geolocation data and you no longer wish for us and our service providers to collect and use GPS location information, you may disable the location features on your device. Please see your device manufacturer settings. Please note that if you disable such features, you will not be able to access or receive some or all of the services, content, features, and/or products made available via the Services.
+
+Opting Out of Local Notifications
+When you install our apps on your mobile device you can choose to receive local notifications, which are messages an app sends you on your mobile device even when the app is not on. You can turn off notifications by visiting your mobile device's "settings" page.
+
+Opting Out of Third Party Tailored Advertising
+We neither have access to, nor does this Privacy Policy govern, the use of cookies or other tracking technologies that may be placed on the device you use to access the Services by non-affiliated third parties. If you are interested in more information about tailored advertising and your choices to prevent third parties from delivering tailored web and mobile web advertising you may visit the following websites:
+Network Advertising Initiative Consumer Opt-Out Page or the Digital Advertising Alliance Opt-Out Page for U.S.-based advertising;
+Network Advertising Initiative Consumer Opt-Out Page; and
+Google Ads Settings.
+These opt-out tools are provided by third parties, not nerByte. nerByte does not control or operate these tools or the choices that advertisers and others provide through these tools.
+In addition, if you do not want to receive tailored in-application advertisements from third parties that relate to your interests in apps on your mobile device, you may opt-out by adjusting the ad tracking settings on your device. You can also reset the "Advertising Identifier" (like an IDFA) from your mobile device's settings page, which will prevent continued use of existing behavioral data tied to the previous "Advertising Identifier". In addition, depending on the platform provider (such as Apple or Google), you may be able to download apps, such as the Digital Advertising Alliance's "AppChoices" app, that offer to provide you with control regarding the collection and use of cross-app data for tailored advertising. Like the opt-out tools mentioned above for web, these mobile opt-out tools are provided by third parties, not nerByte. nerByte does not control or operate these tools or the choices that advertisers and others provide through these tools.
+
+Please note that you may still receive advertisements from third parties within nerByte's apps even if you opt-out of tailored advertising but they will not be based on your activity across unrelated web sites or apps.
+Opting Out of Cookies
+You can set your web browser to warn you about attempts to place cookies on your computer or limit the type of cookies you allow. If you disable cookies, you may lose some of the features and functionality of our Services because nerByte cookies are necessary to provide our web-based Services.
+
+Changes to the Privacy Policy
+nerByte may change this Privacy Policy from time to time. All changes hereto will be made available on this website, which is why nerByte encourages Users to frequently check this page for any changes to this Privacy Policy. Changes hereto will not prejudice Users' rights without their consent.
+
+Contact Us
+If you have any questions about this Privacy Policy, please contact us.
+Address: Brötzenberger Strasse 17-19/4/3; 2201 Gerasdorf; Austria
+Email: [support@lepsworld2.com]
+nerByte Website: https://www.nerByte.com
+Lep's World 2 Website: https://www.LepsWorld2.com
+
+
+© 2019 nerByte GmbH

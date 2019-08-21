@@ -1,0 +1,169 @@
+Terms of Use
+Change Log
+Last Updated: 3/13/2019
+3/13/2019 - updated the address under 13. Copyright Policy
+3/9/2018 - ground-up rewrite authored by a lawyer, while in the past we had just winged it
+1. Introduction
+Welcome to Gaia GPS! Your use of Gaia GPS’s services, including the services Gaia GPS makes available through this website and any other software or services offered by Gaia GPS in connection therewith (the "Services") is governed by these terms of service (the "Terms"), so please carefully read them before using the Services. For the purposes of these Terms, "we," "our," "us," and "Gaia GPS" refer to TrailBehind, Inc., the providers and operators of the Services.
+
+In order to use the Services, you must first agree to these Terms. If you are registering for or using the Services on behalf of an organization, you are agreeing to these Terms for that organization and promising that you have the authority to bind that organization to these Terms. In that case, "you" and "your" will also refer to that organization, wherever possible.
+
+You must be over 13 years of age to use the Services, and children under the age of 13 cannot use or register for the Services. If you are over 13 years of age but are not yet of legal age to form a binding contract (in many jurisdictions, this age is 18), then you must get your parent or guardian to read these Terms and agree to them for you before you use the Services. If you are a parent or guardian and you provide your consent to your child's registration with the Services, you agree to be bound by these Terms with respect of your child’s use of the Services.
+
+You agree your purchases and/or use of the Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Gaia GPS or any of its affiliates regarding future functionality or features.
+
+BY USING, DOWNLOADING, INSTALLING, OR OTHERWISE ACCESSING THE SERVICES OR ANY MATERIALS INCLUDED IN OR WITH THE SERVICES, YOU HEREBY AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS, THEN YOU MAY NOT USE, DOWNLOAD, INSTALL, OR OTHERWISE ACCESS THE SERVICES.
+
+2. Your Account
+In the course of registering for or using the Services, you may be required to provide Gaia GPS with certain information, including your name, organization name, email, and password ("Credentials"). Gaia GPS handles such information with the utmost attention, care and security. Nonetheless, you, not Gaia GPS, shall be responsible for maintaining and protecting your Credentials in connection with the Services. If your contact information or other information relating to your account changes, you must notify Gaia GPS promptly and keep such information current. You are solely responsible for any activity using your Credentials, whether or not you authorized that activity. You should immediately notify Gaia GPS of any unauthorized use of your Credentials or if your email or password has been hacked or stolen. If you discover that someone is using your Credentials without your consent, or you discover any other breach of security, you agree to notify Gaia GPS immediately.
+
+If an organization invited or otherwise provided you with your account, that organization may have rights to your account and may: manage your account, reset your password, or suspend or cancel your account; view your account's usage and profile data, including how and when your account is used; and read or store Content in your account. If you are an individual user of the Services, and the domain of the primary email address associated with your account is owned by an organization and was assigned to you as an employee, contractor or member of such organization, and that organization wishes to establishes a commercial relationship with us and add your account to such relationship, then, if you do not change the email address associated with your account, your account may become subject to the commercial relationship between Gaia GPS and such organization and controlled by such organization.
+
+3. Content
+A variety of information, reviews, recommendations, messages, comments, posts, text, graphics, software, photographs, videos, data, maps, and other materials ("Content") may be made available through the Services by Gaia GPS or its suppliers ("Gaia GPS-Supplied Content"). While Gaia GPS strives to keep the Content that it provides through the Services accurate, complete, and up-to-date, Gaia GPS cannot guarantee, and is not responsible for the accuracy, completeness, or timeliness of any Gaia GPS-Supplied Content.
+
+You acknowledge that you will be able to create, transmit, publish or display information (such as data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images) through use of the Services. All such information is referred to below as "User Content."
+
+You agree that you are solely responsible for (and that Gaia GPS has no responsibility to you or to any third party for) any User Content, and for the consequences of your actions (including any loss or damage which Gaia GPS may suffer) in connection with such User Content. If you are registering for these Services on behalf of an organization, you also agree that you are also responsible for the actions of associated Users and for any User Content that such associated Users might upload, record, publish, post, link to, or otherwise transmit or distribute through use of the Services.Furthermore, you acknowledge that Gaia GPS does not control or actively monitor Content uploaded by users and, as such, does not guarantee the accuracy, integrity or quality of such Content. You acknowledge that by using the Services, you may be exposed to materials that are offensive, indecent or objectionable. Under no circumstances will Gaia GPS be liable in any way for any such Content. You will: (a) be solely responsible for the nature, quality and accuracy of your User Content; (b) ensure that your User Content (including the storage or transmission thereof) complies with these Terms and any and all applicable laws, and regulations; (c) promptly handle and resolve any notices and claims relating to your User Content, including any notices sent to you by any person claiming that any User Content violates any person's rights, such as take-down notices pursuant to the Digital Millennium Copyright Act and any other notices; and (d) maintain appropriate security, protection and backup copies of your User Content, which may include, your use of additional encryption technology to protect the Content from unauthorized access.
+
+Gaia GPS may refuse to store, provide, or otherwise maintain your User Content for any or no reason. Gaia GPS may remove your User Content from the Services at any time if you violate these Terms or if the Services are canceled or suspended. If User Content is stored using the Services with an expiration date, Gaia GPS may also delete the User Content as of that date. User Content that is deleted may be irretrievable. You agree that Gaia GPS will have no liability of any kind as a result of the deletion of, correction of, destruction of, damage to, loss of or failure to store or encrypt any User Content. Gaia GPS recommends that You backup all User Content, including, but not limited to, important waypoints, tracks, and photo waypoints. You acknowledge that User Content you may store or access through the Services may be subject to inadvertent damage, corruption or loss.
+
+Gaia GPS reserves the right (but shall have no obligation) to remove User Content from the Services, in its discretion. You agree to immediately take down any Content that violates these Terms, including pursuant to a takedown request from Gaia GPS. In the event that you elect not to comply with a request from Gaia GPS to take down certain Content, Gaia GPS reserves the right to directly take down such Content.
+
+Subject to the limitations set forth in this paragraph, by submitting, posting or otherwise uploading User Content on or through the Services you give Gaia GPS a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, publicly perform, publicly display and distribute such User Content for the purpose of enabling Gaia GPS to provide you with the Services, and for the limited purposes stated in our Privacy Policy. In particular, You authorize Gaia GPS to remove any copyright management information ("CMI") included in the User Content and to distribute such User Content without CMI. You will have the option to make User Content available to other Gaia GPS users or to restrict access to your User Content. User Content that you properly select to be restricted to only your use and access shall be referred to as "Private User Content." User Content that you fail to properly select to be restricted to only your use and access, that you have opted to "publish" or make "public," that you have failed to opt out of the "publish" option or opt out of making such User Content "public," or that you otherwise indicated (by act or omission) that such User Content may be made available to other users shall be referred to as "Public User Content." With respect to any Public User Content, you assign Gaia GPS all right, title, and interest to such Public User Content. With respect to any Private User Content, Gaia GPS will not make such Private User Content available to other Gaia GPS Users; provided, however, you agree that Gaia GPS may use such Private User Content, in an anonymized manner, to provide data to Gaia GPS Users as to the popularity of existing features on maps, such as trails and points of interest. You understand and acknowledge that Gaia GPS may use both opt in and/or opt out methods of selecting whether some or all of your User Content be designated Private User Content or Public User Content and you agree that You shall be responsible for ensuring that Your User Content is designated in accordance with your wishes. Gaia GPS shall have no responsibility or liability based on your failure to appropriately opt out or opt into your preferred privacy settings.
+
+You represent and warrant that You are the owner of all right, title, and interest in the User Content or that You have sufficient license rights to the User Content to grant Gaia GPS the rights set forth in these Terms.
+
+4. Proprietary Rights
+You acknowledge and agree that Gaia GPS (or Gaia GPS’s licensors) own all legal right, title and interest in and to the Services and Gaia GPS-Supplied Content and that the Services and Gaia GPS-Supplied Content are protected by copyrights, trademarks, patents, or other proprietary rights and laws (whether those rights happen to be registered or not, and wherever in the world those rights may exist).
+
+Except as provided in Section 3, Gaia GPS acknowledges and agrees that it obtains no right, title or interest from you (or your licensors) under these Terms in or to any Content that you create, submit, post, transmit, share or display on, or through, the Services, including any intellectual property rights which subsist in that Content (whether those rights happen to be registered or not, and wherever in the world those rights may exist). Unless you have agreed otherwise in writing with Gaia GPS, you agree that you are responsible for protecting and enforcing those rights and that Gaia GPS has no obligation to do so on your behalf.
+
+5. License from Gaia GPS and Restrictions on Use
+Gaia GPS gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you as part of the Services. This license is solely to allow you to access the Services for your (or your organization’s) non-commercial or internal business purposes, in the manner permitted by these Terms.
+
+You may not (and you may not permit anyone else to: (a) copy, modify, create a derivative work of, reverse engineer, decompile or otherwise attempt to extract the source code of the Services or any part thereof, unless this is expressly permitted or required by law, or unless you have been specifically told that you may do so by Gaia GPS, in writing (e.g., through an open source software license); or (b) attempt to disable or circumvent any security mechanisms used by the Services or any applications running on the Services.
+
+You may not engage in any activity that interferes with or disrupts the Services (or the servers and networks which are connected to the Services).
+
+You may not access the Services in a manner intended to avoid incurring fees or exceeding usage limits or quotas.
+
+You may not access the Services for the purpose of bringing an intellectual property infringement claim against Gaia GPS or for the purpose of creating a product or service competitive with the Services. You may not use any robot, spider, site search/retrieval application or other manual or automatic program or device to retrieve, index, "scrape," "data mine" or in any way gather Content from the Services.
+
+You agree that you will not upload, record, publish, post, link to, transmit or distribute User Content, or otherwise utilize the Services in a manner that: (i) advocates, promotes, incites, instructs, informs, assists or otherwise encourages violence or any illegal activities; (ii) infringes or violates the copyright, patent, trademark, service mark, trade name, trade secret, or other intellectual property rights of any third party or Gaia GPS, or any rights of publicity or privacy of any party; (iii) attempts to mislead others about your identity or the origin of a message or other communication, or impersonates or otherwise misrepresents your affiliation with any other person or entity, or is otherwise materially false, misleading, or inaccurate; (iv) promotes, solicits or comprises inappropriate, harassing, offensive, abusive, profane, hateful, defamatory, libelous, threatening, obscene, indecent, vulgar, pornographic or otherwise objectionable or unlawful content or activity; (v) is harmful to minors; (vi) utilizes or contains any viruses, Trojan horses, worms, time bombs, or any other similar software, data, or programs that may damage, detrimentally interfere with, surreptitiously intercept, or expropriate any system, data, personal information, or property of another; or (vii) violates any law, statute, ordinance, or regulation (including without limitation the laws and regulations governing export control, unfair competition, anti-discrimination, or false advertising).
+
+You may not use the Services if you are a person barred from receiving the Services under the laws of the United States or other countries, including the country in which you are resident or from which you use the Services. You affirm that you are over the age of 13, as the Services are not intended for children under 13.
+
+6. Pricing Terms
+Please see Gaia GPS’s Pricing Terms at gaiagps.com/member, gaiagps.com/premium, or gaiagps.com/team (depending on which is applicable to your subscription) for details regarding pricing for the Services. You agree to make timely payment of all fees incurred by You for use of the Services and to otherwise comply with all terms set forth in the Pricing Terms.
+
+7. Privacy Policies
+These Services are provided in accordance with our Privacy Policy, which can be found at https://www.gaiagps.com/company/privacy/. You agree to the use of your User Content and personal information in accordance with these Terms and Gaia GPS’s Privacy Policy.
+
+8. Modification and Termination of Services
+Gaia GPS is constantly innovating in order to provide the best possible experience for its users. You acknowledge and agree that the form and nature of the Services which Gaia GPS provides may change from time to time without prior notice to you, subject to the terms in its Privacy Policy. Changes to the form and nature of the Services will be effective with respect to all versions of the Services; examples of changes to the form and nature of the Services include without limitation changes to fee and payment policies, security patches, added functionality, automatic updates, and other enhancements. Any new features that may be added to the website or the Services from time to time will be subject to these Terms, unless stated otherwise.
+
+You may terminate these Terms at any time by canceling your account on the Services. You will not receive any refunds if you cancel your account.
+
+You agree that Gaia GPS, in its sole discretion and for any or no reason, may terminate your account or any part thereof. You agree that any termination of your access to the Services may be without prior notice, and you agree that Gaia GPS will not be liable to you or any third party for such termination.
+
+You are solely responsible for exporting your Content from the Services prior to termination of your account for any reason, provided that if we terminate your account, we will endeavor to provide you a reasonable opportunity to retrieve your Content.
+
+Upon any termination of the Services or your account these Terms will also terminate, but all provisions of these Terms which, by their nature, should survive termination, shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, and limitations of liability.
+
+9. Changes to the Terms
+These Terms may be amended or updated from time to time without notice and may have changed since your last visit to the website or use of the Services. It is your responsibility to review these Terms for any changes. By continuing to access or use the Services after revisions become effective, you agree to be bound by the revised Terms. If you do not agree to the new Terms, please stop using the Services. Please visit this page regularly to review these Terms for any changes.
+
+10. DISCLAIMER OF WARRANTY
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SERVICES ARE AT YOUR SOLE RISK AND THAT THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE."
+
+GAIA GPS, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS MAKE NO EXPRESS WARRANTIES AND DISCLAIM ALL IMPLIED WARRANTIES REGARDING THE SERVICES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, GAIA GPS, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS DO NOT REPRESENT OR WARRANT TO YOU THAT: (A) YOUR USE OF THE SERVICES WILL MEET YOUR REQUIREMENTS, (B) YOUR USE OF THE SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE OR FREE FROM ERROR, AND (C) USAGE DATA PROVIDED THROUGH THE SERVICES WILL BE ACCURATE.
+
+NOTHING IN THESE TERMS, INCLUDING SECTIONS 10 AND 11, SHALL EXCLUDE OR LIMIT GAIA GPS’S WARRANTY OR LIABILITY FOR LOSSES WHICH MAY NOT BE LAWFULLY EXCLUDED OR LIMITED BY APPLICABLE LAW.
+
+11. LIMITATION OF LIABILITY
+SUBJECT TO SECTION 10 ABOVE, YOU EXPRESSLY UNDERSTAND AND AGREE THAT GAIA GPS, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU FOR ANY INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES WHICH MAY BE INCURRED BY YOU, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY. THIS SHALL INCLUDE, BUT NOT BE LIMITED TO, ANY LOSS OF PROFIT (WHETHER INCURRED DIRECTLY OR INDIRECTLY), ANY LOSS OF GOODWILL OR BUSINESS REPUTATION, ANY LOSS OF DATA SUFFERED, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR OTHER INTANGIBLE LOSS. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+
+THE LIMITATIONS ON GAIA GPS’S LIABILITY TO YOU IN THIS SECTION SHALL APPLY WHETHER OR NOT GAIA GPS HAS BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+
+SOME STATES AND JURISDICTIONS MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN NO EVENT SHALL GAIA GPS’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE) EXCEED THE AMOUNT THAT YOU HAVE ACTUALLY PAID FOR THE SERVICES IN THE PAST TWELVE MONTHS, OR ONE HUNDRED DOLLARS ($100.00), WHICHEVER IS GREATER.
+
+12. Indemnification
+You agree to hold harmless and indemnify Gaia GPS, and its subsidiaries, affiliates, officers, agents, employees, advertisers, licensors, suppliers or partners (collectively "Gaia GPS and Partners") from and against any third party claim arising from or in any way related to (a) your breach of the Terms, (b) your use of the Services, (c) your violation of applicable laws, rules or regulations in connection with the Services, or (d) your User Content, including any liability or expense arising from all claims, losses, damages (actual and consequential), suits, judgments, litigation costs and attorneys’ fees, of every kind and nature.
+
+13. Copyright Policy
+We respect the intellectual property rights of others and expect our users to do the same. In accordance with the Digital Millennium Copyright Act, Title 17, United States Code, Section 512(c)(2) (the "DMCA"), we will respond expeditiously to claims of copyright infringement committed using the Services if such claims are reported to our Designated Copyright Agent identified in the sample notice below.
+
+DMCA Notice of Alleged Infringement ("Notice")
+
+Identify the copyrighted work that you claim has been infringed, or if multiple copyrighted works are covered by this Notice, you may provide a representative list of the copyrighted works that you claim have been infringed.
+
+Identify the material or link you claim is infringing (or the subject of infringing activity) and to which access is to be disabled, including at a minimum, if applicable, the URL of the link or the exact location where such material may be found.
+
+Provide your company affiliation (if applicable), mailing address, telephone number, and, if available, email address.
+
+Include both of the following statements in the body of the Notice:
+
+"I hereby state that I have a good faith belief that the disputed use of the copyrighted material is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)."
+
+"I hereby state that the information in this Notice is accurate and, under penalty of perjury, that I am the owner, or authorized to act on behalf of, the owner, of the copyright or of an exclusive right under the copyright that is allegedly infringed."
+
+Provide your full legal name and your electronic or physical signature. Deliver this Notice, with all items completed, to our Designated Copyright Agent:
+
+Copyright Agent,
+TrailBehind, Inc.
+1474 University Ave.
+Berkeley, CA 94702
+legal@gaiagps.com
+14. Third-Party Content
+The Services may include references or hyperlinks to other web sites or content or resources or email content. Gaia GPS has no control over any web sites or resources which are provided by companies or persons other than Gaia GPS.
+
+You acknowledge and agree that Gaia GPS is not responsible for the availability of any such external sites or resources, and does not endorse any advertising, products or other materials on or available from such web sites or resources.
+
+You acknowledge and agree that Gaia GPS is not liable for any loss or damage which may be incurred by you or other users as a result of the availability of those external sites or resources, or as a result of any reliance placed by you on the completeness, accuracy or existence of any advertising, products or other materials on, or available from, such web sites or resources.
+
+15. Third Party Software
+The Services may incorporate certain third party software ("Third Party Software"), which is licensed subject to the terms and conditions of the third party licensing such Third Party Software. Nothing in these Terms limits your rights under, or grants you rights that supersede, the terms and conditions of any applicable license for such Third Party Software.
+
+16. Feedback
+You may choose to or we may invite you to submit comments or ideas about the Services, including without limitation about how to improve the Services or our products. By submitting any feedback, you agree that your disclosure is gratuitous, unsolicited and without restriction and will not place Gaia GPS under any fiduciary or other obligation, and that we are free to use such feedback without any additional compensation to you, and/or to disclose such feedback on a non-confidential basis or otherwise to anyone.
+
+17. Miscellaneous
+These Terms, together with our Privacy Policy and Pricing Terms (if available), constitutes the entire agreement between the parties relating to the Services and all related activities. These Terms shall not be modified except in writing signed by both parties or by a new posting of these Terms issued by us. If any part of these Terms is held to be unlawful, void, or unenforceable, that part shall be deemed severed and shall not affect the validity and enforceability of the remaining provisions. The failure of Gaia GPS to exercise or enforce any right or provision under these Terms shall not constitute a waiver of such right or provision. Any waiver of any right or provision by Gaia GPS must be in writing and shall only apply to the specific instance identified in such writing. You may not assign these Terms, or any rights or licenses granted hereunder, whether voluntarily, by operation of law, or otherwise without our prior written consent. These Terms and any action related thereto will be governed by the laws of the State of California without regard to its conflict of laws provisions. The exclusive jurisdiction and venue of any action with respect to the subject matter of these Terms will be the state courts located in Santa Clara, California, and the federal courts located in the Northern District of California, and each of the parties hereto waives any objection to jurisdiction and venue in such courts.
+
+18. Contact Us
+If you have any questions about these Terms or if you wish to make any complaint or claim with respect to the Services, please contact us at: legal@gaiagps.com.
+
+When submitting a complaint, please provide a brief description of nature of your complaint and the specific services to which your complaint relates.
+Maps & Activities
+Browse the Map Catalog
+Hiking Trails
+Backpacking
+Hunting (Land Ownership)
+Overland, Offroad & 4x4
+Mountain Biking
+Backcountry Skiing
+Canadian Topos
+Emergency Responders
+Outfitters & Guides
+Purchase
+Membership
+Team Licenses
+Gift
+Company
+Blog
+Store
+Jobs
+Team
+User Resources
+Help & Forums
+Map
+Upload
+Follow Us
+Facebook
+Youtube
+Instagram
+Twitter
+Legal
+Terms of Use
+Privacy Policy

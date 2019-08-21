@@ -1,0 +1,88 @@
+<html class="desktop portrait" style="font-size: 125%;"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#ffffff">
+    <title>Политика конфиденциальности Simpler</title>
+    <!--<link rel="icon" href="/img/favicon.png">-->
+    <link rel="stylesheet" href="/css/index.css" type="text/css">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script>
+        function initSize() {
+            var _delta;
+            var contWidth = 640;
+            if ($('html').hasClass('mobile') && $(window).width() > 640) {
+                $('body').addClass('mobile-big');
+                contWidth = 1080;
+            }
+            if ($(window).width() > 320) {
+                if ($(window).width() > contWidth) {
+                    _delta = '125%';
+                    if ($('.iphone').size()) {
+                        _delta = (($(window).width() / contWidth) * 125) + '%';
+                    }
+                } else {
+                    _delta = (($(window).width() / contWidth) * 125) + '%';
+                }
+                $('html').css('font-size', _delta);
+            } else {
+                $('html').css('font-size', '64.0625%');
+            }
+        }
+
+        $(document).ready(function () {
+            initSize();
+        });
+    </script>
+    <script type="text/javascript" src="/js/user.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="main_wrap">
+        <div class="container" id="100vh" style="min-height: 100vh; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display:flex; flex-direction:column;">
+            <section class="text-section">
+                <div class="content-holder">
+                    <h2 class="blue">Политика конфиденциальности Simpler</h2>
+                    <p>
+                        Условие конфиденциальности распространяется на всю ту информацию, которую ООО «Гудвас» (далее, Гудвас) может получить о пользователе во время использования им приложения «Simpler» (далее, Приложения) и которая может быть соотнесена с данным конкретным пользователем.
+                    </p>
+                    <h3 class="blue">Получение и использование персональной информации</h3>
+                    <p>
+                        Гудвас получает персональную информацию о Вас, когда Вы используете Приложение.
+                    </p>
+                    <p>
+                        Когда Вы регистрируетесь в Приложении, Вы устанавливаете привязку аккаунта в Приложении и Вашей электронной почты. Гудвас сохраняет Ваш адрес электронной почты, указанный вами в Приложении, и результаты выполнения вами заданий в рамках программы обучения английскому языку.
+                    </p>
+                    <p>
+                        Приложение автоматически получает и может записывать в серверные журналы техническую информацию из Приложения: IP адрес, версию Приложения, версию операционной системы, дату и время сессий.
+                    </p>
+                    <p>
+                        Эта информация используется только для обеспечения работоспособности приложения и оперативного решения проблем.</p>
+                    <p>
+                        Всю полученную информацию Гудвас использует с одной основной целью: сделать Приложение максимально удобным и полезным для Вас.
+                    </p>
+                    <h3 class="blue">Использование и раскрытие персональной информации</h3>
+                    <p>
+                        Гудвас никому не продает и не разглашает персональную информацию о пользователях. Гудвас вправе передать персональную информацию о Пользователе третьим лицам только в том случае, если:
+                    </p>
+                    <ul>
+                        <li>
+                            Вы изъявили письменное желание раскрыть эту информацию.
+                        </li>
+                        <li>
+                            Это предусмотрено действующим законодательством РФ.
+                        </li>
+                    </ul>
+                    <h3 class="blue">Возможность редактировать информацию и персональные настройки</h3>
+                    <p>
+                        Приложение не предоставляет Пользователям возможность изменить свой адрес электронной почты. Пройти авторизацию под другим электронным адресом возможно путем переустановки Приложения и прохождения повторной процедуры регистрации.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+</body></html>

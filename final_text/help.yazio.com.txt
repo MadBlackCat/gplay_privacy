@@ -1,0 +1,261 @@
+YAZIO Help Center
+ENGLISH (US)
+YAZIO Help Center General General Information
+Terms of Service & Privacy Policy
+MAX Today at 15:38
+FOLLOW
+GENERAL TERMS AND CONDITIONS
+§1 Scope of application
+(1) These terms and conditions govern the use of the YAZIO application (app). They apply regardless of whether the app is used free of charge or for a fee.
+(2) Only the following terms and conditions apply between YAZIO GmbH (hereinafter “Provider”) and the user (hereinafter “User”) as amended at the time of use.
+§2 Definition of terms
+(1) The term “YAZIO App” refers to the programme entitled “YAZIO” sold under the name “YAZIO”. This programme can be installed and operated on devices such as mobile telephones, tablet PCs and other mobile devices.
+(2) The terms “Consumer” and “Entrepreneur” correspond to the legal definitions in Sections 13, 14 German Civil Code (BGB). The User is thus the “Consumer” insofar as the use or purchase of the YAZIO App cannot be assigned primarily to the User’s commercial or self-employed professional activity. In contrast, “Entrepreneur” refers to any natural or legal person or partnership with legal capacity that acts in exercise of its trade, business or profession when using the YAZIO App or entering into the contract.
+(3) “Market place” refers to the shops (stores) of Market place operators such as Google (“Google Play”) or Apple (“App Store”) where the User can select and download the YAZIO App to be installed on the User’s device.
+§3 Available types of use
+The YAZIO App can be operated free of charge or for a fee. The app is always free of charge when installed - e.g. via the Google or Apple Market places. Use for a fee always requires special, express consent by the User in the app (“in-app-purchase”, see below § 4).
+§4 Use of the YAZIO App, in-app purchases
+(1) The User can select and install the YAZIO App in the respective Market place. By installing the app, the User accepts these General Terms and Conditions.
+(2) A user account is required to use the YAZIO App; this in turn requires that the User enters an email address and a password.
+(3) If the User would like to use the wide range of features offered by the pay version of the YAZIO App, the User can upgrade through the so-called “in-app purchase”. The upgrade mechanism may differ depending on the Market place platform; please refer to the respective Market place operator’s terms and conditions to determine the course of action required. The purchase contract is subject to the conditions of the respective Market place. Those conditions also determine whether the purchase contract is concluded between the User and the Market place or between the User and YAZIO GmbH.
+(4) In-app purchases are billed by the respective Market place. The payment terms stipulated by the respective Market place operator apply.
+§5 Warranty for defects of quality, guarantee
+Provided that the purchase contract between the Provider and the User is effected, the Provider is liable for defects in the app in line with the applicable statutory provisions, particularly pursuant to the general provisions of Sections 434 et. seqq. German Civil Code (BGB). The warranty period for the app made available to Entrepreneurs by the Provider is twelve months.
+§6 Liability
+(1) User claims to compensation for damages are excluded. This does not include a user’s claims to compensation of damages for injury to life or limb, health or damages caused by breach of material contractual obligations or liability for other damage caused by a deliberate or grossly negligent breach of duty by the Provider, its legal representatives or vicarious agents. Material contractual obligations are those obligations that are required to achieve the objective of the contract.
+(2) If material contractual obligations are violated, the Provider is only liable for the typical foreseeable damage if such damage was caused by ordinary negligence, unless the User’s claim for compensation of damages is based on an injury to life, limb or health.
+(3) The limitations of sub-sections (1) and (2) shall also apply in favour of the Provider’s legal representatives or vicarious agents if claims are asserted directly against such persons.
+§7 Instructions on right of withdrawal
+(1) If the contract is entered into with the Provider (and not the Market place operator), the User has a statutory right of withdrawal against the Provider, as explained in detail under (2). Exceptions to the right of withdrawal are stated under (3). The sample withdrawal form is available under (4).
+(2) Instructions on right of withdrawal
+Right of withdrawal
+You have the right to withdraw from this contract within 14 days without reason. The period for the right of withdrawal amounts to fourteen days from the day the contract was concluded. In order to exercise your right of withdrawal, you must inform us (YAZIO GmbH [address, e-mail, telephone, fax]) in a clear statement of your decision to withdraw from this contract (e.g. by sending a letter by post, fax or email). You may use the enclosed sample withdrawal form, but this is not mandatory. The withdrawal deadline is deemed met if the letter stating your decision to use your right of withdrawal is dispatched before the withdrawal deadline expires.
+Consequences of the notice of withdrawal
+If you withdraw from this contract, we must return any and all payments that we have received from you without undue delay and at the latest within fourteen days from the day on which we received your letter stating your withdrawal. We use the same means of payment for this repayment as you used for the original transaction, unless we have explicitly agreed something else; under no circumstances will we charge you a fee for this repayment.
+(3) The right to withdraw from any purchase made via the YAZIO App ends when the Provider has begun to perform the contract, i.e. has begun providing the payable functionalities of the YAZIO App after the User has expressly consented to the Provider beginning to perform the contract before the period for the right of withdrawal has expired, and the User has confirmed that it is aware that it loses its right to withdraw upon performance.
+(4) Sample withdrawal form
+(If you wish to withdraw from the contract, please fill in this form and send it back to us).
+— To: help@yazio.com
+OR
+— To: YAZIO GmbH, Kartäuserstr. 13a, 99084 Erfurt, Germany
+— I/we withdraw (*) from the contract I/we (*) entered into concerning the purchase of the following goods (*)/the performance of the following service (*)
+— ordered on (*)/received on (*)
+— Consumer’s name
+— Consumer’s address
+— Consumer's e-mail address used for YAZIO registration
+— Consumer’s signature (only if notification is made in writing)
+— date
+(*) delete as applicable
+§8 Final provisions
+(1) Contracts entered into between the User and the Provider are subject to the laws of the Federal Republic of Germany, excluding the UN Convention on Contracts for the International Sale of Goods (CISG). Statutory provisions limiting the choice of law and the application of mandatory provisions, especially of the state where the User as the Consumer has its habitual abode, remain unaffected.
+(2) If the User is an Entrepreneur, a legal person under public law or a special fund under public law, the place of jurisdiction for all disputes under the contractual relationships between the User and the Provider shall be the registered office of the Provider.
+(3) If individual items are legally invalid, the remainder of the contract shall remain valid. Whenever such provisions exist, the statutory provisions shall replace the invalid provisions. If this would constitute undue hardship for one of the contracting parties, the entire contract shall be deemed invalid.
+DATA PRIVACY POLICY
+YAZIO is a digital calorie counter (hereinafter: App, Product) for Android and iOs and is operated by YAZIO GmbH (hereinafter: YAZIO, Provider) with registered office in Erfurt, Germany.
+The following data protection provisions apply to all the App’s registered users. By registering, you agree with the following data protection provisions.
+1) Controller
+The body responsible for collecting, processing and using the personal data concerning you (Controller) in terms of the General Data Protection Regulation, GDPR, is
+YAZIO GmbH
+Kartäuserstraße 13a
+99084 Erfurt
+Germany
+Data Protection Officer:
+lexTM Rechtsanwälte
+Dr. Schmitt-Gaedke + Partner
+Friedensstrasse 11 (Junior-Haus)
+60311 Frankfurt/Main
+Germany
+Please contact the Controller or our Data Protection Officer if you have questions with respect to the personal data concerning you, this Data Protection Policy or how to exercise your rights as a data subject.
+2) Encryption
+All the incoming and outgoing data traffic when communicating with the Apps or with third parties is encrypted via TLS. The code “https://” in the address bar and the lock icon show you that the connection for using our website is encrypted.
+TLS encryption means that third parties cannot read the data transmitted.
+3) Collection, processing and use of personal data
+3.1) Personal data
+“Personal data” in terms of the GDPR means any information relating to an identified or identifiable natural person; an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
+The Provider only processes the personal data concerning you (e.g. email address, nutritional information in the App) in accordance with the provisions of applicable data protection law as amended. The following provisions inform you about the nature, scope and purposes of collecting, processing and using personal data. This Data Privacy Policy applies only to the aforementioned Product. If a link leads to you another website, please check the information there for the respective treatment of the personal data concerning you.
+3.2) Data collection when using our website
+When you visit our www.yazio.com website, the web server automatically creates log files that cannot be associated with a certain person; this processing is based on our legitimate interests pursuant to point (f) of Art. 6 (1) GDPR.  Such data may include, for instance, browser type and version, operating system used, referrer URL, IP address of the requesting computer, date and time of access of the server request and the client’s file request (name of file and URL). These data are only collected for statistical purposes and for safety reasons (e.g. in order to investigate misuse and fraudulent acts), stored for a period of seven days and erased thereafter. Data that needs to be stored as evidence for a longer period is excluded from erasure until the respective incident has been clarified.
+Cookies
+In order to make the web pages more user-friendly and effective, YAZIO and third parties commissioned by YAZIO store so-called cookies on the customers’ hard disk. The legal basis for this type of use is point (f) of Art. 6 (1) GDPR.
+Cookies are small text files that serve, among other purposes, to record information on how a website is used. These cookies cannot execute programmes, nor can they infect your computer with viruses. They do not contain any personal data, cannot be attributed to a certain person and are automatically erased at the latest after one year, unless otherwise stated. Such data is not combined with data from other sources.
+The website can also be used without cookies. In your browser settings, you can deactivate or limit the use of cookies or prompt your browser to warn you before a cookie is sent. You can also delete cookies from the computer’s hard disk at any time.
+3.3) Personal data when using the YAZIO App
+3.3.1) Mandatory information
+In order to be able to use the App, the user must provide an email address and a password (mandatory information). These data serve to identify the user and to enable communication between the Provider and the user. The email address and all the user’s other data are not visible to other users. The data are stored on the basis of your consent pursuant to point (a) of Art. 6 (1) GDPR.
+3.3.2) Data provided by the user
+YAZIO further records data provided by the user that can be entered when using the App. This refers to a user profile that consists of the following physical data:
+sex
+date of birth
+height
+type of activity (sitting, standing, etc.)
+desired result (lose weight, etc.)
+starting weight
+target weight
+The physical data are recorded on the basis of your consent pursuant to point (a) of Art. 6 (1) GDPR and are used exclusively to calculate your personal calorie intake.  In order to be able to use the features of the App, physical data needs to be provided. It is particularly necessary to provide the starting weight, target weight, sex, date of birth, height and type of professional activities so that YAZIO can calculate the user’s personal calorie intake target. These data are not visible to third parties.
+Furthermore, the following data are collected and stored when the user account is set up:
+First name (optional)
+Email address
+Password
+3.3.3) Data automatically recorded by YAZIO
+The following data is recorded once when the user registers with YAZIO:
+Date of registration
+Operating system of the device used (Android/iOS)
+Country and language (using the locale: The locale is a set of parameters that contains the user’s regional settings, including in particular the language of the user interface, the country and settings regarding the character classification, keyboard layout, number, currency, date and time formats.
+We record these data for the purpose of improving and personalising our services on the basis of our legitimate interest pursuant to point (f) of Art. 6 (1) GDPR.
+3.3.4) Data recorded during the use of the App
+When the App is used, YAZIO further records
+the current IP address,
+the version of the App in use,
+the current time zone.
+We record these data for the purpose of improving and personalising our services on the basis of our legitimate interest pursuant to point (f) of Art. 6 (1) GDPR.
+3.3.5) Data exchange with third parties
+YAZIO further records and stores data that are made available by third party providers on the basis of your consent pursuant to point (a) of Art. 6 (1) GDPR and transmits the corresponding data to such third party providers.  This refers to the following providers and data:
+Google Fit, Apple Health, Samsung Health
+various fitness, nutritional and physical data
+Fitbit
+user’s current weight and time of recording
+amount of water consumed during a day
+time, duration, type, calorie consumption, distance, number of steps from trainings that the user recorded with Fitbit
+total activity level (calorie consumption), duration of activities, number of steps in a day
+Garmin
+user’s weight and time of recording
+time, duration, type, calorie consumption, distance, number of steps from trainings that the user recorded with Garmin
+total activity level (calorie consumption), distance covered, number of steps in a day
+ Polar
+user’s current weight and time of recording
+time, duration, type, calorie consumption, distance, number of steps from trainings that the user recorded with Polar
+total activity level (calorie consumption), duration of activities, number of steps in a day
+3.3.6) Contractual relationship
+If a contractual relationship is to be established, designed or amended between the user and YAZIO, YAZIO stores the user’s personal data on the basis of point (b) of Art. 6 (1) GDPR to the extent that this is needed for the performance of the contract.  By means of In-app purchasing, the user has the option to subscribe to the YAZIO PRO version of the App. If you decide to subscribe to the PRO version, the order button will lead you directly to either the Apple AppStore or the Google Play Store depending on which operating system you use.
+In this context, we will transmit the starting date and the end date and, if applicable, the termination date of the subscription and the reason for the termination (for instance, withdrawal). The data for processing the payment are collected directly by the app stores.
+For the privacy policies of the app stores, please go to:
+Apple App Store: https://www.apple.com/de/privacy
+Google Play Store: https://policies.google.com/privacy
+You can also purchase the PRO version of the App through our website. In this case, you must specify your credit card details on our website. The payment is then handled by the payment service provider Stripe. This service is offered by Stripe Payments Europe Ltd, Block 4, Harcourt Centre, Harcourt Road, Dublin 2, Ireland. We will transmit to Stripe the information you provided during the ordering process (name, email address, credit card details, starting date and end date and, if applicable, the date of termination of the subscription, invoice amount) pursuant to point (b) of Art. 6 (1) GDPR.  Your data is transmitted exclusively for the purpose of handling the payment with the payment service provider Stripe Payments Europe Ltd. and only to the extent that this is required for such purposes.
+For more information on data protection at Stripe, please go to https://stripe.com/de/legal
+4) Customer contact and support
+YAZIO uses Zendesk, a customer service platform operated by Zendesk Inc., 989 Market Street #300, San Francisco, CA 94192 to handle customer requests. In this context, the YAZIO App records the OS version in use, the App version, the device in use, the date of registration, the date of birth, sex and whether the customer has PRO status in order to comply with information requirements.
+These personal data provided by you when you make a customer request are used only for the purpose of replying to your question or for contacting you and for the associated technical administration work. Such data is not forwarded to third parties.
+If you have given us your consent to store the personal data concerning you, you have the right to withdraw such consent for future processing at any time. In this case, the personal data concerning you will be erased without delay.
+We will also erase the personal data concerning you without you withdrawing your consent when we have dealt with your request or if you withdraw the consent to storage given in this context. The same applies if storage is inadmissible for other legal reasons.
+For the data privacy policy of Zendesk, please go to https://www.zendesk.com/company/privacy
+Zendesk Inc. is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection level will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt0000000TOjeAAG
+Zendesk is used on the basis of your consent pursuant to point (a) of Art. 6 (1) GDPR and a data processing agreement pursuant to Art. 28 (3) sentence 1 GDPR.
+5) Newsletter, mailings
+Upon your request, we regularly inform you via email of current nutrition trends, recipes and other interesting offers and tips surrounding eating, weight loss, etc. Registration for this service is voluntary and conducted via the so-called double opt-in process. Following registration, you will receive an email asking you to confirm your registration. This is required to prevent unauthorised third parties from using your email address to subscribe to our newsletter. In order to be able to demonstrate your registration in accordance with the legal requirements, it is in our legitimate interest pursuant to point (f) of Art. 6 (1) GDPR to log the registration. 
+By registering to the newsletter, you give your consent to the data provided being processed to send and receive emails (point (a) of Art. 6 (1) GDPR).  You further give your consent for YAZIO to collect and process data regarding your user patterns (i.e. opening and clicking on links in the email) in order to customise the mailings to meet your specific needs; if, for instance, you click links on topic A several times, but never click links on topic B, you will only receive links on topic A in future mailings.
+You may, at any time and without stating any reasons, withdraw your consent given to receiving these emails in the future by sending an email to help@yazio.com. You can also unsubscribe to the newsletter by clicking on a link that you find at the end of each newsletter. We may store the unsubscribed email addresses and the data stored within the scope of the registration records for a period of up to three years based on our legitimate interests in order to demonstrate that consent was previously given before we erase them for the purpose of mailing newsletters. The processing of these data is restricted to the purpose of defending against any claims that might be asserted. Individual requests for erasure are possible at any time, provided that the consent previously given is confirmed at the same time.
+The newsletter is sent via the “SparkPost” delivery service provider. SparkPost is an email delivery service operated by the US provider Message Systems Inc., 9160 Guilford Road, Columbia, Maryland 21046, USA. For the delivery service provider’s privacy policy, please go to https://www.sparkpost.com/policies/privacy.
+Message Systems Inc. is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection level will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt0000000KzTTAA0
+The delivery service provider is used on the basis of our legitimate interest pursuant to point (f) of Art. 6 (1) GDPR and a data processing agreement pursuant to Art. 28 (3) sentence 1 GDPR. 
+The delivery service provider can use the recipients’ data in anonymised form, i.e. with attribution to a user, in order to optimise or improve its own services, for instance to technically optimise the mailing and presentation of newsletters or to analyse them for statistical purposes. However, the delivery service provider does not use the data of our newsletter recipients to write to them itself or to forward such data to third parties.
+6) Use by children
+YAZIO is aware of the additional measures that are required to protect the privacy of children. Persons under 16 may not open accounts, unless one parent has agreed in accordance with the applicable law. If we discover that we have recorded personal data of a child below the minimum age without its parent’s consent, we will take measures to immediately erase such data. Parents who believe that their child has made personal data available to us and who wish to have such data erased should please contact us under the details stated in item 1.
+7) Use of web analysis, remarketing and retargeting tools
+Based on our legitimate interests in terms of point (f) of Art. 6 (1) GDPR, we use various tools or plugins to conduct web analysis, remarketing, and retargeting in order to optimise our online offering and to be able to compile more relevant offers for you.
+These services use cookies, forward the IP address and/or record and analyse various types of data, including the number of website visitors, duration of the visit, average page loading time and origin of the visitors.
+Detailed information:
+7.1) Google Analytics
+We use Google Analytics, a web analysis service offered by Google. Google Analytics uses cookies that help to analyse how visitors use the website. The information generated by the cookie about the way you use the website (including your IP address) will generally be transmitted to and stored by Google on servers in the United States. YAZIO has activated IP anonymisation by adding the code “gat._anonymizeIp();” on the websites, meaning that Google will shorten your IP address within a member state of the EU or another state party to the Agreement on the European Economic Area beforehand (this procedure is called IP masking). Only in exceptional cases will the full IP address be transmitted to a Google server in the US and shortened there. Google will use this information on our behalf for the purpose of evaluating the way you use the website, compiling reports on website activity for YAZIO and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf.
+Google offers an add-on for web browsers that serves to prevent data collection by Google Analytics and data processing by Google. The add-on can be downloaded and installed at your own risk from https://tools.google.com/dlpage/gaoptout.
+More information is available at:
+http://www.google.com/intl/de/analytics/privacyoverview.html
+(general information on Google Analytics and data protection).
+Google is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection law will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI
+7.2) Firebase Analytics
+We use Firebase Analytics for the YAZIO App. Firebase Analytics is a service offered by Google Inc. domiciled in 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+The Firebase Analytics service helps to determine the interactions of App users by recording, for instance, the first time the App is opened, deinstallations, updates, system crashes and how often the App is used. The service also records and analyses certain user interests. The information processed via Google Firebase may also be used together with other Google services, such as Google Analytics and the Google marketing services. The tool uses identifiers like the Android Advertising ID or the Advertising Identifier for iOS and cookie-like technologies to identify the users’ mobile devices.
+For more information on Google’s use of data for marketing purposes, please go to https://www.google.com/policies/technologies/ads. The Google Privacy Policy is available at https://www.google.de/policies/privacy. Users, who wish to object to interest-based marketing by the Google marketing services, can use the settings and opt-out options offered by Google at http://www.google.com/ads/preferences.
+Google is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection law will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI
+7.3) Crashlytics
+The YAZIO App further uses the Crashlytics analysis programme offered by Fabric, a company belonging to Google Inc. domiciled in 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Crashlytics provides us with information on unforeseen system crashes and other malfunctions, thus serving our legitimate interest to constantly improve the App and eliminate faults. When a fault occurs, the analysis programme records and transmits information on the device in use, the operating system, the version and functionality of the App, time of the crash and the anonymised IP address of the requesting device. For more information, go to the information provided by Crashlytics at https://try.crashlytics.com/terms/privacy-policy.pdf. The Google Privacy Policy is available at https://www.google.de/policies/privacy.
+Google is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection law will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI
+7.4) AppsFlyer
+The YAZIO App uses AppsFlyer, an analysis service offered by AppsFlyer Inc, 111 New Montgomery Street, San Francisco, CA 94105. We use the AppsFlyer tracking software to measure the success of our marketing campaigns. AppsFlyer collects and stores data on how the website is used by applying pseudonyms. The user profiles thus compiled serve to analyse user patterns and are used to improve and customise our offers. The service may use cookies. The pseudonymised user profiles are not associated with personal data pertaining to the holder of the pseudonym, unless the user explicitly gives his or her consent in a separate procedure.
+You can object to the future collection and storage of your data by AppsFlyer at any time by following the corresponding instructions at https://www.appsflyer.com/optout.
+AppsFlyer is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection law will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt0000000GnUZAA0
+8) Social Media plugins
+Based on our legitimate interests in terms of point (f) of Art. 6 (1), we use various Social Media plugins to conduct web analysis, remarketing, and retargeting in order to optimise our online offering and to be able to compile more relevant offers for you.
+8.1) Facebook
+We use the Social Media plugin of Facebook.com operated by Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland (“Facebook”). Such plugins may constitute interaction elements or content (e.g. videos, graphics or text) and are marked with one of the Facebook logos (white “f” in a blue tile, the terms “Like” or the “thumbs up” sign) or are labelled “Facebook Social Plugin”. For a list and illustrations of the Facebook Social Plugins, please go to: https://developers.facebook.com/docs/plugins
+A direct connection is established with the Facebook servers whenever a user accesses a feature on this website that contains such a plugin. Facebook transmits the plugin content directly to the user’s device, which is then incorporated into the online offering. In this context, the processed data may by used to compile user profiles. We therefore have no influence whatsoever on the scope of the data collected by Facebook with the help of this plugin. The information we provide to our users is based on what we know.
+By incorporating the plugin, Facebook receives the information that a user has accessed the corresponding page of the website. If the user is logged into Facebook, Facebook can attribute the website visit to that user’s Facebook account. Whenever a user interacts with a plugin, for instance by clicking the Like button or writing a comment, the user’s device transmits the corresponding information to Facebook directly, where it is stored. Facebook may even find out and store the IP address of users who are not registered with Facebook. According to Facebook, they only store anonymised IP addresses in Germany.
+The Facebook privacy policy is available at: https://www.facebook.com/about/privacy and gives more information on the purpose and scope of data collection and further data processing and use of the data by Facebook as well as the corresponding rights and setting options to protect your privacy.
+Users, who are registered with Facebook, but who do not wish Facebook to collect data concerning him or her via this website and to combine such data with the membership data stored by Facebook, must log out of Facebook before using our website and must delete their cookies. Additional settings as well as the possibility to object to the use of data for marketing purposes are available can be found in the Facebook user settings: https://www.facebook.com/settings?tab=ads or at http://www.aboutads.info/choices for the US and http://www.youronlinechoices.com for the EU.
+The settings are platform-independent, meaning that they will be assumed for all devices, whether desktop computers or mobile devices.
+Facebook is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection law will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC
+8.2) Twitter
+Our website may contain features and content of the Twitter service operated by Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA.
+This may include, for instance, content such as pictures, videos or text and buttons that users can use to show that they like the content or the authors of the content or to subscribe to our posts. Twitter can attribute the access to the aforementioned content or functions to the profiles of registered Twitter users.
+For Twitter’s privacy policy, please go to https://twitter.com/de/privacy.
+Twitter is certified under the Privacy Shield Framework, thus guaranteeing that the European data protection law will be complied with:
+https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO
+How to opt out: https://twitter.com/personalization
+8.3) Instagram
+Our website may contain features and content of the Instagram service operated by Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA. This may include, for instance, content such as pictures, videos or text and buttons that users can use to show that they like the content or the authors of the content or to subscribe to our posts.
+Instagram can attribute the clicking of the aforementioned content or functions to the profiles of registered Instagram users.
+For Instagram’s privacy policy, please go to: http://instagram.com/about/legal/privacy
+9) Erasure of your data
+YAZIO stores personal data concerning users as long as the App is used. When the user account is deleted, we will finally and irrevocably erase the email address, first name, surname, profile image and links to third party providers.
+10) How to reset your account
+Users can reset their accounts. In this case, we will use a transparent procedure to set up a new account to which the settings are copied (email address, password, settings, targets, etc.). The email address, first name, surname and, if applicable, Fitbit ID, Polar ID, Stripe ID and AppsFlyer data linked to the original account are erased in this account.
+11) Your rights
+Please do not hesitate to contact us using the contact details in item 1 at any time if your have questions regarding your rights and other topics surrounding personal data.
+You have the following rights:
+11.1) Right of access
+You have the right to request, free of charge at any time, information regarding the personal data concerning you that is stored by YAZIO, the origin and recipients of such data, the purpose of data processing, the planned duration of data storage and a copy of the personal data that are being processed (Art. 15 GDPR). 
+11.2) Right to rectification
+You further have the right to obtain without undue delay the rectification of inaccurate personal data and to have incomplete personal data completed (Art. 16 GDPR).
+11.3) Right to withdraw consent
+You have the right to withdraw, without stating reasons, your consent to data processing at any time with effect to future processing (Art. 7 (3) GDPR).
+11.4) Right to erasure
+You have the right to obtain erasure of personal data concerning you without undue delay if the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed or if you withdraw your consent to lawful processing and there are no other legal grounds for the processing. If you object to data processing and there are no overriding legitimate grounds for the processing, your data will also be erased. Finally, your data will be erased if processing is unlawful for any other statutory reasons (Art. 17 GDPR).
+11.5) Right to restriction of processing
+You have the right to obtain restriction of processing if you contest the accuracy of the personal data for a period of time that enables us to review the accuracy.
+Data processing is also restricted if processing is unlawful but you refuse erasure of the personal data concerning you and instead of requesting erasure, you request restriction of processing, or if we no longer need the personal data for the corresponding purposes, but we need them for the establishment, exercise or defence of legal claims, or if you had previously objected against processing but it has not yet been established whether YAZIO has legitimate grounds to store the personal data that override your interests (Art. 18  GDPR).
+11.6) Right to data portability
+You have the right to receive the personal data concerning you that you provided to us, in a structured, commonly used and machine-readable format and have the right to transmit those data to another controller where the processing is based on consent and the data is processed by automated means (Art. 20 GDPR).
+11.7) Right to object
+Finally, you have the right to object at any time to processing of personal data concerning you in the future.
+You have the right to object at any time to the compilation of user profiles and to the processing of the corresponding personal data concerning you where processing is based on consent. The personal data concerning you will no longer be processed where no compelling legitimate grounds override your interests, rights and freedoms. Where the personal data concerning you is processed for direct marketing purposes, you naturally have the right to object to such processing at any time (Art.  21 GDPR).
+11.8) Right to lodge a complaint
+You further have the right to lodge a complaint with a supervisory authority (Art. 77 GDPR).
+12) Validity and updates
+The Data Privacy Policy is currently valid and was prepared on 25 May 2018. Further developments of our website might make it necessary to amend this Data Privacy Policy. We reserve the right to amend the Data Privacy Policy at any time with future effect.
+LEGAL NOTICE
+Help
+App Help service: https://help.yazio.com
+We make YAZIO
+YAZIO GmbH
+Kartäuserstr. 13a
+99084 Erfurt
+Germany
+Registered in the commercial register
+Gesellschaft mit beschränkter Haftung (GmbH; German limited liability company)
+Commercial register at the Local Court of Jena
+Commercial register number: HRB 507453
+Represented by its managing directors
+Florian Weißenstein, Sebastian Weber
+VAT ID pursuant to Section 27a UStG (German VAT law): DE282484511
+The following persons are responsible for the content pursuant to Section 55 (2) RStV (German Broadcasting Interstate Treaty): Florian Weißenstein, Sebastian Weber
+Information on dispute settlement
+The EU Commission has made available a platform for online dispute resolution: http://ec.europa.eu/consumers/odr. We are, however, neither obliged nor willing to particulate in dispute resolutions proceedings before a consumer tribunal.
+FACEBOOK
+TWITTER
+LINKEDIN
+Was this article helpful?
+949 out of 1144 found this helpful
+Did not find what you're looking for?
+SUBMIT A REQUEST
+Articles in this section
+Technical Requirements for YAZIO
+Terms of Service & Privacy Policy
+About the app permissions
+© YAZIO Help Center

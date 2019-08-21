@@ -1,0 +1,99 @@
+Skip to content
+Fb
+Twitter
+Instagram
+Mr Bean Special Delivery Privacy Policy
+Version 1.0.0
+Last updated on 11th June 2018.
+Good Catch Ltd. with address in Shepherds Building Central, Charecroft Way, Shepherds Bush, London W14 0EE is committed to protecting your privacy.  This document sets out our privacy policy (the “Privacy Policy”) and explains how we collect, use and disclose personal data from you as user, through the mobile application Mr Bean Special Delivery (the “App”) and/or the official website www.goodcatchgames.com (the “Site”) and all related services which we may provide to you from time to time (“Services”).
+This Privacy Policy only applies to the collection of your Personal Information by us as part of the App and/or the Site and the use of that Personal Information by us and those whom we authorise. It does not cover third party websites. They may have their own privacy policies and/or terms and conditions of use. Furthermore, you also understand and agree that in respect of the App, the relevant privacy policies and terms and conditions of any app store where the App is hosted (i.e. such as Google Play, the Apple App Store, etc) (the “App Store”) shall also apply in respect of any Personal Information you have supplied to the App Store to enable your download of the App.
+By accessing and continuing to use the App and/or the Site, you accept that your Personal Information is being used in accordance with this Privacy Policy. Please note that we may update and amend the Privacy Policy from time to time and any changes will be posted on the Site. If you do not agree with our Privacy Policy (or any part herein) then you should not use the App and/or the Site.
+  WHAT KIND OF PERSONAL DATA DO WE COLLECT FROM YOU?
+Analytics:
+Device make, model and operating system; IP Address, Internet browser user-agent; Network status; Platform; App Instance ID; App Version; Cognito ID; device identifiers such as: IDFA (Identifier for advertisers), Android ID (Android device), Google Advertiser ID; in-app events.
+Advertising:
+Device make, model and operating system; screen size and orientation properties; audio volume and battery; Carrier; OS version; locale settings such as: country, time zone and preferred language; Network status; IP Address; Internet browser user-agent; device identifiers such as: IDFA (Identifier for advertisers), Android ID (Android device), Google Advertiser ID
+Marketing & Support:
+Email Address; Browser; IP Address; user agent; App Version; Device make, model and operating system; Cognito ID; device identifiers such as: IDFA (Identifier for advertisers), Android ID (Android device), Google Advertiser ID; in-app events; System Language and any other data submitted in a support ticket by the end user.
+Facebook Connect / User Authentication (Opt in):
+Facebook ID, Username, Full name, Facebook email address, Facebook friends list, personal email address used to create an account
+  HOW DO WE USE YOUR PERSONAL DATA?
+Analytics
+Analysis of game performance, player behaviour, attribution and issues with our game.
+Advertising
+Personalize advertising so that you see more relevant ads.
+Marketing & Support
+Improve performance and targeting of our email marketing.
+Identify users who need our support and help recreate issues more quickly.
+Improve performance and targeting of our push notifications.
+To contact a winner for competition or prize draws.
+Facebook Connect / User Authentication
+Facebook user id allows you to load game data on a second device.
+Facebook profile picture is used to personalise your game.
+Facebook friends list is used to present a Facebook Leaderboard.
+To login to your account to save game progress and to load game saves on multiple devices
+Other uses of personal data
+To prevent fraud and crime.
+To meet legal and tax obligations.
+  ON WHAT GROUND DO WE USE YOUR PERSONAL DATA?
+Your personal data is mainly collected in order to provide you with our Services.
+Your personal data is also necessarily collected to comply with legal obligation or to protect the legitimate interest of the Company.
+We have a legitimate interest in conducting analytics, measurement of usage and conversions, and game telemetrics to improve our services. We and our processors have multiple measures in place to minimise the privacy impact.
+We have a legitimate interest in enabling third party ads and data collection on our sites and apps to help provide a more customised ad experience for our users and site visitors. Our reputable partners provide opt outs and numerous other privacy measures to minimise the privacy impact of online ads.
+We have a legitimate interest in periodic email and direct marketing, to inform registered users of updates and offers. We make clear disclosures when users sign up and offer opt outs for anyone not interested.
+You can revoke this consent at any time in the app settings. The withdrawal of this consent might result in the interruption of our services as previously informed at the time of giving you the choice to consent.
+  DO WE SHARE YOUR INFORMATION WITH THIRD PARTIES?
+We may pass your information to other parties as follows:
+To our employees, contractors, suppliers and/or agents to administer the services provided to you by us now or in the future;
+We may disclose your Personal Information where we are required to do so by law or to protect or enforce our rights or the rights of any third party.
+We may pass on information to the third party analytics companies and ad network providers who assist us to serve advertisements to you about our products and services. These ad network providers may also show interest based advertisements for other parties’ products and services within the game.  Most of these parties collect personal data only in aggregated and anonymised form; for more information, please find below links to their privacy statements:
+  Analytics
+Google Big Query; Firebase;  Unity Analytics
+Advertising
+Fyber / Heyzap; AdColony; Admob; Applovin; inMobi; Unity Ads; Vungle
+Marketing & Support
+Campaign Monitor; Zendesk; Facebook Connect
+  Always think carefully before disclosing your Personal Information or other information to other users of the App and/or Site or otherwise posting your Personal Information on the App and/or Site. It is important that you are aware that any of your Personal Information or other information which you disclose to another user may then be disclosed on the App and/or Site by that user.
+We have no responsibility or control over the contents of communications made between users of the App and/or Site.
+  WHERE DO WE STORE YOUR INFORMATION?
+The information that we collect from or about you is at the date of this Privacy Policy stored within European Economic area (“EEA”), but it may be transferred to and stored outside the EEA. By submitting your information to us you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your information is treated securely and in accordance with this Privacy Policy.
+  FOR HOW LONG DO WE RETAIN YOUR INFORMATION?
+We will retain your Personal Information for as long as it is relevant and useful for the purposes for which it was collected. We may retain your Personal Information after you have closed any account with us, or after we have ceased providing Services to you if retention of your Personal Information is reasonably necessary to comply with our legal obligations, to resolve disputes, prevent fraud, cheating or abuse, or to enforce this Privacy Policy or our Terms of Use .
+We will delete your account if it remains inactive for a consecutive period of 2 years and/or if you email us at any time requesting us to.
+  SECURITY: HOW DO WE PROTECT YOUR INFORMATION?
+The security of your Personal Information is important to us. We maintain appropriate and reasonable technical and physical safeguards, and ensure that all relevant third parties we use to store your Personal Information use similar safeguards, to protect your Personal Information against accidental or unlawful destruction, loss, alteration, unauthorised disclosure or access.
+  WHAT ARE YOUR RIGHTS WITH REGARD TO YOUR PERSONAL DATA?
+You have the right to:
+Obtain confirmation as to whether or not your personal data exists and to be informed of its content and source, verify its accuracy and request its rectification, update or amendment;
+Request the deletion or restriction of the processing of your personal data;
+Receive an electronic copy of your personal data, if you would like to port your personal data, that you have provided to us, to yourself or to a different provider (data portability), when the personal data is processed by automatic means and the processing is either (i) based upon your consent or (ii) necessary for the provision of the company service; and
+Lodge a complaint with the relevant data protection supervisory authority.
+You may send your request at the address indicated under our contact details.
+Remember that even after you cancel your account, or if you ask us to delete your personal data, copies of that information from your account may remain viewable in some circumstances where, for example, you have shared information with social media or other services or, for example, when retention of such copies is necessary to comply with legal obligation or legal defense.  Because of the nature of caching technology, your account may not be instantly inaccessible to others.
+Many third parties participate in self-regulation to offer you a choice regarding receiving targeted ads. Please note that you’ll still see generic ads after opting out, but they won’t be based on your activities online. On the web, you can opt out of participating companies by visiting the following sites:
+http://optout.networkadvertising.org/
+http://optout.aboutads.info/
+http://youronlinechoices.eu/
+If you wish to similarly opt out of cross-app advertising on mobile devices, you can enable the Limit Ad Tracking flag on the device. Enabling Limit Ad Tracking sends a flag to third parties that you wish to opt out of targeted advertising on that device, and major mobile platforms require companies to honor this flag. Screenshots on how to find these options on various devices are available here: http://www.networkadvertising.org/mobile-choices. To learn how to opt out on other devices such as video game consoles, please visit the platform’s privacy policies for more information.
+HOW TO CONTACT US
+You control the Personal information that we hold about you. You can email us at any time with any questions, queries or complaints, or if you wish to change, update or remove any of your personal information at: info@goodcatchgames.com or write to us at: Data Protection, Good Catch Ltd, Shepherds Building Central, Charecroft Way, Shepherds Bush, London W14 0EE
+Fb Twitter Instagram
+Our Games
+Mr Bean – Special Delivery
+Sounds Stupid
+Simon’s Cat Dash
+Black and White Bushido
+Mr Bean – Risky Ropes
+View More
+Company
+Home
+About
+News
+Careers
+Good Catch
+Terms Of Use
+Privacy Policy
+Cookie Policy
+Terms and Conditions
+Support
+© 2019 Good Catch Ltd

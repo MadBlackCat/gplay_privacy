@@ -1,0 +1,12 @@
+### Agromartdev
+
+### Agromartdev
+
+* * *
+
+# Privacy policy of the Agromart OOO
+
+Copyright © 2019 Agromartdev - All Rights Reserved.
+
+#####
+

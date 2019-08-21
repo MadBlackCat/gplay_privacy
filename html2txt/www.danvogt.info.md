@@ -1,0 +1,26 @@
+# **Privacy Policy**
+
+Dan Vogt
+
+  
+
+  
+
+**Skyward Journey**
+
+Skyward Journey collects no user data of any kind.
+
+  
+
+**DATA WING - Game Analytics**
+
+To comply with GDPR, DATA WING no longer collects any user data.
+
+  
+
+  
+
+Please address any queries to: support@danvogt.info
+
+  
+

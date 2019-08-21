@@ -1,0 +1,101 @@
+<html lang="zh" data-dpr="1" style="font-size: 54px;"><head>
+  <meta charset="UTF-8">
+  <title>隐私权政策</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="format-detection" content="telephone=no, address=no">
+  <script>
+    !function (a, b) {
+      function c() {
+        var b = f.getBoundingClientRect().width;
+        b / i > 540 && (b = 540 * i);
+        var c = b / 10;
+        f.style.fontSize = c + "px", k.rem = a.rem = c
+      }
+
+      var d, e = a.document, f = e.documentElement, g = e.querySelector('meta[name="viewport"]'),
+        h = e.querySelector('meta[name="flexible"]'), i = 0, j = 0, k = b.flexible || (b.flexible = {});
+      if (g) {
+        console.warn("将根据已有的meta标签来设置缩放比例");
+        var l = g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
+        l && (j = parseFloat(l[1]), i = parseInt(1 / j))
+      } else if (h) {
+        var m = h.getAttribute("content");
+        if (m) {
+          var n = m.match(/initial\-dpr=([\d\.]+)/), o = m.match(/maximum\-dpr=([\d\.]+)/);
+          n && (i = parseFloat(n[1]), j = parseFloat((1 / i).toFixed(2))), o && (i = parseFloat(o[1]), j = parseFloat((1 / i).toFixed(2)))
+        }
+      }
+      if (!i && !j) {
+        var p = a.navigator.userAgent, q = (!!p.match(/android/gi), !!p.match(/iphone/gi)),
+          r = q && !!p.match(/OS 9_3/), s = a.devicePixelRatio;
+        i = q && !r ? s >= 3 && (!i || i >= 3) ? 3 : s >= 2 && (!i || i >= 2) ? 2 : 1 : 1, j = 1 / i
+      }
+      if (f.setAttribute("data-dpr", i), !g) if (g = e.createElement("meta"), g.setAttribute("name", "viewport"), g.setAttribute("content", "initial-scale=" + j + ", maximum-scale=" + j + ", minimum-scale=" + j + ", user-scalable=no"), f.firstElementChild) f.firstElementChild.appendChild(g); else {
+        var t = e.createElement("div");
+        t.appendChild(g), e.write(t.innerHTML)
+      }
+      a.addEventListener("resize", function () {
+        clearTimeout(d), d = setTimeout(c, 300)
+      }, !1), a.addEventListener("pageshow", function (a) {
+        a.persisted && (clearTimeout(d), d = setTimeout(c, 300))
+      }, !1), "complete" === e.readyState ? e.body.style.fontSize = 12 * i + "px" : e.addEventListener("DOMContentLoaded", function () {
+        e.body.style.fontSize = 12 * i + "px"
+      }, !1), c(), k.dpr = a.dpr = i, k.refreshRem = c, k.rem2px = function (a) {
+        var b = parseFloat(a) * this.rem;
+        return "string" == typeof a && a.match(/rem$/) && (b += "px"), b
+      }, k.px2rem = function (a) {
+        var b = parseFloat(a) / this.rem;
+        return "string" == typeof a && a.match(/px$/) && (b += "rem"), b
+      }
+    }(window, window.lib || (window.lib = {}));
+  </script>
+
+  <link rel="stylesheet" href="https://img.soulapp.cn/swiper.min.3.4.2.css">
+  <script src="https://img.soulapp.cn/es6-promise.auto.min.4.1.0.js"></script>
+  <script src="https://img.soulapp.cn/swiper.min.3.4.2.js"></script>
+  <!-- html -->
+  <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+  <script>
+    (function () {
+      if (!/micromessenger/.test(navigator.userAgent.toLowerCase())) {
+        var script = document.createElement("script");
+        script.setAttribute("data-appid", "101428522");
+        script.type = "text/javascript";
+        script.src = "https://img.soulapp.cn/qzone/openapi/qc_loader.js";
+        document.getElementsByTagName("head")[0].appendChild(script);
+      }
+    })();
+  </script><script data-appid="101428522" type="text/javascript" src="https://img.soulapp.cn/qzone/openapi/qc_loader.js"></script>
+  <!--<script src="https://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101428522"></script>-->
+  <!--<script src="https://img.soulapp.cn/qzone/openapi/qc_loader.js" data-appid="101428522"></script>-->
+  <!-- SOUL JS Library -->
+  <script src="https://img.soulapp.cn/jsoul.js"></script><script src="https://cdn.jsdelivr.net/eruda/1.2.2/eruda.min.js" type="text/javascript" async=""></script>
+  <!--<script src="https://h5.soulapp.cn/resource/httphijack1.0.0.js"></script>-->
+  <!--<script>window.httphijack.init();</script>-->
+  <!--<script src="//cdn.jsdelivr.net/npm/eruda"></script>-->
+  <!--<script>eruda.init();</script>-->
+<link href="https://s1.cdn.soulapp.cn/1556526108081/css/main.9ede4c8.css" rel="stylesheet"><style type="text/css">.download[data-v-ed315070]{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.3);z-index:100}.download .box[data-v-ed315070]{position:absolute;top:50%;left:50%;width:6.4rem;height:4.4rem;margin:-2.2rem 0 0 -3.2rem;border-radius:.186667rem;background-color:hsla(0,0%,100%,.85)}.download .info[data-v-ed315070]{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding:.68rem .453333rem .493333rem}.download .info .logo[data-v-ed315070]{max-width:1.68rem;max-height:1.68rem;margin-right:.213333rem;vertical-align:top}.download .info p[data-v-ed315070]{color:#474747;font-size:.4rem;line-height:.533333rem}.download .button[data-v-ed315070]{display:block;width:3.2rem;height:1.066667rem;margin:0 auto;color:#fff;font-size:.453333rem;line-height:1.066667rem;text-align:center;border-radius:.186667rem;background-color:#33f3d6}</style><script type="text/javascript" charset="utf-8" async="" src="https://s1.cdn.soulapp.cn/1556526108081/js/65.c561fcc2f03fe92779da.js"></script><script type="text/javascript" src="https://qzonestyle.gtimg.cn/qzone/openapi/qc-1.0.1.js" data-appid="101428522"></script><style type="text/css">.root[data-v-4cb6ec94]{width:100%;min-height:100%;background-color:#f3f3f3;padding:.266667rem}p[data-v-4cb6ec94]{font-size:.373333rem;margin-left:.4rem;color:#474747;line-height:.533333rem}</style></head>
+
+<body style="font-size: 12px;">
+<div data-v-4cb6ec94="" class="root"><h1 data-v-4cb6ec94="" style="text-align: center; width: 100%; height: 100px; font-size: 30px; line-height: 100px; font-weight: bold;">隐私权政策</h1> <p data-v-4cb6ec94="">1.&nbsp;&nbsp;Soul注重保护用户个人信息及个人隐私。本隐私政策解释了用户个人信息收集（以下或称“信息”）和使用的有关情况，本隐私政策适用于Soul向您提供的所有相关服务（以下或称“服务”）。若用户不同意本隐私政策的任何内容，用户应立即停止使用Soul 服务。当用户使用Soul提供的任一服务时，即表示用户已同意Soul按照本隐私政策来合法使用和保护您的个人信息。<br><br>
+         2.&nbsp;&nbsp;用户在注册帐号或使用本服务的过程中，可能需要填写或提交一些必要的信息，如法律法规、规章规范性文件（以下称“法律法规”）规定的需要填写的身份信息。如用户提交的信息不完整、不真实或不符合法律法规的规定，则用户可能无法使用本服务或在使用本服务的过程中受到限制。<br><br>
+         3.&nbsp;&nbsp;用户应当保证其提供的相关身份信息的真实性与完整性。<br><br>
+         4.&nbsp;&nbsp;个人隐私信息是指涉及用户个人身份或个人隐私的信息，比如，用户真实姓名、身份证号、手机号码、手机设备识别码、IP地址、用户聊天记录。非个人隐私信息是指用户对本服务的操作状态以及使用习惯等明确且客观反映在Soul服务器端的基本记录信息、个人隐私信息范围外的其它普通信息，以及用户同意公开的上述隐私信息。<br><br>
+         5.&nbsp;&nbsp;尊重用户个人隐私信息的私有性是Soul的一贯制度，Soul将采取技术措施和其他必要措施，确保用户个人隐私信息安全，防止在本服务中收集的用户个人隐私信息泄露、毁损或丢失。在发生前述情形或者Soul发现存在发生前述情形的可能时，将及时采取补救措施。<br><br>
+         6.&nbsp;&nbsp;Soul未经用户同意不向任何第三方公开、 透露用户个人隐私信息。但以下特定情形除外：<br><br>
+          (1)、 Soul根据法律法规规定或有权机关的指示提供用户的个人隐私信息；<br>
+          (2)、 由于用户将其用户密码告知他人或与他人共享注册帐户与密码，由此导致的任何个人信息的泄漏，或其他非因Soul App原因导致的个人隐私信息的泄露；<br>
+          (3)、 用户自行向第三方公开其个人隐私信息；<br>
+          (4)、 用户与Soul及合作单位之间就用户个人隐私信息的使用公开达成约定，Soul App因此向合作单位公开用户个人隐私信息；<br>
+          (5)、 任何由于黑客攻击、电脑病毒侵入及其他不可抗力事件导致用户个人隐私信息的泄露。<br><br>
+         7.&nbsp;&nbsp;用户同意Soul可在以下事项中使用用户的个人隐私信息：<br><br>
+          (1)、 Soul向用户及时发送重要通知，如软件更新、本协议条款的变更；<br>
+          (2)、 Soul内部进行审计、数据分析和研究等，以改进Soul App的产品、服务和与用户之间的沟通；<br>
+          (3)、 依本协议约定，Soul管理、审查用户信息及进行处理措施；<br>
+          (4)、 适用法律法规规定的其他事项。<br><br>
+         8.&nbsp;&nbsp;除上述事项外，如未取得用户事先同意，Soul不会将用户个人隐私信息使用于任何其他用途。Soul重视对未成年人个人隐私信息的保护。Soul将依赖用户提供的个人信息判断用户是否为未成年人。任何18岁以下的未成年人注册帐号或使用本服务应事先取得家长或其法定监护人（以下简称“监护人”）的书面同意。除根据法律法规的规定及有权机关的指示披露外，Soul不会使用或向任何第三方透露未成年人的聊天记录及其他个人隐私信息。除本协议约定的例外情形外，未经监护人事先同意，Soul不会使用或向任何第三方透露未成年人的个人隐私信息。<br><br>
+         9.&nbsp;&nbsp;用户确认，其地理位置信息为非个人隐私信息，用户成功注册“Soul”帐号视为确认授权Soul提取、公开及使用用户的地理位置信息。用户地理位置信息将作为用户公开资料之一，由Soul向其他用户公开。如用户需要终止向其他用户公开其地理位置信息，可随时进行反馈。<br><br>
+        10.&nbsp;&nbsp;为了改善Soul的技术和服务，向用户提供更好的服务体验，Soul或可会自行收集使用或向第三方提供用户的非个人隐私信息。<br><br></p></div>
+<script type="text/javascript" src="https://s1.cdn.soulapp.cn/1556526108081/js/vendors.9ede4c8.js"></script><script type="text/javascript" src="https://s1.cdn.soulapp.cn/1556526108081/js/main.b13d3b32dd579e36954c.js"></script><div class="ui-loading" style="display: none;"><div class="ui-loading__container"><div class="ui-loading__icon"></div><p class="ui-loading__text">数据加载中</p></div></div><!----><div tabindex="-1" role="dialog" aria-hidden="true" class="pswp"><div class="pswp__bg"></div> <div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div> <div class="pswp__item"></div> <div class="pswp__item"></div></div> <div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div> <button title="Close (Esc)" class="pswp__button pswp__button--close"></button> <button title="Share" class="pswp__button pswp__button--share"></button> <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button> <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button> <div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div> <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div> <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button> <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button> <div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div><!----><div tabindex="-1" role="dialog" aria-hidden="true" class="pswp"><div class="pswp__bg"></div> <div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div> <div class="pswp__item"></div> <div class="pswp__item"></div></div> <div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div> <button title="Close (Esc)" class="pswp__button pswp__button--close"></button> <button title="Share" class="pswp__button pswp__button--share"></button> <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button> <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button> <div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div> <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div> <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button> <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button> <div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div>
+
+</body></html>

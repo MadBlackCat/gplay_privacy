@@ -1,0 +1,262 @@
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body style="background-color: #fff;"><ctype html="">
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HomePage</title>
+<link rel="stylesheet" href="./HomePage_files/html5reset.css" type="text/css">
+<link rel="stylesheet" href="./HomePage_files/jquery-jcflick.css" media="all" type="text/css">
+
+<link rel="stylesheet" href="./HomePage_files/jquery.mobile-1.4.5.min.css">
+<script src="./HomePage_files/jquery-1.11.3.min.js"></script>
+<script src="./HomePage_files/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="./HomePage_files/jquery-jcflick.min.js"></script>
+
+<script type="text/javascript">
+
+
+
+
+$(function(){
+
+
+
+
+  var $pagetop = $('.pagetop');
+
+	$('#demo').jcflick({
+		//init
+		flickContainer: 'flickContainer',
+		flickWrapper: 'flickWrapper',
+		flickCol: 'flickCol',
+		
+		//conf
+		flickLamp: 'flickLamp',
+		flickBtn: 'flickBtn',
+		flickBtnNextName: 'Next',
+		flickBtnBackName: 'Back',
+		flickCur: 0,
+		autoChange: true,
+		autoTimer: 5000
+	});
+	$('#demo2').jcflick({
+		//init
+		flickContainer: 'flickContainer',
+		flickWrapper: 'flickWrapper',
+		flickCol: 'flickCol',
+		
+		//conf
+		flickLamp: 'flickLamp',
+		flickBtn: 'flickBtn',
+		flickBtnNextName: 'Next',
+		flickBtnBackName: 'Back',
+		flickCur: 0,
+		autoChange: true,
+		autoTimer: 5000
+	});
+
+//	$(window).scroll(function() {
+
+ 	$(window).on('scrollstop', function(e) {
+
+	$("#pixcel").text($(this).scrollTop());
+
+   if ($(this).scrollTop() > 800) {
+     $pagetop.fadeIn(400);
+    } else {
+     $pagetop.fadeOut(400);
+    }
+	});
+ 
+
+});
+
+
+
+
+
+
+
+function clk() {
+	
+
+		console.log($(window).scrollTop());
+	  $('html, body').animate({
+        scrollTop: 10
+      } );
+
+    //  $pagetop.fadeOut(400);
+
+}
+
+
+</script>
+
+<style type="text/css">
+
+.pagetop {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  margin: 0 auto;
+  z-index: 200;
+  display:none;
+  opacity: 0.9;
+}
+ 
+.pagetop span {
+text-decoration: none;
+  display: table-cell;
+  width: 6em;
+  height: 6em;
+  text-align: left;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 50%;
+  background: #0ef;
+  behavior: url(PIE.htc); 
+}
+
+.lamp_cur {
+background-color: #28C !important;
+}
+.lamp_def {
+background: #239;
+}
+
+.ui-header 
+{
+	margin-top:0px;
+	margin: 4px 4px;
+	text-align: left;
+}
+.ui-footer {
+	margin-bottom:0px;
+	font-size: 13px;
+	text-align: left;
+}
+.ui-footer.ui-bar-inherit {
+	background-color:#fff;
+}
+.ui-content {
+	text-align: left;
+	background-color: #f2f7ff;
+}
+.ui-block-style {
+	max-height: 100%;
+	min-height: 300px;
+	padding-top: 10px;
+	text-align: left;
+	border: 1px solid #ddf;
+	background-color: #fff;
+}
+.setumei {
+	text-align: left;
+	padding-top: 10px;
+}
+
+.midasi {
+	text-align: left;
+	padding-top: 2px;
+	font-size:24px;
+	color:#22f;
+}
+.logo_img {
+	width:305px;
+	height:71px;
+	margin:0 auto;
+}
+.ui-navbar li .ui-btn {
+	font-size:16px;
+}
+
+@media (max-width: 640px) {
+	.ui-responsive > .ui-block-a,
+	.ui-responsive > .ui-block-b,
+	.ui-responsive > .ui-block-c,
+	.ui-responsive > .ui-block-d,
+	.ui-responsive > .ui-block-e {
+		width: 100%; 
+		float: none; 
+	}
+	.logo_img {
+	width:120px;
+	height:30px;
+
+	}
+	.ui-navbar li .ui-btn{
+		font-size:10px;
+	}
+}
+
+
+</style>
+
+
+
+
+
+
+
+<div data-role="page" id="home" data-theme="b">
+
+
+<!------------------------------------------------------>
+	<div data-role="header" data-theme="b" data-position="fixed" style="border: 0px solid #11f; margin-top:0px; margin-left:0px; ">
+<!--
+		<a href="#menu-left" class="ui-btn ui-icon-bars ui-btn-icon-left ui-corner-all">MENU</a> 
+-->
+		<p data-theme="b" style="font-size: 30px; font-weight: bold; margin: 30px 0px 0px 0px;">プライバシーポリシー</p>
+	
+	<!--
+		<div data-role="navbar" data-theme="b" data-iconpos="top">
+			<ul>
+				<li><a href="#"  class="ui-btn-active ui-state-persist">HOME</a></li>
+				<li ><a href="cp_contents.html" data-ajax="false">MOVIE</a></li>
+
+			</ul>
+		</div>
+	-->
+	</div>
+
+<!------------------------------------------------------>
+
+	<div role="main" class="ui-content" data-theme="b" style="background-color: #fff;">
+		<div class="ui-grid-b ui-responsive">
+			
+
+		
+
+
+
+		<p style="font-size: 15px; margin: 30px 0px 0px 0px;">
+			Kaori Takanashi（以下、「当方」といいます。） は、個人情報保護の重要性に鑑み、「個人情報の保護に関する法律」を遵守し、お客様からご提供いただいた個人情報を適切に取り扱い、お客様のプライバシーの保護に努めます。<br><br>
+
+当方はお客様にデジタルコンテンツ（以下、本サービスといいます。）を充分にお楽しみいただくため､必要な場合に限り、お客様よりメールアドレス､氏名､電話番号､住所及びその他の記述等の個人情報(以下､個人情報といいます。）をご提供頂く場合がございますが特に必要がない限りこれらの情報は扱いません。<br>
+<br>
+なお､お客様が第三者の個人情報を提供する場合には､事前に当該第三者より個人情報の提供につき同意を得るものとします｡<br><br>
+お客様による第三者の個人情報の提供は､すべて当該第三者の同意を得たものとみなします｡<br><br>
+
+1.個人情報の使用について<br>
+ご提供いただいた個人情報は､商品の発送､当方サービスの提供､またサービス向上のための統計資料としての目的で使用いたします｡<br>
+この目的以外で個人情報を使用する際には､改めて目的をお知らせし､お客様のご同意をいただきます｡<br>
+<br>
+2.個人情報の保管<br>
+ご提供いただいた個人情報に第三者が触れることがないよう､合理的な管理体制のもとで保管いたします｡<br>
+また､個人情報は､当方が必要と判断する期間､保管させていただきます｡<br>
+<br>
+3.個人情報の開示･訂正等について<br>
+<!--◆お客様の個人情報に関しましては､下記問合せ窓口よりお問合せ下さい｡<br>-->
+◆下記の場合を除き､お客様の同意なく､個人情報を第三者に開示することはありません(お客様個人を特定できない統計資料は除きます)｡<br>
+●お客様にお知らせした使用目的のために､事業協力会社に対する開示が必要な場合(この場合､当該協力会社に対して､当該個人情報の厳重な管理を求め､目的以外の使用を行わせないようにいたします)｡
+なお､本サービスにおいては､協力会社に業務を一部委託しております｡<br>
+●司法機関または行政機関から法的義務を伴う要請を受けた場合。<br>
+
+
+</p></div>
+
+
+</div></div></ctype></body></html>

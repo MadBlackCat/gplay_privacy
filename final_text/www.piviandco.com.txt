@@ -1,0 +1,13 @@
+Term of Use - Privacy Policy
+BY USING OR INSTALLING OR OTHERWISE ACCESSING PIVI & CO PRODUCTS OR SERVICES, YOU AGREE TO THIS TERM OF USE. IF YOU DO NOT AGREE TO THIS TERM OF USE, PLEASE DO NOT USE OR INSTALL OR OTHERWISE ACCESS PIVI & CO PRODUCTS OR SERVICES.
+PiVi & Co reserves the right, at its sole discretion, to change, modify, add or remove portions of this Term of Use at any time without notice. To make it easy to find, you can find the most recent version of this Term of Use on our website at http://www.piviandco.com. Your continued use of PiVi & Co Products or Services will signify your acceptance of the changes to this Term of Use.
+The content on our website is provided on an "as is" basis for information purpose only. In no event will PiVi & Co be liable to any party for any direct, indirect, special, incidental or other consequential damages for any use of our website or products or services.
+You may not use our products or services for any purpose that is unlawful or prohibited, or to solicit the performance of any illegal activity or other activity which infringes the rights of PiVi & Co or others.
+PROPERTY RIGHTS
+All content on our site or products is proprietary and is protected by copyright and intellectual property laws and may be covered by other restrictions as well. PiVi & Co Products or Services may not be copied, adapted, reproduced, replicated, duplicated, sold or otherwise exploited for any commercial purpose without our prior written permission.
+PRIVACY
+Your privacy is important to us and this privacy policy explains how personal and non-personal information are collected and used. This Privacy Policy applies to your use of PiVi & Co Products or Services.
+We DO NOT collect or use any personal data such as name, postal address, phone number, credit card number that may be used to identify or contact you.
+To help us improve our products or services, we may use analytical tools to collect or use non-personal information including, but not limited to, type of browser, mobile device, software, firmware, operating system or any non-personal aggregate data.
+THIRD PARTY PRODUCTS AND SERVICES
+PiVi & Co Products or Services may contain links to other products or services provided by third parties. PiVi & Co does not control or own these third party products or services and is not responsible or liable for their content or accuracy. Therefore, your use of such third party products or services is subject to their own terms and conditions of use and privacy policies. All trademarks, trade names, and logos of third parties featured on PiVi & Co Products or Services belong to their respective owners.

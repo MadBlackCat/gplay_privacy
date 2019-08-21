@@ -1,0 +1,103 @@
+Mozilla
+Download Firefox
+Firefox
+Projects
+Developers
+About
+Firefox Privacy Notice
+Effective June 04, 2019
+At Mozilla, we believe that privacy is fundamental to a healthy internet.
+That’s why we build Firefox, and all our products, to give you greater control over the information you share online and the information you share with us. We strive to collect only what we need to improve Firefox for everyone.
+In this Privacy Notice, we explain what data Firefox shares and point you to settings to share even less. We also adhere to the practices outlined in the Mozilla privacy policy for how we receive, handle and share information we collect from Firefox.
+Firefox by default shares data to:
+Improve performance and stability for users everywhere
+Set a default search provider
+Suggest relevant content
+Improve security for users everywhere
+Crash reports
+Measure and support our marketing
+If you use these features, Firefox will share data to provide you functionality and help us improve our products and services:
+Search
+Firefox Accounts & Join Firefox
+Sync
+Location
+Firefox Screenshots
+Website notifications
+Add-ons
+Footnote
+This privacy notice is for the most recent general release version of Firefox distributed by Mozilla. If you obtain Firefox elsewhere, or are running an older version, your copy of Firefox may contain different privacy characteristics.
+Mozilla’s pre-release versions of Firefox (which are distributed through channels such as Nightly, Beta, Developer Edition and TestFlight) are development platforms frequently updated with experimental features and studies.  In addition to the data collection described in this Privacy Notice, these versions by default may send certain types of web activity and crash data to Mozilla and in some cases to our partners. Any data collection or sharing adheres to our Firefox data collection policy and we will always be transparent and provide you with controls.
+Back to Mozilla Privacy Policy
+Mozilla
+Company
+About
+Press Center
+Careers
+Developers
+Test New Features
+MDN Web Docs
+Tools
+Resources
+Privacy
+Contact
+Product Help
+Support
+File a Bug
+Language
+Language
+    
+      বাংলা
+    
+      Čeština
+    
+      Deutsch
+    
+      Ελληνικά
+    
+      English
+    
+      Español (de España)
+    
+      Español (de México)
+    
+      Français
+    
+      हिन्दी (भारत)
+    
+      Hrvatski
+    
+      magyar
+    
+      Bahasa Indonesia
+    
+      Italiano
+    
+      日本語
+    
+      Македонски
+    
+      Nederlands
+    
+      Polski
+    
+      Português (do Brasil)
+    
+      Română
+    
+      Русский
+    
+      Српски
+    
+      தமிழ்
+    
+      Türkçe
+    
+      中文 (简体)
+    
+      正體中文 (繁體)
+    
+   Twitter
+Instagram
+Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+Portions of this content are ©1998–2019 by individual mozilla.org contributors. Content available under a Creative Commons license.
+Privacy Website Privacy Notice Cookies Legal Community Participation Guidelines

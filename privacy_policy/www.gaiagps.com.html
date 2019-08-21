@@ -1,0 +1,728 @@
+<html ng-app="gaia-cloud"><head>
+    <title> Gaia GPS - About Us and Contact </title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=0.5, user-scalable=no">
+    <meta name="copyright" content="Copyright © 2018 Gaia GPS.">
+    <meta content="utf-8" http-equiv="encoding">
+    
+    
+    <link rel="shortcut icon" href="https://www-static.gaiagps.com/img/icons/simple_favicon.50d42d5429f7.ico">
+    <base href="/">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Arimo:700|Material+Icons">
+
+    
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link href="https://www-static.gaiagps.com/css/base.41a9778f090b.css" rel="stylesheet" type="text/css">
+        <link href="https://www-static.gaiagps.com/css/gaia.0d6e45c14ccf.css" rel="stylesheet" type="text/css">
+    
+
+    
+<style type="text/css">
+.last_updated li {
+  list-style-type: circle !important;
+  margin-left: 30px;
+  font-size: 1.1em  !important;
+}
+
+h1 {
+	margin-top:25px;
+}
+
+
+h2 {
+  margin-top:10px;
+}
+.list li {
+  margin-left:2px;
+  line-height: 1.3em;
+  font-size: 1.1em;
+}
+.indented {
+  padding-left:20px;
+}
+
+.indented-2 {
+  padding-left:40px;
+}
+
+  </style>
+
+    
+<style data-jss="" data-meta="MuiPaper">
+.header-0110 {
+  background-color: #fff;
+}
+.header-0111 {
+  border-radius: 4px;
+}
+.header-0112 {
+  box-shadow: none;
+}
+.header-0113 {
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.header-0114 {
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+.header-0115 {
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12);
+}
+.header-0116 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.header-0117 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.header-0118 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.header-0119 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.header-0120 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.header-0121 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.header-0122 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.header-0123 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.header-0124 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.header-0125 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.header-0126 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.header-0127 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.header-0128 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.header-0129 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.header-0130 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.header-0131 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.header-0132 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.header-0133 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.header-0134 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.header-0135 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.header-0136 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+</style><style data-jss="" data-meta="MuiAppBar">
+.header-011 {
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.header-012 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: fixed;
+}
+.header-013 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: absolute;
+}
+.header-014 {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: sticky;
+}
+.header-015 {
+  position: static;
+}
+.header-016 {
+  position: relative;
+}
+.header-017 {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #F9FBFB;
+}
+.header-018 {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #4EB236;
+}
+.header-019 {
+  color: #fff;
+  background-color: #E34B2A;
+}
+</style><style data-jss="" data-meta="MuiModal">
+.header-0152 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1300;
+  position: fixed;
+}
+.header-0153 {
+  visibility: hidden;
+}
+</style><style data-jss="" data-meta="MuiPopover">
+.header-0151 {
+  outline: none;
+  position: absolute;
+  min-width: 16px;
+  max-width: calc(100% - 32px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 16px;
+  max-height: calc(100% - 32px);
+}
+</style><style data-jss="" data-meta="MuiMenu">
+.header-0150 {
+  max-height: calc(100% - 96px);
+  -webkit-overflow-scrolling: touch;
+}
+</style><style data-jss="" data-meta="MuiSvgIcon">
+.header-0141 {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 24px;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  user-select: none;
+  flex-shrink: 0;
+}
+.header-0142 {
+  color: #4EB236;
+}
+.header-0143 {
+  color: #E34B2A;
+}
+.header-0144 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.header-0145 {
+  color: #E34B2A;
+}
+.header-0146 {
+  color: rgba(0, 0, 0, 0.26);
+}
+.header-0147 {
+  font-size: inherit;
+}
+.header-0148 {
+  font-size: 20px;
+}
+.header-0149 {
+  font-size: 35px;
+}
+</style><style data-jss="" data-meta="MuiToolbar">
+.header-0137 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  max-width: 1170px;
+  align-items: center;
+}
+.header-0138 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .header-0138 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.header-0139 {
+  min-height: 56px;
+}
+@media (min-width:0px) and (orientation: landscape) {
+  .header-0139 {
+    min-height: 48px;
+  }
+}
+@media (min-width:600px) {
+  .header-0139 {
+    min-height: 64px;
+  }
+}
+.header-0140 {
+  min-height: 48px;
+}
+</style><link rel="stylesheet" href="https://use.fontawesome.com/7f85a56ba4.css"><style id="ab-css-definitions">.ab-feed,.ab-feed .ab-card .ab-title,.ab-feed .ab-card .ab-url-area,.ab-in-app-message{font-family:'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif}.ab-centering-div:focus,.ab-feed .ab-feed-buttons-wrapper:focus,.ab-in-app-message:focus{outline:0}@-webkit-keyframes animSlideIn{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1)}1.3%{-webkit-transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1);transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1)}2.55%{-webkit-transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1);transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1)}4.1%{-webkit-transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1);transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1)}5.71%{-webkit-transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1);transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1)}8.11%{-webkit-transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1);transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1)}8.81%{-webkit-transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1);transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1)}11.96%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1)}12.11%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1)}15.07%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1)}16.12%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1)}27.23%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1)}27.58%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1)}38.34%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1)}40.09%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1)}50%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1)}60.56%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1)}100%,82.78%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@keyframes animSlideIn{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1)}1.3%{-webkit-transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1);transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1)}2.55%{-webkit-transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1);transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1)}4.1%{-webkit-transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1);transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1)}5.71%{-webkit-transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1);transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1)}8.11%{-webkit-transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1);transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1)}8.81%{-webkit-transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1);transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1)}11.96%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1)}12.11%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1)}15.07%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1)}16.12%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1)}27.23%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1)}27.58%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1)}38.34%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1)}40.09%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1)}50%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1)}60.56%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1)}100%,82.78%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@-webkit-keyframes animSlideOut{0%{-webkit-transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(300px,0,0) translate3d(100%,0,0)}}@keyframes animSlideOut{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(300px,0,0) translate3d(100%,0,0);transform:translate3d(300px,0,0) translate3d(100%,0,0)}}@-webkit-keyframes animSlideLeft{0%{-webkit-transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(-300px,0,0) translate3d(-100%,0,0)}}@keyframes animSlideLeft{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(-300px,0,0) translate3d(-100%,0,0);transform:translate3d(-300px,0,0) translate3d(-100%,0,0)}}@-webkit-keyframes animScale{0%{opacity:0;-webkit-transform:translate3d(0,40px,0) scale3d(.1,.6,1)}100%{opacity:1;-webkit-transform:translate3d(0,0,0) scale3d(1,1,1)}}@keyframes animScale{0%{opacity:0;-webkit-transform:translate3d(0,40px,0) scale3d(.1,.6,1);transform:translate3d(0,40px,0) scale3d(.1,.6,1)}100%{opacity:1;-webkit-transform:translate3d(0,0,0) scale3d(1,1,1);transform:translate3d(0,0,0) scale3d(1,1,1)}}@-webkit-keyframes animJelly{0%{-webkit-transform:matrix3d(.3,0,0,0,0,.3,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.3,0,0,0,0,.3,0,0,0,0,1,0,0,0,0,1)}4.5%{-webkit-transform:matrix3d(.606,0,0,0,0,.64,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.606,0,0,0,0,.64,0,0,0,0,1,0,0,0,0,1)}5.51%{-webkit-transform:matrix3d(.666,0,0,0,0,.711,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.666,0,0,0,0,.711,0,0,0,0,1,0,0,0,0,1)}9.01%{-webkit-transform:matrix3d(.843,0,0,0,0,.916,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.843,0,0,0,0,.916,0,0,0,0,1,0,0,0,0,1)}11.01%{-webkit-transform:matrix3d(.917,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.917,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1)}13.51%{-webkit-transform:matrix3d(.984,0,0,0,0,1.061,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.984,0,0,0,0,1.061,0,0,0,0,1,0,0,0,0,1)}16.52%{-webkit-transform:matrix3d(1.033,0,0,0,0,1.094,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.033,0,0,0,0,1.094,0,0,0,0,1,0,0,0,0,1)}17.92%{-webkit-transform:matrix3d(1.046,0,0,0,0,1.097,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.046,0,0,0,0,1.097,0,0,0,0,1,0,0,0,0,1)}21.92%{-webkit-transform:matrix3d(1.059,0,0,0,0,1.08,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.059,0,0,0,0,1.08,0,0,0,0,1,0,0,0,0,1)}29.03%{-webkit-transform:matrix3d(1.039,0,0,0,0,1.023,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.039,0,0,0,0,1.023,0,0,0,0,1,0,0,0,0,1)}34.63%{-webkit-transform:matrix3d(1.018,0,0,0,0,.996,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.018,0,0,0,0,.996,0,0,0,0,1,0,0,0,0,1)}36.24%{-webkit-transform:matrix3d(1.013,0,0,0,0,.992,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.013,0,0,0,0,.992,0,0,0,0,1,0,0,0,0,1)}40.14%{-webkit-transform:matrix3d(1.004,0,0,0,0,.989,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.004,0,0,0,0,.989,0,0,0,0,1,0,0,0,0,1)}50.55%{-webkit-transform:matrix3d(.996,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.996,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1)}62.36%{-webkit-transform:matrix3d(.999,0,0,0,0,1.001,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.999,0,0,0,0,1.001,0,0,0,0,1,0,0,0,0,1)}100%,79.08%,84.68%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@keyframes animJelly{0%{-webkit-transform:matrix3d(.3,0,0,0,0,.3,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.3,0,0,0,0,.3,0,0,0,0,1,0,0,0,0,1)}4.5%{-webkit-transform:matrix3d(.606,0,0,0,0,.64,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.606,0,0,0,0,.64,0,0,0,0,1,0,0,0,0,1)}5.51%{-webkit-transform:matrix3d(.666,0,0,0,0,.711,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.666,0,0,0,0,.711,0,0,0,0,1,0,0,0,0,1)}9.01%{-webkit-transform:matrix3d(.843,0,0,0,0,.916,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.843,0,0,0,0,.916,0,0,0,0,1,0,0,0,0,1)}11.01%{-webkit-transform:matrix3d(.917,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.917,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1)}13.51%{-webkit-transform:matrix3d(.984,0,0,0,0,1.061,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.984,0,0,0,0,1.061,0,0,0,0,1,0,0,0,0,1)}16.52%{-webkit-transform:matrix3d(1.033,0,0,0,0,1.094,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.033,0,0,0,0,1.094,0,0,0,0,1,0,0,0,0,1)}17.92%{-webkit-transform:matrix3d(1.046,0,0,0,0,1.097,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.046,0,0,0,0,1.097,0,0,0,0,1,0,0,0,0,1)}21.92%{-webkit-transform:matrix3d(1.059,0,0,0,0,1.08,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.059,0,0,0,0,1.08,0,0,0,0,1,0,0,0,0,1)}29.03%{-webkit-transform:matrix3d(1.039,0,0,0,0,1.023,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.039,0,0,0,0,1.023,0,0,0,0,1,0,0,0,0,1)}34.63%{-webkit-transform:matrix3d(1.018,0,0,0,0,.996,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.018,0,0,0,0,.996,0,0,0,0,1,0,0,0,0,1)}36.24%{-webkit-transform:matrix3d(1.013,0,0,0,0,.992,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.013,0,0,0,0,.992,0,0,0,0,1,0,0,0,0,1)}40.14%{-webkit-transform:matrix3d(1.004,0,0,0,0,.989,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1.004,0,0,0,0,.989,0,0,0,0,1,0,0,0,0,1)}50.55%{-webkit-transform:matrix3d(.996,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.996,0,0,0,0,.997,0,0,0,0,1,0,0,0,0,1)}62.36%{-webkit-transform:matrix3d(.999,0,0,0,0,1.001,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.999,0,0,0,0,1.001,0,0,0,0,1,0,0,0,0,1)}100%,79.08%,84.68%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@-webkit-keyframes animJellyThreeQuarterScale{0%{-webkit-transform:matrix3d(.2,0,0,0,0,.2,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.2,0,0,0,0,.2,0,0,0,0,1,0,0,0,0,1)}2.4%{-webkit-transform:matrix3d(.447,0,0,0,0,.478,0,0,0,0,1,0,0,-12.759,0,1);transform:matrix3d(.447,0,0,0,0,.478,0,0,0,0,1,0,0,-12.759,0,1)}3.28%{-webkit-transform:matrix3d(.519,0,0,0,0,.565,0,0,0,0,1,0,0,-20.381,0,1);transform:matrix3d(.519,0,0,0,0,.565,0,0,0,0,1,0,0,-20.381,0,1)}4.3%{-webkit-transform:matrix3d(.589,0,0,0,0,.649,0,0,0,0,1,0,0,-30.025,0,1);transform:matrix3d(.589,0,0,0,0,.649,0,0,0,0,1,0,0,-30.025,0,1)}4.8%{-webkit-transform:matrix3d(.618,0,0,0,0,.682,0,0,0,0,1,0,0,-34.797,0,1);transform:matrix3d(.618,0,0,0,0,.682,0,0,0,0,1,0,0,-34.797,0,1)}6.49%{-webkit-transform:matrix3d(.692,0,0,0,0,.762,0,0,0,0,1,0,0,-49.647,0,1);transform:matrix3d(.692,0,0,0,0,.762,0,0,0,0,1,0,0,-49.647,0,1)}7.21%{-webkit-transform:matrix3d(.715,0,0,0,0,.782,0,0,0,0,1,0,0,-55.053,0,1);transform:matrix3d(.715,0,0,0,0,.782,0,0,0,0,1,0,0,-55.053,0,1)}8.61%{-webkit-transform:matrix3d(.746,0,0,0,0,.803,0,0,0,0,1,0,0,-63.487,0,1);transform:matrix3d(.746,0,0,0,0,.803,0,0,0,0,1,0,0,-63.487,0,1)}9.61%{-webkit-transform:matrix3d(.759,0,0,0,0,.806,0,0,0,0,1,0,0,-67.836,0,1);transform:matrix3d(.759,0,0,0,0,.806,0,0,0,0,1,0,0,-67.836,0,1)}9.69%{-webkit-transform:matrix3d(.76,0,0,0,0,.806,0,0,0,0,1,0,0,-68.128,0,1);transform:matrix3d(.76,0,0,0,0,.806,0,0,0,0,1,0,0,-68.128,0,1)}12.89%{-webkit-transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.433,0,1);transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.433,0,1)}12.91%{-webkit-transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.447,0,1);transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.447,0,1)}15.78%{-webkit-transform:matrix3d(.769,0,0,0,0,.763,0,0,0,0,1,0,0,-74.797,0,1);transform:matrix3d(.769,0,0,0,0,.763,0,0,0,0,1,0,0,-74.797,0,1)}17.22%{-webkit-transform:matrix3d(.765,0,0,0,0,.755,0,0,0,0,1,0,0,-74.255,0,1);transform:matrix3d(.765,0,0,0,0,.755,0,0,0,0,1,0,0,-74.255,0,1)}21.78%{-webkit-transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.836,0,1);transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.836,0,1)}21.94%{-webkit-transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.749,0,1);transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.749,0,1)}28.33%{-webkit-transform:matrix3d(.75,0,0,0,0,.749,0,0,0,0,1,0,0,-68.815,0,1);transform:matrix3d(.75,0,0,0,0,.749,0,0,0,0,1,0,0,-68.815,0,1)}30.67%{-webkit-transform:matrix3d(.749,0,0,0,0,.75,0,0,0,0,1,0,0,-68.09,0,1);transform:matrix3d(.749,0,0,0,0,.75,0,0,0,0,1,0,0,-68.09,0,1)}34.27%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.391,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.391,0,1)}39.44%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.089,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.089,0,1)}46.61%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.277,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.277,0,1)}48.45%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.342,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.342,0,1)}58.94%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.524,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.524,0,1)}61.66%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.528,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.528,0,1)}66.23%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.521,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.521,0,1)}71.19%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.509,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.509,0,1)}80%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.499,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.499,0,1)}83.98%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.498,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.498,0,1)}100%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.5,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.5,0,1)}}@keyframes animJellyThreeQuarterScale{0%{-webkit-transform:matrix3d(.2,0,0,0,0,.2,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(.2,0,0,0,0,.2,0,0,0,0,1,0,0,0,0,1)}2.4%{-webkit-transform:matrix3d(.447,0,0,0,0,.478,0,0,0,0,1,0,0,-12.759,0,1);transform:matrix3d(.447,0,0,0,0,.478,0,0,0,0,1,0,0,-12.759,0,1)}3.28%{-webkit-transform:matrix3d(.519,0,0,0,0,.565,0,0,0,0,1,0,0,-20.381,0,1);transform:matrix3d(.519,0,0,0,0,.565,0,0,0,0,1,0,0,-20.381,0,1)}4.3%{-webkit-transform:matrix3d(.589,0,0,0,0,.649,0,0,0,0,1,0,0,-30.025,0,1);transform:matrix3d(.589,0,0,0,0,.649,0,0,0,0,1,0,0,-30.025,0,1)}4.8%{-webkit-transform:matrix3d(.618,0,0,0,0,.682,0,0,0,0,1,0,0,-34.797,0,1);transform:matrix3d(.618,0,0,0,0,.682,0,0,0,0,1,0,0,-34.797,0,1)}6.49%{-webkit-transform:matrix3d(.692,0,0,0,0,.762,0,0,0,0,1,0,0,-49.647,0,1);transform:matrix3d(.692,0,0,0,0,.762,0,0,0,0,1,0,0,-49.647,0,1)}7.21%{-webkit-transform:matrix3d(.715,0,0,0,0,.782,0,0,0,0,1,0,0,-55.053,0,1);transform:matrix3d(.715,0,0,0,0,.782,0,0,0,0,1,0,0,-55.053,0,1)}8.61%{-webkit-transform:matrix3d(.746,0,0,0,0,.803,0,0,0,0,1,0,0,-63.487,0,1);transform:matrix3d(.746,0,0,0,0,.803,0,0,0,0,1,0,0,-63.487,0,1)}9.61%{-webkit-transform:matrix3d(.759,0,0,0,0,.806,0,0,0,0,1,0,0,-67.836,0,1);transform:matrix3d(.759,0,0,0,0,.806,0,0,0,0,1,0,0,-67.836,0,1)}9.69%{-webkit-transform:matrix3d(.76,0,0,0,0,.806,0,0,0,0,1,0,0,-68.128,0,1);transform:matrix3d(.76,0,0,0,0,.806,0,0,0,0,1,0,0,-68.128,0,1)}12.89%{-webkit-transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.433,0,1);transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.433,0,1)}12.91%{-webkit-transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.447,0,1);transform:matrix3d(.774,0,0,0,0,.786,0,0,0,0,1,0,0,-74.447,0,1)}15.78%{-webkit-transform:matrix3d(.769,0,0,0,0,.763,0,0,0,0,1,0,0,-74.797,0,1);transform:matrix3d(.769,0,0,0,0,.763,0,0,0,0,1,0,0,-74.797,0,1)}17.22%{-webkit-transform:matrix3d(.765,0,0,0,0,.755,0,0,0,0,1,0,0,-74.255,0,1);transform:matrix3d(.765,0,0,0,0,.755,0,0,0,0,1,0,0,-74.255,0,1)}21.78%{-webkit-transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.836,0,1);transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.836,0,1)}21.94%{-webkit-transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.749,0,1);transform:matrix3d(.754,0,0,0,0,.746,0,0,0,0,1,0,0,-71.749,0,1)}28.33%{-webkit-transform:matrix3d(.75,0,0,0,0,.749,0,0,0,0,1,0,0,-68.815,0,1);transform:matrix3d(.75,0,0,0,0,.749,0,0,0,0,1,0,0,-68.815,0,1)}30.67%{-webkit-transform:matrix3d(.749,0,0,0,0,.75,0,0,0,0,1,0,0,-68.09,0,1);transform:matrix3d(.749,0,0,0,0,.75,0,0,0,0,1,0,0,-68.09,0,1)}34.27%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.391,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.391,0,1)}39.44%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.089,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.089,0,1)}46.61%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.277,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.277,0,1)}48.45%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.342,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.342,0,1)}58.94%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.524,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.524,0,1)}61.66%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.528,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.528,0,1)}66.23%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.521,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.521,0,1)}71.19%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.509,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.509,0,1)}80%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.499,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.499,0,1)}83.98%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.498,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.498,0,1)}100%{-webkit-transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.5,0,1);transform:matrix3d(.75,0,0,0,0,.75,0,0,0,0,1,0,0,-67.5,0,1)}}@-webkit-keyframes fadeToThreeQuarters{0%{opacity:0}100%{opacity:.75}}@keyframes fadeToThreeQuarters{0%{opacity:0}100%{opacity:.75}}@-webkit-keyframes fadeFromThreeQuarters{0%{opacity:.75}100%{opacity:0}}@keyframes fadeFromThreeQuarters{0%{opacity:.75}100%{opacity:0}}@-webkit-keyframes slideUp{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1)}2.1%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1)}4.2%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1)}8.41%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1)}12.61%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1)}16.72%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1)}25.03%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1)}33.33%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}39.14%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1)}100%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@keyframes slideUp{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1)}2.1%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1)}4.2%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1)}8.41%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1)}12.61%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1)}16.72%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1)}25.03%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1)}33.33%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}39.14%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1)}100%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}.ab-in-app-message{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:fixed;text-align:center;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,.2);box-shadow:0 1px 3px rgba(0,0,0,.2);line-height:normal;letter-spacing:normal;z-index:1050}.ab-in-app-message.ab-clickable{cursor:pointer}.ab-in-app-message .ab-background,.ab-in-app-message .ab-mask{position:absolute;top:0;bottom:0;left:0;right:0;z-index:-1}.ab-in-app-message .ab-mask{background-color:#cfcfcf}.ab-in-app-message .ab-background{background-color:#fff}.ab-in-app-message .ab-close-button{display:block;cursor:pointer;position:absolute;z-index:1060}.ab-in-app-message .ab-message-text{margin:20px;overflow:hidden;vertical-align:text-bottom;word-wrap:break-word;white-space:pre-wrap;max-width:100%}.ab-in-app-message .ab-message-text.start-aligned{text-align:left;text-align:start}.ab-in-app-message .ab-message-text.end-aligned{text-align:right;text-align:end}.ab-in-app-message .ab-message-text.center-aligned{text-align:center}.ab-in-app-message .ab-message-text::-webkit-scrollbar{-webkit-appearance:none;width:9px}.ab-in-app-message .ab-message-text::-webkit-scrollbar-thumb{-webkit-appearance:none;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;background-color:rgba(0,0,0,.4)}.ab-in-app-message .ab-message-header{display:block;font-weight:700;font-size:19px;margin-bottom:14px;line-height:23px}.ab-in-app-message .ab-message-header.start-aligned{text-align:left;text-align:start}.ab-in-app-message .ab-message-header.end-aligned{text-align:right;text-align:end}.ab-in-app-message .ab-message-header.center-aligned{text-align:center}.ab-in-app-message.ab-slideup{cursor:pointer;margin:20px;padding:10px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;overflow:hidden;word-wrap:break-word;text-overflow:ellipsis;right:0;font-size:13px}.ab-in-app-message.ab-slideup .ab-close-button{right:8px;top:8px;-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s}.ab-in-app-message.ab-slideup .ab-close-button:hover{font-size:18px;right:6px;top:6px}.ab-in-app-message.ab-slideup .ab-message-text{display:inline-block;margin:5px 15px 5px 10px;max-height:200px;max-width:440px}.ab-in-app-message.ab-slideup .ab-image-area{display:inline-block;width:60px;vertical-align:top;margin:5px 0 5px 5px}.ab-in-app-message.ab-slideup .ab-image-area.ab-icon-area{width:auto}.ab-in-app-message.ab-slideup .ab-image-area~.ab-message-text{max-height:60px}.ab-in-app-message.ab-slideup .ab-image-area img{width:100%}.ab-in-app-message.ab-fullscreen,.ab-in-app-message.ab-modal{right:0;left:0;margin-right:auto;margin-left:auto;font-size:14px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.ab-in-app-message.ab-fullscreen .ab-background,.ab-in-app-message.ab-fullscreen .ab-mask,.ab-in-app-message.ab-modal .ab-background,.ab-in-app-message.ab-modal .ab-mask{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;overflow:hidden}.ab-in-app-message.ab-fullscreen .ab-message-text,.ab-in-app-message.ab-modal .ab-message-text{overflow-y:auto;line-height:normal}.ab-in-app-message.ab-fullscreen .ab-close-button,.ab-in-app-message.ab-modal .ab-close-button{right:10px;top:10px;font-size:20px;width:20px;height:20px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;text-align:center}.ab-in-app-message.ab-fullscreen .ab-close-button .fa,.ab-in-app-message.ab-modal .ab-close-button .fa{line-height:20px}.ab-in-app-message.ab-fullscreen .ab-image-area,.ab-in-app-message.ab-modal .ab-image-area{position:relative;display:block;-webkit-border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;overflow:hidden}.ab-in-app-message.ab-fullscreen .ab-image-area img,.ab-in-app-message.ab-modal .ab-image-area img{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ab-in-app-message.ab-fullscreen .ab-image-area .ab-center-cropped-img,.ab-in-app-message.ab-modal .ab-image-area .ab-center-cropped-img{background-size:cover;background-repeat:no-repeat;background-position:50% 50%;position:absolute;top:0;right:0;bottom:0;left:0}.ab-in-app-message.ab-fullscreen .ab-icon,.ab-in-app-message.ab-modal .ab-icon{margin-top:20px}.ab-in-app-message.ab-fullscreen.graphic,.ab-in-app-message.ab-modal.graphic{padding:0}.ab-in-app-message.ab-fullscreen.graphic .ab-message-text,.ab-in-app-message.ab-modal.graphic .ab-message-text{display:none}.ab-in-app-message.ab-fullscreen.graphic .ab-message-buttons,.ab-in-app-message.ab-modal.graphic .ab-message-buttons{bottom:0;left:0}.ab-in-app-message.ab-fullscreen.graphic .ab-message-buttons .ab-background,.ab-in-app-message.ab-fullscreen.graphic .ab-message-buttons .ab-mask,.ab-in-app-message.ab-modal.graphic .ab-message-buttons .ab-background,.ab-in-app-message.ab-modal.graphic .ab-message-buttons .ab-mask{background-color:transparent}.ab-in-app-message.ab-fullscreen.graphic .ab-image-area,.ab-in-app-message.ab-modal.graphic .ab-image-area{height:auto;margin:0;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.ab-in-app-message.ab-fullscreen .ab-message-buttons~.ab-message-text,.ab-in-app-message.ab-modal .ab-message-buttons~.ab-message-text{margin-bottom:80px}.ab-in-app-message.ab-fullscreen.graphic .ab-image-area img,.ab-in-app-message.ab-modal.graphic .ab-image-area img{display:block;top:0;-webkit-transform:none;-ms-transform:none;transform:none}.ab-in-app-message.ab-modal{padding-top:20px;top:20%;width:290px;max-width:290px;max-height:320px}.ab-in-app-message.ab-modal .ab-message-text{max-height:121px}.ab-in-app-message.ab-modal .ab-image-area{margin-top:-20px;height:100px}.ab-in-app-message.ab-modal .ab-image-area img{max-width:100%;max-height:100%}.ab-in-app-message.ab-modal .ab-image-area.ab-icon-area{height:auto}.ab-in-app-message.ab-modal.graphic{width:auto;overflow:hidden}.ab-in-app-message.ab-modal.graphic .ab-image-area{display:inline}.ab-in-app-message.ab-modal.graphic .ab-image-area img{max-height:320px;max-width:290px}.ab-in-app-message.ab-fullscreen{top:8%;-webkit-transition:top .4s;-moz-transition:top .4s;-o-transition:top .4s;transition:top .4s;width:400px;max-height:640px}.ab-in-app-message.ab-fullscreen.landscape{width:640px;max-height:400px}.ab-in-app-message.ab-fullscreen.landscape .ab-image-area{height:200px}.ab-in-app-message.ab-fullscreen.landscape.graphic .ab-image-area{height:400px}.ab-in-app-message.ab-fullscreen.landscape .ab-message-text{max-height:100px}.ab-in-app-message.ab-fullscreen .ab-message-text{max-height:220px}.ab-in-app-message.ab-fullscreen .ab-image-area{height:320px}.ab-in-app-message.ab-fullscreen.graphic .ab-image-area{height:640px}.ab-in-app-message.ab-html-message{background-color:transparent;border:none;top:0;right:0;bottom:0;left:0;width:100%;height:100%}.ab-in-app-message.ab-html-message.ab-show{-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-in-app-message.ab-html-message.ab-hide{-webkit-transition:.25s;-moz-transition:.25s;-o-transition:.25s;transition:.25s;-webkit-animation-name:none;animation-name:none;-webkit-animation-duration:0;animation-duration:0;-webkit-animation-timing-function:linear;animation-timing-function:linear;top:100%}.ab-in-app-message .ab-message-buttons{position:absolute;bottom:0;width:100%;padding:15px 20px 20px;z-index:inherit;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.ab-in-app-message .ab-message-button{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border:none;display:inline-block;font-size:12px;font-weight:700;height:auto;line-height:normal;letter-spacing:normal;padding:14px 10px;text-transform:none;margin:0;width:48%;cursor:pointer;overflow:hidden;text-overflow:ellipsis;word-wrap:normal;white-space:nowrap}.ab-feed,.ab-feed .ab-feed-body{-webkit-box-sizing:border-box;-moz-box-sizing:border-box}.ab-in-app-message .ab-message-button:first-of-type{float:left}.ab-in-app-message .ab-message-button:last-of-type{float:right}.ab-in-app-message .ab-message-button:first-of-type:last-of-type{width:100%}.ab-in-app-message .ab-message-button a{color:inherit;text-decoration:inherit}.ab-in-app-message img{display:inline-block}.ab-in-app-message .ab-icon{display:inline-block;padding:10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.ab-in-app-message .ab-icon .fa{font-size:30px;width:30px}.ab-start-hidden{visibility:hidden}.ab-effect-slide.ab-show{-webkit-animation-name:animSlideIn;animation-name:animSlideIn;-webkit-animation-duration:1.25s;animation-duration:1.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-effect-slide.ab-hide{-webkit-animation-name:animSlideOut;animation-name:animSlideOut;-webkit-animation-duration:.25s;animation-duration:.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-effect-fullscreen.ab-show,.ab-effect-modal.ab-show{-webkit-animation-name:animJelly;animation-name:animJelly;-webkit-animation-duration:.8s;animation-duration:.8s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-effect-fullscreen.ab-hide,.ab-effect-modal.ab-hide{-webkit-animation-name:animScale;animation-name:animScale;-webkit-animation-duration:.25s;animation-duration:.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-direction:reverse;animation-direction:reverse;animation-fill-mode:forwards;-webkit-transition:.25s;-moz-transition:.25s;-o-transition:.25s;transition:.25s}.ab-centering-div{position:fixed;text-align:center;z-index:1050;top:0;right:0;bottom:0;left:0;pointer-events:none}.ab-centering-div .ab-in-app-message{display:inline-block;pointer-events:all}@media (max-width:750px){.ab-in-app-message.ab-slideup{width:90%;margin:5%}.ab-in-app-message.ab-slideup .ab-message-text{margin:2%;max-width:100%}.ab-in-app-message.ab-slideup .ab-image-area{width:20%;margin:2%}.ab-in-app-message.ab-slideup .ab-image-area~.ab-message-text{max-width:72%}.ab-in-app-message.ab-slideup .ab-image-area img{width:100%}.ab-in-app-message.ab-fullscreen,.ab-in-app-message.ab-fullscreen.landscape{top:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen .ab-background,.ab-in-app-message.ab-fullscreen .ab-mask,.ab-in-app-message.ab-fullscreen.landscape .ab-background,.ab-in-app-message.ab-fullscreen.landscape .ab-mask{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen.ab-effect-fullscreen.ab-show,.ab-in-app-message.ab-fullscreen.landscape.ab-effect-fullscreen.ab-show{-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-in-app-message.ab-fullscreen.ab-effect-fullscreen.ab-hide,.ab-in-app-message.ab-fullscreen.landscape.ab-effect-fullscreen.ab-hide{-webkit-animation-name:none;animation-name:none;-webkit-animation-duration:0;animation-duration:0;-webkit-animation-timing-function:linear;animation-timing-function:linear;top:100%}.ab-in-app-message.ab-fullscreen .ab-image-area,.ab-in-app-message.ab-fullscreen.landscape .ab-image-area{height:50%;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen .ab-message-text,.ab-in-app-message.ab-fullscreen.landscape .ab-message-text{top:50%;right:0;bottom:0;left:0;position:absolute;height:auto;max-height:none}.ab-in-app-message.ab-fullscreen.graphic,.ab-in-app-message.ab-fullscreen.landscape.graphic{display:block}.ab-in-app-message.ab-fullscreen.graphic .ab-image-area,.ab-in-app-message.ab-fullscreen.landscape.graphic .ab-image-area{height:100%;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen .ab-close-button,.ab-in-app-message.ab-fullscreen.landscape .ab-close-button{font-size:6vw;width:6vw;height:6vw;-webkit-border-radius:3vw;-moz-border-radius:3vw;border-radius:3vw;right:3vw;top:3vw}}@media (max-device-width:750px) and (orientation:landscape){.ab-in-app-message.ab-modal{top:0;margin:0}.ab-in-app-message.ab-fullscreen .ab-close-button,.ab-in-app-message.ab-fullscreen.landscape .ab-close-button{font-size:6vh;width:6vh;height:6vh;-webkit-border-radius:3vh;-moz-border-radius:3vh;border-radius:3vh;right:3vh;top:3vh}}@media (min-device-width:321px) and (max-device-width:750px) and (orientation:landscape){.ab-in-app-message.ab-modal{margin-top:20px}}@media (min-device-width:751px) and (max-device-width:1024px) and (orientation:landscape){.ab-in-app-message.ab-fullscreen:not(.landscape){top:0;margin-top:20px}}@media (min-width:751px){.ab-in-app-message.ab-fullscreen .ab-image-area img{max-height:100%;max-width:100%}}@media (max-height:790px) and (min-width:751px){.ab-in-app-message.ab-fullscreen:not(.landscape){margin-top:2%;top:0}}@media (max-height:650px) and (min-width:751px){.ab-in-app-message.ab-fullscreen:not(.landscape).ab-effect-fullscreen.ab-show{-webkit-animation-name:animJellyThreeQuarterScale;animation-name:animJellyThreeQuarterScale;-webkit-animation-duration:.4s;animation-duration:.4s;-webkit-animation-timing-function:linear;animation-timing-function:linear;animation-fill-mode:both}.ab-in-app-message.ab-fullscreen:not(.landscape).ab-effect-fullscreen.ab-hide{-webkit-animation-name:animJellyThreeQuarterScale;animation-name:animJellyThreeQuarterScale;-webkit-animation-duration:.25s;animation-duration:.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-direction:reverse;animation-direction:reverse;animation-fill-mode:forwards;-webkit-transition:.25s;-moz-transition:.25s;-o-transition:.25s;transition:.25s}}@media (max-height:500px) and (min-width:751px){.ab-in-app-message.ab-fullscreen:not(.landscape){top:0;height:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;width:400px}.ab-in-app-message.ab-fullscreen:not(.landscape) .ab-background,.ab-in-app-message.ab-fullscreen:not(.landscape) .ab-mask{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen:not(.landscape).ab-effect-fullscreen.ab-show{-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-in-app-message.ab-fullscreen:not(.landscape).ab-effect-fullscreen.ab-hide{-webkit-animation-name:none;animation-name:none;-webkit-animation-duration:0;animation-duration:0;-webkit-animation-timing-function:linear;animation-timing-function:linear;top:100%}.ab-in-app-message.ab-fullscreen:not(.landscape) .ab-image-area{height:50%;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen:not(.landscape) .ab-message-text{top:50%;right:0;bottom:0;left:0;position:absolute;height:auto;max-height:none}.ab-in-app-message.ab-fullscreen:not(.landscape).graphic{display:block}.ab-in-app-message.ab-fullscreen:not(.landscape).graphic .ab-image-area{height:100%;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}}@media (max-height:430px){.ab-in-app-message.ab-fullscreen.landscape{top:0}}@media (max-height:400px){.ab-in-app-message.ab-fullscreen.landscape{top:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen.landscape .ab-background,.ab-in-app-message.ab-fullscreen.landscape .ab-mask{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen.landscape.ab-effect-fullscreen.ab-show{-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-in-app-message.ab-fullscreen.landscape.ab-effect-fullscreen.ab-hide{-webkit-animation-name:none;animation-name:none;-webkit-animation-duration:0;animation-duration:0;-webkit-animation-timing-function:linear;animation-timing-function:linear;top:100%}.ab-in-app-message.ab-fullscreen.landscape .ab-image-area{height:50%;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-in-app-message.ab-fullscreen.landscape .ab-message-text{top:50%;right:0;bottom:0;left:0;position:absolute;height:auto;max-height:none}.ab-in-app-message.ab-fullscreen.landscape.graphic{display:block}.ab-in-app-message.ab-fullscreen.landscape.graphic .ab-image-area{height:100%;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}}.ab-page-blocker{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1040}.ab-page-blocker.ab-show{-webkit-animation-name:fadeToThreeQuarters;animation-name:fadeToThreeQuarters;-webkit-animation-duration:.16666667s;animation-duration:.16666667s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-page-blocker.ab-hide{-webkit-animation-name:fadeFromThreeQuarters;animation-name:fadeFromThreeQuarters;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-feed.ab-hide,.ab-feed.ab-show{-webkit-animation-timing-function:linear}body>.ab-feed{position:fixed;top:0;right:0;bottom:0;width:421px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}body>.ab-feed .ab-feed-body{position:absolute;top:0;left:0;right:0;border:none;border-left:1px solid #d0d0d0;padding-top:58px;min-height:100%}body>.ab-feed .ab-no-cards-message{position:absolute;width:100%;margin-left:-20px;top:40%}.ab-feed{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;box-sizing:border-box;-webkit-box-shadow:0 1px 7px 1px rgba(66,82,113,.15);-moz-box-shadow:0 1px 7px 1px rgba(66,82,113,.15);box-shadow:0 1px 7px 1px rgba(66,82,113,.15);width:402px;background-color:#eee;font-size:13px;line-height:130%;letter-spacing:normal;overflow-y:auto;overflow-x:visible;-webkit-overflow-scrolling:touch;-webkit-transition:opacity .25s;-moz-transition:opacity .25s;-o-transition:opacity .25s;transition:opacity .25s}.ab-feed .ab-feed-body{box-sizing:border-box;border:1px solid #d0d0d0;border-top:none;padding:20px 20px 0}.ab-feed.ab-show{-webkit-animation-name:animSlideIn;animation-name:animSlideIn;-webkit-animation-duration:1s;animation-duration:1s;animation-timing-function:linear}.ab-feed.ab-hide{opacity:0;-webkit-animation-name:animSlideOut;animation-name:animSlideOut;-webkit-animation-duration:.25s;animation-duration:.25s;animation-timing-function:linear}.ab-feed .ab-card{position:relative;-webkit-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);-moz-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);box-shadow:0 2px 3px 0 rgba(178,178,178,.5);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:100%;border:1px solid #d0d0d0;margin-bottom:20px;overflow:hidden;background-color:#fff}.ab-feed .ab-card .ab-pinned-indicator{position:absolute;right:0;top:0;margin-right:-1px;width:0;height:0;border-style:solid;border-width:0 24px 24px 0;border-color:transparent #1676d0 transparent transparent}.ab-feed .ab-card .ab-pinned-indicator .fa-star{position:absolute;right:-21px;top:2px;font-size:9px;color:#fff}.ab-feed .ab-card.ab-hide{-webkit-animation-name:animSlideLeft;animation-name:animSlideLeft;-webkit-animation-duration:.25s;animation-duration:.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-feed .ab-card .ab-close-button{display:block;cursor:pointer;position:absolute;z-index:1060;right:10px;top:10px;font-size:20px;width:20px;height:20px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;text-align:center;visibility:hidden;opacity:0;-webkit-transition:.5s;-moz-transition:.5s;-o-transition:.5s;transition:.5s}.ab-feed .ab-card .ab-close-button .fa{line-height:20px}.ab-feed .ab-card:hover .ab-close-button{visibility:visible;opacity:1}.ab-feed .ab-card a{color:inherit;text-decoration:none}.ab-feed .ab-card a:hover{text-decoration:underline}.ab-feed .ab-card .ab-image-area{display:inline-block;vertical-align:top;line-height:0;overflow:hidden;width:100%;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial}.ab-feed .ab-card .ab-image-area img{height:auto;width:100%}.ab-feed .ab-card.ab-banner .ab-card-body{display:none}.ab-feed .ab-card .ab-card-body{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;width:100%;position:relative}.ab-feed .ab-card .ab-unread-indicator{position:absolute;bottom:0;margin-right:-1px;width:100%;height:5px;background-color:#1676d0}.ab-feed .ab-card .ab-unread-indicator.read{background-color:transparent}.ab-feed .ab-card .ab-title{overflow:hidden;word-wrap:break-word;text-overflow:ellipsis;font-size:18px;line-height:130%;font-weight:700;padding:20px 25px 0}.ab-feed .ab-card .ab-description{color:#545454;padding:15px 25px 20px;word-wrap:break-word;white-space:pre-wrap}.ab-feed .ab-card .ab-url-area{color:#1676d0;margin-top:12px}.ab-feed .ab-card.ab-classic-card .ab-card-body{min-height:95px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.ab-feed .ab-card.ab-classic-card.with-image .ab-card-body{min-height:100px;padding-left:72px}.ab-feed .ab-card.ab-classic-card.with-image .ab-image-area{width:60px;height:60px;padding:25px 0 25px 25px;position:absolute}.ab-feed .ab-card.ab-classic-card.with-image .ab-image-area img{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:60px;height:60px}.ab-feed .ab-card.ab-classic-card.with-image .ab-title{background-color:transparent;font-size:16px}.ab-feed .ab-card.ab-classic-card.with-image .ab-description{padding-top:10px}.ab-feed .ab-card.ab-control-card{height:0;width:0;margin:0;border:0}.ab-feed .ab-feed-buttons-wrapper{position:relative;background-color:#282828;height:38px;-webkit-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);-moz-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);box-shadow:0 2px 3px 0 rgba(178,178,178,.5);z-index:1}.ab-feed .ab-feed-buttons-wrapper .ab-close-button,.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button{cursor:pointer;color:#fff;font-size:18px;margin:10px;-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s}.ab-feed .ab-feed-buttons-wrapper .ab-close-button:hover,.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button:hover{font-size:22px}.ab-feed .ab-feed-buttons-wrapper .ab-close-button{float:right;margin-top:9px}.ab-feed .ab-feed-buttons-wrapper .ab-close-button:hover{margin-top:6px;margin-right:9px}.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button{margin-left:12px}.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button:hover{margin-top:8px;margin-left:10px}.ab-feed .ab-no-cards-message{text-align:center;margin-bottom:20px}@media (max-width:750px){body>.ab-feed{width:100%;-webkit-transition:.25s;-moz-transition:.25s;-o-transition:.25s;transition:.25s}body>.ab-feed.ab-show{-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}body>.ab-feed.ab-hide{-webkit-animation-name:none;animation-name:none;-webkit-animation-duration:0;animation-duration:0;-webkit-animation-timing-function:linear;animation-timing-function:linear;top:100%;opacity:.5}}</style></head>
+
+<body id="base_body">
+
+    <div id="base_header" role="navigation"><header class="header-0110 header-0113 header-011 header-015 header-017"><div class="header-0137 header-0139 header-0138"><a href="/" style="background: url(&quot;https://www-static.gaiagps.com/img/logos_icons/gaia_gps_logo.svg&quot;) left center / 200px 41px no-repeat; width: 200px; height: 41px; margin-right: 18px; margin-left: 0px; margin-bottom: 0px;"></a><div style="flex: 1 1 0%; display: flex; flex-direction: row; align-items: stretch; align-self: stretch;"></div><a href="#" style="outline: 0px; border-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(100, 212, 76); border-left-color: initial; border-image: initial; padding-left: 16px; padding-right: 16px; display: flex; align-items: center; color: rgb(67, 72, 72); text-decoration: none; font-size: 14px;"><svg class="header-0141" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></a></div></header></div>
+
+    <div class="content" id="base_content">
+        <div class="middle" id="base_middle">
+            
+            <div class="main_container" id="main_container">
+                
+
+<div class="section-content section-content-bigpadding">
+  <div class="ga-pagetitle-container ga-pagetitle-container-bordered">
+    <h1 class="ga-pagetitle">Terms of Use</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Change Log</h2>
+      <p><em>Last Updated: 3/13/2019</em></p>
+      <p>
+        </p><ul class="last_updated">
+          <li>
+            3/13/2019 - updated the address under 13. Copyright Policy
+          </li>
+          <li>
+            3/9/2018 - ground-up rewrite authored by a lawyer, while in the past we had just winged it
+          </li>
+        </ul>
+      <p></p>
+      <h2>1. Introduction</h2>
+      <ul class="list">
+        <li>Welcome to Gaia GPS! Your use of Gaia GPS’s services, including the services Gaia GPS makes available through this website and any other software or services offered by Gaia GPS in connection therewith (the "Services") is governed by these terms of service (the "Terms"), so please carefully read them before using the Services. For the purposes of these Terms, "we," "our," "us," and "Gaia GPS" refer to TrailBehind, Inc., the providers and operators of the Services.</li>
+        <br>
+        <li>In order to use the Services, you must first agree to these Terms. If you are registering for or using the Services on behalf of an organization, you are agreeing to these Terms for that organization and promising that you have the authority to bind that organization to these Terms. In that case, "you" and "your" will also refer to that organization, wherever possible.</li>
+        <br>
+        <li>You must be over 13 years of age to use the Services, and children under the age of 13 cannot use or register for the Services. If you are over 13 years of age but are not yet of legal age to form a binding contract (in many jurisdictions, this age is 18), then you must get your parent or guardian to read these Terms and agree to them for you before you use the Services. If you are a parent or guardian and you provide your consent to your child's registration with the Services, you agree to be bound by these Terms with respect of your child’s use of the Services.</li>
+        <br>
+        <li>You agree your purchases and/or use of the Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Gaia GPS or any of its affiliates regarding future functionality or features.</li>
+        <br>
+        <li>BY USING, DOWNLOADING, INSTALLING, OR OTHERWISE ACCESSING THE SERVICES OR ANY MATERIALS INCLUDED IN OR WITH THE SERVICES, YOU HEREBY AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS, THEN YOU MAY NOT USE, DOWNLOAD, INSTALL, OR OTHERWISE ACCESS THE SERVICES.</li>
+        </ul>
+        <br>
+        <h2>2. Your Account</h2>
+        <ul class="list">
+          <li>In the course of registering for or using the Services, you may be required to provide Gaia GPS with certain information, including your name, organization name, email, and password ("Credentials"). Gaia GPS handles such information with the utmost attention, care and security. Nonetheless, you, not Gaia GPS, shall be responsible for maintaining and protecting your Credentials in connection with the Services. If your contact information or other information relating to your account changes, you must notify Gaia GPS promptly and keep such information current. You are solely responsible for any activity using your Credentials, whether or not you authorized that activity. You should immediately notify Gaia GPS of any unauthorized use of your Credentials or if your email or password has been hacked or stolen. If you discover that someone is using your Credentials without your consent, or you discover any other breach of security, you agree to notify Gaia GPS immediately.</li>
+          <br>
+          <li>If an organization invited or otherwise provided you with your account, that organization may have rights to your account and may: manage your account, reset your password, or suspend or cancel your account; view your account's usage and profile data, including how and when your account is used; and read or store Content in your account. If you are an individual user of the Services, and the domain of the primary email address associated with your account is owned by an organization and was assigned to you as an employee, contractor or member of such organization, and that organization wishes to establishes a commercial relationship with us and add your account to such relationship, then, if you do not change the email address associated with your account, your account may become subject to the commercial relationship between Gaia GPS and such organization and controlled by such organization.</li>
+        </ul>
+        <br>
+        <h2>3. Content</h2>
+        <ul class="list">
+          <li>A variety of information, reviews, recommendations, messages, comments, posts, text, graphics, software, photographs, videos, data, maps, and other materials ("Content") may be made available through the Services by Gaia GPS or its suppliers ("Gaia GPS-Supplied Content"). While Gaia GPS strives to keep the Content that it provides through the Services accurate, complete, and up-to-date, Gaia GPS cannot guarantee, and is not responsible for the accuracy, completeness, or timeliness of any Gaia GPS-Supplied Content.</li>
+          <br>
+          <li>You acknowledge that you will be able to create, transmit, publish or display information (such as data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images) through use of the Services. All such information is referred to below as "User Content."</li>
+          <br>
+          <li>You agree that you are solely responsible for (and that Gaia GPS has no responsibility to you or to any third party for) any User Content, and for the consequences of your actions (including any loss or damage which Gaia GPS may suffer) in connection with such User Content. If you are registering for these Services on behalf of an organization, you also agree that you are also responsible for the actions of associated Users and for any User Content that such associated Users might upload, record, publish, post, link to, or otherwise transmit or distribute through use of the Services.Furthermore, you acknowledge that Gaia GPS does not control or actively monitor Content uploaded by users and, as such, does not guarantee the accuracy, integrity or quality of such Content. You acknowledge that by using the Services, you may be exposed to materials that are offensive, indecent or objectionable. Under no circumstances will Gaia GPS be liable in any way for any such Content. You will: (a) be solely responsible for the nature, quality and accuracy of your User Content; (b) ensure that your User Content (including the storage or transmission thereof) complies with these Terms and any and all applicable laws, and regulations; (c) promptly handle and resolve any notices and claims relating to your User Content, including any notices sent to you by any person claiming that any User Content violates any person's rights, such as take-down notices pursuant to the Digital Millennium Copyright Act and any other notices; and (d) maintain appropriate security, protection and backup copies of your User Content, which may include, your use of additional encryption technology to protect the Content from unauthorized access.</li>
+          <br>
+          <li>Gaia GPS may refuse to store, provide, or otherwise maintain your User Content for any or no reason. Gaia GPS may remove your User Content from the Services at any time if you violate these Terms or if the Services are canceled or suspended. If User Content is stored using the Services with an expiration date, Gaia GPS may also delete the User Content as of that date. User Content that is deleted may be irretrievable. You agree that Gaia GPS will have no liability of any kind as a result of the deletion of, correction of, destruction of, damage to, loss of or failure to store or encrypt any User Content. Gaia GPS recommends that You backup all User Content, including, but not limited to, important waypoints, tracks, and photo waypoints. You acknowledge that User Content you may store or access through the Services may be subject to inadvertent damage, corruption or loss.</li>
+          <br>
+          <li>Gaia GPS reserves the right (but shall have no obligation) to remove User Content from the Services, in its discretion. You agree to immediately take down any Content that violates these Terms, including pursuant to a takedown request from Gaia GPS. In the event that you elect not to comply with a request from Gaia GPS to take down certain Content, Gaia GPS reserves the right to directly take down such Content.</li>
+          <br>
+          <li>Subject to the limitations set forth in this paragraph, by submitting, posting or otherwise uploading User Content on or through the Services you give Gaia GPS a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, publicly perform, publicly display and distribute such User Content for the purpose of enabling Gaia GPS to provide you with the Services, and for the limited purposes stated in our Privacy Policy. In particular, You authorize Gaia GPS to remove any copyright management information ("CMI") included in the User Content and to distribute such User Content without CMI. You will have the option to make User Content available to other Gaia GPS users or to restrict access to your User Content. User Content that you properly select to be restricted to only your use and access shall be referred to as "Private User Content." User Content that you fail to properly select to be restricted to only your use and access, that you have opted to "publish" or make "public," that you have failed to opt out of the "publish" option or opt out of making such User Content "public," or that you otherwise indicated (by act or omission) that such User Content may be made available to other users shall be referred to as "Public User Content."  With respect to any Public User Content, you assign Gaia GPS all right, title, and interest to such Public User Content. With respect to any Private User Content, Gaia GPS will not make such Private User Content available to other Gaia GPS Users; provided, however, you agree that Gaia GPS may use such Private User Content, in an anonymized manner, to provide data to Gaia GPS Users as to the popularity of existing features on maps, such as trails and points of interest. You understand and acknowledge that Gaia GPS may use both opt in and/or opt out methods of selecting whether some or all of your User Content be designated Private User Content or Public User Content and you agree that You shall be responsible for ensuring that Your User Content is designated in accordance with your wishes. Gaia GPS shall have no responsibility or liability based on your failure to appropriately opt out or opt into your preferred privacy settings.  </li>
+          <br>
+          <li>You represent and warrant that You are the owner of all right, title, and interest in the User Content or that You have sufficient license rights to the User Content to grant Gaia GPS the rights set forth in these Terms.</li>
+        </ul>
+        <br>
+        <h2>4. Proprietary Rights</h2>
+        <ul class="list">
+          <li>You acknowledge and agree that Gaia GPS (or Gaia GPS’s licensors) own all legal right, title and interest in and to the Services and Gaia GPS-Supplied Content and that the Services and Gaia GPS-Supplied Content are protected by copyrights, trademarks, patents, or other proprietary rights and laws (whether those rights happen to be registered or not, and wherever in the world those rights may exist).</li>
+          <br>
+          <li>Except as provided in Section 3, Gaia GPS acknowledges and agrees that it obtains no right, title or interest from you (or your licensors) under these Terms in or to any Content that you create, submit, post, transmit, share or display on, or through, the Services, including any intellectual property rights which subsist in that Content (whether those rights happen to be registered or not, and wherever in the world those rights may exist). Unless you have agreed otherwise in writing with Gaia GPS, you agree that you are responsible for protecting and enforcing those rights and that Gaia GPS has no obligation to do so on your behalf.</li>
+          <br>
+        </ul>
+        <h2>5. License from Gaia GPS and Restrictions on Use</h2>
+        <ul class="list">
+          <li>Gaia GPS gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you as part of the Services. This license is solely to allow you to access the Services for your (or your organization’s) non-commercial or internal business purposes, in the manner permitted by these Terms.</li>
+          <br>
+          <li>You may not (and you may not permit anyone else to: (a) copy, modify, create a derivative work of, reverse engineer, decompile or otherwise attempt to extract the source code of the Services or any part thereof, unless this is expressly permitted or required by law, or unless you have been specifically told that you may do so by Gaia GPS, in writing (e.g., through an open source software license); or (b) attempt to disable or circumvent any security mechanisms used by the Services or any applications running on the Services.</li>
+          <br>
+          <li>You may not engage in any activity that interferes with or disrupts the Services (or the servers and networks which are connected to the Services).</li>
+          <br>
+          <li>You may not access the Services in a manner intended to avoid incurring fees or exceeding usage limits or quotas.</li>
+          <br>
+          <li>You may not access the Services for the purpose of bringing an intellectual property infringement claim against Gaia GPS or for the purpose of creating a product or service competitive with the Services. You may not use any robot, spider, site search/retrieval application or other manual or automatic program or device to retrieve, index, "scrape," "data mine" or in any way gather Content from the Services.</li>
+          <br>
+          <li>You agree that you will not upload, record, publish, post, link to, transmit or distribute User Content, or otherwise utilize the Services in a manner that: (i) advocates, promotes, incites, instructs, informs, assists or otherwise encourages violence or any illegal activities; (ii) infringes or violates the copyright, patent, trademark, service mark, trade name, trade secret, or other intellectual property rights of any third party or Gaia GPS, or any rights of publicity or privacy of any party; (iii) attempts to mislead others about your identity or the origin of a message or other communication, or impersonates or otherwise misrepresents your affiliation with any other person or entity, or is otherwise materially false, misleading, or inaccurate; (iv) promotes, solicits or comprises inappropriate, harassing, offensive, abusive, profane, hateful, defamatory, libelous, threatening, obscene, indecent, vulgar, pornographic or otherwise objectionable or unlawful content or activity; (v) is harmful to minors; (vi) utilizes or contains any viruses, Trojan horses, worms, time bombs, or any other similar software, data, or programs that may damage, detrimentally interfere with, surreptitiously intercept, or expropriate any system, data, personal information, or property of another; or (vii) violates any law, statute, ordinance, or regulation (including without limitation the laws and regulations governing export control, unfair competition, anti-discrimination, or false advertising).</li>
+          <br>
+          <li>You may not use the Services if you are a person barred from receiving the Services under the laws of the United States or other countries, including the country in which you are resident or from which you use the Services. You affirm that you are over the age of 13, as the Services are not intended for children under 13.</li>
+        </ul>
+        <br>
+        <h2>6. Pricing Terms</h2>
+        <ul class="list">
+          <li>Please see Gaia GPS’s Pricing Terms at <a href="/member/">gaiagps.com/member</a>, <a href="/premium/">gaiagps.com/premium</a>, or <a href="/team/">gaiagps.com/team</a> (depending on which is applicable to your subscription) for details regarding pricing for the Services. You agree to make timely payment of all fees incurred by You for use of the Services and to otherwise comply with all terms set forth in the Pricing Terms.</li>
+        </ul>
+        <br>
+        <h2>7. Privacy Policies</h2>
+        <ul class="list">
+          <li>These Services are provided in accordance with our Privacy Policy, which can be found at <a href="/company/privacy/">https://www.gaiagps.com/company/privacy/</a>. You agree to the use of your User Content and personal information in accordance with these Terms and Gaia GPS’s Privacy Policy.</li>
+        </ul>
+        <br>
+        <h2>8. Modification and Termination of Services</h2>
+        <ul class="list">
+          <li>Gaia GPS is constantly innovating in order to provide the best possible experience for its users. You acknowledge and agree that the form and nature of the Services which Gaia GPS provides may change from time to time without prior notice to you, subject to the terms in its Privacy Policy. Changes to the form and nature of the Services will be effective with respect to all versions of the Services; examples of changes to the form and nature of the Services include without limitation changes to fee and payment policies, security patches, added functionality, automatic updates, and other enhancements. Any new features that may be added to the website or the Services from time to time will be subject to these Terms, unless stated otherwise.</li>
+          <br>
+          <li>You may terminate these Terms at any time by canceling your account on the Services. You will not receive any refunds if you cancel your account.</li>
+          <br>
+          <li>You agree that Gaia GPS, in its sole discretion and for any or no reason, may terminate your account or any part thereof. You agree that any termination of your access to the Services may be without prior notice, and you agree that Gaia GPS will not be liable to you or any third party for such termination.</li>
+          <br>
+          <li>You are solely responsible for exporting your Content from the Services prior to termination of your account for any reason, provided that if we terminate your account, we will endeavor to provide you a reasonable opportunity to retrieve your Content.</li>
+          <br>
+          <li>Upon any termination of the Services or your account these Terms will also terminate, but all provisions of these Terms which, by their nature, should survive termination, shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, and limitations of liability.</li>
+        </ul>
+        <br>
+        <h2>9. Changes to the Terms</h2>
+        <ul class="list">
+          <li>These Terms may be amended or updated from time to time without notice and may have changed since your last visit to the website or use of the Services. It is your responsibility to review these Terms for any changes. By continuing to access or use the Services after revisions become effective, you agree to be bound by the revised Terms. If you do not agree to the new Terms, please stop using the Services. Please visit this page regularly to review these Terms for any changes.</li>
+        </ul>
+        <br>
+        <h2>10. DISCLAIMER OF WARRANTY</h2>
+        <ul class="list">
+          <li>YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SERVICES ARE AT YOUR SOLE RISK AND THAT THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE."</li>
+          <br>
+          <li>GAIA GPS, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS MAKE NO EXPRESS WARRANTIES AND DISCLAIM ALL IMPLIED WARRANTIES REGARDING THE SERVICES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, GAIA GPS, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS DO NOT REPRESENT OR WARRANT TO YOU THAT: (A) YOUR USE OF THE SERVICES WILL MEET YOUR REQUIREMENTS, (B) YOUR USE OF THE SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE OR FREE FROM ERROR, AND (C) USAGE DATA PROVIDED THROUGH THE SERVICES WILL BE ACCURATE.</li>
+        <br>
+          <li>NOTHING IN THESE TERMS, INCLUDING SECTIONS 10 AND 11, SHALL EXCLUDE OR LIMIT GAIA GPS’S WARRANTY OR LIABILITY FOR LOSSES WHICH MAY NOT BE LAWFULLY EXCLUDED OR LIMITED BY APPLICABLE LAW.</li>
+        </ul>
+        <br>
+        <h2>11. LIMITATION OF LIABILITY</h2>
+        <ul class="list">
+          <li>SUBJECT TO SECTION 10 ABOVE, YOU EXPRESSLY UNDERSTAND AND AGREE THAT GAIA GPS, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU FOR ANY INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES WHICH MAY BE INCURRED BY YOU, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY. THIS SHALL INCLUDE, BUT NOT BE LIMITED TO, ANY LOSS OF PROFIT (WHETHER INCURRED DIRECTLY OR INDIRECTLY), ANY LOSS OF GOODWILL OR BUSINESS REPUTATION, ANY LOSS OF DATA SUFFERED, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR OTHER INTANGIBLE LOSS. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.</li>
+        <br>
+          <li>THE LIMITATIONS ON GAIA GPS’S LIABILITY TO YOU IN THIS SECTION SHALL APPLY WHETHER OR NOT GAIA GPS HAS BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.</li>
+        <br>
+          <li>SOME STATES AND JURISDICTIONS MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN NO EVENT SHALL GAIA GPS’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE) EXCEED THE AMOUNT THAT YOU HAVE ACTUALLY PAID FOR THE SERVICES IN THE PAST TWELVE MONTHS, OR ONE HUNDRED DOLLARS ($100.00), WHICHEVER IS GREATER.</li>
+        </ul>
+        <br>
+        <h2>12. Indemnification</h2>
+        <ul class="list">
+          <li>You agree to hold harmless and indemnify Gaia GPS, and its subsidiaries, affiliates, officers, agents, employees, advertisers, licensors, suppliers or partners (collectively "Gaia GPS and Partners") from and against any third party claim arising from or in any way related to (a) your breach of the Terms, (b) your use of the Services, (c) your violation of applicable laws, rules or regulations in connection with the Services, or (d) your User Content, including any liability or expense arising from all claims, losses, damages (actual and consequential), suits, judgments, litigation costs and attorneys’ fees, of every kind and nature.  </li>
+        </ul>
+        <br>
+        <h2>13. Copyright Policy</h2>
+        <ul class="list">
+          <li>We respect the intellectual property rights of others and expect our users to do the same. In accordance with the Digital Millennium Copyright Act, Title 17, United States Code, Section 512(c)(2) (the "DMCA"), we will respond expeditiously to claims of copyright infringement committed using the Services if such claims are reported to our Designated Copyright Agent identified in the sample notice below.<br>
+        <br>
+        DMCA Notice of Alleged Infringement ("Notice")</li>
+        <br>
+          <ul class="indented">
+            <li>Identify the copyrighted work that you claim has been infringed, or if multiple copyrighted works are covered by this Notice, you may provide a representative list of the copyrighted works that you claim have been infringed. </li>
+            <br>
+            <li>Identify the material or link you claim is infringing (or the subject of infringing activity) and to which access is to be disabled, including at a minimum, if applicable, the URL of the link or the exact location where such material may be found.</li>
+            <br>
+            <li>Provide your company affiliation (if applicable), mailing address, telephone number, and, if available, email address.</li>
+            <br>
+            <li>Include both of the following statements in the body of the Notice:</li>
+            <br>
+            <ul class="indented-2">
+              <li>"I hereby state that I have a good faith belief that the disputed use of the copyrighted material is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)." </li>
+              <br>
+              <li>"I hereby state that the information in this Notice is accurate and, under penalty of perjury, that I am the owner, or authorized to act on behalf of, the owner, of the copyright or of an exclusive right under the copyright that is allegedly infringed."</li>
+            </ul>
+            <br>
+            <li>Provide your full legal name and your electronic or physical signature. Deliver this Notice, with all items completed, to our Designated Copyright Agent: </li>
+          </ul>
+        </ul>
+        <br>
+        <div class="text-center">
+          <p>Copyright Agent,
+          <br>TrailBehind, Inc.
+          <br>1474 University Ave.
+          <br>Berkeley, CA 94702
+          <br><a href="mailto:legal@gaiagps.com">legal@gaiagps.com</a></p>
+        </div>
+        <h2>14. Third-Party Content</h2>
+        <ul class="list">
+          <li>The Services may include references or hyperlinks to other web sites or content or resources or email content. Gaia GPS has no control over any web sites or resources which are provided by companies or persons other than Gaia GPS.</li>
+        <br>
+          <li>You acknowledge and agree that Gaia GPS is not responsible for the availability of any such external sites or resources, and does not endorse any advertising, products or other materials on or available from such web sites or resources.</li>
+        <br>
+          <li>You acknowledge and agree that Gaia GPS is not liable for any loss or damage which may be incurred by you or other users as a result of the availability of those external sites or resources, or as a result of any reliance placed by you on the completeness, accuracy or existence of any advertising, products or other materials on, or available from, such web sites or resources.</li>
+        </ul>
+        <br>
+        <h2>15. Third Party Software</h2>
+        <ul class="list">
+          <li>The Services may incorporate certain third party software ("Third Party Software"), which is licensed subject to the terms and conditions of the third party licensing such Third Party Software. Nothing in these Terms limits your rights under, or grants you rights that supersede, the terms and conditions of any applicable license for such Third Party Software.</li>
+        </ul>
+        <br>
+        <h2>16. Feedback</h2>
+        <ul class="list">
+          <li>You may choose to or we may invite you to submit comments or ideas about the Services, including without limitation about how to improve the Services or our products. By submitting any feedback, you agree that your disclosure is gratuitous, unsolicited and without restriction and will not place Gaia GPS under any fiduciary or other obligation, and that we are free to use such feedback without any additional compensation to you, and/or to disclose such feedback on a non-confidential basis or otherwise to anyone.</li>
+        </ul>
+        <br>
+        <h2>17. Miscellaneous</h2>
+        <ul class="list">
+          <li>These Terms, together with our Privacy Policy and Pricing Terms (if available), constitutes the entire agreement between the parties relating to the Services and all related activities. These Terms shall not be modified except in writing signed by both parties or by a new posting of these Terms issued by us. If any part of these Terms is held to be unlawful, void, or unenforceable, that part shall be deemed severed and shall not affect the validity and enforceability of the remaining provisions. The failure of Gaia GPS to exercise or enforce any right or provision under these Terms shall not constitute a waiver of such right or provision. Any waiver of any right or provision by Gaia GPS must be in writing and shall only apply to the specific instance identified in such writing. You may not assign these Terms, or any rights or licenses granted hereunder, whether voluntarily, by operation of law, or otherwise without our prior written consent. These Terms and any action related thereto will be governed by the laws of the State of California without regard to its conflict of laws provisions. The exclusive jurisdiction and venue of any action with respect to the subject matter of these Terms will be the state courts located in Santa Clara, California, and the federal courts located in the Northern District of California, and each of the parties hereto waives any objection to jurisdiction and venue in such courts.</li>
+        </ul>
+        <br>
+        <h2>18. Contact Us</h2>
+        <ul class="list">
+          <li>If you have any questions about these Terms or if you wish to make any complaint or claim with respect to the Services, please contact us at: <a href="mailto:legal@gaiagps.com">legal@gaiagps.com.</a></li>
+        <br>
+          <li>When submitting a complaint, please provide a brief description of nature of your complaint and the specific services to which your complaint relates.</li>
+        </ul>
+        </div>
+    </div>
+  </div>
+</div> 
+
+<div class="clear" style="margin-bottom:20px"></div>
+
+            </div>
+        </div>
+    
+
+    
+    <!-- footer content -->
+    <div class="footer" id="base_footer">
+        <div class="section center">
+            <div class="section-content">
+                <ul class="footer-nav">
+                    <li class="footer-nav-item">
+                        <h4 class="footer-nav-section-title">Maps &amp; Activities</h4>
+                        <ul class="footer-nav-section-list">
+                            <li><a onclick="tbanalytics.track('Map Gallery', {'category': 'Footer'})" href="/maps/">Browse the Map Catalog</a></li>
+                            <li><a onclick="tbanalytics.track('Find a Hike', {'category': 'Footer'})" href="/hike/">Hiking Trails</a></li>
+                            <li><a onclick="tbanalytics.track('Backpacking', {'category': 'Footer'})" href="/backpacking/">Backpacking</a></li>
+                            <li><a onclick="tbanalytics.track('GaiaHunt', {'category': 'Footer'})" href="/hunting/">Hunting (Land Ownership)</a></li>
+
+                            <li><a onclick="tbanalytics.track('GaiaOffroad', {'category': 'Footer'})" href="/offroad/">Overland, Offroad &amp; 4x4</a></li>
+                            <li><a onclick="tbanalytics.track('GaiaMountain Biking', {'category': 'Footer'})" href="/mountain-biking/">Mountain Biking</a></li>
+                            <li><a onclick="tbanalytics.track('GaiaSki', {'category': 'Footer'})" href="/ski/">Backcountry Skiing</a></li>
+                            <li><a onclick="tbanalytics.track('GaiaCanada', {'category': 'Footer'})" href="/canada/">Canadian Topos</a></li>
+                            <li><a onclick="tbanalytics.track('Emergency', {'category': 'Footer'})" href="/emergency-response/">Emergency Responders</a></li>
+                            <li><a onclick="tbanalytics.track('Outfitters', {'category': 'Footer'})" href="/outfitters/">Outfitters &amp; Guides</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item">
+                        <h4 class="footer-nav-section-title">Purchase</h4>
+                        <ul class="footer-nav-section-list">
+                            
+                            
+                            <li><a onclick="tbanalytics.track('Membership', {'category': 'Footer'})" href="/membership/">Membership</a></li>
+                            
+                            <li><a onclick="tbanalytics.track('Team', {'category': 'Footer'})" href="/team/">Team Licenses</a></li>
+                            <li><a onclick="tbanalytics.track('Gift', {'category': 'Footer'})" href="/user/gift/">Gift</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item">
+                      <h4 class="footer-nav-section-title">Company</h4>
+                            <ul class="footer-nav-section-list">
+                            <li><a onclick="tbanalytics.track('Blog', {'category': 'Footer'})" href="http://blog.gaiagps.com/">Blog</a></li>
+                              <li><a onclick="tbanalytics.track('Store', {'category': 'Footer'})" href="https://shop.gaiagps.com">Store</a></li>
+                              <li><a onclick="tbanalytics.track('Jobs', {'category': 'Footer'})" href="/company/jobs/">Jobs</a></li>
+                              <li><a onclick="tbanalytics.track('Meet the Team', {'category': 'Footer'})" href="/company/">Team</a></li>
+                            </ul>
+                        </li>
+                    <li class="footer-nav-item">
+                        <h4 class="footer-nav-section-title">User Resources</h4>
+                        <ul class="footer-nav-section-list">
+                            <li><a onclick="tbanalytics.track('Help', {'category': 'Footer'})" href="http://help.gaiagps.com/" target="_blank">Help &amp; Forums</a></li>
+                            <li><a onclick="tbanalytics.track('Online Topo Map', {'category': 'Footer'})" href="/map/">Map</a></li>
+                            <li><a onclick="tbanalytics.track('Upload', {'category': 'Footer'})" href="/upload/">Upload</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item">
+                        <h4 class="footer-nav-section-title">Follow Us</h4>
+                        <ul class="footer-nav-section-list">
+                            <li><a onclick="tbanalytics.track('Follow Facebook', {'category': 'Footer'})" href="http://www.facebook.com/GaiaGPS" target="_new">
+                                <svg class="footer-icon" role="img" viewBox="0 0 118 228"><path fill="#fff" d="M34.8 226.8V123.5H0V83.2h34.8V53.5C34.8 19 55.8.2 86.6.2c14.8 0 27.4 1 31 1.6v36h-21c-16.8 0-20 8-20 19.7v25.7h40l-5.4 40.3H76.5v103.3"></path></svg><div class="footer-icon-title">Facebook</div>
+                            </a></li>
+                            <li><a onclick="tbanalytics.track('Follow Youtube', {'category': 'Footer'})" href="https://www.youtube.com/gaiagps" target="_new">
+                                <svg class="footer-icon" role="img" viewBox="0 0 122 86"><path fill="#fff" d="M119 13c2 10 2 30 2 30s0 19-2 29c-1 5-6 9-11 11-9 2-47 2-47 2s-38 0-48-2c-5-2-9-6-10-11-3-10-3-29-3-29s0-20 3-30C4 8 8 4 13 3c10-3 48-3 48-3s38 0 47 3c5 1 10 5 11 10zM49 61l31-18-31-19v37z"></path></svg><div class="footer-icon-title">Youtube</div>
+                            </a></li>
+                            <li><a onclick="tbanalytics.track('Follow Instagram', {'category': 'Footer'})" href="https://www.instagram.com/gaiagps/" target="_new">
+                                <svg class="footer-icon" viewBox="0 0 169 169"><circle fill="#fff" cx="129" cy="39" r="10"></circle><g stroke="#fff" fill="none" stroke-width="15"><circle cx="84.5" cy="84.5" r="35.5"></circle><path d="M59 8C22 8 8 22 8 59v51c0 37 14 51 51 51h51c37 0 51-14 51-51V59c0-37-14-51-51-51H59z"></path></g></svg><div class="footer-icon-title">Instagram</div>
+                            </a></li>
+                            <li><a onclick="tbanalytics.track('Follow Twitter', {'category': 'Footer'})" href="https://twitter.com/gaiagps" target="_new">
+                                <svg class="footer-icon" role="img" viewBox="0 0 274 223"><path fill="#fff" d="M273.4 26.4a110 110 0 0 1-32.2 8.8a56 56 0 0 0 24.6-31a107 107 0 0 1-35.6 13.6A56.1 56.1 0 0 0 134.6 69A159 159 0 0 1 19 10.4a56 56 0 0 0 17.4 74.9a60 60 0 0 1-25.4-7a56 56 0 0 0 45 55.6a60 60 0 0 1-25.4 1a56 56 0 0 0 52.4 39a112 112 0 0 1-83 23a159 159 0 0 0 245.4-141.5a108 108 0 0 0 28-29z"></path></svg><div class="footer-icon-title">Twitter</div>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item">
+                        <h4 class="footer-nav-section-title">Legal</h4>
+                        <ul class="footer-nav-section-list">
+                            <li><a onclick="tbanalytics.track('Terms of Use', {'category': 'Footer'})" href="/company/terms_of_use/">Terms of Use</a></li>
+                            <li><a onclick="tbanalytics.track('Privacy Policy', {'category': 'Footer'})" href="/company/privacy_policy/">Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+
+    <div class="feedbackbar" ng-controller="FeedbackBarController"></div>
+
+    <script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.9.1" async=""></script><script src="https://connect.facebook.net/signals/config/1304750436225011?v=2.9.1&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" src="https://js.appboycdn.com/web-sdk/2.2/appboy.min.js" async=""></script><script type="text/javascript" async="" src="https://cdn.amplitude.com/libs/amplitude-4.5.2-min.gz.js"></script><script type="text/javascript" src="/en/jsi18n/locale/"></script>
+    <script>
+        var requirements=[]
+    </script>
+
+    <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+    
+    <script>
+        window.USE_METRIC = false;
+
+        window.Gaia = {
+            staticURL: "https://www-static.gaiagps.com/",
+            nextFromRegister: "",
+            defaultAppcode: 'gaia',
+            isDebug: false,
+            peliasApiKey: "ge-8f3f9c04939086fd",
+            corsProxyUrl: "https://cors-proxy.gaiagps.com/?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjM5MDAyMzB9.giNVCKi6o4tuh2biQK7NXgj3DWfyY88yyQx9PmXEPiE&url=",
+            user: {
+                
+                isAuthenticated: false,
+                hasSubscription: false,
+                hasPremiumSubscription: false,
+                hasMobileApp: false,
+                isTeamAdmin: false,
+                isStaff: false,
+                isRanger: false,
+                image: (
+                    
+                        "https://www-static.gaiagps.com/img/profile_avatar.da56cadced97.png"
+                    
+                ),
+                displayName: "",
+                isSU: false,
+                email: "",
+                disoverAnalyticsEnabled: false,
+                webAnalyticsEnabled: false,
+                unitSystem: false ? 'metric' : 'imperial',
+            }
+        };
+
+        window.onerror = function(error, url, line) {
+          var error = document.getElementById('error_div');
+          if (!error){
+            var errorDiv = document.createElement("div");
+            errorDiv.id = 'error_div';
+            document.body.appendChild(errorDiv);
+          }
+        }
+
+        // Google Analytics
+        if (!window.Gaia.user.isAuthenticated || window.Gaia.user.webAnalyticsEnabled) {
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga('create', 'UA-1038522-13', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- Amplitude Analytics -->
+    <script type="text/javascript">
+      if (!window.Gaia.user.isAuthenticated || window.Gaia.user.webAnalyticsEnabled) {
+        (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+        ;r.type="text/javascript";r.async=true
+        ;r.src="https://cdn.amplitude.com/libs/amplitude-4.5.2-min.gz.js"
+        ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
+        e.amplitude.runQueuedFunctions()}else{
+        console.log("[Amplitude] Error: could not load SDK")}}
+        ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+        ;function s(e,t){e.prototype[t]=function(){
+        this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+        var o=function(){this._q=[];return this}
+        ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+        ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+        ;return this}
+        ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+        ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+        ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+        ;function v(e){function t(t){e[t]=function(){
+        e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+        for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+        e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+        ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+        ;e.amplitude=n})(window,document);
+        amplitude.getInstance().init('c2f8af019f9215a6470e1239269deffa', null, {includeReferrer: true, includeUtm: true,});
+        }
+    </script>
+
+    <!-- Braze -->
+
+    <script type="text/javascript">
+        if (!window.Gaia.user.isAuthenticated || window.Gaia.user.webAnalyticsEnabled) {
+        +function(a,p,P,b,y){appboy={};appboyQueue=[];for(var s="initialize destroy getDeviceId toggleAppboyLogging setLogger openSession changeUser requestImmediateDataFlush requestFeedRefresh subscribeToFeedUpdates requestContentCardsRefresh subscribeToContentCardsUpdates logCardImpressions logCardClick logCardDismissal logFeedDisplayed logContentCardsDisplayed logInAppMessageImpression logInAppMessageClick logInAppMessageButtonClick logInAppMessageHtmlClick subscribeToNewInAppMessages removeSubscription removeAllSubscriptions logCustomEvent logPurchase isPushSupported isPushBlocked isPushGranted isPushPermissionGranted registerAppboyPushMessages unregisterAppboyPushMessages submitFeedback trackLocation stopWebTracking resumeWebTracking wipeData ab ab.DeviceProperties ab.User ab.User.Genders ab.User.NotificationSubscriptionTypes ab.User.prototype.getUserId ab.User.prototype.setFirstName ab.User.prototype.setLastName ab.User.prototype.setEmail ab.User.prototype.setGender ab.User.prototype.setDateOfBirth ab.User.prototype.setCountry ab.User.prototype.setHomeCity ab.User.prototype.setLanguage ab.User.prototype.setEmailNotificationSubscriptionType ab.User.prototype.setPushNotificationSubscriptionType ab.User.prototype.setPhoneNumber ab.User.prototype.setAvatarImageUrl ab.User.prototype.setLastKnownLocation ab.User.prototype.setUserAttribute ab.User.prototype.setCustomUserAttribute ab.User.prototype.addToCustomAttributeArray ab.User.prototype.removeFromCustomAttributeArray ab.User.prototype.incrementCustomUserAttribute ab.User.prototype.addAlias ab.User.prototype.setCustomLocationAttribute ab.InAppMessage ab.InAppMessage.SlideFrom ab.InAppMessage.ClickAction ab.InAppMessage.DismissType ab.InAppMessage.OpenTarget ab.InAppMessage.ImageStyle ab.InAppMessage.TextAlignment ab.InAppMessage.Orientation ab.InAppMessage.CropType ab.InAppMessage.prototype.subscribeToClickedEvent ab.InAppMessage.prototype.subscribeToDismissedEvent ab.InAppMessage.prototype.removeSubscription ab.InAppMessage.prototype.removeAllSubscriptions ab.InAppMessage.Button ab.InAppMessage.Button.prototype.subscribeToClickedEvent ab.InAppMessage.Button.prototype.removeSubscription ab.InAppMessage.Button.prototype.removeAllSubscriptions ab.SlideUpMessage ab.ModalMessage ab.FullScreenMessage ab.HtmlMessage ab.ControlMessage ab.Feed ab.Feed.prototype.getUnreadCardCount ab.ContentCards ab.ContentCards.prototype.getUnviewedCardCount ab.Card ab.ClassicCard ab.CaptionedImage ab.Banner ab.ControlCard ab.WindowUtils display display.automaticallyShowNewInAppMessages display.showInAppMessage display.showFeed display.destroyFeed display.toggleFeed display.showContentCards display.hideContentCards display.toggleContentCards sharedLib".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=appboy,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){appboyQueue.push(arguments); return true}"))()}appboy.getUser=function(){return new appboy.ab.User};appboy.getCachedFeed=function(){return new appboy.ab.Feed};appboy.getCachedContentCards=function(){return new appboy.ab.ContentCards};(y=p.createElement(P)).type='text/javascript';y.src='https://js.appboycdn.com/web-sdk/2.2/appboy.min.js';y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)}(window,document,'script');
+
+        appboy.initialize('43b07c85-9c2d-40a7-938f-6f76c23fa04f', {baseUrl: 'https://customer.iad-03.braze.com/api/v3', enableLogging: false})
+        appboy.display.automaticallyShowNewInAppMessages();
+        appboy.openSession();
+    }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google AdWords -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '');
+    </script>
+    
+    <script type="text/javascript" src="https://www-static.gaiagps.com/js/tbanalytics.4a0c654fb9e9.js"></script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1304750436225011&ev=PageView&noscript=1"
+      /></noscript>
+
+    
+    
+    <script type="text/javascript">
+        
+        tbanalytics.trackPageView('');
+    </script>
+    
+
+    
+    <script type="text/javascript">
+      // Store referrer & landing page
+      if (document.cookie.search('referrer') < 0 && document.cookie.search('landing_page') < 0) {
+        // Store referrer only the first time a user hits the website + landing page
+        document.cookie = 'referrer=' + document.referrer + ';path=/';
+        document.cookie = 'landing_page=' + location.href + ';path=/';
+        tbanalytics.track('Set Landing Page', {'page': location.href});
+      }
+    </script>
+    
+
+    <script src="https://www-static.gaiagps.com/js/bundles/vendors~FolderUI~GeofileDownloader~HeaderUI~HikeUI~HuntUI~LeafletVector~MapPreviewUI~OsmSearch~Regio~95c6b7ec.eede3210.js"></script>
+<script src="https://www-static.gaiagps.com/js/bundles/vendors~FolderUI~HeaderUI~HikeUI~HuntUI~MapPreviewUI~OsmSearch~SettingsUI~company~map2.e8fdf2ab.js"></script>
+<script src="https://www-static.gaiagps.com/js/bundles/HeaderUI.b41364f4.js"></script>
+
+<script type="text/javascript">
+    var skipExperiments = window.location.search.indexOf('skipExperiments') > -1;
+
+    
+
+    
+
+          HeaderUI.default({
+            experimentVersion: 'membership',
+            showMembership: skipExperiments ? false : true,
+        });
+
+    
+</script>
+
+
+
+
+</body></html>

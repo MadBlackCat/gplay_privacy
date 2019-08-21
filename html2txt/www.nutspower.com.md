@@ -1,0 +1,295 @@
+![](assets/images/logo.png)
+
+  * Homepage 
+  * Games 
+  * Business 
+  * About 
+  * Contacts 
+
+#  Private Police
+
+Home / Private Police
+
+Welcome to Nutspower OL. Your privacy is important to us.
+
+Nutspower OL (hereinafter referred to as “us”) is committed to protecting our
+users’ (hereinafter referred to as “users” or “you”) privacy. This Privacy
+Policy (hereinafter referred to as “Policy”) details how we collect, store,
+use, and manage information, including but not limited to your personal
+information and the data you may provide or we may collect from any games
+(collectively, the “Services”) offered on any mobile platforms (e.g., iOS and
+Android) or relevant websites (www.nutspower.com, (hereinafter referred to as
+“website”). Please note, this Policy applies only to the data and information
+we collect or receive through your using of the services. We are not
+responsible for any acts of any third party representatives or companies, any
+use of their website content , the information or data you provide them, or
+products and services they may offer. Any link to these sites does not
+constitute our sponsorship or affiliate relationship with these companies or
+persons.
+
+Your using of the Services represents that you have agreed on this Policy and
+agreed on processing your information and data (including your personal data)
+in the manner specified in this Policy. If you do not agree with these terms,
+please do not use these Services.
+
+If you have any questions or concerns, please contact us by using the contact
+information offered in the Data Manager Contact Information section in this
+Policy .
+
+Your information and data collected by us
+
+We may collect the following information and data:
+
+§  Contact information (e.g. name and email address)
+
+§  Username and password in our community forums
+
+§  Information you voluntarily provide (e.g. personal photos, gender, age or
+birthday, links to your personal information on other social network site )
+
+§  Automatically collected data (e.g. IP address, device operating system,
+browser type, and language)
+
+§  Mobile device identifier (e.g. unique device ID (static/dynamic, hard drive
+type, media access control ("MAC") address, international mobile equipment
+identifier ("IMEI") and your device name
+
+§  General location information to provide you with the correct application
+version
+
+§  Exact location of your device (only when you expressly agree)
+
+§  Game data (e.g., your server log files, game and in-game interactions with
+other players, and your player ID)
+
+§  Employment information (CV, name, email address, telephone number)
+
+### Tracking technology
+
+We, our marketing, outsourced partners, affiliates, or analytics service
+providers use technology such as Cookies, beacons, scripts, and tags to
+identify user computers/devices and "remember” information regarding your
+access (e.g., your preference or user name or password). Cookies may contain
+information associated with personal information (e.g. user ID) and will
+improve our service quality, tailor services according to your interests, and
+make services easier to use. Even if you are unable to access or use service
+features, you can at any time disable Cookies.
+
+Other information collection conventions
+
+Websites include social media features, e.g. Facebook "Like" button and small
+tools, e.g. "Share" button or an interactive applet running on our site).
+These features may collect your IP address and which pages you access on our
+website, and Cookies may be set so that the corresponding features can run
+properly. Social media features and small tools are hosted by third parties or
+directly hosted on our website. Your interaction with these features is
+subject to the privacy policy of the company that provides functionality.
+
+We can offer you opportunities to use social networking services (like
+Facebook friends) to invite the contacted person, and these people can join
+our games, and/or you can invite them to join Nutspower OL games. This contact
+information is only used for the purpose of sending messages to recipients.
+You or a third party can contact us, and request deletion of any of this
+information stored on Nutspower OL databases.
+
+How we use your information
+
+Our primary goal for using your information is to create your account, provide
+you services, improve our services, contact you, implement marketing and
+research activities, and create reports for internal use. We use Amazon Web
+Services, which are located in America to store information and possibly use
+servers and equipment in other countries to store information.
+
+We use information collected through our services for the purposes described
+in this Policy or to disclose information about our service. E.g., we can use
+the information for the following purpose:
+
+§  Create game accounts and allow users to play our games;
+
+§  Identify and suggest association with other Nutspower OL users;
+
+§  Operate and improve our services;
+
+§  Understand you and your preferences to enhance your experience and
+enjoyment while using our services;
+
+§  Answer your questions, respond to your feedback, and offer client services;
+
+§  Provide and deliver the products and services you require;
+
+§  Push advertising and marketing as well as promotional information to you;
+
+§  Send you relevant information, including confirmation information,
+invoices, technology notices, updates, security alerts, and support and
+management information;
+
+§  Communicate with you about promotions, rewards, recent event information,
+and other news regarding products and services provided by our selected
+partners.
+
+§  Enable you to communicate with other users;
+
+§  Associate or combine this information with other information we obtain from
+third parties and help understand your preferences to offer you even better
+services.
+
+### Client services
+
+When you contact our customer service department, we possibly will use your
+email address to contact you, understand your experience with our game, notify
+you of the news and sales promotion of the company.
+
+If you do not want to receive certain email notifications, you can opt out by
+an email to us by using the contact information in this Policy at any time.
+
+If we wish to send you merchandise or other promotional materials, we would
+possibly use your mailing address. If you do not wish to receive this type of
+promotional material, you can at any time use the contact information in this
+Policy to send us an email to opt out of receiving this type of promotional
+material.
+
+Third party services
+
+Our services possibly include third-party tracking and data collection and
+analysis tools provided by our service provider, and these third parties may
+use Cookies, APIs, and SDKs in our services to collect and analyze user and
+device related data and information on our behalf. Third parties may access
+and collect data information related to you (e.g., your device identifier, MAC
+address, IMEI, regional settings (using a given language for a specific
+location), location information, IP address, application usage, access and
+event time, device storage or specific application usage times on device, and
+how you view and interact with ads) to provide other services (including the
+following additional detailed descriptions to enable, provide, and push ads).
+
+Our service providers' privacy policies may include information about their
+data collection and use along with additional terms and disclosures about
+tracking technology. We advise you to look up these privacy policies to
+understand more about their methods of data collection and use, Cookie use,
+and other similar tracking technologies.
+
+Mobile applications
+
+When you on any Nutspower OL game or application on the mobile platform, we
+may record some kinds of information and data, e.g., you application usage,
+access, session times, in-app purchases, unique device ID (static/dynamic,
+hard drive type, media access control ("MAC") address, international mobile
+equipment identifier ("IMEI"), operating system ("OS") version, device name,
+email address (if you bind with Facebook or Google+), and your location
+(according to your internet protocol ("IP") address. This information helps us
+troubleshoot, helps us understand usage trends, and improve and optimize
+services and your user experience, as well as maybe be used for other purposes
+(e.g., according to internet ads located elsewhere in this Policy).
+
+In addition, we have created a unique user ID to track your usage of our
+services. This unique user ID is associated with your private information to
+keep track of the games you play.
+
+We may occasionally use our app to push notifications to you to send you
+possibly important game versions and other notifications related to services.
+You can at any time in the service settings turn off push notifications and
+choose to no longer receive this kind of information.
+
+Only with your explicit consent, will we and our partners collect your precise
+location information (GPS) to match you with opponents in your area, customize
+content for your region (like event public notices), possibly display your
+location to other players, and for the purpose of interest-based ad push
+elsewhere described in this Privacy Policy to match your device location to
+certain points of interest. So, when you participate in our specific area of
+the game, our other players in the game will see you can participate in the
+game. Please note, participation in this portion of Service is not the same
+requirement all our games have, but possibly is a requirement in gameplay with
+other players for your location.
+
+How we disclose your information to third parties
+
+We will not share your personal information without your permission or unless
+under the following circumstances:
+
+§  We may disclose or publish your information under circumstances permitted
+by law (e.g. compliance) or in such a manner that we believe is in compliance
+with the law; or for fraud investigation, or in response to government
+requests,or for enforcement or exercise of our rights; or to protect the
+rights, property, or safety of ourselves, our users, or others. This includes
+exchanging information with other companies and organizations for fraud
+prevention. In response to legitimate requests of public authorities or
+enforcing local laws, we may under some circumstances be required to disclose
+personal information.
+
+§  We may share your information with other companies, and this information
+relates to any acquisition and disposing of our assets, or financing, or the
+acquisition of all or partof our business. We will inform you via email and/or
+through our website of any such changes in ownership or the use of your
+personal information.
+
+§  We may share your summary or anonymous information with advertisers,
+publishers, business partners, sponsors, and other third parties.
+
+Accessing, correcting, and deleting your information
+
+According to your request, we will inform you whether we hold any of your
+personal information. If your personal information has changed, or if you do
+not need our services, you can update, correct, delete inaccurate information,
+or delete your personal information in your account settings or by contacting
+us. In some circumstances we may be unable to delete your person information.
+Under this circumstance, we will inform you we have no recourse to do so and
+the reason. We will respond to your inquiries in a reasonable time.
+
+Security guarantee
+
+We take reasonable steps to protect your information from unauthorized access
+or prevent loss, misuse, or alterations by third parties.
+
+Although we make every effort to store the information collected by our
+services in a secure operating environment that is inaccessible to the general
+public, we cannot guarantee absolute security of such information in
+transmission or in storage in our systems. In addition, we have been trying to
+ensure the integrity and security of our network and system, however, we
+cannot guarantee that our security measures will prevent third party
+“hackers”from illegally obtaining this information. We cannot guarantee or
+declare that your information is secure from loss, misuse, or alteration by a
+third party. However, no data transmission or storage system can be guaranteed
+to be 100% secure. For this reason, we cannot guarantee your personal
+information is absolutely secure.
+
+Data retention
+
+As long as your account is active, or in order to provide you with this
+service, we will retain your personal information. We may also keep and use
+your information if necessary to fulfill our legal obligations, resolve
+disputes, and enforce our agreements.
+
+Policy on children
+
+We will not intentionally collect or seek personal information of children
+under thirteen, or direct interest-based advertising to them, or intentionally
+allow children under thirteen to use our services. If you are a child under
+thirteen years old, please do not send us any of your personal information,
+including your name, address, phone number, or email address. Children under
+the age of 13 are not permitted to provide any personal information. If we
+learn that we have collected the personal information of a child under 13, we
+will take steps to delete the information as soon as possible. If you believe
+we may have obtained or held any personal information of children under
+thirteen, please contact us.
+
+Changes to this “Policy”
+
+We may update this Policy to reflect the changes of data and information
+policy practices. You will be notified of any major changes hereof by email
+(sent to the address specifiedin your account) before they take effect.  
+
+![](assets/images/logo.png)
+
+  * Homepage 
+  * Games 
+  * business 
+  * about 
+  * Contacts 
+
+Better game, Better Tomorrow
+
+© Copyright 2010
+
+Nuts Power Online Entertainment Limited. All Rights Reserved
+
+![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+

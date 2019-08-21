@@ -1,0 +1,2053 @@
+<html style="overflow-x:hidden;"><head><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<meta charset="UTF-8">
+<title>Eyougame - 领先的移动游戏发行商</title>
+<meta name="keywords" content="Eyougame 游戏 ">
+<meta name="description" content="Eyougame is an international mobile game publisher founded in Singapore, with its first branch set up in Guangzhou, China in year 2014.The company holds a principle of “Players-cored, Service-oriented”, and has published  “Zeon”, “Demoncer”, “Musou Glory”, “Lightchaser”, and many other 100 types of mobile games in Hong Kong, Macao, Taiwan, South East Asia, Korea, Japan, and global English markets.The company has become one of the top-notch developers of Google, active advertiser in Facebook, as well as Top 50 Oversea Brands of China. which makes it the leading brand of oversea mobile game publishment.">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="blank">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="/Public/images/favorite.png" type="image/png">
+<link rel="apple-touch-icon" href="/Public/images/eyougame-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="/Public/css/style.css?v=1556595883">
+
+<script src="/Public/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/Public/js/jquery.placeholder.min.js" type="text/javascript"></script>
+<script src="/Public/js/jquery.qrcode.min.js" type="text/javascript"></script>
+
+
+<!--[if lt IE 9]>
+    <script src="/Public/js/html5shiv.min.js"></script>
+    <script src="/Public/js/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" type="text/css" href="/Public/fonts/iconfont.css">
+</head>
+<body style="overflow-x:hidden;">
+<div id="user-nav" class="hidden-xs">
+<div class="container clearfix">
+<div class="row">
+<div class="pull-left">
+<a class="language">
+<i class="lang lang-us"></i> English <i class="triangle_border_down"></i></a>
+</div>
+<div class="pull-right">
+<a class="qr"><i class="iconfont icon-qrcode"></i> Browse on your phone<div><canvas width="200" height="200"></canvas></div></a> |&nbsp;&nbsp;&nbsp;
+<a class="needLogin" rel="/" href="/">
+<i class="iconfont icon-signin"></i> Login </a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a class="needLogin reg-btn" rel="/" href="/"><i class="iconfont icon-reg"></i> Register</a> </div>
+</div>
+</div>
+</div>
+<div id="top-nav" class="gradient">
+<div class="container clearfix head_container">
+<div class="row">
+<a id="top-nav-back" class="visible-xs visible-sm pull-left">English</a>
+<a id="top-nav-logo" href="/"><img src="/Public/images/logo.png"></a>
+<a id="top-nav-toggle" class="top-nav-toggle visible-xs visible-sm pull-right">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<ul id="top-navbar" class="pull-right clearfix">
+<li class="active"><a href="/" style="border-left-width:0"><i class="iconfont icon-home"></i> <span>Home</span></a></li>
+<li><a href="/games"><i class="iconfont icon-fggame"></i> <span>Games</span></a></li>
+<li><a href="/news"><i class="iconfont icon-xinwen"></i> <span>News</span></a>
+</li>
+<li><a class="needLogin" rel="/pay" href="/pay"><i class="iconfont icon-recharge"></i> <span>Recharge</span></a></li>
+<li><a href="/cus"><i class="iconfont icon-kefu"></i> <span>Customer Service</span></a>
+</li>
+<li class="business-link">
+<a href="/business"><i class="iconfont icon-business"></i>Business cooperation</a>
+</li>
+<li class="hidden-lg hidden-md">
+<a class="needLogin" rel="/" href="/">
+<i class="iconfont icon-signin"></i> Login/Register </a>
+</li> </ul>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+        $(function() {
+            $("#top-navbar li").on("mouseover", function() {
+                $(this).find(".dark-tooltip").attr("style", "top:70px")
+            })
+
+            /*top_qrcode*/
+            var t_qr = {
+                width: 200,
+                height: 200,
+                foreground: "#393A3A",
+                text: window.location.href
+            }
+            if (!$.support.leadingWhitespace) {
+                t_qr.render = "table";
+            }
+
+            $("#user-nav .qr div").qrcode(t_qr);
+        })
+    </script>
+<link rel="stylesheet" href="/Public/css/swiper.min.css">
+<style>
+    .more-gameList {
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        color: #1B4457;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    
+    .more-gameList .more {
+        cursor: pointer;
+    }
+    
+    .xs_img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #banner .play_btn {
+        bottom: 42px;
+    }
+</style>
+<input type="hidden" id="index" value="0">
+<div id="banner">
+<div class="swiper-container swiper-container-horizontal" style="cursor: grab;">
+<div class="swiper-wrapper" style="transform: translate3d(-1760px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="5" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2018-08-22/1534905711393oum.jpg" class="xs_img" alt="">
+
+<div class="btn-wrap">
+<div class="container">
+<div class="play_btn" data-videourl="https://subimage.eyougame.com/Banner/video/2018-12-03/15438090414416e6.mp4">
+<i class="play">
+<img src="/Public/images/play.png">
+</i>
+<i class="play-bg">
+<img src="/Public/images/play-bg.png">
+</i>
+</div>
+</div>
+</div> </a>
+
+<a class="ba banner-5 hidden-xs" href="https://lightchaser.eyougame.com/" target="_blank" title="">
+<div class="btn-wrap">
+<div class="container">
+<div class="play_btn" data-videourl="https://subimage.eyougame.com/Banner/video/2018-12-03/15438090414416e6.mp4">
+<i class="play"><img src="/Public/images/play.png"></i>
+<i class="play-bg"><img src="/Public/images/play-bg.png"></i>
+</div>
+</div>
+</div> </a>
+</div>
+<style>
+                    #banner .banner-0{
+                        background-image: url(https://subimage.eyougame.com/Banner/pic/2019-07-22/1563774263968sit.jpg);
+                    }
+                    
+                    @media (max-width: 1536px) {
+                        #banner .banner-0{
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-07-22/1563774263970244.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        #banner .banner-0                        {
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-07-22/15637742639726q2.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 768px) {
+                        #banner .banner-0{
+                            background: none;
+                        }
+                    }
+                </style>
+<div class="swiper-slide" data-swiper-slide-index="0" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2019-07-22/15637742639741ul.jpg" class="xs_img" alt="踏水行歌">
+
+</a>
+
+<a class="ba banner-0 hidden-xs" href="http://wsjy.eyougame.com" target="_blank" title="踏水行歌">
+</a>
+</div><style>
+                    #banner .banner-1{
+                        background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-23/1558600727570yyl.jpg);
+                    }
+                    
+                    @media (max-width: 1536px) {
+                        #banner .banner-1{
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-23/15586007275741vy.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        #banner .banner-1                        {
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-23/1558600727577ta5.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 768px) {
+                        #banner .banner-1{
+                            background: none;
+                        }
+                    }
+                </style>
+<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2019-05-23/15586007275803hy.jpg" class="xs_img" alt="御靈繪卷">
+
+</a>
+
+<a class="ba banner-1 hidden-xs" href="http://ylhj.eyougame.com/" target="_blank" title="御靈繪卷">
+</a>
+</div><style>
+                    #banner .banner-2{
+                        background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-14/1557826195501hp9.jpg);
+                    }
+                    
+                    @media (max-width: 1536px) {
+                        #banner .banner-2{
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-14/1557826195505bmp.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        #banner .banner-2                        {
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-14/1557826195507bci.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 768px) {
+                        #banner .banner-2{
+                            background: none;
+                        }
+                    }
+                </style>
+<div class="swiper-slide" data-swiper-slide-index="2" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2019-05-14/15578261955090zm.jpg" class="xs_img" alt="">
+
+</a>
+
+<a class="ba banner-2 hidden-xs" href="http://dark-domain.eyougame.com/" target="_blank" title="">
+</a>
+</div><style>
+                    #banner .banner-3{
+                        background-image: url(https://subimage.eyougame.com/Banner/pic/2019-04-16/1555424201844zsq.jpg);
+                    }
+                    
+                    @media (max-width: 1536px) {
+                        #banner .banner-3{
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-04-16/15554242018478x4.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        #banner .banner-3                        {
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-04-16/1555424201850hbr.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 768px) {
+                        #banner .banner-3{
+                            background: none;
+                        }
+                    }
+                </style>
+<div class="swiper-slide" data-swiper-slide-index="3" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2019-04-16/15554242018561ug.png" class="xs_img" alt="Click on Enter Adventure">
+
+</a>
+
+<a class="ba banner-3 hidden-xs" href="http://soul-destiny.eyougame.com/" target="_blank" title="Click on Enter Adventure">
+</a>
+</div><style>
+                    #banner .banner-4{
+                        background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-28/15590266397711e3.jpg);
+                    }
+                    
+                    @media (max-width: 1536px) {
+                        #banner .banner-4{
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-28/1559026639775k7w.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        #banner .banner-4                        {
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2019-05-28/15590266397781uh.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 768px) {
+                        #banner .banner-4{
+                            background: none;
+                        }
+                    }
+                </style>
+<div class="swiper-slide" data-swiper-slide-index="4" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2019-05-28/1559026639781tnj.jpg" class="xs_img" alt="Tale of Chaser">
+
+</a>
+
+<a class="ba banner-4 hidden-xs" href="http://toc.eyougame.com/" target="_blank" title="Tale of Chaser">
+</a>
+</div><style>
+                    #banner .banner-5{
+                        background-image: url(https://subimage.eyougame.com/Banner/pic/2018-08-22/1534905711384rmx.jpg);
+                    }
+                    
+                    @media (max-width: 1536px) {
+                        #banner .banner-5{
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2018-08-22/15349057113870ua.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 1024px) {
+                        #banner .banner-5                        {
+                            background-image: url(https://subimage.eyougame.com/Banner/pic/2018-08-22/1534905711390pdd.jpg);
+                        }
+                    }
+                    
+                    @media (max-width: 768px) {
+                        #banner .banner-5{
+                            background: none;
+                        }
+                    }
+                </style>
+<div class="swiper-slide" data-swiper-slide-index="5" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2018-08-22/1534905711393oum.jpg" class="xs_img" alt="">
+
+<div class="btn-wrap">
+<div class="container">
+<div class="play_btn" data-videourl="https://subimage.eyougame.com/Banner/video/2018-12-03/15438090414416e6.mp4">
+<i class="play">
+<img src="/Public/images/play.png">
+</i>
+<i class="play-bg">
+<img src="/Public/images/play-bg.png">
+</i>
+</div>
+</div>
+</div> </a>
+
+<a class="ba banner-5 hidden-xs" href="https://lightchaser.eyougame.com/" target="_blank" title="">
+<div class="btn-wrap">
+<div class="container">
+<div class="play_btn" data-videourl="https://subimage.eyougame.com/Banner/video/2018-12-03/15438090414416e6.mp4">
+<i class="play"><img src="/Public/images/play.png"></i>
+<i class="play-bg"><img src="/Public/images/play-bg.png"></i>
+</div>
+</div>
+</div> </a>
+</div> <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="0" style="width: 880px;">
+
+<a class="xs_block visible-xs">
+<img src="https://subimage.eyougame.com/Banner/pic/2019-07-22/15637742639741ul.jpg" class="xs_img" alt="踏水行歌">
+
+</a>
+
+<a class="ba banner-0 hidden-xs" href="http://wsjy.eyougame.com" target="_blank" title="踏水行歌">
+</a>
+</div></div>
+<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+<div class="swiper-button-prev swiper-button-black hidden-xs"></div>
+<div class="swiper-button-next swiper-button-black hidden-xs"></div>
+</div>
+</div>
+<div class="main spring-index hidden-xs">
+
+<div class="spring-index container">
+<div class="row">
+<div class="hot">
+<div class="games hidden-xs">
+<div class="rowTitle">
+<i class="rowIcon iconfont icon-add-hot"></i>
+<div class="rowName">
+HOT GAMES<small>HOT &amp; ROLL</small>
+</div>
+</div>
+<div class="swiper-container swiper-container-horizontal">
+<div class="swiper-wrapper">
+<div class="swiper-slide swiper-slide-active" style="width: 146.667px;">
+<a href="http://wsjy.eyougame.com" target="_blank">
+<img src="/Uploads/gimg/2019-07-22/1563779166.png">
+<span><i>Official Site</i></span>
+</a>
+<div class="fb-like" colorscheme="light" layout="button_count" share="true" data-send="true" data-width="165" show_faces="false" data-show-faces="true" href="https://www.facebook.com/eyoutsxg"></div>
+</div><div class="swiper-slide swiper-slide-next" style="width: 146.667px;">
+<a href="http://ylhj.eyougame.com/" target="_blank">
+<img src="/Uploads/gimg/2019-05-08/1557288793.png">
+<span><i>Official Site</i></span>
+</a>
+<div class="fb-like" colorscheme="light" layout="button_count" share="true" data-send="true" data-width="165" show_faces="false" data-show-faces="true" href="https://www.facebook.com/eyouylhj/"></div>
+</div><div class="swiper-slide" style="width: 146.667px;">
+<a href="http://dark-domain.eyougame.com/" target="_blank">
+<img src="/Uploads/gimg/2019-05-13/1557737234.jpg">
+<span><i>Official Site</i></span>
+</a>
+<div class="fb-like" colorscheme="light" layout="button_count" share="true" data-send="true" data-width="165" show_faces="false" data-show-faces="true" href="https://www.facebook.com/pg/EyouDarkDomain/"></div>
+</div><div class="swiper-slide" style="width: 146.667px;">
+<a href="http://soul-destiny.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-16/1555382030.png">
+<span><i>Official Site</i></span>
+</a>
+<div class="fb-like" colorscheme="light" layout="button_count" share="true" data-send="true" data-width="165" show_faces="false" data-show-faces="true" href="https://www.facebook.com/EyouSoulDestiny/"></div>
+</div> </div>
+</div>
+</div>
+<div class="newService">
+<div class="rowTitle">
+<i class="rowIcon iconfont icon-add-liang"></i>
+<div class="rowName">
+Announcement<small>ARTICLES &amp; INFO</small>
+</div>
+</div>
+<div class="tab clearfix">
+<a class="active">In service</a>
+
+</div>
+<div class="swiper-container swiper-container-horizontal">
+<div class="swiper-wrapper">
+<div class="swiper-slide swiper-no-swiping swiper-slide-active" style="width: 422px;">
+<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 206px;"><ul style="overflow: hidden; width: auto; height: 206px;">
+<li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank" title="">Soul Destiny</a> NA89-Dairin <span class="pull-right">07-22 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank" title="">Soul Destiny</a> AP131-Marciel <span class="pull-right">07-22 00:40</span>
+</li><li>
+<a href="http://ylhj.eyougame.com/" class="pull-left" target="_blank" title="">御靈繪卷</a> S183-秋楓暗影 <span class="pull-right">07-21 22:35</span>
+</li><li>
+<a href="http://toc.eyougame.com/" class="pull-left" target="_blank" title="">Tale of Chaser</a> A57-เสือซ่อนเล็บ <span class="pull-right">07-21 20:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank" title="">Soul Destiny</a> EU71-Peanut <span class="pull-right">07-21 07:40</span>
+</li><li>
+<a href="http://toc.eyougame.com/" class="pull-left" target="_blank" title="">Tale of Chaser</a> A56-เมืองสนธยา <span class="pull-right">07-21 01:05</span>
+</li>
+</ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 2px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 202.076px;"></div><div class="slimScrollRail" style="width: 2px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</div>
+<div class="swiper-slide swiper-no-swiping swiper-slide-next" style="width: 422px;">
+<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 206px;"><ul style="overflow: hidden; width: auto; height: 206px;">
+<li>
+<a href="http://yhsmqy.eyougame.com/" class="pull-left" target="_blank">永恆：宿命起源</a> S9-月光之谷 <span class="pull-right">11-01 09:25</span>
+</li><li>
+<a href="http://yhsmqy.eyougame.com/" class="pull-left" target="_blank">永恆：宿命起源</a> S7-冰霜之心 <span class="pull-right">10-01 19:35</span>
+</li><li>
+<a href="http://yhsmqy.eyougame.com/" class="pull-left" target="_blank">永恆：宿命起源</a> S6-空之迴響 <span class="pull-right">10-01 18:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP150-Cyberlic <span class="pull-right">08-29 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP149-Ubel <span class="pull-right">08-27 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU89-Freig <span class="pull-right">08-26 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP148-Phamous <span class="pull-right">08-25 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU88-Kait <span class="pull-right">08-24 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP147-Xyera <span class="pull-right">08-23 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU87-Glimspy <span class="pull-right">08-22 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP146-Walfgank <span class="pull-right">08-21 00:40</span>
+</li><li>
+ <a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU86-Scarley <span class="pull-right">08-20 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP145-Xyloc <span class="pull-right">08-19 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU85-Bowel <span class="pull-right">08-18 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP144-Mimic <span class="pull-right">08-17 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU84-Inno <span class="pull-right">08-16 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP143-Tyr <span class="pull-right">08-15 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU83-Cecrem <span class="pull-right">08-14 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA100-Daybreak <span class="pull-right">08-13 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP142-Aerial <span class="pull-right">08-13 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU82-Plenia <span class="pull-right">08-12 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA99-Willpain <span class="pull-right">08-11 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP141-Ocean <span class="pull-right">08-11 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU81-Gasp <span class="pull-right">08-10 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA98-Qasmelly <span class="pull-right">08-09 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP140-Snowrex <span class="pull-right">08-09 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU80-Salad <span class="pull-right">08-08 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA97-Avyne <span class="pull-right">08-07 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP139-Shrey <span class="pull-right">08-07 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU79-Asperla <span class="pull-right">08-06 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA96-Enmity <span class="pull-right">08-05 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP138-Duncon <span class="pull-right">08-05 00:40</span>
+</li><li>
+<a href="http://lightchaser.eyougame.com/" class="pull-left" target="_blank">Light Chaser</a> S328-Kapok <span class="pull-right">08-05 00:35</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU78-Chology  <span class="pull-right">08-04 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA95-Tempora <span class="pull-right">08-03 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP137-Namek <span class="pull-right">08-03 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU77-Morialic <span class="pull-right">08-02 07:40</span>
+</li><li>
+<a href="http://lightchaser.eyougame.com/" class="pull-left" target="_blank">Light Chaser</a> S327-India Canna <span class="pull-right">08-02 00:35</span>
+</li><li>
+ <a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA94-Recruler <span class="pull-right">08-01 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP136-Kanto <span class="pull-right">08-01 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU76-Aquarium <span class="pull-right">07-31 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA93-Conversalvy <span class="pull-right">07-30 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP135-Hoenn <span class="pull-right">07-30 00:40</span>
+</li><li>
+<a href="http://lightchaser.eyougame.com/" class="pull-left" target="_blank">Light Chaser</a> S326-Hydrangea <span class="pull-right">07-30 00:35</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU75-Mrets <span class="pull-right">07-29 07:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA92-Celebritney <span class="pull-right">07-28 12:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> AP134-Sonic <span class="pull-right">07-28 00:40</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> EU74-Fedobal <span class="pull-right">07-27 07:40</span>
+</li><li>
+<a href="http://lightchaser.eyougame.com/" class="pull-left" target="_blank">Light Chaser</a> S325-Hyacinth <span class="pull-right">07-27 00:35</span>
+</li><li>
+<a href="http://soul-destiny.eyougame.com/" class="pull-left" target="_blank">Soul Destiny</a> NA91-Naominis <span class="pull-right">07-26 12:40</span>
+</li> </ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 2px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 30px;"></div><div class="slimScrollRail" style="width: 2px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="g-coming">
+<div class="rowTitle">
+<i class="rowIcon iconfont icon-new-games"></i>
+<div class="rowName">
+COMING SOON<small>THE UPCOMING GAME</small>
+</div>
+</div>
+<div class="g-list">
+<div class="swiper-container swiper-container-horizontal swiper-container-fade">
+<div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" style="width: 866px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-05-23/1558581258.jpg" alt="仙凡幻想">
+</a>
+</div>
+</div>
+<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 866px; transform: translate3d(-866px, 0px, 0px); opacity: 1; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-07-03/1562143480.jpg" alt="Luminous Sword">
+</a>
+</div>
+</div><div class="swiper-slide swiper-slide-active stratami" data-swiper-slide-index="1" style="width: 866px; transform: translate3d(-1732px, 0px, 0px); opacity: 1; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-05-09/1557370874.jpg" alt="Lunathorn">
+</a>
+</div>
+</div><div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 866px; transform: translate3d(-2598px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+ <div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-05-09/1557370855.png" alt="Luna's Fate">
+</a>
+</div>
+</div><div class="swiper-slide" data-swiper-slide-index="3" style="width: 866px; transform: translate3d(-3464px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-04-18/1555553897.jpg" alt="Era Origin">
+</a>
+</div>
+</div><div class="swiper-slide" data-swiper-slide-index="4" style="width: 866px; transform: translate3d(-4330px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-04-09/1554794074.jpg" alt="Forlands">
+</a>
+</div>
+</div><div class="swiper-slide" data-swiper-slide-index="5" style="width: 866px; transform: translate3d(-5196px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-01-11/1547177151.jpg" alt="失落禁界">
+</a>
+</div>
+</div><div class="swiper-slide" data-swiper-slide-index="6" style="width: 866px; transform: translate3d(-6062px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-01-09/1546998710.jpg" alt="劍語：一念傾城">
+</a>
+</div>
+</div><div class="swiper-slide" data-swiper-slide-index="7" style="width: 866px; transform: translate3d(-6928px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-05-23/1558581258.jpg" alt="仙凡幻想">
+</a>
+</div>
+</div> <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 866px; transform: translate3d(-7794px, 0px, 0px); opacity: 0; transition-duration: 0ms;">
+<div class="g-icon">
+<a onclick="if (!window.__cfRLUnblockHandlers) return false; test()" href="javascript:void(0);">
+<img src="/Uploads/icons/2019-07-03/1562143480.jpg" alt="Luminous Sword">
+</a>
+</div>
+</div></div>
+<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+</div>
+</div>
+</div>
+</div> <div class="row">
+<div class="activity">
+<div class="rowTitle">
+<i class="rowIcon iconfont icon-add-activity"></i>
+<div class="rowName">
+NOTICE<small>LATEST NEWS</small>
+</div>
+<a class="more" href="/news">MORE →</a>
+</div>
+<div class="activity-list">
+<div class="swiper-container swiper-container-horizontal">
+<div class="swiper-wrapper" style="transform: translate3d(-880px, 0px, 0px); transition-duration: 0ms;">
+<div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d35b32c6f4b2.jpg)">
+<b>《御靈繪卷》7月23日合服公告</b>
+</div>
+<a href="/news/2569" target="_blank">
+<b>《御靈繪卷》7月23日合服公告</b>
+<span>親愛的封印師大大： 《御靈繪卷》將於2019年7月23日（星期二）早上9：00進行停機合服，造成封印師的不便，敬請見諒~ 合服範圍： 第一組S35/36/40_黃泉之國 第二組S38/39/42_迷夢</span>
+<i>2019/07/22</i>
+</a>
+</div><div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d2ed4a794655.jpg)">
+<b>《守護：宿命星光》7月18日維護公告</b>
+</div>
+<a href="/news/2568" target="_blank">
+<b>《守護：宿命星光》7月18日維護公告</b>
+<span>親愛的守護寶貝安安，遊戲將于7月18日9:30-10:00進行例行維護，維護預計需要30分鐘，具體開服時間根據實際情況提前或延遲，維護結束后會有一份維護大禮包發放，請注意查收。祝大家遊戲愉快！</span>
+<i>2019/07/17</i>
+</a>
+</div><div class="swiper-slide swiper-slide-prev" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d3039e77ca9a.jpg)">
+<b>Update Announcement</b>
+</div>
+<a href="/news/2567" target="_blank">
+<b>Update Announcement</b>
+<span>Dear players, The version update of Nevaeh II is going to be released on 18th July 2019, 14:00-16:00</span>
+<i>2019/07/18</i>
+</a>
+</div><div class="swiper-slide swiper-slide-active" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d2d82c06caec.jpg)">
+<b>《創世黎明》7月17日維護公告 </b>
+</div>
+<a href="/news/2565" target="_blank">
+<b>《創世黎明》7月17日維護公告 </b>
+<span>《創世黎明》將於7月17日8:50~11:00對全服進行版本更新，更新時間預計2小時。更新期間將無法正常登入和進行遊戲，給大家帶來的不便還請諒解，祝大家遊戲愉快。更新完畢，我們會在中午12點左右贈送給</span>
+<i>2019/07/16</i>
+</a>
+</div><div class="swiper-slide swiper-slide-next" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d2c4e04f1e09.jpg)">
+<b>《御靈繪卷》7月16日合服公告</b>
+</div>
+<a href="/news/2564" target="_blank">
+<b>《御靈繪卷》7月16日合服公告</b>
+<span>親愛的封印師大大： 《御靈繪卷》將於2019年7月16日（星期二）9：00進行停機合服，合服範圍：第一組S6/9/11_陰冥鬼武第二組S5/7/8_櫻之回憶第三組S12/14/16_天選之子第四組S1</span>
+<i>2019/07/15</i>
+</a>
+</div><div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d2bfc689750a.jpg)">
+<b><nevaeh ii=""> Server Merge Notice</nevaeh></b>
+</div>
+<a href="/news/2563" target="_blank">
+<b><nevaeh ii=""> Server Merge Notice</nevaeh></b>
+<span>Dearplayers,willhaveservermergeon:17thJuly2019,10:00-12:00(UTC+8)1.ServersInvolved:-109~111+112+113-</span>
+<i>2019/07/15</i>
+</a>
+</div><div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d25ef103f832.jpg)">
+<b>《守護：宿命星光》7月11日維護公告</b>
+</div>
+<a href="/news/2562" target="_blank">
+<b>《守護：宿命星光》7月11日維護公告</b>
+<span>親愛的守護寶貝安安，遊戲將于7月11日9:30-10:00進行例行維護，維護預計需要30分鐘，具體開服時間根據實際情況提前或延遲，維護結束后會有一份維護大禮包發放，請注意查收。祝大家遊戲愉快！</span>
+<i>2019/07/10</i>
+</a>
+</div><div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d25b21193f95.jpg)">
+<b>【Dark Domain】New Update 11.07.19</b>
+</div>
+<a href="/news/2561" target="_blank">
+<b>【Dark Domain】New Update 11.07.19</b>
+<span>【Dark Domain New Update】Dear Dark Domain Heroes,For a better gaming experience and more stable devel</span>
+<i>2019/07/10</i>
+</a>
+</div><div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d249a840b972.jpg)">
+<b>《創世黎明》7月9日合服公告 </b>
+</div>
+<a href="/news/2560" target="_blank">
+<b>《創世黎明》7月9日合服公告 </b>
+<span>親愛的創世寶貝們好～*(*′?｀*)*為優化伺服器環境，進一步提高服務品質，並給創世寶貝們提供更多交流和互動的機會，創世重生將進行合服。合服後數據互通，登錄入口不變，玩家登錄原伺服器即可正常遊戲。【合</span>
+<i>2019/07/09</i>
+</a>
+</div><div class="swiper-slide" title="" style="width: 293.333px;">
+<div class="cover" style="background-image:url(https://f2service.eyougame.com/Public/uploads/anonymity/201907/5d249b15375ae.jpg)">
+<b>《創世黎明》7月9日維護公告 </b>
+</div>
+<a href="/news/2559" target="_blank">
+<b>《創世黎明》7月9日維護公告 </b>
+<span>《創世黎明》將於7月10日8:50~11:00對全服進行版本更新，更新時間預計2小時。更新期間將無法正常登入和進行遊戲，給大家帶來的不便還請諒解，祝大家遊戲愉快。更新完畢，我們會在中午12點左右贈送給</span>
+<i>2019/07/09</i>
+</a>
+</div> </div>
+<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row" id="gameList">
+<div class="rowTitle">
+<i class="rowIcon iconfont icon-game"></i>
+<div class="rowName">
+FEATURED GAMES<small>OUR COLLECTION</small>
+</div>
+</div>
+<div class="gameTab">
+<a class="filter active" data-filter="RPG ARPG SRPG MMORPG SLG TCG">All</a>
+<a class="filter" data-filter="RPG">RPG</a>
+<a class="filter" data-filter="ARPG">ARPG</a>
+<a class="filter" data-filter="SRPG">SRPG</a>
+<a class="filter" data-filter="MMORPG">MMORPG</a>
+<a class="filter" data-filter="SLG">SLG</a>
+<a class="filter" data-filter="TCG">TCG</a>
+</div>
+<ul class="gameList">
+<li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://wsjy.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2019-07-22/1563778901.jpg">
+<div class="label">
+<span>踏水行歌</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://ylhj.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-05-08/1557297880.png">
+<div class="label">
+<span>御靈繪卷</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://dark-domain.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-05-13/1557736947.png">
+<div class="label">
+<span>Dark domain</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</li><li class="MMOARPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://toc.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-05-29/1559109615.png">
+<div class="label">
+<span>Tale of Chaser</span>
+<span class="text-category">MMOARPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://soul-destiny.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555327774.png">
+<div class="label">
+<span>Soul Destiny</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://sshd.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-26/1556264244.png">
+<div class="label">
+<span>Shining Spirit</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://yhmysh.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-07-27/1532660800.png">
+<div class="label">
+<span>永恆：宿命起源</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="https://cafe.naver.com/eyougame" target="_blank">
+<img src="/Uploads/icons/2018-08-31/1535704956.png">
+<div class="label">
+<span>버닝:매지컬소드</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="https://lightchaser.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-07-27/1532673757.png">
+<div class="label">
+<span>Lightchaser</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</li><li class="ARPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://nevaehii.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-12-28/1545960230.png">
+<div class="label">
+<span>Nevaeh II : Era of Darkness</span>
+<span class="text-category">ARPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</li><li class="MMOARPG mix_all" style="display: block;  opacity: 1;">
+<a href="http://shsmxg.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-03-28/1522232996.png">
+<div class="label">
+<span>守護:宿命星光</span>
+<span class="text-category">MMOARPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</li><li class="MMORPG mix_all" style="display: block;  opacity: 1;">
+<a href="https://cafe.naver.com/eyoudarkorigin" target="_blank">
+<img src="/Uploads/icons/2018-08-31/1535705052.png">
+<div class="label">
+<span>다크 오리진</span>
+<span class="text-category">MMORPG</span>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</li> </ul>
+<div class="more-gameList">
+<button class="more" style="border: none;background-color: inherit;"><i class="iconfont icon-aligncenter"></i><span>More+</span></button>
+</div>
+<input type="hidden" id="page" data-page="1">
+</div>
+</div>
+</div>
+<div class="quick hidden-xs">
+<div class="container">
+<div class="row">
+ <div class="rowTitle">
+<i class="rowIcon iconfont icon-circle"></i>
+<div class="rowName">
+SUPPORT<small>MAY I HELP YOU?</small>
+</div>
+</div>
+<div class="shortcut">
+<div class="item">
+<i class="iconfont icon-add-lock"></i>
+<div class="link">
+<p>Account number</p>
+<a href="/vip/base?bid=0">Change Password</a>
+<a href="/vip/base?bid=1">Change Email</a>
+<a href="/Home/ForgetPwd/step_1">Forgot Password</a>
+</div>
+</div>
+<div class="item">
+<i class="iconfont icon-add-service"></i>
+<div class="link">
+<p>Customer Service</p>
+<a href="/cus">Customer Service</a>
+</div>
+</div>
+<div class="item">
+<i class="iconfont icon-add-money"></i>
+<div class="link">
+<p>Recharge Center</p>
+<a href="/pay">Recharge</a>
+</div>
+</div>
+<div class="item">
+<i class="iconfont icon-add-question"></i>
+<div class="link">
+<p>Common Q&amp;A</p>
+<a href="/cus">Common Q&amp;A</a>
+<a href="/cus">Games Q&amp;A</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="main" class="hidden-lg hidden-md hidden-sm">
+<div class="container">
+<div class="row clearfix">
+<div id="shortcut" class="clearfix">
+<a class="needLogin" rel="/pay" href="/pay"><i class="iconfont icon-recharge"></i> Recharge</a>
+<a class="needLogin" rel="/vip" href="/vip"><i class="iconfont icon-user"></i> Member Center</a>
+</div>
+<div id="notice" class="index">
+<div class="col-title clearfix">
+
+<span data-en="News">NOTICE</span>
+<a class="more" href="/news">more
+<i class="iconfont icon-zhankai2"></i></a>
+</div>
+<div class="progress-bar"></div>
+<div class="swiper-box">
+<div class="swiper-container">
+<ul class="swiper-wrapper clearfix">
+<li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2569" target="_blank" title="《御靈繪卷》7月23日合服公告">《御靈繪卷》7月23日合服公告</a>
+</div>
+<span class="date_li">2019-07-22</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2568" target="_blank" title="《守護：宿命星光》7月18日維護公告">《守護：宿命星光》7月18日維護公告</a>
+</div>
+<span class="date_li">2019-07-17</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2567" target="_blank" title="Update Announcement">Update Announcement</a>
+</div>
+<span class="date_li">2019-07-18</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2565" target="_blank" title="《創世黎明》7月17日維護公告 ">《創世黎明》7月17日維護公告 </a>
+ </div>
+<span class="date_li">2019-07-16</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2564" target="_blank" title="《御靈繪卷》7月16日合服公告">《御靈繪卷》7月16日合服公告</a>
+</div>
+<span class="date_li">2019-07-15</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2563" target="_blank" title="<Nevaeh II> Server Merge Notice"><nevaeh ii=""> Server Merge Notice</nevaeh></a>
+</div>
+<span class="date_li">2019-07-15</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2562" target="_blank" title="《守護：宿命星光》7月11日維護公告">《守護：宿命星光》7月11日維護公告</a>
+</div>
+<span class="date_li">2019-07-10</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2561" target="_blank" title="【Dark Domain】New Update 11.07.19">【Dark Domain】New Update 11.07.19</a>
+</div>
+<span class="date_li">2019-07-10</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2560" target="_blank" title="《創世黎明》7月9日合服公告 ">《創世黎明》7月9日合服公告 </a>
+</div>
+<span class="date_li">2019-07-09</span>
+</li><li class="swiper-slide">
+<div style="padding-right: 74px;">
+<a href="/news/2559" target="_blank" title="《創世黎明》7月9日維護公告 ">《創世黎明》7月9日維護公告 </a>
+</div>
+<span class="date_li">2019-07-09</span>
+</li> </ul>
+</div>
+</div>
+</div>
+</div>
+<div class="row clearfix">
+<div id="game_list" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="box-sizing: border-box">
+<div class="col-title clearfix">
+
+<span>FEATURED GAMES</span>
+<a class="more" href="/games">
+more<i class="iconfont icon-zhankai2"></i></a>
+</div>
+<div class="row clearfix">
+<div class="swiper-container swiper-container-horizontal" style="cursor: grab;">
+<div class="swiper-wrapper" style="transition-duration: 300ms;">
+<div class="swiper-slide">
+<a href="http://wsjy.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2019-07-22/1563778901.jpg">
+<div class="td">
+踏水行歌<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</div><div class="swiper-slide">
+<a href="http://ylhj.eyougame.com/" target="_blank">
+ <img src="/Uploads/icons/2019-05-08/1557297880.png">
+<div class="td">
+御靈繪卷<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</div><div class="swiper-slide swiper-slide-prev">
+<a href="http://dark-domain.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-05-13/1557736947.png">
+<div class="td">
+Dark domain<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</div><div class="swiper-slide swiper-slide-active">
+<a href="http://toc.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-05-29/1559109615.png">
+<div class="td">
+Tale of Chaser<br><i>MMOARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/new.png">
+</div>
+</div><div class="swiper-slide swiper-slide-next">
+<a href="http://soul-destiny.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555327774.png">
+<div class="td">
+Soul Destiny<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</div><div class="swiper-slide">
+<a href="http://sshd.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-26/1556264244.png">
+<div class="td">
+Shining Spirit<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</div><div class="swiper-slide">
+<a href="http://yhmysh.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-07-27/1532660800.png">
+<div class="td">
+永恆：宿命起源<br><i>MMORPG</i>
+ </div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</div><div class="swiper-slide">
+<a href="https://cafe.naver.com/eyougame" target="_blank">
+<img src="/Uploads/icons/2018-08-31/1535704956.png">
+<div class="td">
+버닝:매지컬소드<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</div><div class="swiper-slide">
+<a href="https://lightchaser.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-07-27/1532673757.png">
+<div class="td">
+Lightchaser<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://nevaehii.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-12-28/1545960230.png">
+<div class="td">
+Nevaeh II : Era of Darkness<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://shsmxg.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-03-28/1522232996.png">
+<div class="td">
+守護:宿命星光<br><i>MMOARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="https://cafe.naver.com/eyoudarkorigin" target="_blank">
+<img src="/Uploads/icons/2018-08-31/1535705052.png">
+<div class="td">
+다크 오리진<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="https://swjp.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-08-31/1535704092.png">
+<div class="td">
+神剣のバクヤ<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://fl.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-16/1555407365.png">
+<div class="td">
+Final Legend<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://xchx.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2016-07-27/1469591344.png">
+<div class="td">
+星辰幻想<br><i>RPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://ahqy.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555300902.png">
+<div class="td">
+暗黑起源<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/Home/Wechat/index/gameid/1058" target="_blank">
+<img src="/Uploads/icons/2018-05-10/1525946029.png">
+<div class="td">
+神靈召喚師<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="https://cafe.naver.com/chaosblades" target="_blank">
+<img src="/Uploads/icons/2018-08-31/1535704994.png">
+<div class="td">
+카오스 블레이드<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://wsjs.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-07-18/1500357323.png">
+<div class="td">
+無雙劍士<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://slzhs.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-04-18/1524021261.png">
+<div class="td">
+聖靈召喚師<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/home/ipay/ipay_paypal/gameid/1057" target="_blank">
+<img src="/Uploads/icons/2018-08-06/1533543670.png">
+<div class="td">
+超时空觉醒<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://mg.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-11-22/1511332690.png">
+<div class="td">
+Musou Glory<br><i>MMO</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://syzsfz.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-11-21/1542773749.png">
+<div class="td">
+聖域：戰神法則<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://llxz.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-02-13/1550037503.png">
+<div class="td">
+輪迴·戀戀仙蹤H5<br><i>RPG</i>
+</div>
+</a>
+ 
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://dr.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-08-14/1502683770.png">
+<div class="td">
+Dawn Rising<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://demoncer.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-08-04/1501842014.png">
+<div class="td">
+Demoncer US<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://wjcq.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-10-16/1508134447.png">
+<div class="td">
+問劍蒼穹<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://demoncer.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-08-04/1501841975.png">
+<div class="td">
+Demoncer<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://yzj.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2017-10-30/1509359563.png">
+<div class="td">
+雲中決<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://yrcs.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-09-01/1504241895.png">
+<div class="td">
+影刃傳說<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/home/ipay/ipay2/gameid/10386" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555300979.png">
+<div class="td">
+雷霆破晓<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://zeon.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555301062.png">
+<div class="td">
+Zeon<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://cslmweb.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555300873.png">
+<div class="td">
+創世黎明<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://wdfs.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2017-09-04/1504510777.png">
+<div class="td">
+天道封神<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://ct.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2017-01-04/1483512311.png">
+<div class="td">
+Chrono Tales<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://hjxxl.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2016-09-07/1473235868.png">
+<div class="td">
+幻剑修仙录<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://zqlr.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2016-04-09/1460164514.png">
+<div class="td">
+最強獵人<br><i>RPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://iw.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2018-08-14/1534235198.png">
+<div class="td">
+帝國艦隊<br><i>SLG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://wstx.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2016-08-10/1470818633.png">
+<div class="td">
+武神天下<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://mhqy.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2016-06-27/1466997559.png">
+<div class="td">
+梦幻奇缘<br><i>RPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://lhws.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2016-03-03/1456984253.png">
+<div class="td">
+靈幻無雙<br><i>RPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://lycs.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2019-04-15/1555301092.png">
+<div class="td">
+猎影传说<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://xrfc.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2016-04-09/1460164629.png">
+<div class="td">
+仙入凡尘<br><i>RPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://idx.eyougame.com" target="_blank">
+<img src="/Uploads/icons/2015-10-23/1445567536.png">
+<div class="td">
+Immortal DreamX<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://zxx.eyougame.com/" target="_blank">
+<img src="/Uploads/icons/2015-10-23/1445567587.png">
+<div class="td">
+醉仙侠<br><i>ARPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/home/wechat/index/gameid/1050" target="_blank">
+<img src="/Uploads/icons/2018-01-23/1516690751.png">
+<div class="td">
+逆劍凌雲<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/home/wechat/index/gameid/10801" target="_blank">
+<img src="/Uploads/icons/2018-01-22/1516595913.png">
+<div class="td">
+獵魔風暴<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+<img src="/Public/images/hot.png">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/home/wechat/index/gameid/1048" target="_blank">
+<img src="/Uploads/icons/2018-01-19/1516353278.png">
+<div class="td">
+末日劍士<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div><div class="swiper-slide">
+<a href="http://www.eyougame.com/home/wechat/index/gameid/1048" target="_blank">
+<img src="/Uploads/icons/2017-12-05/1512473215.png">
+<div class="td">
+劍神對決<br><i>MMORPG</i>
+</div>
+</a>
+
+<div class="new-hot">
+</div>
+</div> </div>
+<div class="swiper-pagination swiper-pagination-bullets"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="/Public/js/html5media.min.js?v=1" type="text/javascript"></script>
+<script src="/Public/js/swiper.jquery.min.js" type="text/javascript"></script>
+<script src="/Public/js/index.js?v=1" type="text/javascript"></script>
+<div id="fb-root"></div>
+<script type="text/javascript">
+    /**FB LIKE**/
+    function test() {
+        //千万不能出现在事件中
+        alert('该游戏暂时还没开放，敬请期待');
+    }
+    $(function() {
+        $("#top-nav-back").empty().removeAttr("href").off("click").on("click", function() {
+            $("#langs-box").fadeToggle(400);
+        });
+        $(".tips:not(.feedback)").on("click", function() {
+            $("body").css("overflow", "hidden");
+            $("#view_tips").fadeIn(400).find('img').prop("src", "").prop("src", $(this).prop("rel"));
+        })
+        $("#view_tips b").on("click", function() {
+            $(this).parent().fadeOut(400);
+            $("body").css("overflow-y", "scroll");
+        })
+
+        var game_list = new Swiper('#game_list .swiper-container', {
+            autoplay: 5000,
+            grabCursor: true,
+            autoplayDisableOnInteraction: false,
+            slidesPerView: 6,
+            slidesPerGroup: 6,
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            pagination: '#game_list .swiper-pagination'
+        })
+
+        var fb_frame = "//connect.facebook.net/";
+        if ($.cookie("web2015think_language")) {
+            switch ($.cookie("web2015think_language")) {
+                case "zh-cn":
+                    fb_frame += "zh_CN/sdk.js";
+                    break;
+                case "zh-tw":
+                    fb_frame += "zh_TW/sdk.js";
+                    break;
+                case "th-th":
+                    fb_frame += "th-TH/sdk.js";
+                    break;
+                case "vi-vn":
+                    fb_frame += "vi-VN/sdk.js";
+                    break;
+                default:
+                    fb_frame += "en_US/sdk.js";
+                    break;
+            }
+        }
+        if (!isMobile) {
+            var getFB = $.ajax({
+                url: fb_frame,
+                　　timeout: 10000,
+                dataType: "script",
+                cache: true,
+                success: function() {
+                    FB.init({
+                        xfbml: 1,
+                        appId: '533638143449449',
+                        version: 'v2.0'
+                    });
+                },
+                complete: function(XMLHttpRequest, status) {　　　　
+                    if (status == 'timeout') {
+                        getFB.abort();　　　　
+                    }　　
+                }
+            })
+        }
+
+        $(".more").click(function(e) {
+            var $target = $(e.target);
+            var $item = $target.hasClass('more') ? $target : $target.closest('.more');
+            moreGameList($item);
+        })
+    })
+
+    function moreGameList($item) {
+        $item.attr('disabled', true);
+        var page = parseInt($("#page").data("page")) + 1;
+        $.ajax({
+            url: "/home/index/moregamelist",
+            type: "post",
+            data: {
+                'page': page,
+                'pagerow': 12 //两行
+            },
+            success: function(msg) {
+                if (msg) {
+                    var liStr = "";
+                    for (var i = 0; i < msg.length; i++) {
+                        var isMark = "";
+                        if (msg[i]['is_mark'] == 1) {
+                            isMark = "<img src='/Public/images/new.png' />";
+                        } else if (msg[i]['is_mark'] == 2) {
+                            isMark = "<img src='/Public/images/hot.png' />";
+                        }
+                        var str = "<li class='" + msg[i]['sign'] + " mix_all' style='display: block;  opacity: 1;'>" +
+                            "<a href='" + msg[i]['hosturl'] + "' target='_blank'>" +
+                            "<img src='/Uploads/" + msg[i]['iconurl'] + "' >" +
+                            "<div class='label'>" +
+                            "<span>" + msg[i]['gamename'] + "</span>" +
+                            "<span class='text-category'>" + msg[i]['sign'] + "</span>" +
+                            "</div>" +
+                            "</a>" +
+                            "<div class='new-hot'>" +
+                            isMark +
+                            "</div>" +
+                            "</li>";
+                        liStr += str;
+                        $item.removeAttr('disabled');
+                    }
+                    $(".gameList").append(liStr);
+                    $("#page").data("page", page);
+                } else {
+                    $(".more-gameList").hide();
+                }
+            },
+        });
+    }
+</script>
+<div id="game_video" class="views">
+<div>
+<video controls=""></video>
+<b>×</b>
+</div>
+</div>
+<link rel="stylesheet" href="/Public/css/darktooltip.css">
+
+<div id="view_tips" class="views">
+<img src="/Public/images/tips/1.jpg">
+<b>×</b>
+</div>
+
+<div id="top-nav-toggle-tips" style="display: none;position: fixed; width: 100%; height: 100%; left: 0px; top: 0px; z-index: 20; background-color: rgba(0, 0, 0, 0.498039);">
+<div style="
+    width: 188px;
+    height: 47px;
+    position: absolute;
+    border-radius: 0 0 0 5px;
+    right: 0;
+    background: rgba(255, 255, 255, 0.78) url(/Public/images/tips-arro.png) 12px 0 no-repeat;
+    "><a class="top-nav-toggle visible-xs visible-sm pull-right" style="
+        margin: auto;
+        top: 5.5px;
+        position: absolute;
+        right: 15px;
+        cursor: pointer;
+        background-color: #fff;
+        "><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a></div>
+</div>
+<style>
+    body {
+        padding-bottom: 0
+    }
+    
+    #footer {
+        position: static;
+    }
+    
+    @media(max-width:991px) {
+        #notice {
+            margin-top: 16px;
+        }
+    }
+</style>
+<footer id="footer">
+<div class="container clearfix">
+<div class="row clearfix">
+<div class="col-lg-9 col-md-8 hidden-sm hidden-xs">
+<span class="outer-link">
+<a href="/home/index/about_us?nid=0">About Us</a>
+</span>
+<span class="outer-link">
+<a href="/home/index/about_us?nid=2">Private Policy</a>
+</span>
+<span class="outer-link">
+<a href="/home/index/about_us?nid=3">Term of Service</a>
+</span>
+<div class="hr"></div>
+<span class="outer-link">
+<a href="/index.php/Home/Jobs/index">Join us</a>
+</span>
+<span class="outer-link">
+<a href="/business" target="_Blank">Business cooperation</a>
+</span>
+<div class="follow-panel hidden-sm hidden-xs">
+<a href="https://www.facebook.com/eyou.game"><i class="iconfont icon-facebook"></i> Eyougame</a> |
+<a href="mailto:support@Eyougame.com"><i class="iconfont icon-mail"></i> support@eyougame.com</a>
+</div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 footer-right">
+<img class="footer-logo hidden-sm hidden-xs" src="/Public/images/logo-white.png">
+<div class="copyright">
+COPYRIGHT © Eyou Technology Pte Ltd<br>ALL RIGHTS RESERVED
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<div id="langs-box" style="display:none">
+<div class="langs-wrap">
+<div class="flavr-content">
+<b>×</b>
+English <div class="flavr-message">
+<div>Language</div>
+</div>
+</div>
+<div class="box">
+<a rel="/index.php/Home/Index/index/langs/en-us">English</a>
+<a rel="/index.php/Home/Index/index/langs/zh-cn">中文简体</a>
+<a rel="/index.php/Home/Index/index/langs/zh-tw">中文繁體</a>
+<a rel="/index.php/Home/Index/index/langs/th-th">ภาษาไทย</a>
+<a rel="/index.php/Home/Index/index/langs/vi-vn">Việt Nam</a>
+<a rel="/index.php/Home/Index/index/langs/ko-kr">한글</a>
+<a rel="/index.php/Home/Index/index/langs/jp-jp">にほんご</a>
+<a rel="/index.php/Home/Index/index/langs/id-id">Indonesia</a>
+</div>
+</div>
+</div>
+
+
+<div id="login-cover" style="display:none">
+<div id="login-box">
+<div id="login-header" class="header">
+<span id="login-title-text">
+<img src="/Public/images/logo.png">
+<b data-en="Login">
+
+Login </b>
+</span>
+<a id="login-close-btn">×</a>
+</div>
+<div id="login-body">
+<form id="account_login" action="/home/site/login" method="POST">
+<input id="now_url" type="hidden" name="now_url">
+<span id="login-error-text">
+ </span>
+<div class="login-ground">
+<div class="input-ground">
+<input type="text" name="username" placeholder="Username">
+<label class="iconfont icon-user"></label>
+</div>
+</div>
+<div class="login-ground">
+<div class="input-ground">
+<input type="password" name="password" placeholder="Password">
+<label class="iconfont icon-lock">
+</label>
+</div>
+</div>
+<div class="login-ground">
+<div class="verify-box input-ground">
+<input type="text" name="verify" placeholder="Verification Code">
+<p></p>
+<input type="hidden" class="verifyJSON" value="0">
+<img src="/site/verify.html?d=+Math.random()" alt="/site/verify.html?d=+Math.random()">
+</div>
+</div>
+<div class="login-ground" style="text-align:left">
+<label>
+<input type="checkbox">
+<span data-en="Remember account">Remember Me</span>
+</label>
+</div>
+<div class="login-ground">
+<button type="submit" data-en="Submit">
+Login </button>
+</div>
+</form>
+<form id="account_reg" action="/site/register.html" method="POST">
+<span id="login-error-text">
+</span>
+<div class="login-ground">
+<div class="input-ground">
+<input type="text" name="username" placeholder="Username">
+<p></p>
+<label class="iconfont icon-user"></label>
+</div>
+</div>
+<div class="login-ground">
+<div class="input-ground">
+<input type="password" name="password" placeholder="Password">
+<label class="iconfont icon-lock">
+</label>
+</div>
+</div>
+<div class="login-ground">
+<div class="input-ground">
+<input type="password" name="repassword" placeholder="Re-enter Password">
+<label class="iconfont icon-lock">
+</label>
+</div>
+</div>
+<div class="login-ground">
+<div class="input-ground">
+<input type="text" name="email" placeholder="Email Address">
+<label class="iconfont icon-mail">
+</label>
+</div>
+</div>
+<div class="login-ground">
+<div class="verify-box input-ground">
+<input type="text" name="verify" placeholder="Verification Code">
+<p></p>
+<input type="hidden" class="verifyJSON" value="0">
+<img src="/site/verify.html?d=+Math.random()">
+</div>
+</div>
+<div class="login-ground">
+<button class="reg-sub" type="submit" data-en="Register">
+Register </button>
+</div>
+</form>
+<div id="login-footer">
+<a href="javascript:" data-en="register">Register</a>
+<a href="https://www.eyougame.com/Home/ForgetPwd/step_1" style="padding-left: 8px; margin-left: 8px;border-left:1px solid #ccc; color: #EB5E01;" data-en="Reset Password">Forgot Password </a>
+<a href="https://www.eyougame.com/Home/site/loginfacebook" style="padding-left: 8px; margin-left: 8px;border-left:1px solid #ccc; color: #EB5E01;">
+<img src="/Public/images/new-login/Facebook.png" style="width:32px;height:32px;vertical-align: bottom;">
+</a>
+<a href="https://www.eyougame.com/Home/site/google">
+<img src="/Public/images/new-login/Google.png" style="width:32px;height:32px;vertical-align: bottom;">
+</a>
+</div>
+</div>
+<div id="login-close-bg"></div>
+</div>
+
+</div>
+<script src="/Public/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/Public/js/min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        var $footer_lang = $("#langs"),
+            $langs_box = $("#langs-box");
+        $("#top-nav-back").find(".iconfont").length?"":$("#top-nav-back").text("English");
+        $(".language").on("click", function () {
+            $("#langs-box").fadeToggle(400);
+        })
+        $("#langs-box a").on("click", function () {
+            $.ajax({
+                url: $(this).attr("rel"),
+                type: "GET",
+                success: function () {
+                    window.location.href = window.location.href;
+                },
+            });
+        })
+        $("#langs-box b").on("click", function () {
+            $("#langs-box").fadeToggle(400);
+        })
+        var index = $("#index").val();
+        if (index == null) {
+            $("#top-navbar li").removeClass("active");
+        } else {
+            $("#top-navbar li").eq(index).addClass("active").siblings().removeClass("active");
+        }
+
+        var $win = $(window);
+        /**
+         * 设置点击购买参数
+         * 解决facebook登录后不能够跳转到原来登录位置问题.
+         */
+        $(".needLogin span").on("click",function() {
+            $.cookie("frompay",null);//释放原来设置的cookie
+            $.cookie("frompay", 1);
+        })
+        /*if you need a header ,set isHeader true*/
+        /*login box*/
+        /*check if it exit*/
+        var isLogin = '';
+        if (!isLogin) {
+            $(".needLogin").on("click", function () {
+                var $this = $(this);
+                $("#now_url").val($(this).attr("rel"));
+                var $cover = $("#login-cover");
+                /*if not, create it and bind click event to th close btn*/
+                $("#login-body form:first").show().siblings("form").hide();
+                /*oshow it to us*/
+                $cover.fadeIn(400);
+                /*记住账号密码*/
+                if ($.cookie("rmbStatus") == "true") {
+                    $("#account_login input[type='checkbox']").attr("checked", true);
+                    $("#account_login input[name='username']").val($.cookie("rmbname"));
+                    $("#account_login input[name='password']").val($.cookie("rmbpassword"));
+                }
+                /*make sure the body can not scroll when login*/
+                //$("body").css("overflow","hidden");
+                /*switch reg & login*/
+                $cover.find(".verify-box img").on("click", function () {
+                    $(this).attr("src", "/site/verify.html?d=" + Math.random());
+                });
+
+                $cover.find("#login-footer a:first").off("click").on("click", function () {
+                    $cover.find("#login-box").toggleClass("reg");
+                    $cover.find("form").slideToggle("fast");
+                    if ($(this).text() == "Register") {
+                        $(this).text("Login");
+                        $("#login-title-text b").text("Register");
+                        $cover.find(".verify-box:eq(1) img").trigger("click");
+                    } else {
+                        $(this).text("Register")
+                        $("#login-title-text b").text("Login");
+                        $cover.find(".verify-box:eq(0) img").trigger("click");
+                    }
+                })
+                $cover.find("#login-close-bg,#login-close-btn").on("click", function () {
+                    $cover.fadeOut(400);
+                })
+                if($this.hasClass("reg-btn")){
+                    $cover.find("#login-footer a:first").trigger("click");
+                    $("#login-title-text b").text("Register");
+                }else {
+                    $("#login-title-text b").text("Login");
+                }
+                return false;
+            })
+            $("#login-body form").on("submit", function () {
+                var verifyCheck = false;
+                var userNameCheck = false;
+                var isReg = $(this).attr("id") == 'account_reg' ? true : false;
+                /*用户名存在检测*/
+                var $userName = $(this).find("[name='username']");
+                if ($userName.val()) {
+                    if (isReg) {
+                        $.ajax({
+                            url: "/Home/site/checkUserName/",
+                            type: "POST",
+                            data: {'username': $userName.val()},
+                            dataType: 'json',
+                            async: false,
+                            success: function (data) {
+                                if (data.status == 0) {
+                                    userNameCheck = false;
+                                    if (data.type == 'strlen') {
+                                        $userName.next("p").text("Must be longer than 5 characters").css("color", "#EC3F3F");
+                                    }if (data.type == 'e_username'){
+                                        $userName.next("p").text("This user name already exists").css("color", "#EC3F3F");
+                                    }if (data.type == 'inlegal') {
+                                        $userName.next("p").text("Contains illegal strings").css("color", "#EC3F3F");
+                                    }if (data.type == 'wrierr') {
+                                        $userName.next("p").text("Illegal character").css("color", "#EC3F3F");
+                                    }
+                                } else {
+                                    userNameCheck = true;
+                                    $userName.next("p").text("This username is available！").css("color", "#3F89EC");
+                                }
+
+                            }
+                        })
+                    } else {
+                        userNameCheck = true;
+                    }
+                } else {
+                    $userName.next("p").text("This username is available！").css("color", "#EC3F3F");
+                    userNameCheck = false;
+                }
+                /*验证码*/
+                var $verify = $(this).find("[name='verify']");
+                if ($verify.val().length > 3) {
+                    $.ajax({
+                        url: "/Home/site/checkVerify/vcode/" + $verify.val(),
+                        type: "GET",
+                        dataType: 'json',
+                        async: false,
+                        success: function (data) {
+                            if (data.status) {
+                                verifyCheck = true;
+                                $verify.next("p").text("Verification code right！").css("color", "#3F89EC");
+                            }
+                            else {
+                                verifyCheck = false;
+                                $verify.next("p").text("Verification code error！").css("color", "#EC3F3F");
+
+                            }
+                        }
+                    })
+                    //return false;
+                } else {
+                    $verify.next("p").text("Verification Code").css("color", "#EC3F3F");
+                    verifyCheck = false;
+                }
+                if (!verifyCheck || !userNameCheck) return false;
+            }).find("[name='username'],[name='verify']").on("focus", function () {
+                $(this).next("p").text("");
+            })
+            /*存cookie*/
+            $("#account_login input[type='checkbox']").on("change", function () {
+                if ($(this).is(':checked')) {
+                    var str_username = $("#account_login input[name='username']").val();
+                    var str_password = $("#account_login input[name='password']").val();
+                    //alert(str_password)
+                    $.cookie("rmbStatus", "true", {expires: 7}); //存储一个带7天期限的cookie
+                    $.cookie("rmbname", str_username, {expires: 7});
+                    $.cookie("rmbpassword", str_password, {expires: 7});
+                }
+                else {
+                    $.cookie("rmbUser", "false", {expire: -1});
+                    $.cookie("rmbname", "", {expires: -1});
+                    $.cookie("rmbpassword", "", {expires: -1});
+                }
+            })
+
+        }
+    });
+
+</script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-141364186-1" type="text/javascript"></script>
+<script type="text/javascript">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','UA-141364186-1')</script>
+
+</body></html>

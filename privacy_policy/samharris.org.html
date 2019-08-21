@@ -1,0 +1,572 @@
+<html lang="en-US" prefix="og: http://ogp.me/ns#"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge"><script type="text/javascript" src="https://bam.nr-data.net/1/b2a59a2a4e?a=158500621&amp;v=1130.54e767a&amp;to=YlJXYxFZW0VSUUAPXVsYYEUKF1xYV1dMSEJdRw%3D%3D&amp;rst=14442&amp;ref=https://samharris.org/privacy-policy/&amp;ap=261&amp;be=1371&amp;fe=13812&amp;dc=3673&amp;perf=%7B%22timing%22:%7B%22of%22:1563812349315,%22n%22:0,%22f%22:2,%22dn%22:2,%22dne%22:2,%22c%22:4,%22s%22:345,%22ce%22:689,%22rq%22:689,%22rp%22:1356,%22rpe%22:1357,%22dl%22:1359,%22di%22:3673,%22ds%22:3674,%22de%22:3692,%22dc%22:13812,%22l%22:13812,%22le%22:13816%7D,%22navigation%22:%7B%7D%7D&amp;fp=2797&amp;fcp=2797&amp;at=ThVAFVlDSBoRUxZcSUhK&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1130.min.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script async="" src="//static.ads-twitter.com/uwt.js"></script><script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.9.1" async=""></script><script src="https://connect.facebook.net/signals/config/1771586519554127?v=2.9.1&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.1" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-WLVPBSM"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://samharris.org/wp-content/themes/samharris/dist/images/favicons/apple-touch-icon_234149d2.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://samharris.org/wp-content/themes/samharris/dist/images/favicons/favicon-32x32_3c253b75.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://samharris.org/wp-content/themes/samharris/dist/images/favicons/favicon-16x16_a83d9d80.png">
+  <link rel="manifest" href="https://samharris.org/wp-content/themes/samharris/dist/images/favicons/manifest_a2b78897.json">
+  <link rel="mask-icon" href="https://samharris.org/wp-content/themes/samharris/dist/images/favicons/safari-pinned-tab_1e57fdd1.svg" color="#22222a">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WLVPBSM');</script>
+  <!-- End Google Tag Manager -->
+
+  <title>Privacy Policy | Sam Harris</title>
+<script>window._wca = window._wca || [];</script>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v6.3.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://samharris.org/privacy-policy/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Privacy Policy | Sam Harris">
+<meta property="og:description" content="Last Updated: March 7, 2019 Four Elephants Media (“the Organization,” or “we,” “us,” “our”) respect your concerns about privacy and value our relationship with you. This Privacy Policy (“Policy”) applies solely to information collected through the web sites, web pages, interactive features, applications, and their respective contents at SamHarris.org and the “Waking Up” application, whether … Continued">
+<meta property="og:url" content="https://samharris.org/privacy-policy/">
+<meta property="og:site_name" content="Sam Harris">
+<meta property="article:publisher" content="https://www.facebook.com/Samharrisorg/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Last Updated: March 7, 2019 Four Elephants Media (“the Organization,” or “we,” “us,” “our”) respect your concerns about privacy and value our relationship with you. This Privacy Policy (“Policy”) applies solely to information collected through the web sites, web pages, interactive features, applications, and their respective contents at SamHarris.org and the “Waking Up” application, whether … Continued">
+<meta name="twitter:title" content="Privacy Policy | Sam Harris">
+<meta name="twitter:site" content="@SamHarrisOrg">
+<meta name="twitter:creator" content="@SamHarrisOrg">
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/samharris.org\/","name":"Sam Harris |\u00a0Home of the Waking Up Podcast","alternateName":"Sam Harris \u2022\u00a0Home of the Waking Up Podcast","potentialAction":{"@type":"SearchAction","target":"https:\/\/samharris.org\/search\/{search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Person","url":"https:\/\/samharris.org\/privacy-policy\/","sameAs":["https:\/\/www.facebook.com\/Samharrisorg\/","https:\/\/www.instagram.com\/samharrisorg\/?hl=en","https:\/\/www.youtube.com\/user\/samharrisorg","https:\/\/twitter.com\/SamHarrisOrg"],"@id":"#person","name":"Sam Harris"}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//secure.gravatar.com">
+<link rel="dns-prefetch" href="//code.jquery.com">
+<link rel="stylesheet" id="all-css-0" href="https://samharris.org/_static/??-eJyljcEKwjAQRH/IdA1YexK/JU0Xu7jJluyWkr9vRBD14MXjPGbewLY4ypHXCRWiKkxBZ4qStUuUu0YO0CoNGGaDhdcbZQWbMaFL1bG0/BVfq08xqcHIEu+OaSyhVFCrjD9/NpEoKWGJCEEV7el6w45DldX+MDym13Tx/dn746kfhh2EfmeC" type="text/css" media="all">
+<style id="woocommerce-layout-inline-css" type="text/css">
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel="stylesheet" id="only screen and (max-width: 768px)-css-0" href="https://samharris.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?m=1550440528g" type="text/css" media="only screen and (max-width: 768px)">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="all-css-2" href="https://samharris.org/_static/??-eJyFjtEOgjAMRX/I0UHU6IPxU0wpVaZ0W9YRwt+LRBIiD741p/eeXBiioeAz+wyx6x/OKwwhUBDhRGw8Cpsx9MnE5IgBVTkrkCr8vIqJ7eCPTlhqTtq6qGvVPc2dBgZaR8zCC3F+488tCysoSospOYXGaQbNYzdRQedvaPdIVYObqvRmWffkHJFe84zv/Ylf5VIejpU92fJs35d7bew=" type="text/css" media="all">
+<script src="https://code.jquery.com/jquery-1.12.4-wp.min.js"></script>
+<script type="text/javascript" src="https://samharris.org/_static/??-eJzTLy/QTc7PK0nNK9EvyClNz8wr1k8vSizLLKlMyy/KLdbPAqLC0tSiSr2s4vw8vdzMPCBDR58Ibch8qD77XFtDU1MDUyNjc0uLLAC1DS5I"></script>
+<!------ Starting: WooCommerce Conversion Tracking (https://wordpress.org/plugins/woocommerce-conversion-tracking/) ----->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1771586519554127', {});fbq('track', 'PageView', {});        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1771586519554127&ev=PageView&noscript=1"
+        /></noscript>
+                <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-792072133"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'AW-792072133');
+        </script>
+                <script type="text/javascript">
+            !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+
+            twq('init', 'o02jr', {});            twq('track', 'PageView', {});        </script>
+
+                <!------ End: WooCommerce Conversion Tracking Codes ----->
+
+<link rel="dns-prefetch" href="//v0.wordpress.com">
+<style type="text/css">img#wpstats{display:none}</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<script>(window.jQuery && jQuery.noConflict()) || document.write('<script src="/wp-includes/js/jquery/jquery.js"><\/script>')</script><script src="/wp-includes/js/jquery/jquery.js"></script>
+<script async="" src="https://stats.wp.com/s-201930.js"></script>
+<script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/792072133/?random=1563812352142&amp;cv=9&amp;fst=1563812352142&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1080&amp;u_aw=1857&amp;u_cd=24&amp;u_his=50&amp;u_tz=480&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2oa7f1&amp;sendb=1&amp;data=event%3Dgtag.config&amp;frm=0&amp;url=https%3A%2F%2Fsamharris.org%2Fprivacy-policy%2F&amp;tiba=Privacy%20Policy%20%7C%20Sam%20Harris&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://secure.gravatar.com/dist/css/hovercard.min.css?ver=2019Julaa"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://secure.gravatar.com/dist/css/services.min.css?ver=2019Julaa"></head>
+  <body class="page page-id-2764 bfwc-body woocommerce-js privacy-policy app-data index-data singular-data page-data page-2764-data page-privacy-policy-data">
+        <header class="site-header">
+  <div class="container">
+    <div class="grid-container">
+      <div class="site-header-section site-header-branding">
+        <button class="button-navigation-toggle" data-navigation-toggle="">
+          <div class="burger"></div>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <a class="brand" href="https://samharris.org/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="97" height="12" viewBox="0 0 97 12" title="Sam Harris">
+  <path fill="currentColor" fill-rule="evenodd" d="M104.965,48.18 C107.725,48.18 109.285,46.575 109.285,44.61 C109.285,42.285 107.89,41.58 105.175,41.28 C103.84,41.1 103.51,40.83 103.51,40.23 C103.51,39.69 103.93,39.315 104.755,39.315 C105.595,39.315 106.03,39.705 106.135,40.47 L108.985,40.47 C108.79,38.205 107.335,37.125 104.755,37.125 C102.19,37.125 100.6,38.535 100.6,40.47 C100.6,42.63 101.62,43.53 104.65,43.89 C105.94,44.085 106.345,44.265 106.345,44.925 C106.345,45.555 105.85,45.99 104.965,45.99 C103.69,45.99 103.345,45.36 103.27,44.595 L100.345,44.595 C100.435,46.92 101.965,48.18 104.965,48.18 Z M109.6,48 L113.035,37.275 L117.01,37.275 L120.415,48 L117.16,48 L116.59,46.005 L113.035,46.005 L112.465,48 L109.6,48 Z M114.82,39.765 L113.635,43.89 L115.99,43.89 L114.82,39.765 Z M121.645,48 L124.39,48 L124.39,41.325 L126.985,48 L128.005,48 L130.63,41.325 L130.63,48 L133.69,48 L133.69,37.275 L129.76,37.275 L127.705,42.99 L125.65,37.275 L121.645,37.275 L121.645,48 Z M138.73,48 L141.82,48 L141.82,43.77 L145.345,43.77 L145.345,48 L148.42,48 L148.42,37.275 L145.345,37.275 L145.345,41.37 L141.82,41.37 L141.82,37.275 L138.73,37.275 L138.73,48 Z M149.65,48 L153.085,37.275 L157.06,37.275 L160.465,48 L157.21,48 L156.64,46.005 L153.085,46.005 L152.515,48 L149.65,48 Z M154.87,39.765 L153.685,43.89 L156.04,43.89 L154.87,39.765 Z M161.695,48 L161.695,37.275 L165.895,37.275 C168.7,37.275 170.26,38.415 170.26,40.68 L170.26,40.74 C170.26,42.27 169.45,43.125 168.325,43.56 L170.89,48 L167.65,48 L165.475,44.16 L164.755,44.16 L164.755,48 L161.695,48 Z M164.755,42.165 L165.745,42.165 C166.78,42.165 167.29,41.73 167.29,40.86 L167.29,40.8 C167.29,39.93 166.75,39.585 165.76,39.585 L164.755,39.585 L164.755,42.165 Z M172.15,48 L172.15,37.275 L176.35,37.275 C179.155,37.275 180.715,38.415 180.715,40.68 L180.715,40.74 C180.715,42.27 179.905,43.125 178.78,43.56 L181.345,48 L178.105,48 L175.93,44.16 L175.21,44.16 L175.21,48 L172.15,48 Z M175.21,42.165 L176.2,42.165 C177.235,42.165 177.745,41.73 177.745,40.86 L177.745,40.8 C177.745,39.93 177.205,39.585 176.215,39.585 L175.21,39.585 L175.21,42.165 Z M182.665,48 L185.77,48 L185.77,37.275 L182.665,37.275 L182.665,48 Z M191.815,48.18 C194.575,48.18 196.135,46.575 196.135,44.61 C196.135,42.285 194.74,41.58 192.025,41.28 C190.69,41.1 190.36,40.83 190.36,40.23 C190.36,39.69 190.78,39.315 191.605,39.315 C192.445,39.315 192.88,39.705 192.985,40.47 L195.835,40.47 C195.64,38.205 194.185,37.125 191.605,37.125 C189.04,37.125 187.45,38.535 187.45,40.47 C187.45,42.63 188.47,43.53 191.5,43.89 C192.79,44.085 193.195,44.265 193.195,44.925 C193.195,45.555 192.7,45.99 191.815,45.99 C190.54,45.99 190.195,45.36 190.12,44.595 L187.195,44.595 C187.285,46.92 188.815,48.18 191.815,48.18 Z" transform="translate(-100 -37)"></path>
+</svg>
+        </a>
+      </div>
+      <nav class="site-header-section site-header-nav ">
+                  <ul id="menu-main-navigation" class="nav-menu"><li class="menu-item menu-blog"><a href="https://samharris.org/blog/">Blog</a></li>
+<li class="menu-item menu-podcast"><a href="https://samharris.org/podcast/">Podcast</a></li>
+<li class="menu-item menu-item-has-children menu-ama"><a href="#">AMA</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-episodes"><a href="https://samharris.org/ama-answers/">Episodes</a></li>
+	<li class="menu-item menu-unanswered"><a href="https://samharris.org/ask-me-anything/">Unanswered</a></li>
+	<li class="menu-item menu-answered"><a href="https://samharris.org/ask-me-anything/?sort_ama=newest&amp;filter_ama=answered">Answered</a></li>
+</ul>
+</li>
+<li class="menu-item menu-events"><a href="https://samharris.org/events/">Events</a></li>
+<li class="menu-item menu-item-has-children menu-books"><a href="#">Books</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-sams-books"><a href="https://samharris.org/books/">Sam's Books</a></li>
+	<li class="menu-item menu-recommended"><a href="https://samharris.org/recommended/">Recommended</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children menu-more"><a href="#">More</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-help"><a href="https://help.samharris.org/">Help</a></li>
+	<li class="menu-item menu-contact"><a href="https://samharris.org/contact/">Contact</a></li>
+	<li class="menu-item menu-about"><a href="https://samharris.org/about/">About</a></li>
+	<li class="menu-item menu-publications"><a href="https://samharris.org/publications-and-lectures/">Publications</a></li>
+</ul>
+</li>
+<li class="menu-item menu-shop"><a target="_blank" rel="noopener noreferrer" href="https://shop.samharris.org/">Shop</a></li>
+</ul>
+              </nav>
+      <div class="site-header-section site-header-utils">
+                  <button class="login-link site-util-link" data-show-login="">Login</button>
+          <a class="support-link site-util-link" href="https://samharris.org/subscribe/">
+            Subscribe
+          </a>
+        
+        <form class="search-form" action="https://samharris.org" data-search-form="">
+  <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+  <path d="M27.512 25.24l-8.44-8.44c1.3-1.705 2.03-3.896 2.03-6.25C21.1 4.706 16.394 0 10.55 0 4.708 0 0 4.708 0 10.55 0 16.395 4.707 21.1 10.55 21.1c2.354 0 4.463-.73 6.25-2.028l8.44 8.44c.325.325.73.488 1.137.488.407 0 .81-.163 1.137-.487.648-.65.648-1.624-.002-2.273zm-16.96-7.385c-4.06 0-7.305-3.246-7.305-7.304 0-4.057 3.246-7.303 7.305-7.303 4.058 0 7.304 3.246 7.304 7.304s-3.248 7.305-7.304 7.305z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+  <input class="search-input" type="search" placeholder="Enter a search term and hit enter" data-search-input="">
+  </form>
+        <button class="toggle-search">
+          <span class="icon-search"><svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+  <path d="M27.512 25.24l-8.44-8.44c1.3-1.705 2.03-3.896 2.03-6.25C21.1 4.706 16.394 0 10.55 0 4.708 0 0 4.708 0 10.55 0 16.395 4.707 21.1 10.55 21.1c2.354 0 4.463-.73 6.25-2.028l8.44 8.44c.325.325.73.488 1.137.488.407 0 .81-.163 1.137-.487.648-.65.648-1.624-.002-2.273zm-16.96-7.385c-4.06 0-7.305-3.246-7.305-7.304 0-4.057 3.246-7.303 7.305-7.303 4.058 0 7.304 3.246 7.304 7.304s-3.248 7.305-7.304 7.305z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</span>
+          <span class="icon-x"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1.147 15.973c-.28 0-.56-.112-.784-.336-.447-.42-.447-1.147 0-1.567L6.406 8 .336 1.957C-.112 1.51-.112.81.336.363c.447-.448 1.146-.448 1.594 0L8 6.406l6.07-6.07c.447-.448 1.146-.448 1.594 0 .448.447.448 1.146 0 1.594L9.594 8l6.043 6.07c.448.447.448 1.147 0 1.595-.224.224-.504.335-.784.335s-.56-.11-.783-.335L8 9.595l-6.07 6.042c-.224.224-.503.336-.783.336z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</span>
+          <span class="sr-only">Toggle search form</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+    <div id="page-load-container" aria-live="polite">
+      <div class="page-load-content">
+        <div class="main-content-wrap wrap container" role="document">
+          <div class="content">
+            <main class="main">
+                     <div class="page-header">
+  <h1>Privacy Policy</h1>
+
+  </div>
+    <div class="default-page-content">
+      <p><span style="text-decoration: underline;">Last Updated: March 7, 2019</span></p>
+<p>Four Elephants Media (“the Organization,” or “we,” “us,” “our”) respect your concerns about privacy and value our relationship with you. This Privacy Policy (“Policy”) applies solely to information collected through the web sites, web pages, interactive features, applications, and their respective contents at SamHarris.org and the “Waking Up” application, whether accessed via computer, mobile device or other technology (collectively, the “Services”).</p>
+<p>This Policy describes the types of information we collect through the Services, how that information may be used and/or with whom it may be shared; and how you can reach us to get answers to questions you may have about our privacy practices on these Services. Please read this Policy carefully, because by using the Services you are acknowledging that you understand and agree to the terms of this Policy. In addition, please review our Terms of Service, which governs your use of the Services and any content you submit to the Services.</p>
+<h3><strong>1. WHAT IS PERSONAL INFORMATION?</strong></h3>
+<p>As used herein, the term “Personal Information” means information that specifically identifies an individual (such as a name, address, telephone number, mobile number, e-mail address, or photograph), or information about that individual that is directly linked to personally identifiable information. Personal Information does not include “aggregate information”, which is data we collect about the use of the Services or about a group or category of services or users from which individual identities or other Personal Information has been removed. Personal Information also does not include Usage Information (as defined below) or Device Identifier (as defined below) that is not connected to Personal Information. This Policy in no way restricts or limits our collection and use of aggregate or Usage Information that is not connected to Personal Information.</p>
+<p><strong>2. INFORMATION COLLECTED ON OUR SERVICES</strong></p>
+<p>Information You Provide To Us:</p>
+<p>You may choose to provide Personal Information through the Services. The Organization will collect Personal Information when you contact us through the Services or otherwise communicate or interact with us.&nbsp; In addition, you may submit Personal Information about other people. The Organization will use any information that we collect from you about another person to carry out your request. If you do not want your Personal Information collected, please do not submit it.</p>
+<p>Information Collected by Automated Means:</p>
+<p>Whenever you visit or interact with the Services, the Organization, as well as any third-party advertisers and/or service providers, may use a variety of technologies that automatically or passively collect information about how the Services are accessed and used (“Usage Information”). Usage Information may include, in part, browser type, operating system, the page served, the time, how many users visited the Services, and the preceding page views. This statistical data provides us with information about the use of the Services, such as how many visitors visit a specific page on the Services, how long they stay on that page, and which hyperlinks, if any, they “click” on. This information helps us to keep the Services fresh and interesting to our visitors and to tailor content to a visitor’s interests. Usage Information is generally non-identifying, but if the Organization associates it with you as a specific and identifiable person, the Organization treats it as Personal Information.</p>
+<p>In the course of collecting Usage Information, the Organization also automatically collects your IP address or other unique identifier (“Device Identifier”) for the computer, mobile device, technology or other device (collectively, “Device”) you use to access the Services. A Device Identifier is a number that is automatically assigned to your Device when you access a web site or its servers, and our computers identify your Device by its Device Identifier. When you visit the Services, we may view your Device Identifier. We use this information to determine the general physical location of your Device and understand from what regions of the world the visitors to the Services come. We also may use this information to enhance the Services.</p>
+<p>The technologies used on the Services to collect Usage Information, including Device Identifiers, may include, without limitation:</p>
+<p>Cookies. Like many companies, we use “cookies” on the Services. Cookies are data files placed on a Device when it is used to visit the Services. The Organization may place cookies or similar files on your Device for security purposes, to tell us whether you have visited the Services before, if you are a new visitor or to otherwise facilitate site navigation, and to personalize your experience while visiting our Services. Cookies allow us to collect technical and navigational information, such as browser type, time spent on our Services and pages visited. Cookies may enhance your online experience by saving your preferences while you are visiting a particular Service. If you would prefer not to accept cookies, most browsers will allow you to: (i) change your browser settings to notify you when you receive a cookie, which lets you choose whether or not to accept it; (ii) to disable existing cookies; or (iii) to set your browser to automatically reject any cookies. However, please be aware that if you disable or reject cookies, some features and services on our Services may not work properly because we may not be able to recognize and associate you with your profile. In addition, the offers we provide when you visit us may not be as relevant to you or tailored to your interests.</p>
+<p>Web Beacons. Certain pages on the Services may contain “web beacons” (also known as Internet tags, pixel tags, tracking beacons and clear GIFs). A web beacon is a transparent graphic image placed on a web page or in an email, which indicates that a page or email has been viewed or that an email has been forwarded. In addition, a web beacon allows third parties to obtain information such as the IP address of the computer that downloaded the page on which the beacon appears, the URL of the page on which the beacon appears, the time the page containing the beacon was viewed, the type of browser used to view the page, and the information in cookies set by the third party. A web beacon may also tell your browser to get content from another server.</p>
+<p>Contacts.&nbsp; You also may grant us access to your contacts.&nbsp; If you do, we may collect the name, email address, and phone number of all your individual contacts.</p>
+<p><strong>3. HOW WE USE THE INFORMATION COLLECTED</strong></p>
+<p>We use Personal Information we collect through the Services for the purposes described in this Policy or elsewhere on the Services. For example, we may use Personal Information and other information we collect:</p>
+<ul>
+<li>to provide the services or information you request;</li>
+<li>to request feedback and to otherwise contact you about your use of the Services;</li>
+<li>to communicate with you and respond to your emails, submissions, questions, inquiries, comments, requests, and complaints;</li>
+<li>to monitor and analyze Services usage and trends and otherwise measure the effectiveness of the Services;</li>
+<li>to send you confirmations, updates, security alerts, and support and administrative messages, to detect and prevent fraud, and to otherwise facilitate your use of, and our administration and operation of, the Services;</li>
+<li>to notify you about important changes to our Services; and</li>
+<li>for any other purpose for which the information was collected.</li>
+</ul>
+<h3><strong>4. WHAT PERSONAL INFORMATION DO WE SHARE WITH THIRD PARTIES?</strong></h3>
+<p>We will not share the Personal Information we collect from you through the Services with third parties, except as described in this Policy or in the Services. We may share non-Personal Information, such as aggregate user statistics, demographic information, and Usage Information with third parties. We may also share your information as disclosed at the time you provide your information, as set forth in this Policy, and in the following circumstances:</p>
+<p>Third Parties Providing Services On Our Behalf. In order to carry out your requests, to make various features, services and materials available to you through the Services, and to respond to your inquiries, we may share your Personal Information or Usage Information with third parties that perform functions on our behalf (or on behalf of our partners), such as companies or individuals that: host or operate our Services; analyze data or provide customer service.</p>
+<p>Business Transfers. Your Personal Information may also be used by us or shared with our affiliates controlled by the Organization for internal reasons. If another entity acquires us or all or a portion of our assets, Personal Information, Usage Information, and any other information that we have collected about the users of the Services may be disclosed to such entity as part of the due diligence process and will be transferred to such entity as one of the transferred assets. Should such a sale or transfer occur, we will use reasonable efforts to direct the transferee to use information you have provided through the Services in a manner that is consistent with this Policy. Also, if any bankruptcy or reorganization proceeding is brought by or against us, all such information may be considered an asset of ours and as such may be sold or transferred to third parties.</p>
+<p>Legal Disclosure. We may transfer and disclose information, including your Personal Information, Usage Information and Device Identifier (including IP address), to third parties to comply with a legal obligation; when we believe in good faith that the law requires it; at the request of governmental authorities conducting an investigation; to verify or enforce our Terms of Service or other applicable policies; to respond to an emergency; or otherwise to protect the rights, property, safety, or security of third parties, visitors to our Services or the public.</p>
+<h3><strong>5. YOUR CALIFORNIA PRIVACY RIGHTS</strong></h3>
+<p>If you are a California resident, California Civil Code Section 1798.83 provides you with the right to request certain information regarding disclosure of your Personal Information to third parties for direct marketing purposes, including a description of the categories of Personal Information disclosed. We do not share your Personal Information with third parties for their marketing purposes.</p>
+<h3><strong>6. YOUR ACCESS AND CHOICES</strong></h3>
+<p>You may always direct us not to use your Personal Information to provide you with information or offers, or not to send you e-mails or other communications by sending us an e-mail at&nbsp;<a href="mailto:info@samharris.org">info@samharris.org</a>. Your opt-out request will be processed within 30 days of the date on which we receive it.</p>
+<p>In accordance with our routine record keeping, we may delete certain records that contain Personal Information you have submitted through the Services. We are under no obligation to store such Personal Information indefinitely and disclaim any liability arising out of, or related to, the destruction of such Personal Information. In addition, you should be aware that it is not always possible to completely remove or delete all of your information from our databases without some residual data because of backups and other reasons.</p>
+<h3><strong>7. LINKS TO OTHER SITES</strong></h3>
+<p>The Services may provide links to other websites that we do not own or operate. This includes links from partners who may use our logo(s) as part of a co-branding agreement. To the extent that any linked websites are not part of the Services, we do not control, recommend or endorse and are not responsible for these websites or their content, products, services or privacy policies or practices. These other websites may send their own cookies to your Device, they may independently collect data or solicit Personal Information and may or may not have their own privacy notices or policies. You should also independently assess the authenticity of any website which appears or claims that it is one of our Services (including those linked to through an email or social networking page).</p>
+<h3><strong>8. HOW WE PROTECT PERSONAL INFORMATION</strong></h3>
+<p>We maintain certain administrative, technical and physical safeguards to help protect against loss, misuse or unauthorized access, disclosure, alteration or destruction of your Personal Information. However, no electronic data transmission or storage of information can be guaranteed to be 100% secure. Please note that we cannot ensure or warrant the security of any information you transmit to us, and you use the Services and provide us with your information at your own risk.</p>
+<h3><strong>9. CONSENT TO PROCESSING AND TRANSFER OF INFORMATION.</strong></h3>
+<p>The Services are operated in the United States. Given that we are an international business, our use of your information necessarily involves the transmission of data on an international basis. If you are located in the European Union, Canada or elsewhere outside of the United States, please be aware that information we collect may be transferred to and processed in the United States. By using the Services, or providing us with any information, you consent to the collection, processing, maintenance and transfer of such information in and to the United States and other applicable territories in which the privacy laws may not be as comprehensive as or equivalent to, those in the country where you reside and/or are a citizen.</p>
+<h3><strong>10. CHILDREN</strong></h3>
+<p>The Services are not directed to children under 13. We do not knowingly collect personally identifiable information from anyone under 13 years of age. If we determine upon collection that a use is under this age, we will not use or maintain his/her Personal Information without the parent/guardian consent.</p>
+<h3><strong>11. UPDATES TO OUR PRIVACY POLICY</strong></h3>
+<p>This Policy and other information on the Services may be updated periodically and without prior notice to you, and any changes will be effective immediately upon the posting of the revised Policy on the Services. However, we will use your Personal Information in a manner consistent with the Policy in effect at the time you submitted the information, unless you consent to the new or revised notice. We will post a prominent notice on the Services to notify you of any significant changes to our Policy and indicate at the top of the notice when it was most recently updated.</p>
+<h3><strong>12. HOW TO CONTACT US</strong></h3>
+<p>If you have any questions or comments about this Policy, please contact us at&nbsp;<a href="mailto:info@samharris.org">info@samharris.org</a>.</p>
+
+    </div>
+              </main>
+                      </div>
+        </div>
+
+        <div class="mobile-nav">
+  <form class="search-form" action="https://samharris.org" data-search-form="">
+  <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+  <path d="M27.512 25.24l-8.44-8.44c1.3-1.705 2.03-3.896 2.03-6.25C21.1 4.706 16.394 0 10.55 0 4.708 0 0 4.708 0 10.55 0 16.395 4.707 21.1 10.55 21.1c2.354 0 4.463-.73 6.25-2.028l8.44 8.44c.325.325.73.488 1.137.488.407 0 .81-.163 1.137-.487.648-.65.648-1.624-.002-2.273zm-16.96-7.385c-4.06 0-7.305-3.246-7.305-7.304 0-4.057 3.246-7.303 7.305-7.303 4.058 0 7.304 3.246 7.304 7.304s-3.248 7.305-7.304 7.305z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+  <input class="search-input" type="search" placeholder="Search" data-search-input="">
+      <button class="search-submit">
+      <span class="icon-search"><svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+  <path d="M27.512 25.24l-8.44-8.44c1.3-1.705 2.03-3.896 2.03-6.25C21.1 4.706 16.394 0 10.55 0 4.708 0 0 4.708 0 10.55 0 16.395 4.707 21.1 10.55 21.1c2.354 0 4.463-.73 6.25-2.028l8.44 8.44c.325.325.73.488 1.137.488.407 0 .81-.163 1.137-.487.648-.65.648-1.624-.002-2.273zm-16.96-7.385c-4.06 0-7.305-3.246-7.305-7.304 0-4.057 3.246-7.303 7.305-7.303 4.058 0 7.304 3.246 7.304 7.304s-3.248 7.305-7.304 7.305z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</span>
+    </button>
+  </form>
+
+      <ul id="menu-main-navigation-1" class="nav-menu"><li class="menu-item menu-blog"><a href="https://samharris.org/blog/">Blog</a></li>
+<li class="menu-item menu-podcast"><a href="https://samharris.org/podcast/">Podcast</a></li>
+<li class="menu-item menu-item-has-children menu-ama"><a href="#">AMA</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-episodes"><a href="https://samharris.org/ama-answers/">Episodes</a></li>
+	<li class="menu-item menu-unanswered"><a href="https://samharris.org/ask-me-anything/">Unanswered</a></li>
+	<li class="menu-item menu-answered"><a href="https://samharris.org/ask-me-anything/?sort_ama=newest&amp;filter_ama=answered">Answered</a></li>
+</ul>
+</li>
+<li class="menu-item menu-events"><a href="https://samharris.org/events/">Events</a></li>
+<li class="menu-item menu-item-has-children menu-books"><a href="#">Books</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-sams-books"><a href="https://samharris.org/books/">Sam's Books</a></li>
+	<li class="menu-item menu-recommended"><a href="https://samharris.org/recommended/">Recommended</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children menu-more"><a href="#">More</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-help"><a href="https://help.samharris.org/">Help</a></li>
+	<li class="menu-item menu-contact"><a href="https://samharris.org/contact/">Contact</a></li>
+	<li class="menu-item menu-about"><a href="https://samharris.org/about/">About</a></li>
+	<li class="menu-item menu-publications"><a href="https://samharris.org/publications-and-lectures/">Publications</a></li>
+</ul>
+</li>
+<li class="menu-item menu-shop"><a target="_blank" rel="noopener noreferrer" href="https://shop.samharris.org/">Shop</a></li>
+</ul>
+  
+  
+</div>
+
+                <footer class="page-footer">
+  <div class="container">
+    <div class="footer-newsletter grid-container">
+      <div class="footer-newsletter-text">
+        <h3>Sign Up for Sam’s Newsletter</h3>
+<p>Get notified about upcoming events, books, articles, and podcasts.</p>
+
+      </div>
+      <div class="footer-newsletter-form">
+        <script>(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.5.2 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2775 mc4wp-ajax" method="post" data-id="2775" data-name="Newsletter"><div class="mc4wp-form-fields"><input class="input-text" type="email" name="EMAIL" placeholder="Email Address" required="">
+
+<input class="button button-secondary" type="submit" value="Sign Up"></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1563812301"><input type="hidden" name="_mc4wp_form_id" value="2775"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->
+      </div>
+    </div>
+    <div class="footer-widgets grid-container">
+      <section class="widget nav_menu-2 widget_nav_menu"><ul id="menu-footer-pages" class="menu"><li class="menu-item copyright">© 2019 Sam Harris</li><li class="menu-item menu-terms-of-use"><a href="https://samharris.org/terms-of-use/">Terms of Use</a></li>
+<li class="active menu-item menu-privacy-policy"><a href="https://samharris.org/privacy-policy/" aria-current="page">Privacy Policy</a></li>
+<li class="menu-item menu-controversy"><a target="_blank" rel="noopener noreferrer" href="https://samharris.org/response-to-controversy/">Controversy</a></li>
+</ul></section><section class="widget nav_menu-3 widget_nav_menu"><ul id="menu-social-networks" class="menu"><li class="menu-item menu-facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Samharrisorg/">Facebook</a></li>
+<li class="menu-item menu-twitter"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SamHarrisOrg">Twitter</a></li>
+<li class="menu-item menu-youtube"><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCNAxrHudMfdzNi6NxruKPLw?sub_confirmation=1">YouTube</a></li>
+</ul></section>    </div>
+  </div>
+</footer>
+      </div>
+    </div>
+
+    <div class="audio-player-container">
+  <div class="container">
+    <div class="audio-player-inner-container">
+      <img class="audio-player-thumbnail" src="https://samharris.org/wp-content/themes/samharris/dist/images/podcast-cover_c0e87804.png" alt="making sense podcast">
+      <div class="audio-player-controls">
+        <div class="audio-player-progress-container">
+          <div class="audio-player-progress"></div>
+          <div class="audio-player-progress-preview"></div>
+        </div>
+        <div class="audio-player">
+          <button class="button-audio-player audio-skip audio-skip-back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21">
+    <g fill="currentColor" fill-rule="evenodd">
+        <path d="M19 11.58C19 16.775 14.738 21 9.5 21S0 16.775 0 11.58C0 9.18.911 6.891 2.567 5.14l1.155 1.074a7.782 7.782 0 0 0-2.139 5.366c0 4.329 3.552 7.85 7.917 7.85s7.917-3.521 7.917-7.85c0-4.195-3.34-7.623-7.521-7.83v2.142L4.75 2.946 9.896 0v2.18C14.95 2.39 19 6.52 19 11.58"></path>
+        <path d="M6.955 14.084c-1.393 0-2.043-.644-2.085-1.729h1.274c.042.413.237.693.734.693.441 0 .659-.21.659-.567 0-.392-.21-.588-.659-.588H6.48v-.889h.372c.447 0 .665-.203.665-.553 0-.301-.197-.497-.575-.497-.385 0-.609.231-.664.637H5.009c.063-.987.721-1.666 1.967-1.666 1.176 0 1.884.539 1.884 1.372 0 .56-.322.924-.848 1.078.574.119.973.525.973 1.134 0 .952-.707 1.575-2.03 1.575zm5.323-1.113c.617 0 .861-.455.861-1.379v-.203c0-.917-.265-1.379-.874-1.379-.603 0-.876.455-.876 1.379v.21c0 .931.274 1.372.89 1.372zm-.042 1.113c-1.4 0-2.282-.903-2.282-2.478v-.21c0-1.582.987-2.471 2.31-2.471 1.317 0 2.31.819 2.31 2.443v.196c0 1.589-.91 2.52-2.338 2.52z"></path>
+    </g>
+</svg>
+          </button>
+          <button class="button-audio-player audio-play">
+            <svg width="8" height="10" viewBox="0 0 8 10" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8 5l-8 5V0" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+            <span class="sr-only">Play audio</span>
+          </button>
+          <button class="button-audio-player audio-pause">
+            <svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+  <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+            <span class="sr-only">Pause audio</span>
+          </button>
+          <button class="button-audio-player audio-skip audio-skip-forward">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21">
+    <g fill="currentColor" fill-rule="evenodd">
+        <path d="M0 11.58C0 16.775 4.262 21 9.5 21s9.5-4.225 9.5-9.42c0-2.401-.911-4.689-2.567-6.44l-1.155 1.074a7.782 7.782 0 0 1 2.139 5.366c0 4.329-3.552 7.85-7.917 7.85s-7.917-3.521-7.917-7.85c0-4.195 3.34-7.623 7.521-7.83v2.142l5.146-2.946L9.104 0v2.18C4.05 2.39 0 6.52 0 11.58"></path>
+        <path d="M6.955 14.084c-1.393 0-2.043-.644-2.085-1.729h1.274c.042.413.237.693.734.693.441 0 .659-.21.659-.567 0-.392-.21-.588-.659-.588H6.48v-.889h.372c.447 0 .665-.203.665-.553 0-.301-.197-.497-.575-.497-.385 0-.609.231-.664.637H5.009c.063-.987.721-1.666 1.967-1.666 1.176 0 1.884.539 1.884 1.372 0 .56-.322.924-.848 1.078.574.119.973.525.973 1.134 0 .952-.707 1.575-2.03 1.575zm5.323-1.113c.617 0 .861-.455.861-1.379v-.203c0-.917-.265-1.379-.874-1.379-.603 0-.876.455-.876 1.379v.21c0 .931.274 1.372.89 1.372zm-.042 1.113c-1.4 0-2.282-.903-2.282-2.478v-.21c0-1.582.987-2.471 2.31-2.471 1.317 0 2.31.819 2.31 2.443v.196c0 1.589-.91 2.52-2.338 2.52z"></path>
+    </g>
+</svg>
+          </button>
+
+          <div class="audio-now-playing">
+            <div class="audio-timer-container">
+              <div class="audio-timer"></div>
+              <div class="audio-duration"></div>
+            </div>
+            <div class="audio-title">
+              <div class="audio-title-text"></div>
+            </div>
+          </div>
+
+          <div class="audio-volume">
+            <button class="audio-volume-mute full">
+              <span class="sr-only">Mute</span>
+            </button>
+            <input type="range" min="0" max="100" value="100" class="audio-volume-slider">
+          </div>
+
+          <button class="button-audio-player audio-close">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1.147 15.973c-.28 0-.56-.112-.784-.336-.447-.42-.447-1.147 0-1.567L6.406 8 .336 1.957C-.112 1.51-.112.81.336.363c.447-.448 1.146-.448 1.594 0L8 6.406l6.07-6.07c.447-.448 1.146-.448 1.594 0 .448.447.448 1.146 0 1.594L9.594 8l6.043 6.07c.448.447.448 1.147 0 1.595-.224.224-.504.335-.784.335s-.56-.11-.783-.335L8 9.595l-6.07 6.042c-.224.224-.503.336-.783.336z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+            <span class="sr-only">Close audio player</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div id="login-modal">
+  <div class="modal-main">
+    <button class="button-modal-close modal-close">
+      Close
+    </button>
+    <div class="modal-column">
+      <header class="modal-header">
+        <h2 class="modal-title">Login</h2>
+        <div class="modal-subtitle">To create an account <a class="modal-close" href="https://samharris.org/start-subscription/">subscribe to samharris.org</a></div>
+      </header>
+      
+<div class="tml tml-login" id="theme-my-login1">
+          <form name="loginform" id="loginform1" action="https://samharris.org/login/" method="post">
+    <p class="tml-user-login-wrap form-field-wrapper">
+      
+      <input type="text" name="log" id="user_login1" class="input" value="" size="20"><label for="user_login1">E-mail</label>
+    </p>
+
+    <p class="tml-user-pass-wrap form-field-wrapper">
+      
+      <input type="password" name="pwd" id="user_pass1" class="input" value="" size="20" autocomplete="off"><label for="user_pass1">Password</label>
+    </p>
+
+    <input type="hidden" name="_wp_original_http_referer" value="/privacy-policy/">
+    <div class="tml-rememberme-submit-wrap">
+      <p class="tml-rememberme-wrap">
+        <input class="input-checkbox" name="rememberme" type="checkbox" id="rememberme1" value="forever">
+        <label for="rememberme1">Remember Me</label>
+      </p>
+
+      <p class="tml-submit-wrap">
+        <input type="submit" name="wp-submit" id="wp-submit1" value="Log In">
+        <input type="hidden" name="redirect_to" value="https://samharris.org/wp-admin/">
+        <input type="hidden" name="instance" value="1">
+        <input type="hidden" name="action" value="login">
+      </p>
+
+        <ul class="tml-action-links">
+<li><a href="https://samharris.org/lostpassword/" rel="nofollow">Lost Password</a></li>
+</ul>
+    </div>
+  </form>
+</div>
+
+
+    </div>
+    <div class="modal-column">
+      <footer class="modal-footer">
+        <div class="modal-footer-title">Claim Your Account</div>
+        <div class="modal-login-claim-account"><div class="claim-account-title">Previous website</div>If you supported Sam through the previous website, <a href="#" data-claim-login="">claim your account here</a>.</div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<div id="claim-login-modal">
+  <div class="modal-main">
+    <button class="button-modal-close modal-close">Close</button>
+    <h2 class="modal-title modal-claim-login-title">Claim Account</h2>
+    <div class="claim-login-content">
+      <div class="modal-subtitle">
+        Enter your associated supporter email address to create an account.
+      </div>
+      <form data-claim-login-form="" novalidate="true">
+        <div class="form-field-wrapper form-field">
+          <input class="input-text form-input" type="email" data-claim-login-email="" required="">
+          <label for="claim-account-email" class="form-field-label">Email</label>
+        </div>
+        <div class="form-actions">
+          <button class="button button-secondary button-small" type="submit">
+            Search
+          </button>
+          <a class="modal-close" href="#">Cancel</a>
+        </div>
+      </form></div>
+    
+    <div class="claim-login-response"></div>
+  </div>
+</div>
+
+    <div class="wp-footer">
+      	<div style="display:none">
+	</div>
+<script>(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type="text/javascript" src="https://samharris.org/wp-content/mu-plugins/jetpack/_inc/build/photon/photon.min.js?m=1559853159g"></script>
+<script src="https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201930"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/samharris.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://samharris.org/_static/??-eJyljsEKwjAQRH/IZKs04EU8+wF+QJqskrTJ1uyG4t8bag8eFWEOM8zwGFhm5SgLZoF5qveQGRYiRylhcQiWGYUhNj0qlqcaJnJjDVvUa7xedApZR97B17hbWWcerPdKSDlb5HdK5DakMWBz+u3+uPJRb5RzOu2N6fq+M4djfAHfsHEc"></script>
+<script src="https://secure.gravatar.com/js/gprofiles.js?ver=2019Julaa"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sh_theme = {"nonce":"7d2bf59a57","ajax_url":"https:\/\/samharris.org\/wp-admin\/admin-ajax.php","sort_ama_key":"sort_ama","filter_ama_key":"filter_ama","filter_key":"filter","taxonomy_key":"taxonomy","taxonomy_book":"book_type","taxonomy_reading":"reading_category"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mc4wp_ajax_vars = {"loading_character":"\u2022","ajax_url":"https:\/\/samharris.org\/wp-admin\/admin-ajax.php?action=mc4wp-form","error_text":"Oops. Something went wrong. Please try again later."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://samharris.org/_static/??-eJx9jtFuwjAMRX9oqVtUEHtAfMpkJRlxVieWnars7xchoSEkeL33nmPDJs7X0mJpwKuTZb1QMcixCfof4BrWJRpsctGa6pDtAx6IliL31pATqpJBIGtgXkmaASOVLxxn9LuAz+j9Uh8tPhGL+67qNgE0ix3OBj1gcyg0MJWXvJ97KhqZVgbMeHU37sHzH74VvX6kJdLgBLX99jn6mOoSot51Zz5N+8NuPI7T55j/AIrRfeA="></script>
+<script type="text/javascript" src="https://stats.wp.com/e-201930.js" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.4',blog:'152525231',post:'2764',tz:'-4',srv:'samharris.org'} ]);
+	_stq.push([ 'clickTrackerInit', '152525231', '2764' ]);
+</script>
+    </div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1771586519554127");fbq("set","agent","tmgoogletagmanager","1771586519554127");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1771586519554127&amp;ev=PageView&amp;noscript=1"></noscript>
+
+
+    
+    <div class="grid-overlay">
+      <div class="container">
+        <div class="grid-container">
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                      <div class="grid-item col-width-1"></div>
+                  </div>
+      </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b2a59a2a4e","applicationID":"158500621","transactionName":"YlJXYxFZW0VSUUAPXVsYYEUKF1xYV1dMSEJdRw==","queueTime":0,"applicationTime":261,"atts":"ThVAFVlDSBoRUxZcSUhK","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<img src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A7.4&amp;blog=152525231&amp;post=2764&amp;tz=-4&amp;srv=samharris.org&amp;host=samharris.org&amp;ref=&amp;fcp=2797&amp;rand=0.17647345610559118" alt=":)" width="6" height="5" id="wpstats"><script src="https://analytics.twitter.com/i/adsct?p_id=Twitter&amp;p_user_id=0&amp;txn_id=o02jr&amp;events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels&amp;tw_document_href=https%3A%2F%2Fsamharris.org%2Fprivacy-policy%2F" type="text/javascript"></script><script src="https://analytics.twitter.com/i/adsct?p_id=Twitter&amp;p_user_id=0&amp;txn_id=o02jr&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels&amp;tw_document_href=https%3A%2F%2Fsamharris.org%2Fprivacy-policy%2F" type="text/javascript"></script></body></html>

@@ -1,0 +1,908 @@
+<html lang="zh-CN"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="data-spm" content="a1z1s">
+	<meta name="baidu-site-verification" content="xaLcM8mGHG">
+	<title>使用协议</title>
+	<meta name="verify-v1" content="gNntuhTm2rH7Qa/GPp6lf0mIp9KQsjejNs+i1LZhG7U=">
+	<meta name="keywords" content="使用协议">
+	<meta name="description" content="使用协议">
+	
+	<meta name="apple-itunes-app" content="app-id=595594905">
+	<meta name="applicable-device" content="pc">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/common/base.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/common/header.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/common/footer.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/common/old.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/lib/jquery.jscrollpane.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/common/name_card.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/res/v3/css/global.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/res/v3/css/login.css">
+	<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/static/css/basic/core_mod.css">
+		<link href="//img.xiami.net/res/css/default/main15.css" media="all" rel="stylesheet">
+<link href="//img.xiami.net/res/css/default/mode15.css" media="all" rel="stylesheet">
+
+	<link rel="icon" type="image/png" href="//img.alicdn.com/tfs/TB1qP4zgY5YBuNjSspoXXbeNFXa-550-550.png">
+	<link href="/opensearch.xml" type="application/opensearchdescription+xml" rel="search" title="Xiami Search">
+	<link rel="alternate" type="application/atom+xml" title="虾米音乐每日精选" href="/collect/feed">
+	<!--<link rel="stylesheet" type="text/css" href="//img.xiami.net/music/music-static/0.6.2/collect/res/css/default/beta15.css">-->
+
+	
+	<style type="text/css">
+
+		#header{   text-align: left;  zoom:1;  z-index:10; }
+		#header .wrapper,#secondary .wrapper,#footer .wrapper{
+			_width: expression(documentElement.clientWidth < 980? "980px" : documentElement.clientWidth > 1100? "1100px" : "auto");
+		}
+
+		.ie6 #secondary a.current{ background: none;}
+		#header .primary .search .submit{ padding:0; cursor: pointer;}
+		#header a,#secondary a{ text-decoration:none;}
+		#header .user{vertical-align:top;}
+		#header .auto_complete strong{ font-weight:normal;}
+		#header .primary .user_popup .content ul .logout{ padding:0;}
+		#header .content,#secondary .content{ overflow: visible;}
+		#secondary{  text-align: left;}
+		.no-shadow{ box-shadow: none !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important;}
+		#footer{zoom: 1;}
+		.collect_item100_thread p.cover span.iLine{display:inline-block;}
+		.collect_item100_thread p.cover span img.w100{width:100%;}
+	</style>
+	
+
+
+	<!--[if lte IE 8]>
+	<link href="//img.xiami.net/res/v3/css/login_iefix.css?v=20130521145542" rel="stylesheet" media="all" />
+	<![endif]-->
+
+	<!-- kirov start -->
+	<script type="text/javascript" async="" src="//g.alicdn.com/secdev/entry/index.js?t=217195"></script><script type="text/javascript" async="" src="//g.alicdn.com/pecdn/mlog/agp_heat.min.js?t=217195"></script><script type="text/javascript" async="" charset="utf-8" src="https://c.cnzz.com/core.php?web_id=2629111&amp;t=z"></script><script type="text/javascript" async="" charset="utf-8" src="https://c.cnzz.com/core.php?web_id=921634&amp;t=z"></script><script>/* 2016-04-13 14:04:55 */
+!function e(t,a,r){function n(o,s){if(!a[o]){if(!t[o]){var c="function"==typeof require&&require;if(!s&&c)return c(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var l=a[o]={exports:{}};t[o][0].call(l.exports,function(e){var a=t[o][1][e];return n(a?a:e)},l,l.exports,e,t,a,r)}return a[o].exports}for(var i="function"==typeof require&&require,o=0;o<r.length;o++)n(r[o]);return n}({1:[function(e,t,a){"use strict";var r=location.search,n={VERSION:{DEFAULT:"7",MANUAL:9,MANUAL_TIMEOUT:7},TIME:{MANUAL_TIMEOUT:6e3},RATE:{AHOT_SAMPLING:.1},DEBUG:{AHOT:r.indexOf("ap-debug-ahot")>-1,ANTI_SPAM:r.indexOf("ap-debug-antispam")>-1,LS_PROXY:r.indexOf("ap-debug-lsproxy")>-1}},i={NAME_STORAGE:{REFERRER:"wm_referrer",REFERRER_PV_ID:"refer_pv_id"}};a.COMFIG=n,a.KEY=i},{}],2:[function(require,module,exports){!function(){function tryToDecodeURIComponent(e,t){var a=t||"";if(e)try{a=decodeURIComponent(e)}catch(r){}return a}function obj2param(e){var t,a,r=[];for(t in e)e.hasOwnProperty(t)&&(a=""+e[t],r.push(util.isStartWith(t,s_plain_obj)?a:t+"="+encodeURIComponent(a)));return r.join("&")}function arr2param(e){var t,a,r,n=[],i=e.length;for(r=0;i>r;r++)t=e[r][0],a=e[r][1],n.push(util.isStartWith(t,s_plain_obj)?a:t+"="+encodeURIComponent(a));return n.join("&")}function arr2obj(e){var t,a,r,n={},i=e.length;for(r=0;i>r;r++)t=e[r][0],a=e[r][1],n[t]=a;return n}function objSimpleClone(e){var t,a={};for(t in e)e.hasOwnProperty(t)&&(a[t]=e[t]);return a}function param2obj(e){for(var t=e.split("&"),a=0,r=t.length,n={};r>a;a++){var i=t[a],o=i.indexOf("="),s=i.substring(0,o),c=i.substring(o+1);n[s]=tryToDecodeURIComponent(c)}return n}function isNumber(e){return"number"==typeof e}function isUnDefined(e){return"undefined"==typeof e}function isString(e){return"string"==typeof e}function isArray(e){return"[object Array]"===Object.prototype.toString.call(e)}function tryToGetAttribute(e,t){return e&&e.getAttribute?e.getAttribute(t)||"":""}function tryToGetHref(e){var t;try{t=util.trim(e.getAttribute("href",2))}catch(a){}return t||""}function parseMetaContent(e,t){var a,r,n=e.split(";"),i=n.length;for(a=0;i>a;a++)r=n[a].split("="),t[util.trim(r[0])||s_plain_obj]=tryToDecodeURIComponent(util.trim(r.slice(1).join("=")))}function getCookie(e){var t=doc.cookie.match(new RegExp("(?:^|;)\\s*"+e+"=([^;]+)"));return t?t[1]:""}function makeCacheNum(){return Math.floor(268435456*Math.random()).toString(16)}function init_getMetaMicroscopeData(){var e,t,a,r=util.getMetaTags(),n=r.length;for(e=0;n>e;e++)t=r[e],"microscope-data"==tryToGetAttribute(t,"name")&&(a=tryToGetAttribute(t,"content"),parseMetaContent(a,_microscope_data),is_head_has_meta_microscope_data=s_true);_microscope_data_params=obj2param(_microscope_data),ms_data_page_id=_microscope_data.pageId,ms_data_shop_id=_microscope_data.shopId,ms_data_instance_id=_microscope_data.siteInstanceId,ms_data_siteCategoryId=_microscope_data.siteCategory,ms_prototype_id=_microscope_data.prototypeId,site_instance_id_or_shop_id=ms_data_instance_id||ms_data_shop_id}function getMetaAtpData(){var e,t,a,r=util.getMetaTags(),n=r.length;for(e=0;n>e;e++)t=r[e],"atp-beacon"==tryToGetAttribute(t,"name")&&(a=tryToGetAttribute(t,"content"),parseMetaContent(a,_atp_beacon_data));_atp_beacon_data_params=obj2param(_atp_beacon_data)}function getMetaWaiting(){return util.getMetaCnt("aplus-waiting")}function getMetaTerminal(){return util.getMetaCnt("aplus-terminal")}function getMetaRateAhot(){var e=util.getMetaCnt("aplus-rate-ahot");return parseFloat(e)||0}function getMetaAhot(){return util.getMetaCnt("ahot-aplus")}function isOnePage(){return util.getMetaCnt("isonepage")||"-1"}function getSPMProtocolFromMeta(){var e,t,a,r,n=util.getMetaTags();for(e=0,t=n.length;t>e;e++)a=n[e],r=tryToGetAttribute(a,"name"),r==s_SPM_ATTR_NAME&&(spm_protocol=tryToGetAttribute(a,s_SPM_DATA_PROTOCOL))}function getMetaSPMData(e){var t,a,r,n,i,o,s=util.getMetaTags();if(s)for(t=0,a=s.length;a>t;t++)if(n=s[t],i=tryToGetAttribute(n,"name"),i==e)return page_global_spm_id_origin=tryToGetAttribute(n,"content"),page_global_spm_id_origin.indexOf(":")>=0&&(r=page_global_spm_id_origin.split(":"),spm_protocol="i"==r[0]?"i":"u",page_global_spm_id_origin=r[1]),o=tryToGetAttribute(n,s_SPM_DATA_PROTOCOL),o&&(spm_protocol="i"==o?"i":"u"),page_global_is_wangpu=util.isStartWith(page_global_spm_id_origin,"110"),spm_ab=page_global_is_wangpu?default_ab:page_global_spm_id_origin,s_true;return s_false}function init_getGlobalSPMId(){if(!isUnDefined(spm_ab))return spm_ab;if(spm_a&&spm_b)return spm_a=spm_a.replace(/^{(\w+\/)}$/g,"$1"),spm_b=spm_b.replace(/^{(\w+\/)}$/g,"$1"),wh_in_page=s_true,spm_ab=spm_a+"."+spm_b,getSPMProtocolFromMeta(),goldlog.spm_ab=[spm_a,spm_b],spm_ab;var e;if(getMetaSPMData(s_SPM_ATTR_NAME)||getMetaSPMData("spm-id"),spm_ab=spm_ab||default_ab,!spm_ab)return spm_ab;var t,a=doc.getElementsByTagName("body");return e=spm_ab.split("."),goldlog.spm_ab=e,a=a&&a.length?a[0]:null,a&&(t=tryToGetAttribute(a,s_SPM_ATTR_NAME),t?(spm_ab=e[0]+"."+t,goldlog.spm_ab=[e[0],t]):1==e.length&&(spm_ab=default_ab)),spm_ab}function makePVId(){function e(e){var t="0123456789abcdefhijklmnopqrstuvwxyzABCDEFHIJKLMNOPQRSTUVWXYZ",a="0123456789abcdefghijkmnopqrstuvwxyzABCDEFGHIJKMNOPQRSTUVWXYZ";return 1==e?t.substr(Math.floor(60*Math.random()),1):2==e?a.substr(Math.floor(60*Math.random()),1):"0"}for(var t,a="",r="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",n=!1;a.length<6;)t=r.substr(Math.floor(62*Math.random()),1),!n&&a.length<=2&&("g"==t.toLowerCase()||"l"==t.toLowerCase())&&(0===a.length&&"g"==t.toLowerCase()?Math.random()<.5&&(t=e(1),n=!0):1==a.length&&"l"==t.toLowerCase()&&"g"==a.charAt(0).toLowerCase()&&(t=e(2),n=!0)),a+=t;return win[s_pv_id_key]=a,a}function init_aplusQueue(){var e,t=win[s_aplus_queue];t.push=e=function(){for(var e,a,r=0,n=arguments.length;n>r;r++)e=arguments[r],isString(e)?goldlog.send(hjlj_beacon_base+e):isArray(e)&&"push"!=(a=e[0])&&(t[a]=t[a]||[]).push(e.slice(1))};for(var a;a=t.shift();)e(a)}function recordValInWindowName(){var e,t;!is_in_iframe&&is_https&&(is_login_page&&page_referrer?(e=page_referrer,t=nameStorage.getItem(KEY.NAME_STORAGE.REFERRER_PV_ID)):(e=page_url,t=pvid),nameStorage.setItem(KEY.NAME_STORAGE.REFERRER,e),nameStorage.setItem(KEY.NAME_STORAGE.REFERRER_PV_ID,t))}function processGoldlogQueue(){function e(){var e,t,a,r=win[s_GOLDMINER_QUEUE];if(r&&isArray(r)&&r.length)for(;e=r.shift();)if(e&&e.action&&isString(e.action)&&e.arguments&&isArray(e.arguments)){for(a=e.action.split("."),t=win;a.length;)if(t=t[a.shift()],!t)return;if("function"==typeof t)try{t.apply(t,e.arguments)}catch(n){}}}try{e()}catch(t){}}function init_watchGoldlogQueue(){var e=function(){try{processGoldlogQueue(),setTimeout(e,200)}catch(t){}};e(),util.on(win,"beforeunload",processGoldlogQueue)}function cleanParams(e){var t,a,r,n,i=[],o={};for(t=e.length-1;t>=0;t--)a=e[t],r=a[0],r!=s_plain_obj&&o.hasOwnProperty(r)||(n=a[1],("aplus"==r||n)&&(i.unshift([r,n]),o[r]=1));return i}function cleanParamsForWindvane(e){var t,a,r,n,i=[],o={logtype:!0,cache:!0,scr:!0,"spm-cnt":!0};for(t=e.length-1;t>=0;t--)a=e[t],r=a[0],n=a[1],util.isStartWith(r,s_plain_obj)||o[r]||i.unshift([r,n]);return i}function tblogSend(e,t){var a,r;if(t){if(isWindVane&&isTerminal){r=cleanParamsForWindvane(cleanParams(t));var n,i={},o=getSPMFromUrl(page_referrer),s=isOnePage(),c=s.split("|"),l=c[0],u=c[1]?c[1]:"";try{a=arr2obj(r),n=JSON.stringify(a),"{}"==n&&(n="")}catch(m){n=""}i.functype="2001",i.urlpagename=u,i.url=loc.href,i.spmcnt=(spm_ab||"0.0")+".0.0",i.spmpre=o||"",i.lzsid="",i.cna=acookie_cna||"",i.extendargs=n,i.isonepage=l,WindVane.call("WVTBUserTrack","toUT",i),win[s_goldlog].windVaneData=i}return isUseLSProxy()?useLSProxy({url:makeUrl(e,t),js:js_fdc_lsproxy,referrer:loc.href}):goldlog.send(e,t)}}function mkPlainKey(){return s_plain_obj+Math.random()}function wp_bucketId(e,t){var a,r=2146271213;for(a=0;a<e.length;a++)r=(r<<5)+r+e.charCodeAt(a);return(65535&r)%t}function getSPMFromUrl(e){var t,a=e.match(new RegExp("\\?.*spm=([\\w\\.\\-\\*/]+)"));return a&&(t=a[1])&&5==t.split(".").length?t:null}function ifAdd(e,t){var a,r,n,i,o=t.length;for(a=0;o>a;a++)r=t[a],n=r[0],i=r[1],i&&e.push([n,i])}function init_loadScripts(){var e=(new Date).getTime(),t=Math.floor(e/72e5);Math.random()<.01&&addScript(url_alicdn+"/alilog/stat/a.js?t="+t);var a="laiwang",r="/ilw/a/lwlog.js?v=140709";isContain(loc.href.split("?")[0],a)&&addScript(url_alicdn+r);var n="/alilog/mlog/xwj_heat.js?v=151116b",i=getMetaRateAhot()||CONFIG.RATE.AHOT_SAMPLING;(Math.random()<i||isAhot||CONFIG.DEBUG.AHOT)&&addScript(url_alicdn+n),ms_data_instance_id&&ms_prototype_id&&ms_prototype_id.match(/^[124]$/)&&ms_data_shop_id&&addScriptFromFDC("wp-beacon.js?v=131014"),util.DOMReady(function(){setTimeout(function(){addScript("//g.alicdn.com/secdev/entry/index.js?t="+t)},1e3)}),util.onload(function(){var e=url_alicdn+"/pecdn/mlog/agp_heat.min.js?t="+t;addScript(e)})}function compareVersion(e,t){e=e.toString().split("."),t=t.toString().split(".");for(var a=0;a<e.length||a<t.length;a++){var r=parseInt(e[a],10),n=parseInt(t[a],10);if(window.isNaN(r)&&(r=0),window.isNaN(n)&&(n=0),n>r)return-1;if(r>n)return 1}return 0}function callback(e,t){isAndroid&&compareVersion(osVersion,"2.4.0")<0?setTimeout(function(){e&&e(t)},1):e&&e(t)}function init_windVane(){var WV_Core={call:function(e,t,a,r,n,i){var o,s;return lib.promise&&(lib.promise.deferred?s=lib.promise.deferred():lib.promise.defer&&(s=lib.promise.defer())),o=i>0?setTimeout(function(){WV_Core.onFailure(o,{ret:"TIMEOUT"})},i):WV_Private.getSid(),a.sid=o,WV_Private.registerCall(o,r,n,s),isAndroid?compareVersion(wvVersion,"2.7.0")>=0?WV_Private.callMethodByPrompt(e,t,WV_Private.buildParam(a),o+""):WindVane_Native&&WindVane_Native.callMethod&&WindVane_Native.callMethod(e,t,WV_Private.buildParam(a),o+""):isIOS&&WV_Private.callMethodByIframe(e,t,WV_Private.buildParam(a),o+""),s?s.promise():void 0},fireEvent:function(e,t){var a=doc.createEvent("HTMLEvents");a.initEvent(e,!1,!0),a.param=WV_Private.parseParam(t),doc.dispatchEvent(a)},getParam:function(e){return WV_Private.params[PARAM_PREFIX+e]||""},onSuccess:function(e,t){clearTimeout(e);var a=WV_Private.unregisterCall(e),r=a.success,n=a.deferred,i=WV_Private.parseParam(t);callback(function(e){r&&r(e),n&&n.resolve(e)},i.value||i),WV_Private.onComplete(e)},onFailure:function(e,t){clearTimeout(e);var a=WV_Private.unregisterCall(e),r=a.failure,n=a.deferred,i=WV_Private.parseParam(t);callback(function(e){r&&r(e),n&&n.reject(e)},i),WV_Private.onComplete(e)}},WV_Private={params:{},buildParam:function(e){return e&&"object"==typeof e?JSON.stringify(e):e||""},parseParam:function(str){var obj;if(str&&"string"==typeof str)try{obj=JSON.parse(str)}catch(e){obj=eval("("+str+")")}else obj=str||{};return obj},getSid:function(){return Math.floor(Math.random()*(1<<50))+""+inc++},registerCall:function(e,t,a,r){t&&(callbackMap[SUCCESS_PREFIX+e]=t),a&&(callbackMap[FAILURE_PREFIX+e]=a),r&&(callbackMap[DEFERRED_PREFIX+e]=r)},unregisterCall:function(e){var t=SUCCESS_PREFIX+e,a=FAILURE_PREFIX+e,r=DEFERRED_PREFIX+e,n={success:callbackMap[t],failure:callbackMap[a],deferred:callbackMap[r]};return delete callbackMap[t],delete callbackMap[a],n.deferred&&delete callbackMap[r],n},useIframe:function(e,t){var a=IFRAME_PREFIX+e,r=iframePool.pop();r||(r=doc.createElement("iframe"),r.setAttribute("frameborder","0"),r.style.cssText="width:0;height:0;border:0;display:none;"),r.setAttribute("id",a),r.setAttribute("src",t),r.parentNode||setTimeout(function(){doc.body.appendChild(r)},5)},retrieveIframe:function(e){var t=IFRAME_PREFIX+e,a=doc.querySelector("#"+t);iframePool.length>=iframeLimit?doc.body.removeChild(a):iframePool.push(a)},callMethodByIframe:function(e,t,a,r){var n={"selfParam=1":1,sid:this.parseParam(a).sid};n=this.buildParam(n);var i=LOCAL_PROTOCOL+"://"+e+":"+r+"/"+t+"?"+n;this.params[PARAM_PREFIX+r]=a,this.useIframe(r,i)},callMethodByPrompt:function(e,t,a,r){var n=LOCAL_PROTOCOL+"://"+e+":"+r+"/"+t+"?"+a,i=WV_PROTOCOL+":";this.params[PARAM_PREFIX+r]=a,window.prompt(n,i)},onComplete:function(e){isIOS&&this.retrieveIframe(e),delete this.params[PARAM_PREFIX+e]}};for(var key in WV_Core)WV_Core.hasOwnProperty(key)&&(win[s_goldlog][key]=WindVane[key]=WV_Core[key])}function addScript(e,t){var a="script",r=doc.createElement(a);r.type="text/javascript",r.async=!0,r.src=is_https?t||e:e;var n=doc.getElementsByTagName(a)[0];n.parentNode.insertBefore(r,n)}function addScriptFromFDC(e){var t="//assets.alicdn.com/s/fdc/",a="//assets.alicdn.com/s/fdc/";addScript(t+e,a+e)}function createIframe(e,t){var a=document.createElement("iframe");a.style.width="1px",a.style.height="1px",a.style.position="absolute",a.style.display="none",a.src=e,t&&(a.name=t);var r=doc.getElementsByTagName("body")[0];return r.appendChild(a),a}function checkLS(){var e=!1;try{"localStorage"in win&&win.localStorage&&(localStorage.setItem("test","test"),localStorage.removeItem("test"),e=!0)}catch(t){}return e}function isUseLSProxy(){if(CONFIG.DEBUG.LS_PROXY)return!0;var e=navigator.userAgent;if(is_ali_app)return!1;var t=e.split(" Safari/");return 2!=t.length?!1:checkLS()&&win.postMessage&&t[1].match(/[\d\.]+/)&&e.indexOf("AppleWebKit")>-1&&e.match(/\bVersion\/\d+/)&&!e.match(/\bChrome\/\d+/)&&!e.match(/TencentTraveler|QQBrowser/)&&!e.match(/UCBrowser|UCWEB/)}function useLSProxy(e){var t="//mmstat.alicdn.com/aplus-proxy.html?v=20130115";createIframe(t,JSON.stringify(e)),win.addEventListener&&win.JSON&&win.addEventListener("message",function(e){function t(){var e=hostsname.split("."),t=e.length;return t>1?e[t-2]+"."+e[t-1]:hostsname}var a=e.data;try{a=JSON.parse(a)}catch(r){return}if(a[0]&&"cna"==a[0].k)for(var n,i,o,s=0,c=a.length;c>s;s++)n=a[s],o=n.k,i=encodeURIComponent(o)+"="+("cna"==o?n.v:encodeURIComponent(n.v))+"; domain=."+t()+"; path=/; expires="+new Date(n.t).toGMTString(),doc.cookie=i})}function makeUrl(e,t){var a=-1==e.indexOf("?")?"?":"&",r=t?isArray(t)?arr2param(t):obj2param(t):"";return r?e+a+r:e}function isDpp(){return isContain(mms.getExParams(),"atp_isdpp")}function inAntiSpamWhiteList(){for(var e=!1,t=["item.taobao.com","detail.tmall.com","list.tmall.com","s.taobao.com","list.taobao.com","tw.taobao.com","detail.tmall.hk","chaoshi.tmall.com"],a=0;a<t.length;a++){var r=t[a];if(hostsname.indexOf(r)>-1){e=!0;break}}return isDpp()&&(e=!0),e}function chkFPPage(){return!isTerminal&&!is_ali_app&&!/iPhone|iPad|iPod|Android/i.test(ua)}function try2AddFingerPrint(e){if(chkFPPage()){var t,a,r=require("./lib/fingerprint").get(),n=["fp","fp2"];for(t=0;t<n.length;t++)a=n[t],r.hasOwnProperty(a)&&e.push([a,r[a]])}}var script_name="aplus_v2";require("./lib/client");var win=window,doc=document,time_start=(new Date).getTime(),s_aplus_queue="_ap",_k="g_tb_aplus_loaded",_launch="g_tb_aplus_launch",url_alicdn="//g.alicdn.com";if(win[s_aplus_queue]||(win[s_aplus_queue]=[]),!doc.getElementsByTagName("body").length)return void setTimeout(arguments.callee,50);if(!win[_k]){win[_k]=1;var s_goldlog="goldlog",goldlog=win[s_goldlog]||{};win[s_goldlog]=goldlog;var js_fdc_lsproxy=url_alicdn+"/alilog/mlog/lsproxy.js?v=20150514",_ali_analytics="ali_analytics",util=require("./lib/util"),isContain=util.isContain,m_rule=require("./lib/rule"),mms=require("./lib/misc"),f_makePageId=require("./lib/makeid").makePageId,st_page_id,m_config=require("./config"),CONFIG=m_config.COMFIG,KEY=m_config.KEY,VERSION=CONFIG.VERSION.DEFAULT,loc=location,loc_protocol=loc.protocol,is_https="https:"==loc_protocol,is_in_iframe=parent!==win.self,use_protocol=is_https?loc_protocol:"http:",default_ab="0.0",hostsname=loc.hostname,isAhot=getMetaAhot(),isPad=/TB\-PD/i.test(navigator.userAgent),isTerminal=isPad?!0:getMetaTerminal(),tblog_beacon_base=use_protocol+"//log.mmstat.com/",hjlj_beacon_base=is_https?tblog_beacon_base:use_protocol+(isTerminal?"//wgo.mmstat.com/":"//gm.mmstat.com/"),tblog_beacon_url=tblog_beacon_base+m_rule.getBeaconSrc(loc.hostname,isTerminal,is_in_iframe)+".gif",tblog_data=[["logtype",is_in_iframe?0:1]],tblog_extra_data=[],page_url=loc.href,loc_hash=loc.hash,page_referrer=doc.referrer,is_login_page=is_https&&(page_url.indexOf("login.taobao.com")>=0||page_url.indexOf("login.tmall.com")>=0),s_false=!1,s_true=!0,s_plain_obj="::-plain-::",s_SPM_ATTR_NAME="data-spm",s_SPM_DATA_PROTOCOL="data-spm-protocol",s_GOLDMINER_QUEUE="goldlog_queue",s_pv_id_key="g_aplus_pv_id",pvid=makePVId(),acookie_cna=getCookie("cna"),_microscope_data={},_microscope_data_params,_atp_beacon_data={},_atp_beacon_data_params,site_instance_id_or_shop_id,ms_data_shop_id,ms_data_instance_id,ms_data_page_id,ms_data_siteCategoryId,ms_prototype_id,wh_in_page=s_false,spm_a=win._SPM_a,spm_b=win._SPM_b,spm_protocol,spm_ab,page_global_spm_id_origin,page_global_is_wangpu,is_head_has_meta_microscope_data=s_false,ua=navigator.userAgent,lib=win.lib||(win.lib={}),isIOS=/iPhone|iPad|iPod/i.test(ua),isAndroid=/Android/i.test(ua),isWindVane=/WindVane/i.test(ua),osVersion=ua.match(/(?:OS|Android)[\/\s](\d+[._]\d+(?:[._]\d+)?)/i),wvVersion=ua.match(/WindVane[\/\s](\d+[._]\d+[._]\d+)/),WindVane={},WindVane_Native=win.WindVane_Native,callbackMap={},inc=1,iframePool=[],iframeLimit=3,LOCAL_PROTOCOL="hybrid",WV_PROTOCOL="wv_hybrid",IFRAME_PREFIX="iframe_",SUCCESS_PREFIX="suc_",FAILURE_PREFIX="err_",DEFERRED_PREFIX="defer_",PARAM_PREFIX="param_",waitingMeta=getMetaWaiting(),hasWaitingMeta=1==waitingMeta,m_log=require("./lib/log"),is_ali_app;ua.match(/AliApp\(([A-Z\-]+)\/([\d\.]+)\)/i)&&(is_ali_app=!0);var nameStorage=require("./lib/nameStorage").nameStorage;if(page_referrer=doc.referrer||nameStorage.getItem(KEY.NAME_STORAGE.REFERRER)||"",osVersion=osVersion?(osVersion[1]||"0.0.0").replace(/_/g,"."):"0.0.0",wvVersion=wvVersion?(wvVersion[1]||"0.0.0").replace(/_/g,"."):"0.0.0",goldlog.version=VERSION,goldlog.pvid=pvid,goldlog.referrer=page_referrer,goldlog._d={},goldlog._microscope_data=_microscope_data,goldlog.on=util.on,goldlog.DOMReady=util.DOMReady,goldlog.getCookie=getCookie,goldlog.tryToGetAttribute=tryToGetAttribute,goldlog.tryToGetHref=tryToGetHref,goldlog.isNumber=isNumber,goldlog.nameStorage=nameStorage,goldlog.send=function(e,t){var a=new Image,r="_img_"+Math.random(),n=makeUrl(e,t);return win[r]=a,a.onload=a.onerror=function(){win[r]=null},a.src=n,a=null,n},goldlog.emit=function(e,t){var a,r="ued.1.1.2?type=9";return isArray(t)?a=[["_gm:id",e]].concat(t):(a=objSimpleClone(t),a["_gm:id"]=e),goldlog.send(hjlj_beacon_base+r,a)},goldlog.trace=function(e,t,a,r){goldlog.record(e,t,a,r)},goldlog.record=function(e,t,a,r){r=(arguments[3]||"")+"";var n,i,o="?",s=s_false,c="",l=(spm_ab||"0.0")+".0.0."+pvid,u="//ac.mmstat.com/";if("ac"==e)n=u+"1.gif",s=util.isStartWith(r,"A")&&r.substr(1)==util.makeChkSum(e);else if(util.isStartWith(e,"ac-"))n=u+e.substr(3),s=util.isStartWith(r,"A")&&r.substr(1)==util.makeChkSum(e);else if(util.isStartWith(e,"/"))s=util.isStartWith(r,"H")&&r.substr(1)==util.makeChkSum(e),n=hjlj_beacon_base+e.substr(1),i=s_true,c+="&spm-cnt="+l;else{if(!util.isEndWith(e,".gif"))return s_false;n=tblog_beacon_base+e}if(!s&&"%"!=r&&util.makeChkSum(page_url)!=r)return s_false;if(st_page_id=st_page_id||f_makePageId(),st_page_id&&(a+=(a?"&":"")+"st_page_id="+st_page_id),n+=o+"cache="+makeCacheNum()+"&gmkey="+encodeURIComponent(t)+"&gokey="+encodeURIComponent(a)+"&cna="+acookie_cna+"&isbeta="+VERSION+c,i&&(n+="&logtype=2"),isWindVane&&isTerminal){var m,d={},p={gmkey:t,gokey:a,isbeta:VERSION},g=isOnePage(),f=g.split("|"),_=f[0],h=f[1]?f[1]:"";try{m=JSON.stringify(p),"{}"==m&&(m="")}catch(b){m=""}d.functype="2101",d.logkey=e,d.logkeyargs=m,d.urlpagename=h,d.url=loc.href,d.cna=acookie_cna||"",d.extendargs="",d.isonepage=_,WindVane.call("WVTBUserTrack","toUT",d)}return isUseLSProxy()?useLSProxy({url:n,js:js_fdc_lsproxy,referrer:loc.href}):goldlog.send(n)},goldlog.launch=function(e,t){if(!win[_launch]||t){win[_launch]=s_true;var a,r,n=VERSION,i=mms.getExParams(),o=tblog_data.slice(0);if(hasWaitingMeta&&(n=CONFIG.VERSION.MANUAL,e&&e.isWait&&(n=CONFIG.VERSION.MANUAL_TIMEOUT)),e)for(a in e)e.hasOwnProperty(a)&&(r=e[a])&&o.push([a,r]);o.push([mkPlainKey(),i]),o.push(["isbeta",n]),o=o.concat(tblog_extra_data);var s=makeCacheNum();m_log.updateKey(o,"cache",s);var c;if(t){pvid=makePVId(),goldlog.pvid=pvid,c=t.page_id,o.push([s_plain_obj,t.gokey]),m_log.updateSPMCnt(o,c,pvid),m_log.updateSPMUrl(o,pvid);var l=goldlog.spm_ab?goldlog.spm_ab[1]:"";l&&(l=c?l.split("/")[0]+"/"+c:l.split("/")[0],spm_ab=goldlog.spm_ab[0]+"."+l,goldlog.spm_ab[1]=l)}if(page_url!=location.href&&(page_referrer=page_url,page_url=location.href),t&&t.referrer&&(page_referrer=t.referrer),page_referrer&&m_log.updateKey(o,"pre",page_referrer),goldlog.req=win.g_aplus_pv_req=tblogSend(tblog_beacon_url,o),inAntiSpamWhiteList()||CONFIG.DEBUG.ANTI_SPAM){var u=param2obj(i).asid,m=obj2param({asid:u,pre:page_referrer});goldlog.record("/ahot.1.9","",m,"H1733420")}}},goldlog.sendPV=m_log.sendPV,win.goldminer={record:goldlog.emit},win[s_GOLDMINER_QUEUE]&&isArray(win[s_GOLDMINER_QUEUE])||(win[s_GOLDMINER_QUEUE]=[]),isTerminal||init_watchGoldlogQueue(),init_getMetaMicroscopeData(),init_getGlobalSPMId(),init_aplusQueue(),init_loadScripts(),isWindVane&&isTerminal&&init_windVane(),"aplus_int"!=script_name){var etag=require("./lib/etag");etag.init(acookie_cna),tblogSend=etag.inject(tblogSend,mkPlainKey)}!function(){var e,t,a,r=getCookie("tracknick"),n=getCookie("thw"),i=/\btanx\.com$/.test(hostsname)?getCookie("cnaui"):"",o=getSPMFromUrl(page_url),s=getSPMFromUrl(page_referrer),c=win[_ali_analytics]&&win[_ali_analytics].ua&&win[_ali_analytics].ua.ua_info||{};if(loc_hash&&0===loc_hash.indexOf("#")&&(loc_hash=loc_hash.substr(1)),!is_in_iframe||m_rule.is_iframeExcption(page_referrer)){("3"==ms_prototype_id||"5"==ms_prototype_id)&&(t=getCookie("t"),a=t?wp_bucketId(t,20):""),e=[[mkPlainKey(),"title="+escape(doc.title)],["pre",page_referrer],["cache",makeCacheNum()],["scr",screen.width+"x"+screen.height]],acookie_cna&&e.push([mkPlainKey(),"cna="+acookie_cna]),r&&e.push([mkPlainKey(),"nick="+r]),ifAdd(e,[["wm_pageid",ms_data_page_id],["wm_prototypeid",ms_prototype_id],["wm_sid",ms_data_shop_id],["spm-url",o],["spm-pre",s],["cnaui",i]]),e.push(["spm-cnt",(spm_ab||"0.0")+".0.0."+pvid]),tblog_data=tblog_data.concat(e),ifAdd(tblog_extra_data,[["thw",n],["bucket_id",a],["urlokey",loc_hash],["wm_instanceid",ms_data_instance_id],["p",c.p],["o",c.o],["b",c.b],["s",c.s],["w",c.w],["mx",c.mx],["ism",c.ism],["st_page_id",st_page_id||f_makePageId()],["lver",goldlog.lver],["jsver",script_name]]),try2AddFingerPrint(tblog_extra_data),hasWaitingMeta?setTimeout(function(){goldlog.launch({isWait:!0})},CONFIG.TIME.MANUAL_TIMEOUT):goldlog.launch();var l=spm_ab.split(".")[0];is_in_iframe||isTerminal||"a21bo.7724922"!=spm_ab&&"2013"!=l&&"a220o"!=l||createIframe("//cookiemapping.wrating.com/link.html")}if(is_in_iframe){getMetaAtpData();var u,m=_atp_beacon_data.on,d="1"==m?"//ac.mmstat.com/y.gif":tblog_beacon_url;d=isContain(hostsname,"wrating.com")?tblog_beacon_url:d,"1"!=m&&"2"!=m||!(u=_atp_beacon_data.chksum)||u!==util.makeChkSum(page_url).toString()||tblogSend(d,tblog_data)}util.on(win,"beforeunload",function(){recordValInWindowName()})}();var time_end=(new Date).getTime();setTimeout(function(){Math.random()>1e-4||goldlog.emit("global_sample",{type:"timer",t:time_end-time_start})},1)}}(),function(){function e(e){var t,a;try{return t=[].slice.call(e)}catch(r){t=[],a=e.length;for(var n=0;a>n;n++)t.push(e[n]);return t}}function t(e,t){return e&&e.getAttribute?e.getAttribute(t)||"":""}function a(e,t,a){if(e&&e.setAttribute)try{e.setAttribute(t,a)}catch(r){}}function r(e,t){if(e&&e.removeAttribute)try{e.removeAttribute(t)}catch(r){a(e,t,"")}}function n(e){var t,a=e.match(new RegExp("\\?.*spm=([\\w\\.\\-\\*/]+)"));return a&&(t=a[1])&&5==t.split(".").length?t:null}function i(e,t){return 0===e.indexOf(t)}function o(e){for(var t=["javascript:","tel:","sms:","mailto:","tmall://"],a=0,r=t.length;r>a;a++)if(i(e,t[a]))return!0}function s(e){return"string"==typeof e}function c(e){return"[object Array]"===Object.prototype.toString.call(e)}function l(e){return"number"==typeof e}function u(e,t){return e.indexOf(t)>=0}function m(e,t){return e.indexOf(t)>-1}function d(e,t){for(var a=0,r=t.length;r>a;a++)if(m(e,t[a]))return ve;return Ee}function p(e){return s(e)?e.replace(/^\s+|\s+$/g,""):""}function g(e){return"undefined"==typeof e}function f(e,t){var a=t||"";if(e)try{a=decodeURIComponent(e)}catch(r){}return a}function _(){return de=de||he.getElementsByTagName("head")[0],pe||(de?pe=de.getElementsByTagName("meta"):[])}function h(e,t){var a,r,n=e.split(";"),i=n.length;for(a=0;i>a;a++)r=n[a].split("="),t[p(r[0])||Fe]=f(p(r.slice(1).join("=")))}function b(){var e,a,r,n=_(),i=n.length;for(e=0;i>e;e++)if(a=n[e],"aplus-terminal"==t(a,"name")){r=t(a,"content");break}return r}function v(){var e,a,r,n,i=_();for(e=0,a=i.length;a>e;e++)r=i[e],n=t(r,"name"),n==Xe&&(ge=t(r,ze))}function E(e){var a,r,n,o,s,c,l=_();if(l)for(a=0,r=l.length;r>a;a++)if(o=l[a],s=t(o,"name"),s==e)return le=t(o,"content"),le.indexOf(":")>=0&&(n=le.split(":"),ge="i"==n[0]?"i":"u",le=n[1]),c=t(o,ze),c&&(ge="i"==c?"i":"u"),ue=i(le,"110"),ce=ue?ke:le,ve;return Ee}function S(){var e,a,r,n=_(),i=n.length;for(e=0;i>e;e++)if(a=n[e],"aplus-touch"==t(a,"name")){r=t(a,"content");break}return r}function A(){return Math.floor(268435456*Math.random()).toString(16)}function y(e){var t,a,r=[];for(t in e)e.hasOwnProperty(t)&&(a=""+e[t],r.push(i(t,Fe)?a:t+"="+encodeURIComponent(a)));return r.join("&")}function T(e){var t,a,r,n=[],o=e.length;for(r=0;o>r;r++)t=e[r][0],a=e[r][1],n.push(i(t,Fe)?a:t+"="+encodeURIComponent(a));return n.join("&")}function P(e){var t;try{t=p(e.getAttribute("href",2))}catch(a){}return t||""}function M(e,t,a){return"tap"==t?void w(e,a):void e[We]((Le?"on":"")+t,function(e){e=e||_e.event;var t=e.target||e.srcElement;a(t)},Ee)}function w(e,t){var a="ontouchend"in document.createElement("div"),r=a?"touchstart":"mousedown";M(e,r,function(e){t&&t(e)})}function R(e){var t=_e.KISSY;t?t.ready(e):_e.jQuery?jQuery(he).ready(e):"complete"===he.readyState?e():M(_e,"load",e)}function I(e,t){var a,r=new Image,n="_img_"+Math.random(),i=-1==e.indexOf("?")?"?":"&",o=t?c(t)?T(t):y(t):"";return _e[n]=r,r.onload=r.onerror=function(){_e[n]=null},r.src=a=o?e+i+o:e,r=null,a}function O(){var e;if(xe&&!Je&&(e=Se.match(/^[^?]+\?[^?]*spm=([^&#?]+)/),e&&(Je=e[1]+"_")),!g(ce))return ce;if(_e._SPM_a&&_e._SPM_b&&(oe=_e._SPM_a.replace(/^{(\w*|-\/)}$/g,"$1"),se=_e._SPM_b.replace(/^{(\w*|-\/)}$/g,"$1"),oe&&"-"!=oe&&se&&"-"!=se))return Ge=ve,ce=oe+"."+se,v(),ce;if(E(Xe)||E("spm-id"),!ce)return Ce=!0,ce=ke,ke;var a,r,n=he.getElementsByTagName("body");return n=n&&n.length?n[0]:null,n&&(a=t(n,Xe),a&&(r=ce.split("."),ce=r[0]+"."+a)),m(ce,".")||(Ce=!0,ce=ke),ce}function x(a,r){var n,i,o,s,c,l,u,m,d,p=[];for(n=e(a.getElementsByTagName("a")),i=e(a.getElementsByTagName("area")),s=n.concat(i),u=0,m=s.length;m>u;u++){for(l=!1,c=o=s[u];(c=c.parentNode)&&c!=a;)if(t(c,Xe)){l=!0;break}l||(d=t(o,Ke),r||"t"==d?r&&"t"==d&&p.push(o):p.push(o))}return p}function N(e,a,r,n){var o,c,m,d,p,g,f,_,h,b,v,E,S,A,y,T,M,w;if(a=a||e.getAttribute(Xe)||"",a&&(o=x(e,n),0!==o.length)){if(m=a.split("."),T=i(a,"110")&&3==m.length,T&&(M=m[2],m[2]="w"+(M||"0"),a=m.join(".")),s(E=O())&&E.match(/^[\w\-\*]+(\.[\w\-\*\/]+)?$/))if(u(a,".")){if(!i(a,E)){for(d=E.split("."),m=a.split("."),A=0,S=d.length;S>A;A++)m[A]=d[A];a=m.join(".")}}else u(E,".")||(E+=".0"),a=E+"."+a;if(a.match&&a.match(/^[\w\-\*]+\.[\w\-\*\/]+\.[\w\-\*\/]+$/)){var R=n?Ye:$e;for(w=parseInt(t(e,R))||0,y=0,p=w,S=o.length;S>y;y++)c=o[y],g=P(c),(n||g)&&(T&&c.setAttribute(Ze,M),f=c.getAttribute(et),f&&z(f)?j(c,f,r):(h=H(c.parentNode),h.a_spm_ab?(v=h.a_spm_ab,b=h.ab_idx):(v=void 0,p++,b=p),_=W(c)||b,n&&(_="at"+((l(_)?1e3:"")+_)),f=v?a+"-"+v+"."+_:a+"."+_,j(c,f,r)));e.setAttribute(R,p)}}}function k(e){var t,a=["mclick.simba.taobao.com","click.simba.taobao.com","click.tanx.com","click.mz.simba.taobao.com","click.tz.simba.taobao.com","redirect.simba.taobao.com","rdstat.tanx.com","stat.simba.taobao.com","s.click.taobao.com"],r=a.length;for(t=0;r>t;t++)if(-1!=e.indexOf(a[t]))return!0;return!1}function C(e){return e?!!e.match(/^[^\?]*\balipay\.(?:com|net)\b/i):Ee}function F(e){return e?!!e.match(/^[^\?]*\balipay\.(?:com|net)\/.*\?.*\bsign=.*/i):Ee}function D(e){for(var a;(e=e.parentNode)&&e.tagName!=Ve;)if(a=t(e,ze))return a;return""}function V(e,t){if(e&&/&?\bspm=[^&#]*/.test(e)&&(e=e.replace(/&?\bspm=[^&#]*/g,"").replace(/&{2,}/g,"&").replace(/\?&/,"?").replace(/\?$/,"")),!t)return e;var a,r,n,i,o,s,c,l="&";if(-1!=e.indexOf("#")&&(n=e.split("#"),e=n.shift(),r=n.join("#")),i=e.split("?"),o=i.length-1,n=i[0].split("//"),n=n[n.length-1].split("/"),s=n.length>1?n.pop():"",o>0&&(a=i.pop(),e=i.join("?")),a&&o>1&&-1==a.indexOf("&")&&-1!=a.indexOf("%")&&(l="%26"),e=e+"?spm="+Je+t+(a?l+a:"")+(r?"#"+r:""),c=m(s,".")?s.split(".").pop().toLowerCase():""){if({png:1,jpg:1,jpeg:1,gif:1,bmp:1,swf:1}.hasOwnProperty(c))return 0;!a&&1>=o&&(r||{htm:1,html:1,php:1,aspx:1}.hasOwnProperty(c)||(e+="&file="+s))}return e}function L(e){return e&&Se.split("#")[0]==e.split("#")[0]}function j(e,a,r){if(e.setAttribute(et,a),!r&&!t(e,Qe)&&(me=_e.g_aplus_pv_id,me&&(a+="."+me),me||ce&&ce!=ke)){var n=P(e),s="i"==(t(e,ze)||D(e)||ge),c=Ie+"tbspm.1.1?logtype=2&spm=";n&&!k(n)&&(s||!(i(n,"#")||L(n)||o(n.toLowerCase())||C(n)||F(n)))&&(s?(c+=a+"&url="+encodeURIComponent(n)+"&cache="+A(),fe==e&&I(c)):r||(n=V(n,a))&&U(e,n))}}function U(e,t){var a,r=e.innerHTML;r&&-1==r.indexOf("<")&&(a=he.createElement("b"),a.style.display="none",e.appendChild(a)),e.href=t,a&&e.removeChild(a)}function W(e){var a;return Ce?a="0":(a=t(e,Xe),a&&a.match(/^d\w+$/)||(a="")),a}function G(e){for(var t,a,r=e;e&&e.tagName!=De&&e.tagName!=Ve&&e.getAttribute;){if(a=e.getAttribute(Xe)){t=a,r=e;break}if(!(e=e.parentNode))break}return t&&!/^[\w\-\.\/]+$/.test(t)&&(t="0"),{spm_c:t,el:r}}function H(e){for(var a,r={},n="";e&&e.tagName!=De&&e.tagName!=Ve;){if(!n&&(n=t(e,tt))){a=parseInt(t(e,"data-spm-ab-max-idx"))||0,r.a_spm_ab=n,r.ab_idx=++a,e.setAttribute("data-spm-ab-max-idx",a);break}if(t(e,Xe))break;e=e.parentNode}return r}function B(e){var t;return e&&(t=e.match(/&?\bspm=([^&#]*)/))?t[1]:""}function X(e,t){var a=P(e),r=B(a),n=null,i=ce&&2==ce.split(".").length;return i?(n=[ce,0,W(e)||0],void j(e,n.join("."),t)):void(a&&r&&(a=a.replace(/&?\bspm=[^&#]*/g,"").replace(/&{2,}/g,"&").replace(/\?&/,"?").replace(/\?$/,"").replace(/\?#/,"#"),U(e,a)))}function z(e){var t=e.split(".");return t[0]+"."+t[1]==ce}function q(e,a){fe=e,Ge&&J();var r,n,i=t(e,et);if(i&&z(i))j(e,i,a);else{if(r=G(e.parentNode),n=r.spm_c,!n)return void X(e,a);Ce&&(n="0"),N(r.el,n,a),N(r.el,n,a,!0)}}function Q(t){if(t&&1==t.nodeType){r(t,$e),r(t,Ye);var a,n=e(t.getElementsByTagName("a")),i=e(t.getElementsByTagName("area")),o=n.concat(i),s=o.length;for(a=0;s>a;a++)r(o[a],et)}}function K(e){var t=e.parentNode;if(!t)return"";var a=e.getAttribute(Xe),r=G(t),n=r.spm_c||0;n&&-1!=n.indexOf(".")&&(n=n.split("."),n=n[n.length-1]);var i=ce+"."+n,o=Ne[i]||0;return o++,Ne[i]=o,a=a||o,i+".i"+a}function $(e){var a,r=e.tagName;return me=_e.g_aplus_pv_id,"A"!=r&&"AREA"!=r?a=K(e):(q(e,ve),a=t(e,et)),a=(a||"0.0.0.0").split("."),{a:a[0],b:a[1],c:a[2],d:a[3],e:me}}function Y(e,t){if(t||(t=he),he.evaluate)return t.evaluate(e,he,null,9,null).singleNodeValue;for(var a,r=e.split("/");!a&&r.length>0;)a=r.shift();var n,i=/^.+?\[@id="(.+?)"]$/i,o=/^(.+?)\[(\d+)]$/i;return(n=a.match(i))?t=t.getElementById(n[1]):(n=a.match(o))&&(t=t.getElementsByTagName(n[1])[parseInt(n[2])-1]),t?0===r.length?t:Y(r.join("/"),t):null}function J(){var e,t,r,n={};for(e in He)He.hasOwnProperty(e)&&(t=Y(e),t&&(n[e]=1,r=He[e],a(t,Xe,("A"==t.tagName?r.spmd:r.spmc)||"")));for(e in n)n.hasOwnProperty(e)&&delete He[e]}function Z(){if(!Be){if(!_e.spmData)return void(Oe||setTimeout(arguments.callee,100));Be=ve;var e,t,a,r,n=_e.spmData.data;if(n&&c(n)){for(e=0,t=n.length;t>e;e++)a=n[e],r=a.xpath,r=r.replace(/^id\("(.+?)"\)(.*)/g,'//*[@id="$1"]$2'),He[r]={spmc:a.spmc,spmd:a.spmd};J()}}}function ee(){
+var e,a,r,n,i=he.getElementsByTagName("iframe"),o=i.length;for(a=0;o>a;a++)e=i[a],!e.src&&(r=t(e,qe))&&(n=$(e),n?(n=[n.a,n.b,n.c,n.d,n.e].join("."),e.src=V(r,n)):e.src=r)}function te(){function e(){t++,t>10&&(a=3e3),ee(),setTimeout(e,a)}var t=0,a=500;e()}function ae(e,t){var a,r,o="gostr",s="locaid",c={};if(h(t,c),a=c[o],r=c[s],a&&r){i(a,"/")&&(a=a.substr(1));var l=$(e),u=[l.a,l.b,l.c,r].join("."),m=a+"."+u,d=["logtype=2","cache="+Math.random(),"autosend=1","spm-cnt="+[l.a,l.b].join(".")+".0.0"],p=n(Se);p&&d.push("spm-pre="+p);var g;for(g in c)c.hasOwnProperty(g)&&g!=o&&g!=s&&d.push(g+"="+c[g]);d.length>0&&(m+="?"+d.join("&"));var f,_={gmkey:"",gokey:d.length>0?d.join("&"):""};setTimeout(function(){if(we&&_e.goldlog&&_e.goldlog.call&&(f=_e.goldlog.windVaneData)){try{_=JSON.stringify(_),"{}"==_&&(_="")}catch(e){_=""}f.functype="2101",f.logkey="/"+a+"."+u,f.logkeyargs=_,f.extendargs="",delete f.spmcnt,delete f.spmpre,delete f.lzsid,_e.goldlog.call("WVTBUserTrack","toUT",f)}},300),I(Ie+m),e.setAttribute(et,u)}}function re(e){for(var a;e&&e.tagName!=De;){a=t(e,Qe);{if(a){ae(e,a);break}e=e.parentNode}}}function ne(){we&&Re?M(he,"tap",re):M(he,"mousedown",re)}function ie(e){for(var t;e&&(t=e.tagName);){if("A"==t||"AREA"==t){q(e,Ee),_e.g_SPM&&(g_SPM._current_spm=$(e));break}if(t==Ve||t==De)break;e=e.parentNode}}var oe,se,ce,le,ue,me,de,pe,ge,fe,_e=window,he=document,be=location,ve=!0,Ee=!1,Se=be.href,Ae=be.protocol,ye="https:"==Ae,Te=ye?Ae:"http:",Pe=be.host,Me=/TB\-PD/i.test(navigator.userAgent),we=Me?!0:b(),Re=S(),Ie=Te+(we?"//wgo.mmstat.com/":"//gm.mmstat.com/"),Oe=Ee,xe=parent!==_e.self,Ne={},ke="0.0",Ce=!1,Fe="::-plain-::",De="HTML",Ve="BODY",Le=!!he.attachEvent,je="attachEvent",Ue="addEventListener",We=Le?je:Ue,Ge=Ee,He={},Be=Ee,Xe="data-spm",ze="data-spm-protocol",qe="data-spm-src",Qe="data-spm-click",Ke="data-auto-spmd",$e="data-spm-max-idx",Ye="data-auto-spmd-max-idx",Je="",Ze="data-spm-wangpu-module-id",et="data-spm-anchor-id",tt="data-spm-ab",at=["xiaobai.com","admin.taobao.org","aliloan.com","mybank.cn"],rt=["tmc.admin.taobao.org"];(!d(Pe,at)||d(Pe,rt))&&(R(function(){Oe=ve}),O(),Z(),we||te(),ne(),we&&Re?M(he,"tap",ie):(M(he,"mousedown",ie),M(he,"keydown",ie)),_e.g_SPM={resetModule:Q,anchorBeacon:q,getParam:$})}(),function(){function e(e,t,a){e[A]((v?"on":"")+t,function(e){e=e||l.event;var t=e.target||e.srcElement;a(e,t)},!1)}function t(){return/&?\bspm=[^&#]*/.test(location.href)?location.href.match(/&?\bspm=[^&#]*/gi)[0].split("=")[1]:""}function a(e,t){if(e&&/&?\bspm=[^&#]*/.test(e)&&(e=e.replace(/&?\bspm=[^&#]*/g,"").replace(/&{2,}/g,"&").replace(/\?&/,"?").replace(/\?$/,"")),!t)return e;var a,r,n,i,o,s,c,l="&";if(-1!=e.indexOf("#")&&(n=e.split("#"),e=n.shift(),r=n.join("#")),i=e.split("?"),o=i.length-1,n=i[0].split("//"),n=n[n.length-1].split("/"),s=n.length>1?n.pop():"",o>0&&(a=i.pop(),e=i.join("?")),a&&o>1&&-1==a.indexOf("&")&&-1!=a.indexOf("%")&&(l="%26"),e=e+"?spm="+t+(a?l+a:"")+(r?"#"+r:""),c=s.indexOf(".")>-1?s.split(".").pop().toLowerCase():""){if({png:1,jpg:1,jpeg:1,gif:1,bmp:1,swf:1}.hasOwnProperty(c))return 0;!a&&1>=o&&(r||{htm:1,html:1,php:1}.hasOwnProperty(c)||(e+="&file="+s))}return e}function r(e){function t(e){return e=e.replace(/refpos[=(%3D)]\w*/gi,s).replace(i,"%3D"+r+"%26"+n.replace("=","%3D")).replace(o,r),n.length>0&&(e+="&"+n),e}var a=window.location.href,r=a.match(/mm_\d{0,24}_\d{0,24}_\d{0,24}/i),n=a.match(/[&\?](pvid=[^&]*)/i),i=new RegExp("%3Dmm_\\d+_\\d+_\\d+","ig"),o=new RegExp("mm_\\d+_\\d+_\\d+","ig");n=n&&n[1]?n[1]:"";var s=a.match(/(refpos=(\d{0,24}_\d{0,24}_\d{0,24})?(,[a-z]+)?)(,[a-z]+)?/i);return s=s&&s[0]?s[0]:"",r?(r=r[0],t(e)):e}function n(t){var a=l.KISSY;a?a.ready(t):l.jQuery?jQuery(u).ready(t):"complete"===u.readyState?t():e(l,"load",t)}function i(e,t){return e&&e.getAttribute?e.getAttribute(t)||"":""}function o(e){if(e){var t,a=b.length;for(t=0;a>t;t++)if(e.indexOf(b[t])>-1)return!0;return!1}}function s(e,t){if(e&&/&?\bspm=[^&#]*/.test(e)&&(e=e.replace(/&?\bspm=[^&#]*/g,"").replace(/&{2,}/g,"&").replace(/\?&/,"?").replace(/\?$/,"")),!t)return e;var a,r,n,i,o,s,c,l="&";if(-1!=e.indexOf("#")&&(n=e.split("#"),e=n.shift(),r=n.join("#")),i=e.split("?"),o=i.length-1,n=i[0].split("//"),n=n[n.length-1].split("/"),s=n.length>1?n.pop():"",o>0&&(a=i.pop(),e=i.join("?")),a&&o>1&&-1==a.indexOf("&")&&-1!=a.indexOf("%")&&(l="%26"),e=e+"?spm="+t+(a?l+a:"")+(r?"#"+r:""),c=s.indexOf(".")>-1?s.split(".").pop().toLowerCase():""){if({png:1,jpg:1,jpeg:1,gif:1,bmp:1,swf:1}.hasOwnProperty(c))return 0;!a&&1>=o&&(r||{htm:1,html:1,php:1}.hasOwnProperty(c)||(e+="&__file="+s))}return e}function c(e){if(o(e.href)){var a=i(e,h);if(!a){if(!g)return;var r=g(e),n=[r.a,r.b,r.c,r.d,r.e].join(".");f&&(n=[r.a||"0",r.b||"0",r.c||"0",r.d||"0"].join("."),n=(t()||"0.0.0.0.0")+"_"+n);var c=s(e.href,n);e.href=c,e.setAttribute(h,n)}}e=void 0}var l=window,u=document,m=location,d=(m.href,l._alimm_spmact_on_);if("undefined"==typeof d&&(d=1),1==d&&(d=1),0==d&&(d=0),d){var p=function(){return{a:0,b:0,c:0,d:0,e:0}},g=l.g_SPM&&l.g_SPM.getParam?l.g_SPM.getParam:p,f=!0;try{f=self.location!=top.location}catch(_){}var h="data-spm-act-id",b=["mclick.simba.taobao.com","click.simba.taobao.com","click.tanx.com","click.mz.simba.taobao.com","click.tz.simba.taobao.com","redirect.simba.taobao.com","rdstat.tanx.com","stat.simba.taobao.com","s.click.taobao.com"],v=!!u.attachEvent,E="attachEvent",S="addEventListener",A=v?E:S;e(u,"mousedown",function(e,t){for(var a,r=0;t&&(a=t.tagName)&&5>r;){if("A"==a||"AREA"==a){c(t);break}if("BODY"==a||"HTML"==a)break;t=t.parentNode,r++}}),n(function(){for(var e,n,o=document.getElementsByTagName("iframe"),s=0;s<o.length;s++){e=i(o[s],"mmsrc"),n=i(o[s],"mmworked");var c=g(o[s]),l=[c.a||"0",c.b||"0",c.c||"0",c.d||"0",c.e||"0"].join(".");e&&!n?(f&&(l=[c.a||"0",c.b||"0",c.c||"0",c.d||"0"].join("."),l=t()+"_"+l),o[s].src=a(r(e),l),o[s].setAttribute("mmworked","mmworked")):o[s].setAttribute(h,l)}})}}()},{"./config":1,"./lib/client":3,"./lib/etag":5,"./lib/fingerprint":6,"./lib/log":7,"./lib/makeid":8,"./lib/misc":9,"./lib/nameStorage":10,"./lib/rule":11,"./lib/util":13}],3:[function(e,t,a){"use strict";!function(e,t){var a=2,r="ali_analytics";if(!(e[r]&&e[r].ua&&a<=e[r].ua.version)){var n,i,o,s,c,l,u,m,d,p,g,f,_,h,b,v,E,S=e.navigator,A=S.appVersion,y=S&&S.userAgent||"",T=function(e){var t=0;return parseFloat(e.replace(/\./g,function(){return 0===t++?".":""}))},P=function(e,t){var a,r;t[a="trident"]=.1,(r=e.match(/Trident\/([\d.]*)/))&&r[1]&&(t[a]=T(r[1])),t.core=a},M=function(e){var t,a;return(t=e.match(/MSIE ([^;]*)|Trident.*; rv(?:\s|:)?([0-9.]+)/))&&(a=t[1]||t[2])?T(a):0},w=function(e){return e||"other"},R=function(a){function r(){for(var e=[["Windows NT 5.1","winXP"],["Windows NT 6.1","win7"],["Windows NT 6.0","winVista"],["Windows NT 6.2","win8"],["Windows NT 10.0","win10"],["iPad","ios"],["iPhone;","ios"],["iPod","ios"],["Macintosh","mac"],["Android","android"],["Ubuntu","ubuntu"],["Linux","linux"],["Windows NT 5.2","win2003"],["Windows NT 5.0","win2000"],["Windows","winOther"],["rhino","rhino"]],t=0,r=e.length;r>t;++t)if(-1!==a.indexOf(e[t][0]))return e[t][1];return"other"}function n(t,a,r,n){var i,o=e.navigator.mimeTypes;try{for(i in o)if(o.hasOwnProperty(i)&&o[i][t]==a){if(void 0!==r&&n.test(o[i][r]))return!0;if(void 0===r)return!0}return!1}catch(s){return!1}}var i,o,s,c,l,u,m,d="",p=d,g=d,f=[6,9],_="{{version}}",h="<!--[if IE "+_+"]><s></s><![endif]-->",b=t&&t.createElement("div"),v=[],E={webkit:void 0,edge:void 0,trident:void 0,gecko:void 0,presto:void 0,chrome:void 0,safari:void 0,firefox:void 0,ie:void 0,ieMode:void 0,opera:void 0,mobile:void 0,core:void 0,shell:void 0,phantomjs:void 0,os:void 0,ipad:void 0,iphone:void 0,ipod:void 0,ios:void 0,android:void 0,nodejs:void 0,extraName:void 0,extraVersion:void 0};if(b&&b.getElementsByTagName&&(b.innerHTML=h.replace(_,""),v=b.getElementsByTagName("s")),v.length>0){for(P(a,E),c=f[0],l=f[1];l>=c;c++)if(b.innerHTML=h.replace(_,c),v.length>0){E[g="ie"]=c;break}!E.ie&&(s=M(a))&&(E[g="ie"]=s)}else((o=a.match(/AppleWebKit\/*\s*([\d.]*)/i))||(o=a.match(/Safari\/([\d.]*)/)))&&o[1]?(E[p="webkit"]=T(o[1]),(o=a.match(/OPR\/(\d+\.\d+)/))&&o[1]?E[g="opera"]=T(o[1]):(o=a.match(/Chrome\/([\d.]*)/))&&o[1]?E[g="chrome"]=T(o[1]):(o=a.match(/\/([\d.]*) Safari/))&&o[1]?E[g="safari"]=T(o[1]):E.safari=E.webkit,(o=a.match(/Edge\/([\d.]*)/))&&o[1]&&(p=g="edge",E[p]=T(o[1])),/ Mobile\//.test(a)&&a.match(/iPad|iPod|iPhone/)?(E.mobile="apple",o=a.match(/OS ([^\s]*)/),o&&o[1]&&(E.ios=T(o[1].replace("_","."))),i="ios",o=a.match(/iPad|iPod|iPhone/),o&&o[0]&&(E[o[0].toLowerCase()]=E.ios)):/ Android/i.test(a)?(/Mobile/.test(a)&&(i=E.mobile="android"),o=a.match(/Android ([^\s]*);/),o&&o[1]&&(E.android=T(o[1]))):(o=a.match(/NokiaN[^\/]*|Android \d\.\d|webOS\/\d\.\d/))&&(E.mobile=o[0].toLowerCase()),(o=a.match(/PhantomJS\/([^\s]*)/))&&o[1]&&(E.phantomjs=T(o[1]))):(o=a.match(/Presto\/([\d.]*)/))&&o[1]?(E[p="presto"]=T(o[1]),(o=a.match(/Opera\/([\d.]*)/))&&o[1]&&(E[g="opera"]=T(o[1]),(o=a.match(/Opera\/.* Version\/([\d.]*)/))&&o[1]&&(E[g]=T(o[1])),(o=a.match(/Opera Mini[^;]*/))&&o?E.mobile=o[0].toLowerCase():(o=a.match(/Opera Mobi[^;]*/))&&o&&(E.mobile=o[0]))):(s=M(a))?(E[g="ie"]=s,P(a,E)):(o=a.match(/Gecko/))&&(E[p="gecko"]=.1,(o=a.match(/rv:([\d.]*)/))&&o[1]&&(E[p]=T(o[1]),/Mobile|Tablet/.test(a)&&(E.mobile="firefox")),(o=a.match(/Firefox\/([\d.]*)/))&&o[1]&&(E[g="firefox"]=T(o[1])));i||(i=r());var S,y,w;if(!n("type","application/vnd.chromium.remoting-viewer")){S="scoped"in t.createElement("style"),w="v8Locale"in e;try{y=e.external||void 0}catch(R){}if(o=a.match(/360SE/))u="360";else if((o=a.match(/SE\s([\d.]*)/))||y&&"SEVersion"in y)u="sougou",m=T(o[1])||.1;else if((o=a.match(/Maxthon(?:\/)+([\d.]*)/))&&y){u="maxthon";try{m=T(y.max_version||o[1])}catch(I){m=.1}}else S&&w?u="360se":S||w||!/Gecko\)\s+Chrome/.test(A)||E.opera||E.edge||(u="360ee")}return(o=a.match(/TencentTraveler\s([\d.]*)|QQBrowser\/([\d.]*)/))?(u="tt",m=T(o[2])||.1):(o=a.match(/LBBROWSER/))||y&&"LiebaoGetVersion"in y?u="liebao":(o=a.match(/TheWorld/))?(u="theworld",m=3):(o=a.match(/TaoBrowser\/([\d.]*)/))?(u="taobao",m=T(o[1])||.1):(o=a.match(/UCBrowser\/([\d.]*)/))&&(u="uc",m=T(o[1])||.1),E.os=i,E.core=E.core||p,E.shell=g,E.ieMode=E.ie&&t.documentMode||E.ie,E.extraName=u,E.extraVersion=m,E.resolution=e.screen.width+"x"+e.screen.height,E},I=function(e){function t(e){return Object.prototype.toString.call(e)}function a(e,a,r){if("[object Function]"==t(a)&&(a=a(r)),!a)return null;var n={name:e,version:""},i=t(a);if(a===!0)return n;if("[object String]"===i){if(-1!==r.indexOf(a))return n}else if(a.exec){var o=a.exec(r);if(o)return o.length>=2&&o[1]?n.version=o[1].replace(/_/g,"."):n.version="",n}}var r={name:"other",version:""};e=(e||"").toLowerCase();for(var n=[["nokia",function(e){return-1!==e.indexOf("nokia ")?/\bnokia ([0-9]+)?/:/\bnokia([a-z0-9]+)?/}],["samsung",function(e){return-1!==e.indexOf("samsung")?/\bsamsung(?:[ \-](?:sgh|gt|sm))?-([a-z0-9]+)/:/\b(?:sgh|sch|gt|sm)-([a-z0-9]+)/}],["wp",function(e){return-1!==e.indexOf("windows phone ")||-1!==e.indexOf("xblwp")||-1!==e.indexOf("zunewp")||-1!==e.indexOf("windows ce")}],["pc","windows"],["ipad","ipad"],["ipod","ipod"],["iphone",/\biphone\b|\biph(\d)/],["mac","macintosh"],["mi",/\bmi[ \-]?([a-z0-9 ]+(?= build|\)))/],["hongmi",/\bhm[ \-]?([a-z0-9]+)/],["aliyun",/\baliyunos\b(?:[\-](\d+))?/],["meizu",function(e){return e.indexOf("meizu")>=0?/\bmeizu[\/ ]([a-z0-9]+)\b/:/\bm([0-9x]{1,3})\b/}],["nexus",/\bnexus ([0-9s.]+)/],["huawei",function(e){var t=/\bmediapad (.+?)(?= build\/huaweimediapad\b)/;return-1!==e.indexOf("huawei-huawei")?/\bhuawei\-huawei\-([a-z0-9\-]+)/:t.test(e)?t:/\bhuawei[ _\-]?([a-z0-9]+)/}],["lenovo",function(e){return-1!==e.indexOf("lenovo-lenovo")?/\blenovo\-lenovo[ \-]([a-z0-9]+)/:/\blenovo[ \-]?([a-z0-9]+)/}],["zte",function(e){return/\bzte\-[tu]/.test(e)?/\bzte-[tu][ _\-]?([a-su-z0-9\+]+)/:/\bzte[ _\-]?([a-su-z0-9\+]+)/}],["vivo",/\bvivo(?: ([a-z0-9]+))?/],["htc",function(e){return/\bhtc[a-z0-9 _\-]+(?= build\b)/.test(e)?/\bhtc[ _\-]?([a-z0-9 ]+(?= build))/:/\bhtc[ _\-]?([a-z0-9 ]+)/}],["oppo",/\boppo[_]([a-z0-9]+)/],["konka",/\bkonka[_\-]([a-z0-9]+)/],["sonyericsson",/\bmt([a-z0-9]+)/],["coolpad",/\bcoolpad[_ ]?([a-z0-9]+)/],["lg",/\blg[\-]([a-z0-9]+)/],["android",/\bandroid\b|\badr\b/],["blackberry",function(e){return e.indexOf("blackberry")>=0?/\bblackberry\s?(\d+)/:"bb10"}]],i=0;i<n.length;i++){var o=n[i][0],s=n[i][1],c=a(o,s,e);if(c){r=c;break}}return r},O=1;try{n=R(y),i=I(y),o=n.os,s=n.shell,c=n.core,l=n.resolution,u=n.extraName,m=n.extraVersion,d=i.name,p=i.version,f=o?o+(n[o]?n[o]:""):"",_=s?s+parseInt(n[s]):"",h=c,b=l,v=u?u+(m?parseInt(m):""):"",E=d+p}catch(x){}g={p:O,o:w(f),b:w(_),w:w(h),s:b,mx:v,ism:E},e[r]||(e[r]={}),e[r].ua||(e[r].ua={}),e[r].ua={version:a,ua_info:g}}}(window,document)},{}],4:[function(e,t,a){function r(e,t){var a=(65535&e)+(65535&t),r=(e>>16)+(t>>16)+(a>>16);return r<<16|65535&a}function n(e,t){return e<<t|e>>>32-t}function i(e,t,a,i,o,s){return r(n(r(r(t,e),r(i,s)),o),a)}function o(e,t,a,r,n,o,s){return i(t&a|~t&r,e,t,n,o,s)}function s(e,t,a,r,n,o,s){return i(t&r|a&~r,e,t,n,o,s)}function c(e,t,a,r,n,o,s){return i(t^a^r,e,t,n,o,s)}function l(e,t,a,r,n,o,s){return i(a^(t|~r),e,t,n,o,s)}function u(e,t){e[t>>5]|=128<<t%32,e[(t+64>>>9<<4)+14]=t;var a,n,i,u,m,d=1732584193,p=-271733879,g=-1732584194,f=271733878;for(a=0;a<e.length;a+=16)n=d,i=p,u=g,m=f,d=o(d,p,g,f,e[a],7,-680876936),f=o(f,d,p,g,e[a+1],12,-389564586),g=o(g,f,d,p,e[a+2],17,606105819),p=o(p,g,f,d,e[a+3],22,-1044525330),d=o(d,p,g,f,e[a+4],7,-176418897),f=o(f,d,p,g,e[a+5],12,1200080426),g=o(g,f,d,p,e[a+6],17,-1473231341),p=o(p,g,f,d,e[a+7],22,-45705983),d=o(d,p,g,f,e[a+8],7,1770035416),f=o(f,d,p,g,e[a+9],12,-1958414417),g=o(g,f,d,p,e[a+10],17,-42063),p=o(p,g,f,d,e[a+11],22,-1990404162),d=o(d,p,g,f,e[a+12],7,1804603682),f=o(f,d,p,g,e[a+13],12,-40341101),g=o(g,f,d,p,e[a+14],17,-1502002290),p=o(p,g,f,d,e[a+15],22,1236535329),d=s(d,p,g,f,e[a+1],5,-165796510),f=s(f,d,p,g,e[a+6],9,-1069501632),g=s(g,f,d,p,e[a+11],14,643717713),p=s(p,g,f,d,e[a],20,-373897302),d=s(d,p,g,f,e[a+5],5,-701558691),f=s(f,d,p,g,e[a+10],9,38016083),g=s(g,f,d,p,e[a+15],14,-660478335),p=s(p,g,f,d,e[a+4],20,-405537848),d=s(d,p,g,f,e[a+9],5,568446438),f=s(f,d,p,g,e[a+14],9,-1019803690),g=s(g,f,d,p,e[a+3],14,-187363961),p=s(p,g,f,d,e[a+8],20,1163531501),d=s(d,p,g,f,e[a+13],5,-1444681467),f=s(f,d,p,g,e[a+2],9,-51403784),g=s(g,f,d,p,e[a+7],14,1735328473),p=s(p,g,f,d,e[a+12],20,-1926607734),d=c(d,p,g,f,e[a+5],4,-378558),f=c(f,d,p,g,e[a+8],11,-2022574463),g=c(g,f,d,p,e[a+11],16,1839030562),p=c(p,g,f,d,e[a+14],23,-35309556),d=c(d,p,g,f,e[a+1],4,-1530992060),f=c(f,d,p,g,e[a+4],11,1272893353),g=c(g,f,d,p,e[a+7],16,-155497632),p=c(p,g,f,d,e[a+10],23,-1094730640),d=c(d,p,g,f,e[a+13],4,681279174),f=c(f,d,p,g,e[a],11,-358537222),g=c(g,f,d,p,e[a+3],16,-722521979),p=c(p,g,f,d,e[a+6],23,76029189),d=c(d,p,g,f,e[a+9],4,-640364487),f=c(f,d,p,g,e[a+12],11,-421815835),g=c(g,f,d,p,e[a+15],16,530742520),p=c(p,g,f,d,e[a+2],23,-995338651),d=l(d,p,g,f,e[a],6,-198630844),f=l(f,d,p,g,e[a+7],10,1126891415),g=l(g,f,d,p,e[a+14],15,-1416354905),p=l(p,g,f,d,e[a+5],21,-57434055),d=l(d,p,g,f,e[a+12],6,1700485571),f=l(f,d,p,g,e[a+3],10,-1894986606),g=l(g,f,d,p,e[a+10],15,-1051523),p=l(p,g,f,d,e[a+1],21,-2054922799),d=l(d,p,g,f,e[a+8],6,1873313359),f=l(f,d,p,g,e[a+15],10,-30611744),g=l(g,f,d,p,e[a+6],15,-1560198380),p=l(p,g,f,d,e[a+13],21,1309151649),d=l(d,p,g,f,e[a+4],6,-145523070),f=l(f,d,p,g,e[a+11],10,-1120210379),g=l(g,f,d,p,e[a+2],15,718787259),p=l(p,g,f,d,e[a+9],21,-343485551),d=r(d,n),p=r(p,i),g=r(g,u),f=r(f,m);return[d,p,g,f]}function m(e){var t,a="";for(t=0;t<32*e.length;t+=8)a+=String.fromCharCode(e[t>>5]>>>t%32&255);return a}function d(e){var t,a=[];for(a[(e.length>>2)-1]=void 0,t=0;t<a.length;t+=1)a[t]=0;for(t=0;t<8*e.length;t+=8)a[t>>5]|=(255&e.charCodeAt(t/8))<<t%32;return a}function p(e){return m(u(d(e),8*e.length))}function g(e,t){var a,r,n=d(e),i=[],o=[];for(i[15]=o[15]=void 0,n.length>16&&(n=u(n,8*e.length)),a=0;16>a;a+=1)i[a]=909522486^n[a],o[a]=1549556828^n[a];return r=u(i.concat(d(t)),512+8*t.length),m(u(o.concat(r),640))}function f(e){var t,a,r="0123456789abcdef",n="";for(a=0;a<e.length;a+=1)t=e.charCodeAt(a),n+=r.charAt(t>>>4&15)+r.charAt(15&t);return n}function _(e){return unescape(encodeURIComponent(e))}function h(e){return p(_(e))}function b(e){return f(h(e))}function v(e,t){return g(_(e),_(t))}function E(e,t){return f(v(e,t))}function S(e,t,a){return t?a?v(t,e):E(t,e):a?h(e):b(e)}t.exports=S},{}],5:[function(e,t,a){function r(e,t){var a=new Date;a.setTime(a.getTime()+31536e7),t+="; expires="+a.toUTCString(),t+="; domain="+i.getDomain(location.hostname),t+="; path=/",o.cookie=e+"="+t}function n(e,t){function a(e){r.onreadystatechange=r.onload=r.onerror=null,r=null,t(e)}var r=o.createElement("script");if(r.async=!0,"onload"in r)r.onload=a;else{var n=function(){/loaded|complete/.test(r.readyState)&&a()};r.onreadystatechange=n,n()}r.onerror=function(){a(1)},r.src=e,s.appendChild(r)}var i=e("./tld"),o=document,s=o.head||o.getElementsByTagName("head")[0],c=0,l=-1,u="",m=!1;t.exports={init:function(e){if(e)return void(c=1);var t=null;m=!0,n("https://log.mmstat.com/eg.js",function(e){e&&(l=-3),m&&(m=!1,goldlog.Etag&&(u=goldlog.Etag,r("cna",u)),"undefined"!=typeof goldlog.stag&&(l=goldlog.stag),clearTimeout(t))}),t=setTimeout(function(){m=!1,l=-2},1e3)},inject:function(e,t){var a=function(r,n){return n?!c&&m?void setTimeout(function(){a(r,n)},50):(n.push(["tag",c]),n.push(["stag",l]),!c&&u&&n.unshift([t(),"cna="+u]),e(r,n)):void 0};return a}}},{"./tld":12}],6:[function(e,t,a){"use strict";function r(e){return function(t){return{}.toString.call(t)==="[object "+e+"]"}}function n(e){return"function"==typeof _?_(e):""}function i(){var e=p.createElement("canvas"),t=null;try{t=e.getContext("webgl")||e.getContext("experimental-webgl")}catch(a){}return t||(t=null),t}function o(e){d.localStorage&&localStorage.setItem&&localStorage.setItem(f,_(e))}function s(){if(d.localStorage&&localStorage.getItem){var e=localStorage.getItem(f);if(e){try{e=JSON.parse(e)}catch(t){}return e}}}var c,l,u,m=e("./encrypt/md5"),d=window,p=document,g=navigator,f="aplus_fp",_=d.JSON&&JSON.stringify,h=r("Function"),b=function(e,t,a){if(e){var r=0,n=e.length;if(n===+n)for(;n>r&&t.call(a,e[r],r,e)!==!1;r++);else for(r in e)if(e.hasOwnProperty(r)&&t.call(a,e[r],r,e)===!1)break}},v=[],E={},S=function(e,t){h(t)&&(t=t()),v.push({k:e,v:t})},A=function(){u||(u=1,E.canvas=function(){var e=p.createElement("canvas");return e.getContext&&e.getContext("2d")}(),E.plugins="undefined"!=typeof g.plugins,E.webgl=function(){if(!E.canvas)return!1;var e,t=p.createElement("canvas");try{e=t.getContext&&(t.getContext("webgl")||t.getContext("experimental-webgl"))}catch(a){e=!1}return!!d.WebGLRenderingContext&&!!e}(),S("ua",g.userAgent),S("platform",g.platform),S("language",g.language),S("doNotTrack",g.doNotTrack||"unknown"),S("cookieEnabled",g.cookieEnabled),S("colorDepth",d.screen.colorDepth),S("screenWidth",d.screen.width),S("screenHeight",d.screen.height),S("timezoneOffset",(new Date).getTimezoneOffset()),S("hasSessionStorage",function(){try{return!!d.sessionStorage}catch(e){return!0}}),S("hasLocalStorage",function(){try{return!!d.localStorage}catch(e){return!0}}),S("hasIndexedDB",!!d.indexedDB),E.canvas&&S("canvasFP",function(){var e=[],t=p.createElement("canvas");t.width=2e3,t.height=200,t.style.display="inline";var a=t.getContext("2d");return a.rect(0,0,10,10),a.rect(2,2,6,6),e.push("canvas winding:"+(a.isPointInPath(5,5,"evenodd")===!1?"yes":"no")),a.textBaseline="alphabetic",a.fillStyle="#f60",a.fillRect(125,1,62,20),a.fillStyle="#069",a.font="12px 'Arial'",a.fillText("Cwm fjordbank glyphs vext quiz",2,15),a.fillStyle="rgba(102, 204, 0, 0.7)",a.font="18px 'Arial'",a.fillText("Cwm fjordbank glyphs vext quiz",4,45),a.globalCompositeOperation="multiply",a.fillStyle="rgb(255,0,255)",a.beginPath(),a.arc(50,50,50,0,2*Math.PI,!0),a.closePath(),a.fill(),a.fillStyle="rgb(0,255,255)",a.beginPath(),a.arc(100,50,50,0,2*Math.PI,!0),a.closePath(),a.fill(),a.fillStyle="rgb(255,255,0)",a.beginPath(),a.arc(75,100,50,0,2*Math.PI,!0),a.closePath(),a.fill(),a.fillStyle="rgb(255,0,255)",a.arc(75,75,75,0,2*Math.PI,!0),a.arc(75,75,25,0,2*Math.PI,!0),a.fill("evenodd"),e.push("canvas fp:"+t.toDataURL()),c=e.join("~")}),E.webgl&&S("webglFP",function(){var e,t=function(t){return e.clearColor(0,0,0,1),e.enable(e.DEPTH_TEST),e.depthFunc(e.LEQUAL),e.clear(e.COLOR_BUFFER_BIT|e.DEPTH_BUFFER_BIT),"["+t[0]+", "+t[1]+"]"},a=function(e){var t,a=e.getExtension("EXT_texture_filter_anisotropic")||e.getExtension("WEBKIT_EXT_texture_filter_anisotropic")||e.getExtension("MOZ_EXT_texture_filter_anisotropic");return a?(t=e.getParameter(a.MAX_TEXTURE_MAX_ANISOTROPY_EXT),0===t&&(t=2),t):null};if(e=i(),!e)return null;var r=[],n="attribute vec2 attrVertex;varying vec2 varyinTexCoordinate;uniform vec2 uniformOffset;void main(){varyinTexCoordinate=attrVertex+uniformOffset;gl_Position=vec4(attrVertex,0,1);}",o="precision mediump float;varying vec2 varyinTexCoordinate;void main() {gl_FragColor=vec4(varyinTexCoordinate,0,1);}",s=e.createBuffer();e.bindBuffer(e.ARRAY_BUFFER,s);var c=new Float32Array([-.2,-.9,0,.4,-.26,0,0,.732134444,0]);e.bufferData(e.ARRAY_BUFFER,c,e.STATIC_DRAW),s.itemSize=3,s.numItems=3;var u=e.createProgram(),m=e.createShader(e.VERTEX_SHADER);e.shaderSource(m,n),e.compileShader(m);var d=e.createShader(e.FRAGMENT_SHADER);return e.shaderSource(d,o),e.compileShader(d),e.attachShader(u,m),e.attachShader(u,d),e.linkProgram(u),e.useProgram(u),u.vertexPosAttrib=e.getAttribLocation(u,"attrVertex"),u.offsetUniform=e.getUniformLocation(u,"uniformOffset"),e.enableVertexAttribArray(u.vertexPosArray),e.vertexAttribPointer(u.vertexPosAttrib,s.itemSize,e.FLOAT,!1,0,0),e.uniform2f(u.offsetUniform,1,1),e.drawArrays(e.TRIANGLE_STRIP,0,s.numItems),e.canvas&&r.push(e.canvas.toDataURL()),r.push("1"+e.getSupportedExtensions().join(";")),r.push("2"+t(e.getParameter(e.ALIASED_LINE_WIDTH_RANGE))),r.push("3"+t(e.getParameter(e.ALIASED_POINT_SIZE_RANGE))),r.push("4"+e.getParameter(e.ALPHA_BITS)),r.push("5"+(e.getContextAttributes().antialias?"yes":"no")),r.push("6"+e.getParameter(e.BLUE_BITS)),r.push("7"+e.getParameter(e.DEPTH_BITS)),r.push("8"+e.getParameter(e.GREEN_BITS)),r.push("9"+a(e)),r.push("10"+e.getParameter(e.MAX_COMBINED_TEXTURE_IMAGE_UNITS)),r.push("11"+e.getParameter(e.MAX_CUBE_MAP_TEXTURE_SIZE)),r.push("12"+e.getParameter(e.MAX_FRAGMENT_UNIFORM_VECTORS)),r.push("13"+e.getParameter(e.MAX_RENDERBUFFER_SIZE)),r.push("14"+e.getParameter(e.MAX_TEXTURE_IMAGE_UNITS)),r.push("15"+e.getParameter(e.MAX_TEXTURE_SIZE)),r.push("16"+e.getParameter(e.MAX_VARYING_VECTORS)),r.push("17"+e.getParameter(e.MAX_VERTEX_ATTRIBS)),r.push("18"+e.getParameter(e.MAX_VERTEX_TEXTURE_IMAGE_UNITS)),r.push("19"+e.getParameter(e.MAX_VERTEX_UNIFORM_VECTORS)),r.push("20"+t(e.getParameter(e.MAX_VIEWPORT_DIMS))),r.push("21"+e.getParameter(e.RED_BITS)),r.push("22"+e.getParameter(e.RENDERER)),r.push("23"+e.getParameter(e.SHADING_LANGUAGE_VERSION)),r.push("24"+e.getParameter(e.STENCIL_BITS)),r.push("25"+e.getParameter(e.VENDOR)),r.push("26"+e.getParameter(e.VERSION)),e.getShaderPrecisionFormat?(r.push("50"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.HIGH_FLOAT).precision),r.push("51"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.HIGH_FLOAT).rangeMin),r.push("52"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.HIGH_FLOAT).rangeMax),r.push("53"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.MEDIUM_FLOAT).precision),r.push("54"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.MEDIUM_FLOAT).rangeMin),r.push("55"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.MEDIUM_FLOAT).rangeMax),r.push("56"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.LOW_FLOAT).precision),r.push("57"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.LOW_FLOAT).rangeMin),r.push("58"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.LOW_FLOAT).rangeMax),r.push("59"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.HIGH_FLOAT).precision),r.push("60"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.HIGH_FLOAT).rangeMin),r.push("61"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.HIGH_FLOAT).rangeMax),r.push("62"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.MEDIUM_FLOAT).precision),r.push("63"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.MEDIUM_FLOAT).rangeMin),r.push("64"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.MEDIUM_FLOAT).rangeMax),r.push("65"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.LOW_FLOAT).precision),r.push("66"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.LOW_FLOAT).rangeMin),r.push("67"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.LOW_FLOAT).rangeMax),r.push("68"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.HIGH_INT).precision),r.push("69"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.HIGH_INT).rangeMin),r.push("70"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.HIGH_INT).rangeMax),r.push("71"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.MEDIUM_INT).precision),r.push("72"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.MEDIUM_INT).rangeMin),r.push("73"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.MEDIUM_INT).rangeMax),r.push("74"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.LOW_INT).precision),r.push("75"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.LOW_INT).rangeMin),r.push("76"+e.getShaderPrecisionFormat(e.VERTEX_SHADER,e.LOW_INT).rangeMax),r.push("77"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.HIGH_INT).precision),r.push("78"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.HIGH_INT).rangeMin),r.push("79"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.HIGH_INT).rangeMax),r.push("80"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.MEDIUM_INT).precision),r.push("81"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.MEDIUM_INT).rangeMin),r.push("82"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.MEDIUM_INT).rangeMax),r.push("83"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.LOW_INT).precision),r.push("84"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.LOW_INT).rangeMin),r.push("85"+e.getShaderPrecisionFormat(e.FRAGMENT_SHADER,e.LOW_INT).rangeMax),l=r.join("~")):r.join("~")}),E.plugins&&S("plugins",function(){var e=[];b(g.plugins,function(t){e.push(t)}),e=e.sort(function(e,t){return e.name>t.name?1:e.name<t.name?-1:0});var t=[];return b(e,function(e){t.push(e.name)}),t.join(";")}),S("mimeTypes",function(){var e=g.mimeTypes;if(e){var t=[];return b(e,function(e){t.push(e&&e.type)}),t.join(";")}return""}))};t.exports={get:function(){var e=s();return e?e:(A(),e={fp:m(c+l),fp2:m(n(v))},o(e),e)}}},{"./encrypt/md5":4}],7:[function(e,t,a){"use strict";function r(){var e=c.getMetaCnt("aplus-ajax"),t=goldlog.spm_ab;return t&&c.makeChkSum([t[0],(t[1]||"").split("/")[0]].join("."))==e?!0:c.makeChkSum(location.href)==e?!0:!1}function n(e,t,a){o(e,"spm-cnt",function(e){var r=e.split(".");return t?r[1]=r[1].split("/")[0]+"/"+t:r[1]=r[1].split("/")[0],a&&(r[4]=a),r.join(".")})}function i(e,t){var a=g_SPM._current_spm;a&&o(e,"spm-url",function(){return[a.a,a.b,a.c,a.d].join(".")+(t?"."+t:"")},"spm-cnt")}function o(e,t,a,r){var n,i,o=e.length,s=-1,c="function"==typeof a;for(n=0;o>n;n++){if(i=e[n],i[0]===t)return void(c?i[1]=a(i[1]):i[1]=a);r&&i[0]===r&&(s=n)}r&&(c&&(a=a()),s>-1?e.splice(s,0,[t,a]):e.push([t,a]))}function s(e){r()&&goldlog.launch({},e||{})}var c=e("./util");t.exports={sendPV:s,checkIfSendPV:r,updateSPMCnt:n,updateSPMUrl:i,updateKey:o}},{"./util":13}],8:[function(e,t,a){"use strict";function r(){if(!o.is_aliloan())return null;if(n)return n;var e;for(e=(goldlog.page_id||"")+c,e=e.substr(0,20);e.length<42;)e+=i.rndInt32();return e=e.substr(0,42),s.alilog_1688_pvid=s.dmtrack_pageid=s.unique_pageid=e,n=e,e}var n,i=e("./util"),o=e("./rule"),s=window,c=(new Date).getTime();a.makePageId=r},{"./rule":11,"./util":13}],9:[function(e,t,a){"use strict";function r(){var e=n.getElementById("tb-beacon-aplus"),t=o.tryToGetAttribute(e,"exparams");if(!t)return t;var a,r,i=["taobao.com","tmall.com","etao.com","hitao.com","taohua.com","juhuasuan.com","alimama.com"];if(s){for(r=i.length,a=0;r>a;a++)if(o.isContain(location.hostname,i[a]))return t;t=t.replace(/\buserid=\w*&?/,"")}return t=t.replace(/\buserid=/,"uidaplus=")}var n=document,i=window,o=e("./util"),s=parent!==i.self;a.getExParams=r},{"./util":13}],10:[function(e,t,a){var r=function(){function e(){var e,t=[],i=!0;for(var u in m)m.hasOwnProperty(u)&&(i=!1,e=m[u]||"",t.push(l(u)+s+l(e)));a.name=i?r:n+l(r)+o+t.join(c)}function t(e,t,a){e&&(e.addEventListener?e.addEventListener(t,a,!1):e.attachEvent&&e.attachEvent("on"+t,function(t){a.call(e,t)}))}var a=window;if(a.nameStorage)return a.nameStorage;var r,n="nameStorage:",i=/^([^=]+)(?:=(.*))?$/,o="?",s="=",c="&",l=encodeURIComponent,u=decodeURIComponent,m={},d={};return function(e){if(e&&0===e.indexOf(n)){var t=e.split(/[:?]/);t.shift(),r=u(t.shift())||"";for(var a,o,s,l=t.join(""),d=l.split(c),p=0,g=d.length;g>p;p++)a=d[p].match(i),a&&a[1]&&(o=u(a[1]),s=u(a[2])||"",m[o]=s)}else r=e||""}(a.name),d.setItem=function(t,a){t&&"undefined"!=typeof a&&(m[t]=String(a),e())},d.getItem=function(e){return m.hasOwnProperty(e)?m[e]:null},d.removeItem=function(t){m.hasOwnProperty(t)&&(m[t]=null,delete m[t],e())},d.clear=function(){m={},e()},d.valueOf=function(){return m},d.toString=function(){var e=a.name;return 0===e.indexOf(n)?e:n+e},t(a,"beforeunload",function(){e()}),d}();a.nameStorage=r},{}],11:[function(e,t,a){"use strict";function r(e,t,a){if(t)return"m";if(a)return o.isContain(e,"wrating.com")?"k":"y";var r,n,i="o",s=[["ju.taobao.com","4"],["juhuasuan.com","4"],["alipay.com","f"],["china.alibaba.com","6"],["qd.alibaba.com","o"],["jaq.alibaba.com","o"],["110.alibaba.com","o"],["security.alibaba.com","o"],["1688.com","6"],["alibaba.com","7"],["aliloan.com","8"],["cnzz.com","9"],["net.cn","a"],["hichina.com","a"],["phpwind.com","b"],["aliyun.com","c"],["tao123.com","d"],["alimama.com","e"],["taobao.com","1"],["tmall.com","2"],["tmall.hk","2"],["etao.com","3"],["sm.cn","s"],["*",i]],c=s.length;for(r=0;c>r;r++)if(n=s[r],o.isContain(e,n[0]))return n[1];return i}function n(e){var t,a,r=["/theme/info/info","/promo/co_header.php","fast_buy.htm","/add_collection.htm","/taobao_digital_iframe","/promo/co_header_taoinfo.php","/list_forum","/theme/info/info"];for(t=0,a=r.length;a>t;t++)if(-1!=l.indexOf(r[t]))return!0;var n=[m,d];for(t=0,a=n.length;a>t;t++)if(o.isEndWith(u,n[t]))return!0;if(e=e||s.referrer){var i=/^https?:\/\/[\w\.]+\.taobao\.com/i;return!i.test(e)}return!1}function i(){return"boolean"==typeof p?p:p=o.isEndWith(u,m)||o.isEndWith(u,d)}var o=e("./util"),s=document,c=location,l=c.pathname,u=c.hostname,m="aliloan.com",d="mybank.cn";a.getBeaconSrc=r,a.is_iframeExcption=n;var p;a.is_aliloan=i},{"./util":13}],12:[function(e,t,a){"use strict";function r(e){var t,a=e.split("."),r=a.length;return t=n.any(i,function(t){return n.isEndWith(e,t)})?a.slice(r-3):a.slice(r-2),t.join(".")}var n=e("./util"),i=[".com.cn",".net.cn"];a.getDomain=r},{"./util":13}],13:[function(e,t,a){"use strict";function r(e,t){return e&&e.getAttribute?e.getAttribute(t)||"":""}function n(e){return f=f||h.getElementsByTagName("head")[0],_&&!e?_:f?_=f.getElementsByTagName("meta"):[]}function i(e){var t,a,i,o=n(),s=o.length;for(t=0;s>t;t++)a=o[t],r(a,"name")===e&&(i=r(a,"content"));return i||""}function o(e){e=(e||"").split("#")[0].split("?")[0];var t=e.length,a=function(e){var t,a=e.length,r=0;for(t=0;a>t;t++)r=31*r+e.charCodeAt(t);return r};return t?a(t+"#"+e.charCodeAt(t-1)):-1}function s(e,t){return e.indexOf(t)>-1}function c(e,t){return 0===e.indexOf(t)}function l(e,t){var a=e.length,r=t.length;return a>=r&&e.indexOf(t)==a-r}function u(e){return"function"==typeof e}function m(e){return"string"==typeof e?e.replace(/^\s+|\s+$/g,""):""}function d(e,t,a){e[A]((v?"on":"")+t,function(e){e=e||b.event;var t=e.target||e.srcElement;a(e,t)},!1)}function p(e,t){var a,r=e.length;for(a=0;r>a;a++)t(e[a])}function g(e,t){var a,r=e.length;for(a=0;r>a;a++)if(t(e[a]))return!0;return!1}var f,_,h=document,b=window;a.tryToGetAttribute=r,
+a.getMetaTags=n,a.getMetaCnt=i,a.makeChkSum=o,a.isContain=s,a.isStartWith=c,a.isEndWith=l,a.isFunction=u,a.trim=m,a.rndInt32=function(){return Math.round(2147483647*Math.random())};var v=!!h.attachEvent,E="attachEvent",S="addEventListener",A=v?E:S;a.on=d,a.DOMReady=function(e){var t=b.KISSY;t&&u(t.ready)?t.ready(e):b.jQuery?jQuery(h).ready(e):"complete"===h.readyState?e():d(b,"load",e)},a.onload=function(e){d(b,"load",e)},a.each=p,a.any=g},{}]},{},[2]);</script><script src="//g.alicdn.com/secdev/pointman/js/index.js" app="xiami"></script>
+	<!-- kirov end -->
+
+		<script src="//img.xiami.net/music/music-static/0.6.2/lib/jQuery/1.4.4/jquery.min.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/res/js/jquery/jqDnR.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/lib/jqModal.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/res/js/jquery/jquery.form.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/res/js/jquery/jquery.cookie.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/res/js/jquery/jquery.tools.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/res/v3/js/functions/index.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/res/js/default/xiami.js"></script>
+
+
+		<script type="text/javascript" src="//img.xiami.net/static/js/lib/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="//img.xiami.net/static/js/app/relation.js"></script>
+
+
+	<script src="//img.xiami.net/music/music-static/0.6.2/lib/jquery.mousewheel.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/lib/jquery.jscrollpane.min.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/common/header_old.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/common/base.js"></script>
+	<script src="//img.xiami.net/music/music-static/0.6.2/common/name_card_old.js"></script>
+
+	
+	<script>
+	function buyMusic(type, id, action) {
+    var url, ht, warm, typeName;
+
+    url = 'https://m.xiami.com';
+
+    typeName = '歌曲';
+    if (type == 'album') {
+        typeName = '专辑';
+    }
+    warm = '<p>对不起~暂时不支持网站购买，请使用<br/><a class="cf60" href="//emumo.xiami.com/apps/mobile" target="_blank">虾米音乐APP</a>“扫一扫”功能扫描二维码购买' + typeName + '~</p>';
+
+    // 购买URL
+    if (type && id) {
+        url += '/throne';
+        if (type == 'album') {
+            url += '?album_id=' + id;
+        } else if (type == 'song') {
+            url += '?song_id=' + id;
+        } else {
+            console.log('购买类别不存在');
+        }
+    }
+
+    // 提示文案
+    if (action) {
+        if (type == 'album') {
+            warm = '<p>抱歉，您需要支持歌手的数字专辑才可以' + action + '~</p><p>请使用<a class="cf60" href="//emumo.xiami.com/apps/mobile" target="_blank">虾米音乐APP</a>“扫一扫”功能扫描二维码支付~</p>';
+        } else if (type == 'song') {
+            warm = '<p>抱歉，您需要先购买以后才可以' + action + '~<br/>请使用<a class="cf60" href="//emumo.xiami.com/apps/mobile" target="_blank">虾米音乐APP</a>“扫一扫”功能扫描二维码支付~</p>';
+        }
+    }
+
+    // 提示内容
+    ht = '<style>.dialog_popup {width: 495px;}</style><h3>付费提示</h3>' +
+        '<div class="dialog_content dialog-buy-music">' +
+        '<div class="wram">' + warm + '</div>' +
+        '<div class="qrcode"><img src="//emumo.xiami.com/qrcode?u=' + url + '&w=200" /></div>' +
+        '<div class="intro">说明：购买成功以后刷新页面即可使用~<br/>&nbsp;&nbsp;&nbsp;&nbsp;请确保app和网站账号统一~</div>' +
+        '</div>' +
+        '<a class="Closeit" onclick="closedialog();" title="" href="javascript:void(0);">关闭</a>';
+
+    showDialog('', ht)
+	}
+	</script>
+	
+
+	<script>
+	var _xiamitoken = $.cookie('_xiamitoken'),
+		_xiamiimg = '//img.xiami.net',
+		_xiamiuser = $.cookie('user') || '',
+		_athenaapiurl = 'ihi.xiami.com';
+	</script>
+
+	
+
+	<!-- google ads -->
+		<!-- end -->
+
+	
+	<script>
+		$(function() {
+			var getCookieValue = function(key) {
+				var reg = new RegExp('(?:^|;\\s*)' + key + '=([^;]*)');
+				var match = document.cookie.match(reg);
+				return match && match[1];
+			}
+			if (typeof goldlog !== 'undefined') goldlog.record('/xiamixiating.global.visit', '', 'userId='+(getCookieValue('uidXM')||0), 'H1482419031');
+		});
+		</script>
+	
+<script async="" src="https://log.mmstat.com/eg.js"></script><script src="//g.alicdn.com/secdev/sufei_data/3.7.4/index.js" id="aplus-sufei"></script><script src="//g.alicdn.com/secdev/nsv/1.0.63/ns_c_74_3_f.js"></script></head>
+<body><script id="tb-beacon-aplus" src="//s.tbcdn.cn/s/aplus_v2.js" exparams="category=&amp;userid=&amp;aplus&amp;yunid=&amp;&amp;asid=AAAC2zVdG6R1sQJJVqI="></script><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AAAC2zVdG6R1sQJJVqI=",id="tb-beacon-aplus",src=(location>"https"?"//s":"//a")+".tbcdn.cn/s/aplus_v2.js")
+</script>
+
+
+
+<div id="xiami-content"></div>
+
+
+
+
+
+
+<style>
+.Anotice_Bar{ background:#f9f9f9; padding:8px; color:#666; text-align:center; cursor: pointer; }
+</style>
+
+<!-- <div class="Anotice_Bar" onclick="document.cookie = 'xm_oldsite=;expires=Thu, 01 Jan 1970 00:00:01 GMT;'; document.cookie = 'xm_oldsite=;domain=.xiami.com;expires=Thu, 01 Jan 1970 00:00:01 GMT;'; window.location = 'https://emumo.xiami.com';">
+亲爱的虾米大虾，新版虾米音乐官方网站已经上线，点我前往体验
+</div> -->
+
+<div id="header" data-spm="226669510">
+	<div class="primary">
+		<div class="gap">
+		<div class="wrapper">
+			<table>
+				<tbody><tr>
+																				<td class="logo"><a href="/" title="虾米音乐网(xiami.com) - 高品质音乐 发现 分享">虾米音乐网(xiami.com) - 高品质音乐 发现 分享</a></td>
+										<td class="nav">
+						<a class="bigtext " href="/">发现音乐</a>
+						<a class="bigtext " href="/space/lib-song">我的音乐</a>
+					</td>
+					<td class="subnav">
+						<a class="bigtext first " href="/collect">歌单</a>
+						<a class="bigtext middle " target="_blank" href="/radio">电台</a>
+						<a class="bigtext middle " href="//i.xiami.com">音乐人</a>
+						<script>
+							document.write('<a class="bigtext last" href="/apps/mobile" target="_blank" style="zoom:1;position:relative;" onclick="goldlog.record(\'/xiamipc.1.15\',\'\',\'event=click&from=xiaminav&userid='+_xiamiuser.split('"')[0]+'\',\'H46807199\');">客户端<sup style="display:none;position:absolute;right:-13px;top:-6px;_top:1px;width:16px;height:18px;background:url(\'//img.xiami.net/static/img/common/sale.png\') no-repeat"></sup></a>');
+						</script><a class="bigtext last" href="/apps/mobile" target="_blank" style="zoom:1;position:relative;" onclick="goldlog.record('/xiamipc.1.15','','event=click&amp;from=xiaminav&amp;userid=','H46807199');">客户端<sup style="display:none;position:absolute;right:-13px;top:-6px;_top:1px;width:16px;height:18px;background:url('//img.xiami.net/static/img/common/sale.png') no-repeat"></sup></a>
+					</td>
+					<td class="search">
+						<div class="container">
+							<form action="/search" method="get" id="search">
+								<input class="keyword" autocomplete="off" placeholder="音乐搜索，找人..." name="key">
+								<input class="icon submit" type="submit" value="搜索">
+								<input type="hidden" name="pos" value="1">
+							</form>
+							<div class="auto_complete"></div>
+						</div>
+					</td>
+										<td class="bigtext login">
+						<a class="first" href="/member/register">免费注册</a>
+						<a class="last" href="//passport.xiami.com/?redirectURL=https://emumo.xiami.com">立即登录</a>
+					</td>
+									</tr>
+			</tbody></table>
+			<div class="notify_popup">
+				<div class="content">
+					<div class="container"><p class="loading"></p></div>
+					<b class="triangle"><i>◆</i>◆</b>
+				</div>
+			</div>
+
+			<div class="user_popup">
+				<div class="content">
+					<ul>
+												<li><a href="/u/"><b class="icon home"></b>我的主页</a></li>
+												<li class="fence"></li>
+						<li><a href="/relation/following"><b class="icon relationship"></b>关注 / 粉丝</a></li>
+						<li><a href="/vip"><b class="icon vip"></b>VIP</a></li>
+						<li><a href="/account"><b class="icon account"></b>账户</a></li>
+						<li><a href="/property/myproperties"><b class="icon props"></b>道具</a></li>
+						<li><a href="/member/edit-account"><b class="icon setting"></b>设置</a></li>
+						<li class="fence"></li>
+						<li><a href="" class="logout" onclick="return false;"><b class="icon logout"></b>退出</a></li>
+					</ul>
+					<b class="triangle"><i>◆</i>◆</b>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="new-site-bar" style="background: url(https://img.alicdn.com/tfs/TB1ktM_q3HqK1RjSZFEXXcGMXXa-2620-170.png) center no-repeat #FFF; background-size: cover; height: 85px; position: relative; cursor: pointer;" onclick="document.cookie = 'xm_oldsite=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;'; document.cookie = 'xm_oldsite=;domain=.xiami.com;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;'; window.location = 'https://www.xiami.com';">
+		<div style="background: url(https://img.alicdn.com/tfs/TB1r6I9qYvpK1RjSZFqXXcXUVXa-84-84.png) center no-repeat; background-size: cover; width: 42px; height: 42px; position: absolute; right: 50px; top: 22px; cursor: pointer;" onclick="event.stopPropagation(); document.cookie = 'hide_new_site_bar_1=1;expires=' + (new Date((new Date()).getTime() + 86400000)).toGMTString() + ';'; document.getElementById('new-site-bar').style.display = 'none';"></div>
+	</div>
+	<script>if (document.cookie.indexOf('hide_new_site_bar_1') !== -1 && document.getElementById('new-site-bar')) { document.getElementById('new-site-bar').style.display = 'none'; }</script>
+</div>
+<div id="hidden_obj">
+	<object data="/res/player/sdtos.swf?v=1563810562" type="application/x-shockwave-flash" width="1" height="1" id="trans" name="trans">
+	    <param name="movie" value="/res/player/sdtos.swf?v=1563810562">
+	    <param name="quality" value="high">
+	    <param name="wmode" value="window">
+		<param name="allowScriptAccess" value="sameDomain">
+	</object>
+</div><div id="page" class="old">
+<div id="wrapper" style="padding: 10px 0 0 0">
+<div id="m_top">
+	<h2>使用协议</h2>
+</div>
+<div id="ui-m3" class="clearfix">
+	<!--ui_m3_l begin-->
+	<div id="ui_m3_l">
+		<div class="ui_m3_l_inner" style="padding: 5px 20px 5px 20px">
+		<div class="static">
+			<h3 id="webrule">虾米网使用协议</h3>
+			<div class="agreement">
+				<h4>1. 使用条款的接受 </h4>
+				<p>请您在使用本网站前仔细阅读以下各项使用条款（以下简称"条款"）。通过访问和/或使用本网站，您表示同意接受本条款的所有条件和条款。如果您不愿接受本条款的全部条件和条款，请您不要访问或使用本网站。 </p>
+				<h4>2. 变更和修改 </h4>
+				<p>虾米网有权随时对本条款进行修改，并且一旦发生条款的变动，虾米网将在相关页面上提示修改的内容；用户如果不同意本条款的修改，可以放弃使用或访问本网站或取消已经获得的服务；如果用户选择在本条款变更后继续访问或使用本网站，则视为用户已经接受本条款的修改。 </p>
+				<h4>3. 服务说明 </h4>
+				<p>虾米网是一个向广大用户提供内容审核工具和内容分享工具的服务平台，本身不直接提供内容。<br>
+					虾米网运用自己的系统通过互联网向用户提供服务，除非虾米网另有明确规定或同用户书面达成新的协议，增强或强化目前服务的任何新功能，包括新产品以及新增加的服务，均无条件地适用本条款。<br>
+					虾米网不保证服务一定会满足用户的使用要求，也不保证服务不会被中断，对服务的及时性、安全性、准确性也不作担保。 </p>
+				<h4>4. 用户行为 </h4>
+				<p>用户注册成功后，便成为虾米网的合法用户，会得到一个密码和账号。用户需采取合理措施维护其密码和账号的安全。用户对利用该密码和账号所进行的一切活动负全部责任；由该等活动所导致的任何损失或损害由用户承担，虾米网不承担任何责任。 <br>
+					用户的密码和账号遭到未授权的使用或发生其他任何安全问题，用户应当立即通知虾米网。用户在每次连线结束，应结束账号使用。否则用户可能得不到虾米网的安全保护。<br>
+					用户同意遵守《中华人民共和国保守国家秘密法》、《中华人民共和国著作权法》、 《互联网电子公告服务管理规定》、《信息网络传播权保护条例》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》等有关的法律、法规以及政府部门的规定。在任何情况下，虾米网如果认为用户的行为可能违反上述法律、法规，虾米网可以在任何时候，有权不经事先通知终止向该用户提供服务。 <br>
+					虾米网欢迎用户举报任何违反上述法律或侵犯他人权利的上传内容，一经发现违法或侵权的上传内容，虾米网将根据相关的法律规定进行删除。<br>
+					禁止用户从事以下行为： <br>
+					•  上载、张贴、发送电子邮件或传送包含任何反对宪法所确定的基本原则、危害国家安全、泄露国家秘密、颠覆国家政权、破坏国家统一、破坏民族团结、损害 国家荣誉和利益、煽动民族仇恨、民族歧视、破坏民族团结、破坏国家宗教政策、宣扬邪教和封建迷信、淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪、侮辱 或者诽谤他人，侵害他人合法权益的等法律、行政法规禁止的内容或其他另人反感的包括但不限于资讯、资料、文字、软件、音乐、照片、图形、信息或其他资料 （以下简称内容）。 <br>
+					•  以任何方式危害未成年人。 <br>
+					•  冒充任何人或机构，或以虚伪不实的方式谎称或使人误认为与任何人或任何机构有关。<br>
+					•  伪造标题或以其他方式操控识别资料，使人误认为该内容为虾米网所传送。<br>
+					•  将无权传送的内容（例如内部资料、机密资料）进行上载、张贴、发送电子邮件或以其他方式传送。<br>
+					•  将侵犯任何人的专利、商标、著作权、商业秘密或其他专属权利之内容加以上载、张贴、发送电子邮件或以其他方式传送。<br>
+					•  将广告函件、促销资料、"垃圾邮件"等，加以上载、张贴、发送电子邮件或以其他方式传送。供前述目的使用的专用区域除外。<br>
+					•  将有关干扰、破坏或限制任何计算机软件、硬件或通讯设备功能的软件病毒或其他计算机代码、档案和程序之资料，加以上载、张贴、发送电子邮件或以其他方式传送。<br>
+					•  干扰或破坏本网站服务或与本网站服务相连的服务器和网络，或不遵守本网站使用之规定。 <br>
+					•  故意或非故意违反任何相关的中国法律、法规、规章、条例等其他具有法律效力的规范。<br>
+					用户应当对其提供的经由本网站上载、张贴、发送电子邮件或传送的内容承担全部责任，对于用户经由本网站而传送的内容，虾米网不保证前述其合法性、正当性、准确性、完整性或品质。用户在接受本网站服务时，有可能会接触到令人不快、不适当或令 人厌恶的内容。在任何情况下，虾米网均不对任何内容承担任何责任，包括但不限于任何内容发生任何错误或纰漏以及衍生的任何损失或损害。虾米网有权（但无义务）自行拒绝或删除经由本网站提供的任何内容。用户使用上述内容，应自行承担风险。虾米网有权利在下述情况下，对内容进行保存或披露： <br>
+					•  法律程序所规定；<br>
+					•  本用户协议条款规定；<br>
+					•  其他虾米网认为有必要的情况。<br>
+					虾米网不对用户所发布信息的删除或储存失败承担责任。虾米网有权判断用户的行为是否符合本网站使用条款之规定，如果虾米网认为用户违反了法律规定或者违背了本用户协议的规定，虾米网有终止向其提供网站服务的权利。 </p>
+				<h4>5. 用户隐私权制度 </h4>
+				<p>当用户注册虾米网的服务时，用户应当提供个人信息。虾米网收集个人信息的目的是为用户提供尽可能多的个人化网上服务。虾米网不会在未经合法用户授权时，公开、编辑或透露其个人信息及保存在虾米网中的非公开内容，除非有下列情况：<br>
+					•  法律程序所规定；<br>
+					•  本用户协议条款规定；<br>
+					•  其他虾米网认为有必要的情况。<br>
+				</p>
+				<h4>6. 关于第三方链接 </h4>
+				<p>本网站服务可能会提供与其他国际互联网网站或资源进行链接。对于前述网站或资源是否可以利用，虾米网不承担担保责任。因用户使用上述网站或资源所产生的损失或损害，虾米网也不负担任何责任。 </p>
+				<h4>7. 知识产权 </h4>
+				<p>虾米网对网站服务及本网站所使用的软件所包含的受知识产权或其他法律保护的资料享有相应的权利；除用户依法享有版权内容之外，本网站的整体内容版权归虾米网所有。 <br>
+					经由虾米网网站传送的文件及其它内容，受到著作权法、商标法、专利法或其他法律的保护；除该等文件及其它内容上载的用户所享有的版权，未经虾米网明示授权许可，其他用户不得进行修改、出租、散布或衍生其他作品。<br>
+					用户对本网站所使用的软件有非专属性使用权，但不得自行或许可任何第三方复制、修改、出售或衍生产品。 <br>
+					本网站所有设计图样以及其他图样、产品及服务名称，均为虾米网及/或其关联公司所享有的商标、标识。任何人不得使用、复制或用作其他用途。 </p>
+				<p>除了本协议中明确约定由用户或内容提供商享有版权的内容，虾米网以及虾米软件中包含的全部信息和资料，无论是文字、音频、视频、图片、图表、数据库或其他形式，特别是虾米网音乐曲库数据信息和资料，包括但不限于歌名、歌手、专辑名以及有关歌曲的介绍图文资料以及包含上述资料的任何形式的数据库，其相关的版权、其它知识产权和所有权属于虾米网所有。用户可依照本协议的约定以个人欣赏之目的使用上述信息和材料，但未经虾米网另行书面同意，不得擅自使用、出租、出借、复制、修改、转载、汇编、发表或出版，不得借助虾米网站和虾米软件开发与之相关的衍生产品、作品、服务、插件、外挂程序或音频数据库，亦不得从虾米网或虾米软件中提取或抓取数据或资料。</p>
+				<h4>8. 免责声明 </h4>
+				<p>虾米网对于任何自本网站而获得的他人的信息、内容或者广告宣传等任何资讯（以下统称“信息”），不保证真实、准确和完整性。如果任何单位或者个人 通过上述“信息”而进行任何行为，须自行甄别真伪和谨慎预防风险，否则，无论何种原因，本网站不对任何非与本网站直接发生的交易和/或行为承担任何直接、 间接、附带或衍生的损失和责任。 <br>
+					虾米网有权但无义务，改善或更正本网站任何部分之任何疏漏、错误。 <br>
+					虾米网不保证（包括但不限于）： <br>
+					•  本网站适合用户的使用要求； <br>
+					•  本网站不受干扰，及时、安全、可靠或不出现错误； <br>
+					•  用户经由本网站取得的任何产品、服务或其他材料符合用户的期望。 <br>
+					用户使用经由本网站收听的下载的或取得的任何资料，其风险自行负担；因该等使用导致用户电脑系统损坏或资料流失，用户应负完全责任； <br>
+					基于以下原因而造成的利润、商业信誉、资料损失或其他有形或无形损失，虾米网不承担任何直接、间接、附带、衍生或惩罚性的赔偿： <br>
+					•  本网站使用或无法使用； <br>
+					•  经由本网站购买或取得的任何产品、资料或服务； <br>
+					•  用户资料遭到未授权的使用或修改； <br>
+					•  其他与本网站相关的事宜。 <br>
+					用户在浏览互联网时自行判断使用本网站的搜索或检索目录。该搜索或检索目录可能会引导用户进入到被认为具有攻击性或不适当的网站，虾米网没有义务查看检索目录所列网站的内容，因此，对其正确性、合法性、正当性不负任何责任。 <br>
+					虾米网向用户颁发的经验值、体验点或其他奖励，其使用方式和使用范围等政策由虾米网决定，虾米网也有权根据经营情况对经验值、体验点和其他奖励的使用政策进行调整、增减甚至取消。如虾米网决定终止提供服务的，则用户未使用的经验值、体验点和其他奖励也将丧失使用权益。用户同意虾米网无需就使用政策变更、取消服务等造成的使用权益降低或丧失支付赔偿，虾米网也无需承担其他责任。</p>
+				<h4>9. 第三方责任 </h4>
+				<p>由于用户经由本网站上载或发布内容、与本网站连线、违反本服务条款或侵害其他人的任何权利应当由用户负责，虾米网对此不承担任何责任。如因上述原因导致任何第三人向虾米网提出权利主张的，用户同意赔偿虾米网及其分公司、关联公司、代理人或其他合作伙伴及员工的全部直接、间接损失。</p>
+				<h4>10. 赔偿 </h4>
+				<p> 用户同意就任何基于下列事项或与下列事项相关的，不利于虾米网或它的雇员或代表和代理人的索赔，法律行为，要求或诉讼赔偿虾米网或它的雇员或代表和代理人任何损失、为虾米网或它的雇员或代表和代理人辩护，并使之不受任何损害。<br>
+					•  用户使用本网站。<br>
+					•  用户违反网站使用条款。<br>
+					•  本节所述之你的使用应被视为包含第三方使用用户的电脑访问本网站。<br>
+					用户同意赔偿给虾米网， 其员工，代表，代理人所有和任何其被判令承担因第三方索赔，诉讼或与第三方索赔相关的诉讼的相关费用，损失与必要的开支（包括合理的律师费）。 </p>
+				<h4>11. 终止 </h4>
+				<p> 无论是否有原因，用户或是虾米网都有权在任何时间终止这些条件。一旦虾米网终止了这些条款，虾米网将按照你在注册时提供的电子邮件地址发出通知，用户将被视为在一个小时内收到了通知。终止将于该时间生效。用户有责任向虾米网通知有关用户的电子邮件地址的任何改变。当终止生效时，用户须销毁从本网站所获得的所有资料和信息以及其复制件。</p>
+				<h4>12. 法律的适用和管辖 </h4>
+				<p> 本使用条款的生效、履行、解释及争议的解决均适用中华人民共和国法律，与本条款有关的争议提交由虾米网所在地的法院管辖。本服务条款因与中华人民共和国现行法律相抵触而导致部分无效，不影响其他部分的效力。</p>
+			</div><br>
+<br>
+<br>
+
+			<h3 id="softrule">虾米软件使用协议</h3>
+			<div class="agreement">
+				<p>本软件受中华人民共和国著作权法和有关著作权国际公约和其它知识产权相关法律及国际公约的保护，其所有知识产权，包括但不限于著作权，归虾米网所有。</p>
+				<p>本软件产品的正常使用过程中需要链接网络，本软件会设置windows防火墙以允许其访问网络，保证本软件的正常使用。本软件产品（包括但不限于本软件产品中所含的任何图像、照片、动画、录像、录音、音乐、文字和附加程序(dll、exe等)）、随附的帮助材料、及本软件产品任何副本的一切所有权和知识产权，均由虾米网拥有。用户未经虾米网书面许可不得以违反本协议所约定之方式复制和修改本产品。</p>
+				<h4>1.接受条款 </h4>
+				<p>欢迎使用虾米客户端软件。虾米客户端根据以下协议（以下称“许可协议”)为您提供服务。“许可协议”中的所有条款均可由虾米网随时更新，且毋须另行通知。<br>
+					如果您所处国的司法管辖权禁止对虾米客户端的下载或使用，请您点击“取消”按钮而不去下载或使用此软件。<br>
+					您在使用虾米客户端提供的各项服务之前，请仔细阅读本“许可协议”中各项条款。您一旦点击“我接受”下载虾米客户端软件，或开始使用或继续使用虾米客户端软件，即视为您已接受本“许可协议”中各项条款并受本“许可协议”约束，也即视为您表明及保证您是在相关法律许可下使用此项服务的。 </p>
+				<h4>2.服务说明 </h4>
+				<p>虾米客户端软件及协议(包括但不限于API协议)(以下称“软件”)，及经由虾米网授权使用的服务、内容或资料(以上统称“服务”)有能力提供给用户识别歌曲的功能。<br>
+					在有更新版本的时候，虾米客户端将为用户提供自动更新软件的功能，为用户提供更完善的服务。 </p>
+				<h4>3.知识产权说明</h4>
+				<p>虾米客户端软件受国际版权公约、中华人民共和国著作权法及其他知识产权方面的法律法规的保护，其所有知识产权归虾米网所有。用户需承认虾米网拥有对虾米客户端软件的所有权利，包括但不限于所有知识产权。"知识产权"包括在专利法、版权法、商标法、反不正当竞争法等法律中规定的任何和所有权利、任何和所有其它所有权以及其中的任何和所有应用、更新、扩展和恢复。 <br>
+					本软件使用者在承诺遵守本公司关于本软件而制定的相关规范条件下，可安装无限制数量的本软件产品来使用。用户可以非商业性地复制、分发和传播无限制数量的软件产品， 但必须保证每一份复制、分发和传播都必须是完整和真实的， 包括所有有关本软件产品的软件、电子文档， 版权和商标宣言， 亦包括本协议。 <br>
+					当使用者对本软件进行安装、下载、复制或其他利用之行为时，视为该使用者已同意本使用规范的所有条款。<br>
+					虾米网提供虾米客户端软件为用户识别歌曲。软件中涉及的音乐服务内容与虾米网无关，其所有权归各音乐内容提供商，该所有权受法律的保护，所以，用户只能在音乐内容提供商的正式授权下才能使用这些内容，而不能擅自复制、链接、再造、非法传播这些内容、或创造与内容有关的派生产品，不得以任何方式建立镜像站点，否则，用户应赔偿由此给音乐内容提供商和虾米网造成的损失。虾米网对他人权利的侵犯（包括知识产权）不承担责任，且对任何第三方通过服务发送或在服务中包含的任何内容不承担责任。<br>
+					虾米客户端尊重知识产权，使用者在使用本软件的相关服务时，必须了解本软件的特性，尊重他人之知识产权或其他法律所保障的权益。 </p>
+				<p>除了本协议中明确约定由用户或内容提供商享有版权的内容，虾米网以及虾米软件中包含的全部信息和资料，无论是文字、音频、视频、图片、图表、数据库或其他形式，特别是虾米网音乐曲库数据信息和资料，包括但不限于歌名、歌手、专辑名以及有关歌曲的介绍图文资料以及包含上述资料的任何形式的数据库，其相关的版权、其它知识产权和所有权属于虾米网所有。用户可依照本协议的约定以个人欣赏之目的使用上述信息和材料，但未经虾米网另行书面同意，不得擅自使用、出租、出借、复制、修改、转载、汇编、发表或出版，不得借助虾米网站和虾米软件开发与之相关的衍生产品、作品、服务、插件、外挂程序或音频数据库，亦不得从虾米网或虾米软件中提取或抓取数据或资料。</p>
+				<h4>4.费用及付款</h4>
+				<p>虾米网保留基于自身裁量对未来使用及接收“服务”、其他虾米网“服务”及站点的行为收取费用的权利。如果虾米网决定改变收费标准，此类改变将事先通知您。 </p>
+				<h4>5.设备需求</h4>
+				<p>为使用“服务”及其他“服务”中包含的服务及产品(包括免费及付费的)，您必须直接或通过可接收网上内容的设备连接到互联网上并且自行支付与此相关的费用。另外，您必须自行提供所有必需的设备以保证连接到互联网上，此类设备包括但不限于电脑、调制解调器、移动设备。</p>
+				<h4>6.许可</h4>
+				<p>“服务”(包括软件)包含受现行适用的知识产权法及其他法律保护的财产及保密信息。您可以在个人所有或控制的电脑或移动设备上安装供个人使用的“软件”及任何经虾米网基于自身裁量所作的更新，并且您仅限于依本“许可协议”的授权通过“软件”接收“服务”。您可为您自己的非商业目的而使用“软件”及接收“服务”。</p>
+				<h4>7.使用限制 </h4>
+				<p>您不可自行或允许第三方： <br>
+					(a) 对“软件”或“软件 ”上任一部分进行复制、破译、反向工程、解码、修改、出租、出借、散布或创作衍生作品或进行改良(依
+					&lt;中华人民共和国著作权法&gt;
+					中之规定)，或试图披露“服务”中的任何来源码或协定(包括但不限于API协定)；<br>
+					(b) 使用或意图使用未经授权的“服务”或网络；<br>
+					(c) 将虾米客户端 “软件”或协定标准之全部或一部分，整合于任何由您所制造、行销、散布、或为您所制造、行销、散布之服务、软件、硬件或其他技术、设备中；<br>
+					(d) 以任何不合法的方式、为任何不合法的目的、或以任何与本“许可协议”不一致的方式使用“服务”；<br>
+					(e) 将“服务”用于核设施运行、生命维持或其他会使人类及其财产处于危险之中的重大设备；<br>
+					(f) 在未经虾米网书面明确授权前提下，出售、出租、出借、散布、转移或转授权“服务”或相关的链接或从使用“服务”或“服务”条款中获利，无论以上使用是否为直接经济或金钱收益。 </p>
+				<h4>8.“软件”及“服务”原状提供 </h4>
+				<p>除非明示，任何对现有“服务”的增加或改进都将遵循“许可协议”。您理解并同意“服务”按原状提供，虾米网不对发送内容的及时性、删除、错误递送、或对用户交流信息及个人设定的无法保存承担任何责任。您同时理解并同意，虾米网不对通过“服务”发送的信息的安全性及隐私性承担任何责任，包括但不限于“服务”通过无线设备进行链接。</p>
+				<h4>9.终止 </h4>
+				<p>您的源于本“许可协议”而对于“软件”及“服务”的使用许可将持续至“许可协议”被任一方所终止。您也可以不再使用所有“软件”或任一“软件”的形式，或以销毁所有您位于使用“软件”上所有文件的形式来终止本“许可协议”。<br>
+					您进一步同意：虾米网可以在任何情形下不经任何事先通知立即终止您的虾米客户端软件服务。以上终止的原因包括但不限于：<br>
+					(a)对于本“许可协议”中的条款、或其他被整合进本“许可协议”及规则的违反；<br>
+					(b)应法律强制力或其他政府部分要求；<br>
+					(c)应您的要求(您对账户的自行删除)；<br>
+					(d)不继续使用“服务”或其一部分，或对“服务”或其一部分进行实质性的修改；<br>
+					(e)未预期的技术或安全问题；<br>
+					(f)一段时间内未使用本“服务”。</p>
+				<h4>10.通知 </h4>
+				<p> 虾米网可以向您发送相关通知，包括对本“许可协议”的修改。通知方式可为通过邮箱，普通信件或从虾米网网站或指定网站上发布公告。 </p>
+				<h4>11.一般信息 </h4>
+				<p> (a)法律选择及管辖法院本“许可协议”及您与虾米网间的法律关系应当受中华人民共和国法律管辖。“许可协议”双方当事人同意将因本“许可协议”产生的一切争议提交中华人民共和国虾米网所在地的人民法院管辖。<br>
+					(b)弃权及中止条款虾米网未行使本“许可协议”中规定的权利或相关条款并不视为虾米网对此权利或条款的放弃。如果本“许可协议”中的任何条款被有管辖权的法院认定为无效，但协议双方仍然希望法院执行双方在协议中表明的意图时，本“许可协议”中的其他条款仍将有效。<br>
+					(c)诉讼时效用户同意，即使在法律法规有相反规定的情况下，任何因本“服务”或“许可协议”产生的或与本“服务”或“许可协议”有关的争议均应当在争议发生之日起二年内提出，否则将被视为放弃诉权。<br>
+					本“许可协议”中的标题名称仅为方便起见，并无任何法律及合同效力。<br>
+					(d)虾米网用户使用本软件需同时遵守《虾米网使用协议》（请通过虾米网站查看）的全部约定条款。</p>
+				<h4>12.违约</h4>
+				<p> 如有任何违反本“许可协议”的行为，请与虾米网联系。</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--ui_m3_l end-->
+	<!--ui_m3_r begin-->
+	<div class="ui_m3_r">
+		<ul class="static_side">
+			<li><a href="/about" title="关于我们">关于我们</a></li>
+			        	<li><a href="/partners" title="合作伙伴">合作伙伴</a></li>
+			<li><a href="/links" title="友情链接">友情链接</a></li>
+						<li><a href="/sitemap" title="网站地图">网站地图</a></li>
+			<li><a href="/subscription" title="RSS订阅">RSS订阅</a></li>
+			<li><a href="/contact" title="联系我们">联系我们</a></li>
+        	<li><a href="//i.xiami.com/musician/pr" title="独立音乐人合作" target="_blank">独立音乐人合作</a></li>
+		</ul>
+	</div>
+	<!--ui_m3_r end-->
+  </div>
+</div>
+</div>
+
+<style>
+	.sitemap dl dd a{
+		background: none;
+		padding: 0;
+	}
+
+	.sitemap dl dd{
+		padding: 0;
+		line-height: 22px;
+	}
+
+	.sitemap dl{
+		margin: 0;
+	}
+	.sitemap dl dt{
+	font-size: 12px;
+	line-height: 22px;
+	}
+	#footer {zoom:1;}
+/* go top */
+#sidebutton {
+  position: fixed;
+  _position: absolute;
+  bottom: 50px;
+  right: 20px;
+  z-index: 999;
+  outline: none;
+}
+#sidebutton a {
+	display: block;
+	width: 38px;
+	height: 34px;
+	padding-top: 4px;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #D5D5D5;
+	background-color: #FEFEFE;
+}
+#sidebutton span {
+	display: none;
+}
+#sidebutton .sidebutton_newsite {
+	position: relative;
+	border-radius: 3px 3px 0 0;
+}
+#sidebutton .sidebutton_newsite .newsite_icon {
+	display: block;
+	width: 24px;
+	height: 21px;
+	margin: 4px auto 0 auto;
+}
+#sidebutton .sidebutton_newsite .newsite_xm {
+	display: block;
+	width: 34px;
+	height: 61px;
+	position: absolute;
+	top: -27px;
+	left: 3px;
+	z-index: -1;
+}
+#sidebutton .sidebutton_newsite .newsite_beta {
+	display: block;
+	width: 19px;
+	height: 8px;
+	position: absolute;
+	top: 6px;
+	left: -12px;
+}
+#sidebutton .sidebutton_qrcode {
+	position: relative;
+	border-radius: inherit;
+}
+#sidebutton .sidebutton_gotop {
+	border-bottom-width: 1px;
+	border-radius: 0 0 3px 3px;
+}
+#sidebutton .sidebutton_icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 4px 0 0 7px;
+	background: url('//img.xiami.net/static/img/common/footer_icon.png') no-repeat;
+	_background-image:url('//img.xiami.net/static/img/common/footer_icon.gif');
+}
+#sidebutton .sidebutton_qrcode .sidebutton_icon {
+	background-position: 0 0;
+}
+#sidebutton .sidebutton_feedback .sidebutton_icon {
+	background-position: 0 -24px;
+}
+#sidebutton .sidebutton_gotop .sidebutton_icon {
+	background-position: 0 -48px;
+}
+#sidebutton .sidebutton_code {
+	display: none;
+	position: absolute;
+	top: -47px;
+	right: 50px;
+	width: 140px;
+	height: 162px;
+	border: 1px solid #E06E16;
+	border-radius: 3px 3px;
+	background-color: #f60;
+	text-align: center;
+}
+#sidebutton .sidebutton_code strong {
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	color: #FFF;
+}
+#sidebutton .sidebutton_qrcode	.sidebutton_triangle {
+	position: absolute;
+	right: -11px;
+	top: 55px;
+	overflow: hidden;
+	font-size: 18px;
+	color: #E06E16;
+}
+#sidebutton .sidebutton_qrcode .sidebutton_triangle i {
+	*font-style: normal;
+	position: absolute;
+	left: -2px;
+	color: #f60;
+}
+#sidebutton a:hover {
+	border-color: #E06E16;
+	background-color: #f60;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}
+#sidebutton a:hover .sidebutton_icon {
+	display: none;
+}
+#sidebutton a:hover .newsite_icon {
+	display: none;
+}
+#sidebutton a:hover span {
+	display: block;
+}
+#sidebutton .sidebutton_qrcode:hover .sidebutton_code {
+	display: block;
+}
+.t_hide {
+  display: none;
+}
+.t_show {
+  display: block;
+}
+/**/
+</style>
+
+
+<div id="footer" data-spm="1110930425">
+	<div class="gap">
+	<div class="wrapper">
+		<div class="content">
+			<div class="sitemap">
+
+				<dl>
+					<dt>关于</dt>
+					<dd><a title="关于我们" href="/about">关于我们</a></dd>
+					<dd><a title="虾米招聘" href="https://job.alibaba.com/zhaopin/positionList.htm?keyWord=JXU5NjNGJXU5MUNDJXU5N0YzJXU0RTUw&amp;_input_charset=UTF-8" target="_blank">虾米招聘</a><sup class="hot"></sup></dd>
+										<dd><a title="独立音乐人合作" href="//i.xiami.com/musician/pr" target="_blank">独立音乐人合作</a></dd>
+					<dd><a title="联系我们" href="/contact">联系我们</a></dd>
+					<dd><a title="友情链接" href="/links">友情链接</a></dd>
+					<dd><a title="知识产权声明及隐私权政策" href="https://act.xiami.com/wow/xiami/act/legal-agreement">知识产权声明及隐私权政策</a></dd>
+					<dd><a title="版权投诉" href="https://act.xiami.com/wow/xiami/act/copyright">版权投诉</a></dd>
+				</dl>
+
+				<dl>
+					<dt>特色服务</dt>
+					<dd><a title="虾米 VIP" href="/vip">虾米 VIP</a></dd>
+															<dd><a title="虾米播播" href="/widget">虾米播播</a></dd>
+					<dd><a title="音乐专题" href="/events">音乐专题</a></dd>
+					
+				</dl>
+
+				<dl>
+					<dt>虾米客户端</dt>
+					<dd><a title="虾米 for iPhone" href="/apps/iphone">虾米 for iPhone</a><sup class="hot"></sup></dd>
+					<dd><a title="虾米 for Android" href="/apps/android">虾米 for Android</a></dd>
+					<dd><a title="虾米 for Windows" href="/apps/win">虾米 for Windows</a></dd>
+					<dd><a title="虾米 for Mac" href="/apps/mac">虾米 for Mac</a></dd>
+					<dd><a title="虾米 for iPad" href="/apps/ipad">虾米 for iPad</a></dd>
+				</dl>
+
+
+				<dl>
+					<dt>更多</dt>
+					<dd><a title="分类找歌" href="/music/category">分类找歌</a></dd>
+					<dd><a title="帮助中心" href="/alicare">帮助中心</a></dd>
+					<dd><a title="添加虾米还没有的资料" href="/wiki/addalbum">添加虾米还没有的资料</a></dd>
+					<dd><a title="提交大家想要的专辑" href="/music/want">提交大家想要的专辑</a></dd>
+					<dd><a title="音频上传" href="/space/upload-audio">音频上传</a></dd>
+					<dd><a title="MV上传" href="https://link.xiami.com/mv/myMv">MV上传</a></dd>
+					<dd><a title="添加歌词" href="/music/words">添加歌词</a></dd>
+				</dl>
+			</div>
+
+			<div class="cooperation">
+							</div>
+
+		</div>
+		<div class="ali_group">
+	<a href="http://page.1688.com/shtml/about/ali_group1.shtml" target="_blank">阿里巴巴集团</a>
+	<a href="http://www.alibaba.com" target="_blank">阿里巴巴国际站</a>
+	<a href="http://www.1688.com" target="_blank">阿里巴巴中国站</a>
+	<a href="http://www.aliexpress.com" target="_blank">全球速卖通</a>
+	<a href="http://www.taobao.com" target="_blank">淘宝网</a>
+	<a href="http://www.tmall.com" target="_blank">天猫</a>
+	<a href="http://ju.taobao.com" target="_blank">聚划算</a>
+	<a href="http://www.etao.com" target="_blank">一淘</a>
+	<a href="http://www.alimama.com" target="_blank">阿里妈妈</a>
+	<a href="http://www.fliggy.com" target="_blank">飞猪</a>
+	<a href="http://www.aliyun.com" target="_blank">阿里云计算</a>
+	<a href="http://www.alios.cn" target="_blank">AliOS</a>
+	<a href="http://aliqin.tmall.com" target="_blank">阿里通信</a>
+	<a href="http://www.laiwang.com/" target="_blank">来往</a>
+	<a href="http://www.alipay.com" target="_blank">支付宝</a>
+	<a href="http://www.net.cn" target="_blank">万网</a>
+	<a href="http://www.autonavi.com/" target="_blank">高德</a>
+	<a href="http://www.uc.cn/" target="_blank">优视</a>
+	<a href="http://www.umeng.com/" target="_blank">友盟</a>
+	<a href="http://kanbox.com/" target="_blank">酷盘</a>
+	<a href="http://emumo.xiami.com" target="_blank">虾米</a>
+	<a href="http://www.alibabaplanet.com/" target="_blank">阿里星球</a>
+	<a href="http://www.dingtalk.com/?lwfrom=20150205111444391" target="_blank">钉钉</a>
+	<a href="http://www.aligames.com/" target="_blank">阿里游戏</a>
+</div>		<div class="extra">
+			<div class="sns">
+				关注虾米：
+				<a href="http://t.sina.com.cn/xiamixiamixiami" title="新浪微博"><b class="icon sina"></b></a>
+				<a href="http://page.renren.com/699099957/index" title="人人网"><b class="icon renren"></b></a>
+				<a href="http://new.qzone.qq.com/810167634" title="QQ 空间"><b class="icon qzone"></b></a>
+				<a href="http://t.qq.com/xiaxiaomi" title="腾讯微博"><b class="icon tqq"></b></a>
+								<a href="http://www.douban.com/people/xiaxiaomi" title="豆瓣"><b class="icon douban"></b></a>
+							</div>
+
+			<div class="copyright">© 2007 - <script>document.write(new Date().getFullYear());</script>2019 <a href="//emumo.xiami.com/">杭州阿里巴巴音乐科技有限公司</a> - <a href="/sitemap" title="网站地图">网站地图</a> <br><a href="//img.xiami.net/download/wangwenxukezheng.png" target="_blank">浙网文[2018]3192-218号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn/" target="_blank" title="浙ICP备18050417号-2">浙ICP备18050417号-2</a>&nbsp;&nbsp;&nbsp;&nbsp;阿里巴巴旗下网站</div>
+		</div>
+	</div>
+	</div>
+</div>
+<!-- #footer-->
+
+<a id="gotop" href="javascript:void(0);" class="t_hide">Top</a>
+
+<div id="personal_hover" style="display:none;"></div>
+<textarea id="personal_hover_tpl" style="display:none;">	&lt;div id="personal_hover_shadow" class="lightShadow"&gt;&lt;/div&gt;
+	&lt;div id="personal_hover_inner"&gt;
+	&lt;a id="personal_hover_link" href="//emumo.xiami.com/u/%uid%" title=" %gmt_access% "&gt;&lt;img id="personal_hover_img" src="%avatar%" width="50" height="50" /&gt;&lt;/a&gt;
+	&lt;img class="hidden" id="personal_hover_pulser_img" src="//img.xiami.net/res/img/default/loading50x50.gif" width="50" height="50" alt="" /&gt;
+	&lt;div id="personal_trigger_bar"&gt;
+	&lt;a class="personal_drop" id="personal_menu_down" href="javascript:;" title=""&gt;更多内容&lt;/a&gt;
+	&lt;div id="personal_menu_show" class="personal_buddy_menus" style="display:none;"&gt;
+	&lt;span class="blank_block"&gt;&lt;/span&gt;
+	&lt;p id="personal_relationship_g"&gt;&lt;span class="be_contacts"&gt;&lt;strong&gt;%nick_name%&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+	&lt;div id="personal_menu_other_div"&gt;
+		&lt;a id="personal_o_index" class="blocks" href="//emumo.xiami.com/u/%uid%" title="%nick_name%的个人主页"&gt;%nick_name%的个人主页&lt;/a&gt;
+&lt;!--		&lt;a id="personal_o_minifeed"  class="blocks" href="//emumo.xiami.com/space/feed/u/%uid%" title="近况"&gt;近况&lt;/a&gt;--&gt;
+		&lt;a id="personal_o_library"  class="blocks" href="//emumo.xiami.com/space/lib-song/u/%uid%" title="%nick_name%的音乐库"&gt;音乐库&lt;/a&gt;
+        &lt;a id="personal_o_recommend"  class="blocks" href="//emumo.xiami.com/space/rec/u/%uid%" title="%nick_name%的分享"&gt;分享&lt;/a&gt;
+        &lt;a id="personal_o_contact"  class="blocks" href="//emumo.xiami.com/space/following/u/%uid%" title="%nick_name%的关注和粉丝"&gt;关注/粉丝&lt;/a&gt;
+		&lt;a id="personal_o_collect"  class="blocks" href="//emumo.xiami.com/space/collect/u/%uid%" title="%nick_name%的歌单"&gt;歌单&lt;/a&gt;
+&lt;!--		&lt;a id="personal_o_charts"  class="blocks" href="//emumo.xiami.com/space/charts/u/%uid%" title="个人排行榜"&gt;个人排行榜&lt;/a&gt;--&gt;
+		&lt;a id="personal_o_topic"  class="blocks" href="//emumo.xiami.com/space/group-thread/u/%uid%" title="%nick_name%参与过的话题"&gt;参与的话题&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;a id="personal_msgsned" class="blocks_out" href="http://ihi.xiami.com/message/index?to_user_id=%uid%" title="发私信"&gt;发私信&lt;/a&gt;
+	&lt;a id="personal_block_usr" class="blocks_out" href="javascript:;" onclick="blacklist('%uid%');return false;" title="加入黑名单"&gt;加入黑名单&lt;/a&gt;
+	&lt;div id="person_menu_self_div"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+</textarea>
+
+
+
+<script>
+;(function($){
+	$.fn.personalDropMenu = function(settings){
+		var defaults = {
+			menuDiv: '#personal_hover',
+			tplDiv: '#personal_hover_tpl',
+			dropdownArrow:'#personal_menu_down',
+			myUid: 0
+		};
+        
+		$.extend(defaults, settings);
+        
+		var $menuDiv,menuDiv_html,$tplDiv;
+		$menuDiv = $(defaults.menuDiv);
+		$tplDiv = $(defaults.tplDiv);
+		menuDiv_html = $tplDiv.val();//保存原始的html        
+		$menuDiv.bind('mouseleave',function(){$(this).hide();});
+		window.isFriendshipQueryed=false;
+		var friends;
+		var setFriendHtml = function(uid,$obj){
+			$obj.next().remove();
+			if(uid == defaults.myUid) {
+				$obj.html('<strong>你自己</strong>');
+				$menuDiv.find('#personal_block_usr').remove();
+				$menuDiv.find('#personal_msgsned').remove();
+			}else if(!friends){
+				$obj.after('<span class="be_stranger"><a href="javascript:;" onclick="attention('+uid+',1);">(加关注)</a></span>');
+			}else if(friends['f_'+uid] && friends['f_'+uid]=="1"){
+				$obj.after('<span class="be_stranger"> 已关注 <a href="//emumo.xiami.com/member/attention/uid/'+uid+'/type/2?_xiamitoken='+_xiamitoken+'" onclick="return confirm(\'确定要取消吗？\');">(取消关注)</a></span>');
+			}else if(friends['f_'+uid] && friends['f_'+uid]=="2"){
+				$obj.after('<span class="be_stranger"> 已关注 <a href="//emumo.xiami.com/member/attention/uid/'+uid+'/type/2?_xiamitoken='+_xiamitoken+'" onclick="return confirm(\'确定要取消吗？\');">(取消关注)</a></span>');
+			}else if(friends['f_'+uid] && friends['f_'+uid]=="3"){
+				$obj.after('<span class="be_stranger"> 已加入黑名单 <a href="//emumo.xiami.com/member/attention/uid/'+uid+'/type/2?_xiamitoken='+_xiamitoken+'" onclick="return confirm(\'确定要取消吗？\');">(取消)</a></span>');
+				$menuDiv.find('#personal_block_usr').remove();
+				$menuDiv.find('#personal_msgsned').remove();
+			}else{
+				$obj.after('<span class="be_stranger"><a href="javascript:;" onclick="attention('+uid+',1);">(加关注)</a></span>');
+			}
+		};
+        
+		return this.each(function(){
+			var $this;
+			$this = $(this);
+			$this.mouseover(function(){
+				var params ={
+					uid: /\d+/.exec($this.attr('href')),
+					avatar: $this.find('img').attr('src'),
+					nick_name:$this.attr('title'),
+					gmt_access:$this.attr('rel')
+				};
+				if(params.gmt_access!='') params.gmt_access = "来访时间: "+params.gmt_access;
+				var html = menuDiv_html.parseTpl(params);
+				//var rects = $this[0].getBoundingClientRect();
+				var rects = $this.offset();
+				var bodyRects = $('body')[0].getBoundingClientRect();
+				//var left = rects.left - bodyRects.left - 6;
+				//var top = rects.top - bodyRects.top - 6;
+				var left = rects.left - 6;
+				var top = rects.top - 6;
+				$menuDiv.css({'top':top,'left':left});
+				$menuDiv.html(html).show();
+				if(params.gmt_access=='') $menuDiv.find('#personal_hover_link').attr('title','');
+				$menuDiv.find(defaults.dropdownArrow).click(function(){
+					var $this = $(this);
+					var $next = $this.next();
+					$this.toggleClass('active')
+					$next.toggle();
+					if($next.css('display')!='block') return;
+					$relation = $next.find('.be_contacts');
+					if(params.uid ==defaults.myUid) {setFriendHtml(params.uid,$relation); return; }     
+					if(isFriendshipQueryed){ setFriendHtml(params.uid,$relation); return; }                    
+					if(!myUid) return;
+					$relation.after($loading2);
+					$.getJSON('/member/get-friends/_xiamitoken/'+_xiamitoken,function(data){
+						try{
+							$relation.next().remove();
+							if(data.status == 'failed'){return false;}
+							isFriendshipQueryed = true;
+							friends = data.friends;
+							setFriendHtml(params.uid,$relation);
+						}catch(e){alert('Warning:something wrong! Please retry!');return;}
+					});
+				});
+			});
+		});
+	};
+})(jQuery);
+
+
+// var myUid = parseInt('');
+// $('.personalDropDown').personalDropMenu({myUid:myUid});
+</script>
+
+<script>
+_xiamitoken = 'e1239057c2920f777452fd8de2529375';
+
+
+$(document).ready(function(){
+	$('body').click(function(e){
+		$(".ctrl_gears_more").addClass('hidden');
+		$(".bt_cdgears").removeClass('active');
+	});
+
+	$("#web_loading").remove();
+
+	// $(".song_menu").mouseover(function() {
+	// 	$(this).css('z-index','6').children('span').show();
+	// }).mouseout(function() {
+	// 	$(this).css('z-index','5').children('span').hide();
+	// });
+	//
+	$("#page").delegate('.song_menu','mouseover',function(e){
+		e.preventDefault();
+		$(this).css('z-index','6').children('span').show();
+	});
+
+	$("#page").delegate('.song_menu','mouseout',function(e){
+		e.preventDefault();
+		$(this).css('z-index','5').children('span').hide();
+	});
+
+
+	$(".bt_cdgears").mouseover(function(){$(this).addClass('active').next().removeClass('hidden').show();});
+
+	// BackTop('gotop');
+	$('<div id="sidebutton" class="t_show" data-spm="226669518"><a class="sidebutton_newsite" href=""><img class="newsite_icon" src="https://img.alicdn.com/tfs/TB1hOMBrgHqK1RjSZFkXXX.WFXa-48-42.png" /><img class="newsite_xm" src="https://img.alicdn.com/tfs/TB1.G3LrhYaK1RjSZFnXXa80pXa-68-122.png" /><img class="newsite_beta" src="https://img.alicdn.com/tfs/TB1v6QvrXYqK1RjSZLeXXbXppXa-38-16.png" /><span>体验<br />新版</span></a><a class="sidebutton_qrcode" href="//emumo.xiami.com/apps/mobile" target="_blank"><b class="sidebutton_icon"></b><span>扫二<br />维码</span><div class="sidebutton_code"><strong>虾米音乐APP</strong><img src="//img.alicdn.com/tps/TB13Ac0NXXXXXaLXpXXXXXXXXXX-116-116.png" /><b class="sidebutton_triangle"><i>◆</i>◆</b></div></a><a class="sidebutton_gotop" href=""><b class="sidebutton_icon"></b><span>返回<br />顶部</span></a></div>').appendTo($('body'));
+
+	$('#sidebutton .sidebutton_newsite').click(function(e) {
+		e.preventDefault();
+		document.cookie = 'xm_oldsite=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+		document.cookie = 'xm_oldsite=;domain=.xiami.com;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+		window.location = 'https://emumo.xiami.com';
+	});
+
+	$('#sidebutton .sidebutton_gotop').click(function(e) {
+		e.preventDefault();
+		//$(this).className = 't_hide';
+		//$(window).off('scroll', set);
+		var temp = setInterval(function() {
+			$(window).scrollTop(Math.floor($(window).scrollTop()*0.2));
+			if ($(window).scrollTop()==0) {
+				clearInterval(temp);
+			}
+		}, 10);
+	});
+
+	// if ($.cookie('fools_day') != 1) {
+	// 	var now = new Date();
+	// 	var close_date = new Date('2012/4/2');
+	// 	var begin_date = new Date('2012/4/1');
+	// 	if (close_date.getTime()-now.getTime()>0 && now.getTime()-begin_date.getTime()>0) {
+	// 		var rabbit_hole = Math.ceil(Math.random()*4);
+	// 		if (rabbit_hole != 3) {
+	// 			setTimeout(function() {
+	// 				$.cookie('fools_day', 1 , { expires: 3, path: '/', domain: '.xiami.com'});
+	// 				location.href = '/event/heavenconcert';
+	// 			}, 3000);
+	// 		}
+	// 	}
+	// }
+});
+// var BackTop=function(btnId){
+// 	var btn=document.getElementById(btnId);
+// 	var browserName=navigator.userAgent.toLowerCase();
+// 	if(/chrome/i.test(browserName) && /webkit/i.test(browserName) && /mozilla/i.test(browserName)){
+// 	    var d = document.body;
+// 	}else if(/webkit/i.test(browserName) && !this.chrome){
+// 		var d = document.body;
+// 	}else{
+// 	    var d = document.documentElement ? document.documentElement : document.body;
+// 	}
+// 	var d = document.documentElement ? document.documentElement : document.body;
+// 	window.onscroll=set;
+// 	btn.onclick=function (){
+// 		btn.className = 't_hide';
+// 		window.onscroll=null;
+// 		this.timer=setInterval(function(){
+// 			//d.scrollTop = 0;
+// 			d.scrollTop-=Math.ceil(d.scrollTop*0.8);
+// 			if(d.scrollTop==0) clearInterval(btn.timer,window.onscroll=set);
+// 		},10);
+// 	};
+// 	function set(){
+// 		btn.className = d.scrollTop >= 1200 ? 't_show' : 't_hide';
+// 	}
+// };
+function isIE() {
+	return (navigator.appName == 'Microsoft Internet Explorer') || ((navigator.appName == 'Netscape') && (new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})").exec(navigator.userAgent) != null));
+}
+var checkFlash=function(a){var b='检测到您系统Flash插件版本过低,为了更好的使用虾米音乐,请升级您的Flash插件, <a href="http://get.adobe.com/cn/flashplayer/" target="_blank" style="color:#36c">马上升级</a>',c=function(){var a,c,b=document.body.children||document.body.childNodes;for(c=0;c<b.length;c++)if(1==b[c].nodeType){a=b[c];break}return a}(),d=function(){var c,a=navigator,b=0;if(a.plugins&&a.mimeTypes.length)c=navigator.plugins["Shockwave Flash"],c&&(b=c.description.replace(/.*\s(\d+\.\d+).*/,"$1"));else try{c=new window.ActiveXObject("ShockwaveFlash.ShockwaveFlash"),c&&(b=c.GetVariable("$version"))}catch(d){}return b}(),e=function(){var a=document.createElement("div");a.innerHTML=b,a.style.backgroundColor="#FFF9D7",a.style.borderBottom="1px solid #E3C823",a.style.fontWeight="bold",a.style.lineHeight="30px",a.style.textAlign="center",a.style.color="#f60",document.body.insertBefore(a,c)},f=d?d.match(/\d+/g):-1,g=f.length>0?f.join("."):0;return(isIE()&&(!g||parseInt(f[0],10)<a))?(e(),!1):!0}(9);
+</script>
+
+
+
+
+<div id="cnzz" style="display:none">
+<script type="text/javascript">
+(function (d) {
+var z1=d.createElement("script");z1.type="text/javascript";z1.async=true;
+var z2=d.createElement("script");z2.type="text/javascript";z2.async=true;
+z1.src=("https:"==d.location.protocol?"https://":"http://")+"s95.cnzz.com/stat.php?id=921634&web_id=921634";
+z2.src=("https:"==d.location.protocol?"https://":"http://")+"s16.cnzz.com/stat.php?id=2629111&web_id=2629111";
+d.getElementById("cnzz").appendChild(z1);
+d.getElementById("cnzz").appendChild(z2);
+})(document);
+</script><script type="text/javascript" async="" src="https://s95.cnzz.com/stat.php?id=921634&amp;web_id=921634"></script><script type="text/javascript" async="" src="https://s16.cnzz.com/stat.php?id=2629111&amp;web_id=2629111"></script>
+<!-- <script src='//s95.cnzz.com/stat.php?id=921634&web_id=921634' language='JavaScript' charset='gb2312'></script> -->
+<!-- <script src="//s16.cnzz.com/stat.php?id=2629111&web_id=2629111" language="JavaScript"></script> -->
+</div>
+
+
+<div style="background:#fff; margin: 0 auto;display:none;"><font style="font-size:12px; color:#fff;">Host: , Process All 0.0156s Memory:2842.78k <br></font></div>
+
+<div class="name_card" id="name_card" style="display: none;"><div class="content"></div><div class="arrow"></div></div><div id="sidebutton" class="t_show" data-spm="226669518"><a class="sidebutton_newsite" href=""><img class="newsite_icon" src="https://img.alicdn.com/tfs/TB1hOMBrgHqK1RjSZFkXXX.WFXa-48-42.png"><img class="newsite_xm" src="https://img.alicdn.com/tfs/TB1.G3LrhYaK1RjSZFnXXa80pXa-68-122.png"><img class="newsite_beta" src="https://img.alicdn.com/tfs/TB1v6QvrXYqK1RjSZLeXXbXppXa-38-16.png"><span>体验<br>新版</span></a><a class="sidebutton_qrcode" href="//emumo.xiami.com/apps/mobile" target="_blank"><b class="sidebutton_icon"></b><span>扫二<br>维码</span><div class="sidebutton_code"><strong>虾米音乐APP</strong><img src="//img.alicdn.com/tps/TB13Ac0NXXXXXaLXpXXXXXXXXXX-116-116.png"><b class="sidebutton_triangle"><i>◆</i>◆</b></div></a><a class="sidebutton_gotop" href=""><b class="sidebutton_icon"></b><span>返回<br>顶部</span></a></div></body></html>

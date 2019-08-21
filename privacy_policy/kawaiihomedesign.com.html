@@ -1,0 +1,315 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of use - #KHD - Kawaii Home Design</title>
+<meta name="description" content="#KHD - Kawaii Home Design">
+<meta property="og:title" content="Terms of use - #KHD - Kawaii Home Design">
+<meta property="og:description" content="#KHD - Kawaii Home Design">
+<meta property="og:image" content="http://kawaiihomedesign.com/files/shares/Logo_Icon_BG/icon.png">
+
+<meta name="twitter:title" content="Terms of use - #KHD - Kawaii Home Design">
+<meta name="twitter:description" content="#KHD - Kawaii Home Design">
+<meta name="twitter:images0" content="http://kawaiihomedesign.com/files/shares/Logo_Icon_BG/icon.png">
+    <title>Terms of use - #KHD - Kawaii Home Design</title>
+    <meta name="description" content="#KHD - Kawaii Home Design">
+    <meta name="keywords" content="kawaii,home,design,decor,style,makeover,furniture,decorate,interior,diy,cute,fashion,stylist,room">
+    <meta name="csrf-token" content="gyGDpGOeIajAkO6K9zZIeA8VVTBvO6rTonmU3lZl">
+    <meta name="base_url" content="http://kawaiihomedesign.com">
+    <link rel="manifest" href="http://kawaiihomedesign.com/manifest.json">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/css/jquery.fullpage.css">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/css/hover-min.css">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/css/swiper.min.css">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/css/swipebox.css">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/css/style.css">
+    <link rel="stylesheet" href="http://kawaiihomedesign.com/vendor/adminlte/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/files/shares/Logo_Icon_BG/icon.png" type="image/x-icon">
+    <link rel="icon" href="/files/shares/Logo_Icon_BG/icon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script>
+        var console = {};
+        console.log = function(){};
+        // Initialize Firebase
+        let config = {
+            apiKey: "AIzaSyDoG0o-46sq8P31Jvc44AL_s8rSpebhC7w",
+            authDomain: "abilitiy-draft-62218551.firebaseapp.com",
+            databaseURL: "https://abilitiy-draft-62218551.firebaseio.com",
+            projectId: "abilitiy-draft-62218551",
+            storageBucket: "abilitiy-draft-62218551.appspot.com",
+            messagingSenderId: "567895225873"
+        };
+        firebase.initializeApp(config);
+        const messaging = firebase.messaging();
+        messaging.usePublicVapidKey("BJcySzVMvNvhBn0ZLBQFmRUpueORt83k8rW77zgU2aRaX5nzHjyDtX7MoXFte7CEEUQOBehzo3Kr6zZImGYbcwg");
+        messaging.requestPermission().then(function() {
+            getRegToken()
+        }).catch(function(err) {
+            console.log('Unable to get permission to notify.', err);
+        });
+        function getRegToken() {
+            messaging.getToken().then(function(currentToken) {
+                if (currentToken) {
+                    console.log(currentToken);
+                    console.log('Has token.');
+                    try {
+                        $.ajaxSetup({
+                            headers: {'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')}
+                        });
+                        let token = currentToken;
+                        let topic = 'web_notify';
+                        $.ajax({
+                            url: $('meta[name="base_url"]').attr('content')+'/check-subscribe',
+                            method: 'POST',
+                            data: {
+                                'token': token,
+                                'topic': topic
+                            },
+                            success: function (data) {
+                                if (data.success) {
+                                    console.log('subscribed')
+                                } else {
+                                    $.ajax({
+                                        url: $('meta[name="base_url"]').attr('content')+'/subscribe-notify',
+                                        method: 'POST',
+                                        data: {
+                                            'token': token,
+                                            'topic': topic
+                                        },
+                                        success: function (data) {
+                                            if (data.success) {
+                                                console.log('subscribed')
+                                            } else {
+                                                console.log('can not subscribe topic')
+                                            }
+                                        },
+                                        error: function (data) {
+                                            console.log('error check subscribe')
+                                        }
+                                    });
+                                }
+                            },
+                            error: function (data) {
+                                console.log('error check subscribe')
+                            }
+                        });
+                    }catch (e) {
+                        console.log(e)
+                    }
+                } else {
+                    console.log('No Instance ID token available. Request permission to generate one.');
+                }
+            }).catch(function(err) {
+                console.log('An error occurred while retrieving token. ', err);
+            });
+        }
+        messaging.onMessage(function(payload) {
+            console.log('Message received. ', payload);
+            let notificationTitle = payload.notification.title;
+            let notificationOptions = {
+                body: payload.notification.body,
+                icon: payload.notification.icon,
+                click_action: payload.notification.click_action,
+            };
+            let myNotification = new Notification(notificationTitle, notificationOptions);
+            myNotification.onclick(function () {
+                event.preventDefault(); // prevent the browser from focusing the Notification's tab
+                window.open(payload.notification.click_action, '_blank');
+            })
+            setTimeout(myNotification.close.bind(myNotification), 10000);
+        });
+
+    </script>
+</head>
+<body>
+
+<div class="background top" style="background-image: url('/files/shares/Pages/News/background.png')">
+                <header class="header small">
+                <div class="d-flex flex-column h-100">
+                    <div class="container-landing" id="menu-bar">
+    <nav class="navbar navbar-expand-md" id="menu">
+        <a class="navbar-brand" href="http://kawaiihomedesign.com">
+            <img class="logo" src="/files/shares/Logo_Icon_BG/Logo.png">
+        </a>
+        <div class="text-left">
+            <button class="navbar-toggler open mobile-menu" type="button" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="btn-toggle"><span></span></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="text-left btn-menu">
+                <button class="navbar-toggler mobile-menu" type="button" data-target="#navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="btn-toggle"><span></span></span>
+                </button>
+            </div>
+            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item ">
+                    <a class="nav-link" href="http://kawaiihomedesign.com">Home</a>
+                </li>
+                                <li class="nav-item ">
+                    <a target="_blank" class="nav-link" href="https://support.sugastudio.com">Support</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" target="_blank" href="https://kawaiihomedesign.ideas.aha.io/">Feedback</a>
+                </li>
+            </ul>
+            <div class="flex-grow-1 d-md-none"></div>
+            <div class="text-center d-md-none">
+                <div class="follow-us">Follow us</div>
+                <div class="text-center group-btn-icon d-block d-md-none pb-3">
+                    <a target="_blank" href="https://www.facebook.com/kawaiihomedesign/">
+                        <img src="http://kawaiihomedesign.com/img/facebook.png">
+                    </a>
+                    <a target="_blank" href="http://www.youtube.com/channel/UC3x6ACFtdVvp9HeAZ67PwjA?sub_confirmation=1">
+                        <img src="http://kawaiihomedesign.com/img/youtube.png">
+                    </a>
+                    <a target="_blank" href="https://discord.gg/Bgah4Sz">
+                        <img src="http://kawaiihomedesign.com/img/discord.png">
+                    </a>
+                    <a target="_blank" href="https://www.reddit.com/r/KawaiiHomeDesign">
+                        <img src="http://kawaiihomedesign.com/img/reddit.png">
+                    </a>
+                </div>
+            </div>
+            <div class="form-inline my-2 my-lg-0 d-none d-md-block">
+                <a target="_blank" href="https://www.facebook.com/kawaiihomedesign/">
+                    <img class="icon-share hvr-buzz-out" src="http://kawaiihomedesign.com/img/facebook.png">
+                </a>
+                <a target="_blank" href="http://www.youtube.com/channel/UC3x6ACFtdVvp9HeAZ67PwjA?sub_confirmation=1">
+                    <img class="icon-share hvr-buzz-out" src="http://kawaiihomedesign.com/img/youtube.png">
+                </a>
+                <a target="_blank" href="https://discord.gg/Bgah4Sz">
+                    <img class="icon-share hvr-buzz-out" src="http://kawaiihomedesign.com/img/discord.png">
+                </a>
+                <a target="_blank" href="https://discord.gg/Bgah4Sz">
+                    <img class="icon-share hvr-buzz-out" src="http://kawaiihomedesign.com/img/reddit.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>                    <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+                        
+                        
+                        
+                    </div>
+                </div>
+            </header>
+            <section class="content-news page-content">
+                <div class="container page-content-white">
+
+                    <p><strong>Kawaii Home Design</strong><strong> uses cookies and other comparable technology on this website. Cookies are small, simple text files. Your computer receives these files when you visit one of our websites. Read on for more information about how we use cookies, how to manage your cookie settings, how to block cookies and how to delete them.</strong></p>
+<p>The website uses functional cookies and analytical cookies. These cookies are required to ensure that the website works properly and are therefore always placed.</p>
+<p>We use the following cookies on our website:</p>
+<ul>
+<li>Functional cookies: cookies that ensure that the website works properly.&nbsp;</li>
+<li>Analytical cookies: cookies that record how the website is used. We use these statistics to help us improve the website.&nbsp;</li>
+<li>Tracking cookies (advertising cookies): cookies that allow advertisements to be displayed, based on how you use the internet. The aim is to show you the correct advertisements that are the most relevant to you.&nbsp;</li>
+<li>Other cookies: cookies that do not fit into any of the previous categories. If you accept these cookies, how you use the internet can be monitored by other networks or third parties, such as Google.</li>
+</ul>
+<p>You will be giving permission for cookies to be used on our website: http://skilldraft.io</p>
+<p>Read on for more detailed information about the various types of cookies.</p>
+<p><strong>Functional cookies</strong></p>
+<p>Some cookies are vital to ensure that the website works properly. Without them, (parts of) the website will not function as intended. Permission is not required to place functional cookies, and it is therefore not possible to block them.&nbsp;</p>
+<p><strong>Analytical cookies</strong></p>
+<p>Kawaii Home Design uses analytical cookies from Google Analytics. These cookies allow us to record web statistics. The statistics offer us insight into matters including:</p>
+<ul>
+<li>How many people visit the website;&nbsp;</li>
+<li>The pages they visit;</li>
+<li>How long they spend on the website;</li>
+<li>From which page they arrive on the website;</li>
+<li>The browser, device and screen resolution they are using.&nbsp;</li>
+</ul>
+<p>We use the results to help improve the website. The data cannot be traced back to individual visitors.&nbsp;</p>
+<p>We have taken the following measures to protect your privacy:</p>
+<ul>
+<li>We have signed a data processing agreement with Google.</li>
+<li>We have turned off the ‘share data with Google’ option.</li>
+<li>Google Analytics cookies are not used in combination with other Google services.</li>
+<li>The last three numbers of your IP address have been deleted, meaning it is anonymised.</li>
+</ul>
+<p>Google Analytics places the following cookies:<br>_ga, _gat, _gid<br>These cookies are stored for a maximum of 14 months.</p>
+<p><strong>Advertising or tracking cookies</strong></p>
+<p>We also use advertising cookies on our websites. These cookies offer us insight into matters including:</p>
+<ul>
+<li>Which advertisements you have already seen, to help avoid showing you the same advertisement repeatedly;</li>
+<li>How many times an advertisement has been clicked on.&nbsp;</li>
+</ul>
+<p>We work with media agencies to place advertisements on other websites and to gauge how effective these advertisements are. If you do not accept these cookies, you will still be able to view advertisements from Kawaii Home Design. However, the advertisements you see will not be tailored to your interests or internet user behavior.</p>
+<p><strong>Videos</strong></p>
+<p>When we feature YouTube videos on our website, we add a no cookie code. This is so that you can watch the video without being tracked for advertisement or remarketing purposes. Please note: this no-cookies setting may be overwritten if you are logged into your Google account when visiting websites (we cannot influence this).</p>
+<ul>
+<li><u><a href="https://policies.google.com/technologies/types">Types of cookies used by Google</a></u></li>
+<li><u><a href="https://policies.google.com/privacy">Google's privacy policy</a></u></li>
+</ul>
+<p><strong>A/B testing</strong></p>
+<p>To help us gauge whether changes we make to the website are worthwhile, we use the Visual Website Optimizer. This allows us to show some visitors to our website a different version of the web page to others. This process is anonymous. We use the results of this testing to help us improve our web pages.</p>
+<p>Visual Website Optimizer uses this cookie:&nbsp;<em>vwo</em>uuid_v2. The cookie creates a unique ID for each visitor to enable visitor segmentation. Individuals cannot be traced using the cookie and no personal data is stored. The cookie itself is stored for a maximum of 1 year.</p>
+<p><strong>Blocking or deleting cookies in your browser</strong></p>
+<p>Most internet browsers allow you to block cookies. How you block cookies varies per browser. After visiting the website, you can choose to delete the cookies from your computer. How you delete cookies also varies per browser.&nbsp;</p>
+<p>Visit the websites of the following browsers for more information:</p>
+<ul>
+<li><u><a href="https://support.google.com/chrome/answer/95647?hl=en">Chrome</a></u></li>
+<li><u><a href="https://support.apple.com/kb/PH21411?locale=en_US">Safari</a></u></li>
+<li><u><a href="https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies">Internet Explorer</a></u></li>
+<li><u><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">Firefox</a></u></li>
+<li><u><a href="https://support.microsoft.com/en-us/help/10607/microsoft-edge-view-delete-browser-history">Microsoft Edge</a></u></li>
+</ul>
+<p><strong>And finally…</strong></p>
+<p>Should you come across cookies on this website that are not mentioned above, please contact us by sending an email to support@suga.vn. Alternatively, you can contact the administrators of the website in question. Ask which cookies they place, why they place them, how long the cookie(s) is/are stored for and how they safeguard your privacy.</p>
+<p>We will need to update this cookie declaration from time to time. For example, if the website changes or adjustments are made to regulations governing the use of cookies.</p>
+                </div>
+            </section>
+        </div>
+    <footer id="footer">
+    <div class="foot">
+        <div>
+            <div class="group-social d-sm-block d-md-none d-lg-none d-xl-none mb-3">
+                <a target="_blank" href="https://www.facebook.com/kawaiihomedesign/" class="social-btn fb hvr-buzz-out"></a>
+                <a target="_blank" href="http://www.youtube.com/channel/UC3x6ACFtdVvp9HeAZ67PwjA?sub_confirmation=1" class="social-btn yt hvr-buzz-out"></a>
+                <a target="_blank" href="https://discord.gg/Bgah4Sz" class="social-btn dc hvr-buzz-out"></a>
+                <a target="_blank" href="https://www.reddit.com/r/KawaiiHomeDesign" class="social-btn ml hvr-buzz-out"></a>
+            </div>
+            <div class="d-flex big-menu">
+                                <a href="http://kawaiihomedesign.com" class="uppercase b">Home</a>
+                                <a target="_blank" href="https://support.sugastudio.com" class="uppercase b">SUPPORT</a>
+                <a target="_blank" href="https://kawaiihomedesign.ideas.aha.io/" class="uppercase b">Feedback</a>
+                <span class="flex-grow-1"></span>
+                <span class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline">
+                                Follow us
+                            </span>
+            </div>
+            <div class="d-flex">
+                <a href="http://kawaiihomedesign.com/page/terms-of-use">Terms of use</a>
+                <a href="http://kawaiihomedesign.com/page/privacy-policy">Privacy Policy</a>
+                <a href="http://kawaiihomedesign.com/page/cookies-preferences">Cookies Preferences</a>
+                <span class="flex-grow-1"></span>
+                <div class="group-social d-none l d-md-inline">
+                    <a target="_blank" href="https://www.facebook.com/kawaiihomedesign/" class="social-btn fb hvr-buzz-out"></a>
+                    <a target="_blank" href="http://www.youtube.com/channel/UC3x6ACFtdVvp9HeAZ67PwjA?sub_confirmation=1" class="social-btn yt hvr-buzz-out"></a>
+                    <a target="_blank" href="https://discord.gg/Bgah4Sz" class="social-btn dc hvr-buzz-out"></a>
+                    <a target="_blank" href="https://www.reddit.com/r/KawaiiHomeDesign" class="social-btn ml hvr-buzz-out"></a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <p>
+                        © 2018, SUGA Studio, SUGA Games, the SUGA Games logo, Kawaii Home Design, the Kawaii Home Design logo, Unity, Unity 3D are trademarks or registered trademarks of SUGA Games. In the Vietnam and elsewhere. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="http://kawaiihomedesign.com/js/jquery.easings.min.js"></script>
+<script src="http://kawaiihomedesign.com/js/scrolloverflow.min.js"></script>
+<script src="http://kawaiihomedesign.com/js/bootstrap.min.js"></script>
+<script src="http://kawaiihomedesign.com/js/jquery.fullpage.js"></script>
+<script src="http://kawaiihomedesign.com/js/swiper.min.js"></script>
+<script type="text/javascript" src="http://kawaiihomedesign.com/js/scrolloverflow.min.js"></script>
+<script src="http://kawaiihomedesign.com/js/index.js"></script>
+<script src="http://kawaiihomedesign.com/js/jquery.swipebox.js"></script>
+<script src="http://kawaiihomedesign.com/js/index.js"></script>
+
+</body></html>

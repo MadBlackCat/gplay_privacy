@@ -1,0 +1,187 @@
+![](logo.png)
+
+# TERMS OF USE AND PRIVACY POLICY
+
+ITERATION MOBILE S.L (hereinafter, "ITERATION"), Spanish company with CIF
+B84651900 and domiciled for tax purposes at Calle Valparaiso Nº2, 3ª Planta,
+Oficina 1, 28944, Fuenlabrada, Madrid, is the owner of this application
+Radarbot (hereinafter, "the application").
+
+This application has been designed to provide radar warnings, real-time
+traffic alerts and relevant information for safer and more efficient driving.
+
+## INTELLECTUAL PROPERTY
+
+The application and all its contents, including but not limited to texts,
+photographs, graphics, audio and video material, software, logos, titles,
+characters, names and icons are the property of ITERATION or, where
+appropriate, of its licensees. The total or partial copying and reproduction
+of the contents are strictly prohibited, as is the processing of inverse
+engineering using any of the contents used by the application.
+
+## PRIVACY POLICY
+
+At ITERATION we care about your privacy. This privacy policy aims to help you
+to understand what information we gather, why we gather and how you can manage
+your information.
+
+In this Privacy Policy, the term "personal information" refers to the
+information you provide to us that personally identifies you, such as your
+name, device identifier, email address or your location.
+
+### WHAT INFORMATION DO WE GATHER AND WHAT DO WE USE IT FOR?
+
+#### Information on the use of the Application
+
+When installing the application on your device, the application gathers
+ANONYMOUS information regarding its ue and information of the device on which
+it is installed. For example, frequency of use of the application, usage time,
+type and model of the device, unique identifiers, language, version of the
+operating system, use of the battery and IP address. We also gather ANONYMOUS
+information regarding fault reports and performance.
+
+All the informaton gathered is used to maintain and improve the quality of the
+service provided. Thanks to this information, ITERATION can offer a customised
+service, make improvements to the application and resolve operating errors. We
+also use your information to communicate with you by sending messages
+containing information relating to updates, promotions or new related to the
+application.
+
+Under no circumstance will we sell the data gathered, neither will we share it
+with third parties, unless required by law.
+
+ITERATION uses the following third-party software for gathering usage
+information:
+
+Services provided by Google Inc.:
+
+  *  **Google Analytics for Firebase:** We use Google Analytics to gather information on the use of the application. Google Analytics may share data with other tools provided by Firebase, such as Crash Reporting, Authentication, Remote Config or Cloud Messaging.
+  *  **Firebase Crash Reporting:** We use Firebase Crash Reporting for reporting errors and information regarding the use of the application.
+  *  **Firebase Performance Monitoring:** We use Firebase Performance Monitoring for measuring the performance of the application and to perform optimisations that improve the user experience.
+  *  **Firebase Remote Config:** We use Firebase Remote Config for performing A/B tests and validating or purchasing the results relating to changes or improvements applied to different application user populations.
+  *  **Firebase Cloud Messaging:** We use Firebase Cloud Messaging for sending messages and notifications to the users of the application. The messages may be sent to individual devices, groups of devices or specific segments. We can obtain statistics on how the users interact with our notifications (For example, the number of messages opened or conversion events associated to a particular message).
+
+For further informaton, please check the Google privacy policy:
+http://www.google.com/policies/privacy
+
+Services provided by other companies:
+
+  *  **Facebook Analytics:** We use Facebook Analytics for monitoring and analysing the marketing channels related to Facebook. This way, we can obtain better results when launching marketing campaigns aimed at obtaining new downloads of the application. This also helps us to understand how the users use the application. For further information, please check the Facebook privacy policy: https://www.facebook.com/about/privacy
+
+#### Location information
+
+To the extent in which ITERATION offers services that record their location
+and you use these services, ITERATION may gather and process your location
+data to provide services based on said location. Your GPS location shall not
+be accessed without your consent.
+
+ITERATION will not share your GPS location with third parties without your
+consent. To the extent in which ITERATION makes location data available to
+third parties in accordance with this privacy policy, said data will always be
+provided ANONYMOUSLY.
+
+By default, the majority of browsers and devices provide means for
+deactivating GPS tracking. If the user has granted his/her express consent to
+such possibility, the application may receive information related to their
+actual geographic location.
+
+In particular, the application uses your GPS location for:
+
+  * Alerting USERS, based on their location, of possible traffic alerts such as: radar cameras, user alerts, dangerous traffic areas, controlled traffic lights and/or any traffic incident that may be useful for the user of the application.
+  * Notifying new traffic alerts. Our servers receive the type of alert, the location, date/time and the device identifier. This information is temporarily stored on our servers until the alert is no longer active. Your alert will be shown to other users in a completely ANONYMOUS manner.
+
+### ADVERTS
+
+The application may use publicity to provide the service free of charge. When
+using the application, your device automatically sends certain information to
+our advertising partners. This information includes, for example, the name of
+the application, the type of device and the advertising ID.
+
+The application and our associates may compile and process personal data such
+as the identifier of your device, location data and other demographic or
+relevant information in order to offer you customised adverts. If you are a
+user located within the European Union, you may chose between using the
+application with customised adverts or non-customised adverts by accessing the
+"Privacy" option in the application setting.
+
+We may also receive information in an ANONYMOUS manner regarding how our users
+interact with our adverts.
+
+Below is the list of advertising partners with which we work for showing
+adverts:
+
+  * Google Admob: Privacy policy
+  * Facebook: Privacy policy
+  * Unity Ads: Privacy policy
+  * Mopub: Privacy policy
+
+The application may incorporate integrated purchases for removing adverts.
+
+### COOKIES AND SIMILAR TECHONOLOGIES
+
+The application may use cookies and similar technologies. Cookies a small text
+files that are stored on your device. The application may use cookies for a
+range of different purposes such as to avoid the need to insert access
+information or gather statistical information. The user may choose to
+configure his/her web browser to reject cookies or to warn the user when
+cookies are sent.
+
+### COMPLIANCE WITH REGULATORS
+
+#### GDPR European Union Requirements
+
+We regularly review our privacy policy and we ensure that the processing of
+your information meets said policy. The GDPR is the new EU regulation for
+protecting the privacy of its citizens. As a user of the application, you hav
+certain rights regarding how "personal information" is processed. These rights
+are described below:
+
+  * Right to be informed: You have the right to know how your data are processed.
+  * Right to access: You have the right to access and a request a copy of your data which have been gathered.
+  * Right to rectification: You have the right to modify and update your personal data when incorrect data are being used.
+  * Right to removal: You have the right to delete all personal data that have been gathered.
+  * Right to restriction: Your have the right to prevent a company from processing certain types of personal data.
+  * Right to portability of the data: You have the right access your personal data and transfer them to other data controllers.
+  * Right to oppose: You have the right to withdraw your consent to the processing of your data for public interest, marketing or research.
+  * Right to reject automatic decisions: You have the right to oppose your data from being processed by automatic systems.
+
+You may submit any of the requests described above by contacting us:
+support@iteration-mobile.com
+
+### CHANGES TO THIS PRIVACY POLICY
+
+We may change this privacy policy from time to time by publishing the most
+recent privacy policy and its duration date on our website. In the event of
+substantially modifying this privacy policy, we may inform of said changes by
+means of a specific warning in our applications, on our websites, by email or
+by means of a notification.
+
+## LIABILITY EXEMPTION
+
+Without prejudice of the legal obligations arising from the application of the
+Spanish and European regulations, this application is provided without any
+kind of express or implicit guarantee regarding its quality, reliabilty,
+compatibility, security, performance, purpose, precision or accurateness and
+non-breach of the rights or legal compliances that may arise for its use
+regardless of the reason causing the same.
+
+Use of this application implies that:
+
+  * You accept the risks that may arise as a result of using this application.
+  * You accept the consequences that may arise from the use of any of the services that this application may provide irrespective of the functionality and purpose of its use.
+  * You accept the responsibility for any event that may arise which entails damage to the user or a third-party.
+  * You release ITERATION from all liability regarding the negative results or undesired consequences involved in a breach or crime of any nature.
+  * You are responsible for any illegal use that may be made using the application which involves any regulatory or legal non-compliance.
+
+## CANCELLATION OF THE SERVICES
+
+You may cancel the services of this application at any time by uninstalling
+the application from your device.
+
+## CONTACT
+
+If you have any question regarding the terms of use or the privacy policy, you
+may contact us by: support@iteration-mobile.com
+
+#### Latest update: 25 May 2018
+

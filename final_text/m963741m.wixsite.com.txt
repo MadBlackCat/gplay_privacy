@@ -1,0 +1,107 @@
+Home
+EternalSenia
+Credits
+Privacy Policy of EternalSenia:Hydrangea after the rain
+
+This Application collects some Personal Data from its Users.
+Policy summary
+  Personal Data collected for the following purposes and using the following services:
+  Advertising
+AdMob
+Personal Data: Cookies, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and Usage Data
+Unity Ads
+Personal Data: Cookies and Usage Dat
+  Analytics
+Google Analytics for Firebase
+Personal Data: Cookies, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and Usage Data
+  Hosting and backend infrastructure
+Firebase Realtime Database
+Personal Data: Usage Data and various types of Data as specified in the privacy policy of the service
+  Registration and authentication
+Firebase Authentication
+Personal Data: email address, password and social media accounts
+Contact information
+Data owner
+Sanctum Kaohsiung  City, Taiwan (R.O.C.)
+Owner contact email: domozea@gmail.com
+Full policy
+Data Controller and Owner
+Sanctum Kaohsiung City, Taiwan (R.O.C.)
+Owner contact email: domozea@gmail.com
+Types of Data collected
+Among the types of Personal Data that this Application collects, by itself or through third parties, there are: Cookies, Usage Data, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example), email address, password and social media accounts .
+Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
+The Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Application.
+All Data requested by this Application is mandatory and failure to provide this Data may make it impossible for this Application to provide its services. In cases where this Application specifically states that some Data is not mandatory, Users are free not to communicate this Data without any consequences on the availability or the functioning of the service.
+Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.
+Any use of Cookies – or of other tracking tools – by this Application or by the owners of third party services used by this Application serves the purpose of providing the service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available.
+Users are responsible for any third party Personal Data obtained, published or shared through this Application and confirm that they have the third party's consent to provide the Data to the Owner.
+Mode and place of processing the Data
+Methods of processing
+The Data Controller processes the Data of Users in a proper manner and shall take appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.
+The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Data Controller, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of the site (administration, sales, marketing, legal, system administration) or external parties (such as third party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Data Controller at any time.
+  Place
+The Data is processed at the Data Controller's operating offices and in any other places where the parties involved with the processing are located. For further information, please contact the Data Controller.
+  Retention time
+The Data is kept for the time necessary to provide the service requested by the User, or stated by the purposes outlined in this document, and the User can always request that the Data Controller suspend or remove the data.
+  The use of the collected Data
+The Data concerning the User is collected to allow the Owner to provide its services, as well as for the following purposes: Advertising, Analytics, Registration and authentication and Hosting and backend infrastructure.
+The Personal Data used for each purpose is outlined in the specific sections of this document.
+  Detailed information on the processing of Personal Data
+Personal Data is collected for the following purposes and using the following services:
+Advertising
+This type of service allows User Data to be utilized for advertising communication purposes displayed in the form of banners and other advertisements on this Application, possibly based on User interests.
+This does not mean that all Personal Data are used for this purpose. Information and conditions of use are shown below.
+Some of the services listed below may use Cookies to identify Users or they may use the behavioral retargeting technique, i.e. displaying ads tailored to the User’s interests and behavior, including those detected outside this Application. For more information, please check the privacy policies of the relevant services.
+In addition to any opt out offered by any of the services below, the User may opt out of a third-party service's use of cookies by visiting the Network Advertising Initiative opt-out page.
+AdMob (AdMob Google Inc.)
+AdMob is an advertising service provided by AdMob Google Inc.
+In order to understand Google's use of Data, consultGoogle's partner policy.
+Personal Data collected: Cookies, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and Usage Data.
+Place of processing: US – Privacy Policy – Opt Out
+  Unity Ads (Unity Technologies ApS)
+Unity Ads is an advertising service provided by Unity Technologies ApS.
+Personal Data collected: Cookies and Usage Data.
+Place of processing: Denmark – Privacy Policy
+Analytics
+The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
+  Google Analytics for Firebase (Google Inc.)
+Google Analytics for Firebase or Firebase Analytics is an analytics service provided by Google Inc. In order to understand Google's use of Data, consult Google's partner policy.
+Firebase Analytics may share Data with other tools provided by Firebase, such as Crash Reporting, Authentication, Remote Config or Notifications. The User may check this privacy policy to find a detailed explanation about the other tools used by the Owner.
+This Application uses identifiers for mobile devices (including Android Advertising ID or Advertising Identifier for iOS, respectively) and technologies similar to cookies to run the Firebase Analytics service.
+Users may opt-out of certain Firebase features through applicable device settings, such as the device advertising settings for mobile phones or by following the instructions in other Firebase related sections of this privacy policy, if available.
+Personal Data collected: Cookies, unique device identifiers for advertising (Google Advertiser ID or IDFA, for example) and Usage Data.
+Place of processing: USA – Privacy Policy
+Hosting and backend infrastructure
+This type of service has the purpose of hosting data and files that enable this Application to run and be distributed as well as to provide a ready-made infrastructure to run specific features or parts of this Application. Some of these services work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.
+Firebase Realtime Database (Google Inc.)
+Firebase Realtime Database is a hosting and backend service provided by Google Inc.
+Personal Data collected: Usage Data and various types of Data as specified in the privacy policy of the service.
+Place of processing: USA – Privacy Policy
+Registration and authentication
+By registering or authenticating, Users allow this Application to identify them and give them access to dedicated services.
+Depending on what is described below, third parties may provide registration and authentication services. In this case, this Application will be able to access some Data, stored by these third party services, for registration or identification purposes.
+Firebase Authentication (Google Inc.)
+Firebase Authentication is a registration and authentication service provided by Google Inc. To simplify the registration and authentication process, Firebase Authentication can make use of third party identity providers and save the information on its platform.
+Personal Data collected: email address, password and social media accounts .
+Place of processing: USA – Privacy Policy
+Additional information about Data collection and processing
+Legal action
+The User's Personal Data may be used for legal purposes by the Data Controller, in Court or in the stages leading to possible legal action arising from improper use of this Application or the related services.
+The User declares to be aware that the Data Controller may be required to reveal personal data upon request of public authorities.
+Additional information about User's Personal Data
+In addition to the information contained in this privacy policy, this Application may provide the User with additional and contextual information concerning particular services or the collection and processing of Personal Data upon request.
+System logs and maintenance
+For operation and maintenance purposes, this Application and any third party services may collect files that record interaction with this Application (System logs) or use for this purpose other Personal Data (such as IP Address).
+Information not contained in this policy
+More details concerning the collection or processing of Personal Data may be requested from the Data Controller at any time. Please see the contact information at the beginning of this document.
+The rights of Users
+Users have the right, at any time, to know whether their Personal Data has been stored and can consult the Data Controller to learn about their contents and origin, to verify their accuracy or to ask for them to be supplemented, cancelled, updated or corrected, or for their transformation into anonymous format or to block any data held in violation of the law, as well as to oppose their treatment for any and all legitimate reasons. Requests should be sent to the Data Controller at the contact information set out above.
+This Application does not support “Do Not Track” requests.
+To determine whether any of the third party services it uses honor the “Do Not Track” requests, please read their privacy policies.
+Changes to this privacy policy
+The Data Controller reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom. If a User objects to any of the changes to the Policy, the User must cease using this Application and can request that the Data Controller remove the Personal Data. Unless stated otherwise, the then-current privacy policy applies to all Personal Data the Data Controller has about Users.
+Information about this privacy policy
+The Data Controller is responsible for this privacy policy, prepared starting from the modules provided by Iubenda and hosted on Iubenda's servers.
+This site was designed with the .com website builder. Create your website today.
+Start Now

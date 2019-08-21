@@ -1,0 +1,418 @@
+Değerli Ziyaretçimiz,
+
+Aşağıdaki, Missy Arkadaş ile Missy Arkadaş üyesi arasındaki üyelik
+sözleşmesinin metnidir. Missy Arkadaş’a üye olmadan önce lütfen bu sözleşmeyi
+dikkatle okuyunuz ve sözleşmenin içerdiği tüm maddeleri onaylamadan siteye
+üyeliğinizi tamamlamayınız. Yeni üyelik esnasında, bu metni okuduğunuzu
+söyleyen bir kutucukla karşılaşacaksınız; bu kutucuğu işaretlemeniz, aşağıdaki
+maddelerin tamamını kabul ettiğiniz anlamına gelecektir.
+
+## 1\. TARAFLAR
+
+İşbu sözleşme, Missy Arkadaş Bilgi İletişim Teknolojileri A.Ş. (“Missy
+Arkadaş”) ile üye olan kişi (“Üye”) arasında düzenlenmiş, elektronik ortamda
+üye tarafından onaylanması anında akdedilmiş ve karşılıklı olarak yürürlülüğe
+girmiştir.
+
+##
+
+## 2\. TANIMLAR
+
+Site: www.missyarkadas.com adresinde yayın yapan internet sitesi.
+
+Üye: www.missyarkadas.com adresinde yer alan formu doldurmuş, “Üyelik
+Sözleşmesi’ni okudum, kabul ediyorum.” ifadesinin başındaki kutucuğu
+işaretlemiş ve “Üye Ol” butonuna basarak üye olma sürecini tamamlamış kişi.
+
+Standart Üyelik: Üyenin Missy Arkadaş’de kullanılacak olan profil alanındaki
+bilgileri (genel bilgiler, fiziksel özellikler, ilgi alanları, yaşam tarzı,
+kültür sanat vb.) girerek oluşturduğu ve göz kırpma, profile bakma ve
+arkadasbulapp.com yönetimi tarafından site trafiğinin üye ve site açısından en
+elverişli kullanımını sağlamak, sitenin kalitesi ve üyelerin huzurunu en
+yüksek seviyede tutmak ve uygulamayı suistimal etmek isteyen üyeleri elimine
+etmek amacıyla belirlenmiş olan ve yine işbu belirtilen kriterler
+doğrultusunda cinsiyet grubu içerisinde muayyen ve makul farklılık gösteren
+günlük mesaj hakkı içeren, sitede üyelik için gerekli işlemlerin
+gerçekleştirilmesini takiben aktif hale gelen arkadasbulapp.com üyelik
+şeklidir.
+
+Gold Üyelik: Missy Arkadaş standart üyelikte belirtilen ve günlük belirli
+sınırlara tabi olan uygulamaları (mesajlasma vb.) sınırsız olarak kullanma
+hakkı veren, arkadasbulapp.com tarafından sitede belirtilen bedeller üzerinden
+ücrete tabi üyelik şekli. Bu üyelik paketini kredi kartı, havale, mobil ödeme
+ve cep telefonu uygulamalarının kendine ait satın alma yöntemleri ile satın
+almak mümkündür.
+
+Kredi: Missy Arkadaş üyelerinin sitede belirlenen ücretler karşılığında
+alabileceği ve satın alan üyeye bazı ayrıcalıklardan (vitrin bölümünde öne
+çıkma, mesajların önceliklendirilmesi vs.) yararlanma imkanı veren, münferit
+olarak satın alınabileceği gibi Gold üyelik paketiyle hediye olarak da verilen
+Missy Arkadaş özelliği.
+
+Üye profili: www.missyarkadas.com adresinde üyenin kendisinin verdiği
+bilgilerle oluşturulan, Üyelik Bilgileri, Genel Bilgiler, Fiziksel Özellikler,
+Tarz/Yaşam, Kültür Sanat gibi bilgiler ve üyenin kendisi tarafından eklenen
+fotoğraflardan oluşan, diğer üyeler tarafından görüntülenebilen Üyeye özel
+interaktif alan.
+
+
+
+## 3\. SÖZLEŞMENİN KONUSU
+
+İşbu sözleşmenin konusu, Site’de ve uygulama ve indirme ve satın alma
+platformları üzerinden alınan Missy Arkadaş uygulamaları üzerinden sunulan
+hizmetlerin, bu hizmetlerden yararlanma şartlarının ve tarafların hak ve
+yükümlülüklerinin tespitidir. Üye, işbu sözleşme hükümlerini kabul etmekle,
+site ve uygulamalar içerisinde yer alan kullanıma, üyeliğe ve hizmetlere
+ilişkin Missy Arkadaş tarafından açıklanan her türlü beyanı da kabul etmiş
+olmaktadır. Üye bahsi geçen beyanlarda belirtilen her türlü hususa uygun
+olarak davranacağını kabul, beyan ve taahhüt eder.
+
+##
+
+## 4\. ÜYELERİN HAK VE YÜKÜMLÜLÜKLERİ
+
+
+
+4.1. Üye, üyeliği süresince, Site’nin hizmetlerinden faydalanırken ve Site’nin
+hizmetlerle ilgili herhangi bir işlemi yerine getirirken işbu sözleşme
+içerisinde yer alan tüm şartlara, Site’nin ilgili yerlerinde belirtilen
+kurallara ve yürürlükteki tüm mevzuata uygun hareket edeceğini, işbu Sözleşme
+ile belirlenen tüm şart ve kuralları anladığını ve onayladığını kabul, beyan
+ve taahhüt eder.
+
+4.2. Site’ye ve Site’de sunulan servislere üye olabilmek için 18 yaşını
+doldurmuş bir gerçek kişi olmak ve Site’de bulunan Üye Formunu doldurmak
+gerekmektedir. Missy Arkadaş, yapacağı değerlendirme sonucu başvuru sahibini
+üyelik haklarından faydalandırabileceği gibi, hiçbir gerekçe göstermeksizin
+başvuruyu reddetme hakkına da sahiptir. İşbu Üye Sözleşmesi’ni onaylamak ile
+Üye, 18 yaşından büyük olduğunu taahhüt etmektedir. Bu şartı taşımayan
+kişilerin üyelik kayıt işlemlerini tamamlamış olmaları ve işbu sözleşmeyi
+onaylamaları, üyelik sonucunu doğurmayacaktır. 18 yaşını doldurmamış veya
+verdiği bilgilerde tutarsızlık olduğu tespit edilen Üyenin üyeliği iptal
+edilir. Üyenin vermiş olduğu yanlış beyandan dolayı sitenin herhangi bir
+sorumluluğu bulunmamaktadır.
+
+4.3. Üyenin standart üyelik kapsamında hazırlamış olduğu profilinin Missy
+Arkadaş tarafından kabul edilmesi aşağıdaki şartlara bağlıdır:
+
+4.3.1. Profiller e-posta adresi, web adresi, telefon numarası gibi (doğrudan
+ya da dolaylı olarak) kişisel bilgi içeremez.
+
+4.3.2. Profillerde kullanıcının kendini ya da aradığı kişiyi anlattığı
+alanlar, ayrıntılı, açık ve gerçeğe uygun olmalıdır.
+
+4.3.3. Profillerde kullanıcının kendini ya da aradığı eşi anlattığı alanlarda,
+herhangi bir biçimde hakaret içeren, seksist ya da ırkçı ifadeler
+kullanılamaz. Profil sayfaları bütün üyelerimize açıktır.
+
+4.3.4. Profillerde Türkçe ya da İngilizce dışında bir dil kullanmak isteyenler
+bunu birkaç cümleyle sınırlı tutmak zorundadır.
+
+4.3.5. Profillerde herhangi bir siyasi görüşün, dinin vb. propagandası
+yapılamaz.
+
+4.3.6. Profiller suç teşkil edecek, yasal açıdan takip gerektirecek, yasalara
+aykırı bilgi içeremez.
+
+4.4. Missy Arkadaş’e üye olurken Üye’nin verdiği e-posta adresinin üyeye ait
+ve aktif bir e-posta adresi olması zorunludur. Üyelikle ilgili tüm
+yazışmalarda Missy Arkadaş’e üye olurken verilen e-posta adresi esas alınır ve
+bu adres kullanılır. Missy Arkadaş verilen e-postanın doğru olduğunu kabul
+eder ve buna göre davranır. Yanlış ve yalan beyan edilen e-postalardan
+oluşabilecek hatalardan ve zararlardan Missy Arkadaş sorumlu değildir.
+
+4.5. Üye, Missy Arkadaş’in yürürlükteki emredici mevzuat hükümleri gereğince
+resmi makamlara açıklama yapmakla yükümlü olduğu durumlar içersinde, resmi
+makamlarca usulü dairesinde bu bilgilerin talep edilmesi halinde üyelere ait
+gizli/özel/ticari bilgileri resmi makamlara açıklamaya yetkili olacağını ve bu
+sebeple Missy Arkadaş’den her ne nam altında olursa olsun tazminat talep
+edilemeyeceğini kabul ve taahhüt eder.
+
+4.6. Üyelerin, site aracılığıyla Missy Arkadaş tarafından sunulan hizmetlerden
+yararlanabilmek amacıyla kullandıkları sisteme erişim araçlarının (kullanıcı
+adı, şifre v.b) güvenliği, saklanması, üçüncü kişilerin bilgisinden uzak
+tutulması, kullanılması durumlarıyla ilgili hususlar tamamen üyelerin
+sorumluluğundadır. Üye’ye ait kullanıcı adı ve şifre ile gerçekleştirilen her
+işlem bizzat Üye tarafından gerçekleşmiş sayılacaktır. Üyelerin, sisteme giriş
+araçlarının güvenliği, saklanması, üçüncü kişilerin bilgisinden uzak
+tutulması, kullanılması gibi hususlardaki tüm ihmal ve kusurlarından dolayı
+üyelerin ve/ veya üçüncü kişilerin uğradığı veya uğrayabileceği zararlardan
+Missy Arkadaş’in doğrudan veya dolaylı herhangi bir sorumluluğu yoktur.
+
+4.7. Üyenin Missy Arkadaş’e üye olurken seçmiş olduğu rumuz üyeye özeldir ve
+başka bir üye tarafından kullanılamaz. Üyenin kullanmak istediği rumuzun başka
+bir üye tarafından kullanılması durumunda üyeden başka bir rumuz seçmesi
+istenecektir. Üyelik sırasında alınan rumuz sonradan değiştirilemez. Üye,
+rumuzunu ve şifresini korumak ile yükümlüdür. Bu yükümlülüğe uyulmaması
+durumunda Missy Arkadaş hiçbir sorumluluk kabul etmemektedir.
+
+4.8. Üyeler sitedeki ilgili bölümlere ve üye profillerine kendileri tarafından
+sağlanan bilgilerin ve içeriklerin doğru ve hukuka uygun olduğunu kabul ve
+taahhüt etmektedirler. Missy Arkadaş, üyeler tarafından siteye iletilen veya
+üye profillerinin oluşturulmasında ve değiştirilmesinde kendileri tarafından
+yüklenen, değiştirilen ve sağlanan bilgilerin ve içeriklerin doğruluğunu
+araştırma; bu bilgi ve içeriklerin güvenli, doğru, işbu sözleşmenin
+hükümlerine ve hukuka uygun olduğunu taahhüt ve garanti etmekle yükümlü ve
+sorumlu olmadığı gibi söz konusu bilgi ve içeriklerin yanlış veya hatalı
+olmasından ve/veya bu içerikler aracılığıyla diğer internet sitelerine yapılan
+yönlendirmelerden dolayı ortaya çıkacak hiçbir maddi-manevi zarardan da
+sorumlu tutulamaz.
+
+4.9. Üye profili tüm üyelere açık olduğundan bu alanda özel bilgiler vermemek
+(cep telefonu, ev adresi vb.) üyenin sorumluluğundadır. Missy Arkadaş’in üye
+profilinde kişisel iletişim bilgileri bulunan üyelerin üyeliklerini iptal etme
+hakkı bulunmaktadır. Üye profilinde bulunan bilgiler, sitenin diğer tüm
+üyeleri tarafından görülebilir ve üye bu bilgilerin görüntülenmemesini talep
+edemez. Üye profilinde yer alan bilgilerin görüntülenmesini önleme ancak
+üyeliğin iptal edilmesi ile gerçekleştirebilir. Bu sebeple ortaya çıkabilecek
+herhangi bir zarardan Missy Arkadaş sorumlu olmayacaktır.
+
+4.10. Üyeler, Missy Arkadaş’in yazılı onayı olmadan işbu sözleşmeyi veya bu
+sözleşmenin kapsamındaki hak ve yükümlülüklerini, üye profillerini, üye
+bilgilerini kısmen veya tamamen herhangi bir üçüncü kişiye devredemez; üyelik
+üyenin kendisinden başka kişilerin kullanımına açılamaz. Bu tür devirler veya
+yetkisiz kullanımlar sonucu üçüncü kişilerin uğradıkları veya
+uğrayabilecekleri zararlardan dolayı Missy Arkadaş doğrudan ve/veya dolaylı
+olarak hiçbir şekilde sorumlu tutulamaz. Üyeliğini başkasına kullandırttığı
+veya devrettiği tespit edilen üyenin üyeliği iptal edilir.
+
+4.11. Üyelerin, kendi aralarında site aracılığıyla yaptıkları özel
+mesajlaşmalar da dahil olmak üzere sitede yaptıkları her işlem ve eylemdeki
+hukuki ve cezai sorumluluk kendilerine aittir. Üyelerin birbirlerine
+gönderdiği mesajlar ile ilgili olarak Missy Arkadaş hiçbir şekilde sorumluluk
+kabul etmemektedir. İşbu sebeple Missy Arkadaş’in uğrayabileceği her türlü
+zarara karşılık üyeye rücu hakkı saklıdır.
+
+4.12. Missy Arkadaş mesaj merkezinde bulunan toplam mesaj sayısı ve göz kırpma
+kayıtları, ilgili sayfada belirtilen limitleri aşıyor ise, üyelerin mesajları
+ve göz kırpma kayıtları en eski tarihli olandan başlayarak silinebilir.
+Sisteme bir ay boyunca hiç giriş yapmayan üyelerin ise mesajlarının tamamı
+silinebilir. Üye bu hususu peşinen kabul eder.
+
+4.13. Üye, başka bir üyenin veya üçüncü bir kişinin gizlilik hakkını ya da
+yayın haklarını çiğneyen, telif hakları, ticari marka hakları veya başka
+mülkiyet hakları tarafından korunan ya da bu tarif edilen sınıflara giren
+malzemelerden uyarlanan hiçbir bilgi, yazılım ya da başka bir malzemeyi,
+sahibinden ya da haklarını elinde tutan kişiden izin almaksızın, postalayamaz
+ya da iletemez. Böyle bir durumda Missy Arkadaş’in hiçbir sorumluluğu
+bulunmamakla beraber, Missy Arkadaş’in uğrayabileceği her türlü zarara
+karşılık üyeye rücu hakkı saklıdır.
+
+4.14. Üye, suç teşkil edecek, yasal açıdan takip gerektirecek; yerel ve ulusal
+yasalara ya da uluslararası anlaşmalara ters düşecek bir durum yaratan ya da
+böyle durumları teşvik eden, hiçbir tür yasadışı, tehditkar, rahatsız edici,
+hakaret, küfür içeren, küçük düşürücü, kaba, pornografik, rahatsız edici ya da
+ahlaka aykırı bilgi postalayamaz, iletemez veya mesaj atamaz. Özel mesajlar
+otomatik programlar ile taranabilir veya mesaj gönderilen Üyelerin şikayeti
+üzerine incelenebilir. Bu otomatik tarama sonucunda veya şikayet sonrasında
+yapılan incelemede gerekli görüldüğü takdirde üyenin profili yayından
+kaldırılabilir, mesajlaşma hakkı kısıtlanabilir, bütünüyle engellenebilir veya
+üyeliği tamamen iptal edilebilir. Böyle bir durumda Missy Arkadaş’in hiçbir
+sorumluluğu bulunmamakla beraber, Missy Arkadaş’in uğrayabileceği her türlü
+zarara karşılık üyeye rücu hakkı saklıdır.
+
+4.15. Üye diğer üyelere, reklam ya da ticari amaçlar içeren veya diğer üyeleri
+bir başka internet sitesine yönlendiren hiçbir bilgi, yazılım ya da malzeme
+içeren mesajlar gönderemez, postalayamaz veya iletemez; diğer üyelerden
+herhangi bir ürün satın almak ya da onlara ürün satmak gibi bir talepte ve
+reklam faaliyetinde bulunamaz; bu amaçla üyelere yönelik “e-posta zincirleri”
+kuramaz; “junk e-posta” gönderemez. Bu tür mesajlar üyenin mesajlaşma hakkı
+kısıtlanabilir ya da üyeliği iptal edilebilir. Bu kapsamda bir yetki dışı
+kullanım durumunun tespit edilmesi durumunda Missy Arkadaş hukuki yollara
+başvurma hakkını saklı tutar.  
+Her üye, Missy Arkadaş’de bulunan resimlerin, metinlerin, görsel ve işitsel
+imgelerin, video kliplerin, dosyaların, veritabanlarının, katalogların ve
+listelerin tüm haklarının saklı olduğunu kabul ve beyan eder. Üye hakları
+saklı bulunan bu materyalleri çoğaltmayacağını, kopyalamayacağını,
+dağıtmayacağını, işlemeyeceğini, gerek bu eylemleri ile gerekse de başka
+yollarla Missy Arkadaş ile doğrudan ve/veya dolaylı olarak rekabete
+girmeyeceğini kabul ve taahhüt etmektedir. Üyelerin işbu Sözleşme hükümlerine
+ve hukuka aykırı olarak gerçekleştirdikleri site üzerindeki faaliyetleri
+nedeniyle üçüncü kişilerin uğradıkları veya uğrayabilecekleri zararlardan
+dolayı Missy Arkadaş doğrudan ve/veya dolaylı olarak hiçbir şekilde sorumlu
+tutulamaz.  
+Üye, istediği zaman Hesap > Ayarlar > Hesap Ayarları bölümünde bulunan
+“Üyelikten Ayrıl” linkine tıklayarak üyeliğini iptal ettirebilir. Ne var ki,
+Gold üyeliklerde üyelik iptal edilse dahi üyelik bedeli iade edilmez.  
+Site üyeliği bireysel bir üyelik olup, şirketler ve/veya işletmeler tarafından
+herhangi bir ticari veya başkaca bir amaca yönelik olarak kullanılamaz, üçüncü
+şahıslara devredilemez, ödünç verilemez. Bu durumun tespiti halinde Üye’nin
+üyeliği iptal edilir. Üyeliğin iptal edilmesi nedeniyle doğacak sonuçlardan
+Missy Arkadaş hiçbir şekilde sorumlu tutulamaz. Gold Üyelik paketinin kredi
+kartı ile gerçekleştirilen ödemelerinde üyeliğin kesintiye uğramaması için
+satın alınan paket süresi bittiğinde otomatik olarak yenilenecektir. Otomatik
+ödemenin güncel durumu üyeye Site’de yer alan “Ayarlar” kısmında sunulur. Üye
+yenileme yapılmasını istemiyor ya da süre bitiminde yenileme işlemini kendisi
+gerçekleştirmek istiyorsa “otomatik ödeme” seçeneğini site üzerinden
+kapatabilecektir. Otomatik ödeme işlemi sadece kredi kartı ve mobil ödeme ile
+gerçekleştirilen ödemeleri kapsar ve ilk geçerli üyelik satın alma işlemi ile
+aktif hale gelir. Üye kendi isteği ile bu otomatik gerçekleşen işlemi Site’de
+yer alan “Ayarlar” kısmından kapatabilme hakkına sahiptir.  
+Missy Arkadaş Gold Üyelik satış işlemi, Mesafeli Sözleşmeler Yönetmeliği 15.
+maddede tanımlanan cayma hakkı istisnaları kapsamında (ğ) başlığı kapsamında
+hizmet vermektedir. Bununla birlikte arkadasbulapp.com, havale ya da kredi
+kartı ile Gold üyelik satın alan, fakat siteden memnun kalmayıp “3 gün
+içerisinde” iade talebinde bulunan üyeye; ödediği parayı iade etmektedir. Her
+üye bu haktan sadece bir kez yararlanabilir. Bunun dışında kalan satın alınan
+üyelikler için para iade işlemi yapılmaz.
+
+## 5-Missy Arkadaş’İN HAK VE YÜKÜMLÜLÜKLERİ
+
+Missy Arkadaş, sitede sunulan hizmetleri ve içerikleri her zaman
+değiştirebilme; üyelerin sisteme yükledikleri ve işbu Sözleşme’de belirtilen
+şartlara uymayan bilgileri, içerikleri ve üye profillerini, üyeler de dahil
+olmak üzere üçüncü kişilerin erişimine kapatabilme ve silme hakkını saklı
+tutmaktadır. Missy Arkadaş bu hakkını hiçbir bildirimde bulunmadan ve süre
+vermeden kullanabilir. Üyeler, Missy Arkadaş’in talep ettiği değişiklik
+ve/veya düzeltmeleri mümkün olan en kısa sürede yerine getirmek zorundadırlar.
+Missy Arkadaş tarafından talep edilen değişiklik ve/veya düzeltme istekleri
+gerekli görüldüğü takdirde bizzat Missy Arkadaş tarafından yapabilir. Missy
+Arkadaş tarafından talep edilen değişiklik ve/veya düzeltme taleplerinin,
+üyeler tarafından zamanında yerine getirilmemesi sebebiyle doğan veya
+doğabilecek zararlar, hukuki ve cezai sorumluluklar tamamen üyelerin
+kendilerine aittir.  
+Site üzerindeki yönlendirmeler (link, banner) vasıtasıyla erişilen portallar,
+web siteleri, dosyalar ve içerikler, bu linkler vasıtasıyla erişilen portallar
+veya web sitelerinden sunulan hizmetler veya ürünler veya bunların içeriği
+hakkında Missy Arkadaş’in herhangi bir sorumluluğu yoktur.  
+Missy Arkadaş, sitenin işleyişine, genel kurallarına, genel ahlak kurallarına
+aykırı ve tarafından kabul edilmesi mümkün olmayan mesajları, içerikleri
+istediği zaman ve şekilde erişimden kaldırabilir; Missy Arkadaş bu mesaj ve
+içeriği giren üyenin üyeliğine herhangi bir ihbar yapmadan son verebilir. Üye
+Missy Arkadaş’e yüklediği ahlaka ve hukuka aykırı içerik sebebiyle Missy
+Arkadaş’in maruz kalacağı her türlü zararı tazmin etmekle yükümlüdür.  
+Site’den kaynaklanan ya da kaynaklanmayan herhangi bir hata, ihmal, kesinti,
+silinme, bozulma, iletimde gecikme veya iletişim ağı başarısızlığı gibi teknik
+sorunlardan dolayı Site ve Üyeler ile Üyelerin kendi arasındaki iletişiminde
+kesintiler olabilir. Bu kesintilerden dolayı yaşanan iletişim ve Siteye
+ulaşmaya ilişkin kesintilerde Üye’nin yaşayacağı sorunlardan Missy Arkadaş
+sorumlu tutulamaz.  
+Missy Arkadaş, iTunes Store, Google Play ve Windows App Store gibi uygulama
+indirme ve satın alma platformları üzerinden; işbu platformlar tarafından
+ücretlendirmesi yapılan Gold Üyelik ve Site’de üyelere tanınan ayrıcalıklardan
+(mesaj önceliklendirme, vitrin bölümünde öne çıkma vs.) faydalanma imkanı
+sağlayan “kredi” satışlarında, üyenin Gold üyelik paketini veya kredi alımını
+iptal etmek istediği durumlarda, yapılacak iade işleminin Site ile hiçbir
+bağlantısı bulunmayıp; Site, iade işlemi konusunda yaşanan aksaklıklar ve
+sorunlar konusunda sorumlu tutulamaz. Aynı şekilde 3. kişilerin, bu hizmet ve
+uygulamalar ile bağlantılı olarak ve /veya bu hizmetler ve uygulamalardan
+kaynaklanan hiçbir maddi, manevi, dolaylı veya direkt zararından Missy Arkadaş
+sorumlu değildir. Üyenin, Gold üyelik veya kredi alım işlemini iptal ederken
+gerçekleşen veyahut gecikmeler nedeniyle vücut bulan zararları için, muhattabı
+alışveriş işlemini gerçekleştirdiği ve yukarıda belirtilen platformlardır. Bu
+hususlar konusunda doğacak uyuşmazlıklar konusunda Missy Arkadaş hiçbir
+şekilde sorumlu tutulamayacaktır.
+
+Site’de yayınlanan ve Üye profillerinde yer alan her türlü görüntü, yazı,
+fotoğraf ve diğer materyal Missy Arkadaş’in izni olmadan diğer internet
+sitelerinde ve gazete, televizyon, radyo, dergi gibi konvansiyonel mecralarda
+yayınlanamaz. Site’de yer alan tüm içerik, Fikir ve Sanat Eserleri Kanunu’nun
+dördüncü maddesinin yedinci bendi olan, “Belli bir maksada göre ve hususi bir
+plan dahilinde verilerin ve materyallerin seçilip derlenmesi sonucu ortaya
+çıkan ve bir araç ile okunabilir veya diğer biçimdeki veri tabanları” ile
+koruma altında olduğu gibi eser niteliğindeki içerik ayrıca hukuki korumaya
+tabidir.
+
+##
+
+## 6-SINIRLI SORUMLULUK
+
+Missy Arkadaş, üyelerin veya üyelerin sitede sağlanan hizmetler ve/veya yer
+alan uygulamalar sebebiyle muhatap olduklari 3. kişilerin, bu hizmet ve
+uygulamalar ile bağlantılı olarak ve /veya kaynaklanan hiç bir maddi, manevi,
+dolaylı veya direkt zarardan sorumlu olmayacağı gibi, uyelerin kanuna aykırı
+fiil ve eylemlerinden dolayı hukuki ve cezai olarak sorumlu tutulamaz.
+
+
+
+## 7-FİKRİ MÜLKİYET HAKLARI
+
+Üye, Missy Arkadaş’e üye olarak ve işbu Sözleşme’yi onaylayarak, Site’de
+yayınlanmak üzere Site’ye yüklediği ve FSEK kapsamında eser niteliğinde olan
+her türlü resim ve imaj üzerinde sahip olduğu manevi haklardan: umuma arz,
+adın belirtilmesi ve eserde değişiklik yapılmasını men etme haklarının
+kullanma yetkisini; mali haklarından: yurt içinde veyahut yurtdışında analog
+ya da dijital, telli ya da telsiz yayın, karasal, kablolu, uydu veyahut
+internet üzerinden yayın yapanlar ile VOD (Video on Demand), IP TV, Free tv
+uygulamaları dahil her türlü televizyon; dijital, internet üzerinden ya da
+telsiz frekansıyla yayın yapan her türlü radyo; video paylaşım ve video yayın
+siteleri ile sosyal paylaşım siteleri ile bunlar üzerinde yaratılabilecek tüm
+kanallar dahil olmak üzere internet, GSM, 3G, SMS, MMS, Logo uygulamaları
+dahil mobil/cep telefonu; ile bu mecralarda yer alan her türlü analog ya da
+dijital uygulama dahil mevcut ve ileride geliştirilecek tekniklerle
+yayın/umuma iletim yapmaya mahsus mecralarda yayınlama/umuma iletme ve yeniden
+iletme; kurmaca ya da belgesel film, kısa film, skeç, internet programı,
+televizyon programı, radyo programı, reklam ve tanıtım senaryosu ve uygulaması
+yapılması, internet sosyal paylaşım sitelerindeki kanallar ve/veya sayfaların,
+her türlü websitesinin, televizyon, radyo, VOD, IP TV, GSM, 3G, SMS, MMS, Logo
+kanallarının dahil başka mecralardaki kanalların isimleri ve içerikleri
+ve/veya bu mecralarda yayımlanacak programların isimlerinin ve içeriklerinin
+oluşturulması ile tüm dillere çevirisi dahil işleme; ile yurt içinde veyahut
+yurtdışında tv ekranı, radyo ve internet dahil her türlü umuma açık ortamda
+temsil haklarını; münhasıran olmayan bir şekilde süre, yer ve sayı bakımından
+sınırsız olarak kayıtsız, şartsız, bedelsiz ve gayrikabili rücu şekilde Sosyal
+Bilgi İletişim Hizmetleri A.Ş.’ye tanıdığını kabul, beyan ve taahhüt
+etmektedir.
+
+Üye, Missy Arkadaş’e üye olarak ve işbu Sözleşme’yi onaylayarak, Site’de
+yayınlanmak üzere Site’ye yüklediği ve FSEK kapsamında eser niteliğinde
+olmayan her türlü içeriğin (bunlarla sınırlı olmamak üzere yazı, çizim, profil
+sayfası için grafik, yorum, resim tanımlamaları, kişisel özellikler ve genel
+bilgiler) Sosyal Bilgi İletişim Hizmetleri A.Ş. tarafından kullanılmasına onay
+vermektedir.
+
+Site’nin tasarım, metin, imge, html kodu ve diğer kodlar da dahil ve fakat
+bunlarla sınırlı olmamak kaydıyla, tüm unsurları ( bundan böyle “Missy
+Arkadaş’in telif haklarına tabi çalışmaları” olarak anılacaktır) Missy
+Arkadaş’e aittir. Üyeler, Missy Arkadaş hizmetlerini ve Missy Arkadaş’in telif
+haklarına tabi çalışmalarını yeniden satamaz, paylaşamaz, dağıtamaz,
+sergileyemez veya başkasının Missy Arkadaş hizmetlerine erişmesine veya
+kullanmasına izin veremez. Aksi takdirde Üye, uğranılan zararlardan dolayı
+Missy Arkadaş’den talep edilen tazminat miktarını, mahkeme masrafları ve
+avukatlık ücreti de dahil olmak üzere karşılamakla yükümlü olacaklardır.
+Üyeler, Missy Arkadaş’in telif haklarına tabi çalışmalarını çoğaltamaz,
+dağıtamaz veya bunlardan türemiş çalışmalar yapamaz veya hazırlayamaz.  
+Missy Arkadaş’in telif haklarına tabi çalışmaları, Missy Arkadaş ticari
+markaları, Missy Arkadaş ticari görünümü veya Site vasıtasıyla sahip olduğu
+her tür maddi ve fikri mülkiyet hakları da dahil tüm malvarlığı, ayni ve şahsi
+hakları, ticari bilgi ve know-how’a yönelik tüm hakları saklıdır.
+
+## 8-MÜCBİR SEBEPLER
+
+Hukuken mücbir sebep sayılan tüm durumlarda, Missy Arkadaş işbu sözleşme ile
+belirlenen edimlerinden herhangi birini geç veya eksik ifa etme veya ifa
+etmeme nedeniyle yükümlü değildir. Bu ve bunun gibi durumlar, Missy Arkadaş
+için, gecikme, eksik ifa etme veya ifa etmeme veya temerrüt addedilmeyecek
+veya bu durumlar için Missy Arkadaş’den herhangi bir nam altında tazminat
+talep edilemeyecektir. “Mücbir sebep” terimi, doğal afet, isyan, savaş, grev,
+iletişim sorunları, altyapı ve internet arızaları, elektrik kesintisi ve kötü
+hava koşulları da dahil ve fakat bunlarla sınırlı olmamak kaydıyla ilgili
+tarafın makul kontrolü haricinde ve Missy Arkadaş’in gerekli özeni
+göstermesine rağmen önleyemediği kaçınılamayacak olaylar olarak
+yorumlanacaktır.
+
+
+
+## 9-UYGULANACAK HUKUK VE YETKİ
+
+İşbu Sözleşmenin uygulanmasında, yorumlanmasında ve bu sözleşme dahilinde
+doğan hukuki ilişkilerin yönetiminde Türk Hukuku uygulanacaktır. İşbu
+sözleşmeden dolayı doğan veya doğabilecek her türlü ihtilafın hallinde
+İstanbul Mahkemeleri ve İcra Daireleri yetkilidir.
+
+##
+
+## 10-SÖZLEŞMENİN FESHİ
+
+İşbu sözleşme üyenin üyeliği iptal edilinceye veya üye üyelikten istifa
+edinceye kadar yürürlükte kalacak ve taraflar arası hüküm ve sonuçlarını
+doğurmaya devam edecektir. Gold üyeliğin sona ermesi ile üyelerin standart
+üyelikleri devam edecektir.
+
+Missy Arkadaş, üyelerin işbu sözleşmede belirtilen hükümleri ve site içinde
+yer alan kullanıma, üyeliğe ve hizmetlere ilişkin benzeri kuralları ihlal
+etmeleri durumunda sözleşmeyi tek taraflı olarak feshedebilecek ve üyeler
+fesih sebebiyle Missy Arkadaş’in uğradığı tüm zararları tazmin etmekle yükümlü
+olacaktır.
+

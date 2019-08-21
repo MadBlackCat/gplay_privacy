@@ -1,0 +1,819 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr"><head>
+	<meta http-equiv="Content-Language" content="ja">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css; charset=UTF-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="日本経済新聞が「パソコン」で「ケータイ」で「テレビ」で楽しめる！リアルタイム速報・株価,人気の「私の履歴書」が閲覧可能！日本経済新聞社が配信する有料会員制のプレミアムサービスが始まりました。今なら,当初２ヶ月間無料。">
+	<meta name="keywords" content="日本経済新聞,日経,日経朝刊,日経夕刊,プラスワン,私の履歴書,春秋,日経産業新聞,日経MJ,日経ヴェリタス,日経マガジン,日本経済新聞社">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<link rel="stylesheet" type="text/css" href="/lounge/help/css/help.css" media="screen,tv,projection">
+	<link rel="stylesheet" type="text/css" href="/lounge/help/css/print.css" media="print">
+	<script type="text/javascript" src="//penta.a.one.impact-ad.jp/combo?oid=f9647ca0f4a5e33f&amp;dd_rft=k&amp;dd_jsonp=a1tracker.cb._10&amp;fu=499f38e2-759f-4a90-85a9-4c6bb8a018ae&amp;dl=https%3A%2F%2Fwww.nikkei.com%2Flounge%2Fhelp%2Fprivacy.html&amp;src=https%3A%2F%2Fwww.nikkei.com%2Flounge%2Fhelp%2Fprivacy.html%3Ftm1%3DDShelp-%26tm2%3DDShelp-%26tm5%3D1%26tm6%3D0%26tm7%3Dhttps%253A%252F%252Fwww.nikkei.com%252Flounge%252Fhelp%252Fprivacy.html%26ev1%3Dhttps%253A%252F%252Fwww.nikkei.com%252Flounge%252Fhelp%252Fprivacy.html&amp;l=en-us&amp;sr=1920x1080&amp;vp=897x929&amp;cd=24-bit&amp;tgsrc=a1common&amp;mtk=%E6%97%A5%E6%9C%AC%E7%B5%8C%E6%B8%88%E6%96%B0%E8%81%9E&amp;mtk=%E6%97%A5%E7%B5%8C&amp;mtk=%E6%97%A5%E7%B5%8C%E6%9C%9D%E5%88%8A&amp;mtk=%E6%97%A5%E7%B5%8C%E5%A4%95%E5%88%8A&amp;mtk=%E3%83%97%E3%83%A9%E3%82%B9%E3%83%AF%E3%83%B3&amp;mtk=%E7%A7%81%E3%81%AE%E5%B1%A5%E6%AD%B4%E6%9B%B8&amp;mtk=%E6%98%A5%E7%A7%8B&amp;mtk=%E6%97%A5%E7%B5%8C%E7%94%A3%E6%A5%AD%E6%96%B0%E8%81%9E&amp;mtk=%E6%97%A5%E7%B5%8CMJ&amp;mtk=%E6%97%A5%E7%B5%8C%E3%83%B4%E3%82%A7%E3%83%AA%E3%82%BF%E3%82%B9&amp;mtk=%E6%97%A5%E7%B5%8C%E3%83%9E%E3%82%AC%E3%82%B8%E3%83%B3&amp;mtk=%E6%97%A5%E6%9C%AC%E7%B5%8C%E6%B8%88%E6%96%B0%E8%81%9E%E7%A4%BE&amp;dt=NIKKEI.com%3A%E6%97%A5%E6%9C%AC%E7%B5%8C%E6%B8%88%E6%96%B0%E8%81%9E%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%EF%BC%8D%E6%97%A5%E7%B5%8C%E6%9C%9D%E5%88%8A%EF%BD%9C%E6%97%A5%E7%B5%8C%E5%A4%95%E5%88%8A%EF%BD%9C%E9%80%9F%E5%A0%B1%EF%BD%9C%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87%EF%BD%9C%E5%B8%82%E6%B3%81%EF%BD%9C%E6%97%A5%E7%B5%8C%E7%94%A3%E6%A5%AD%E6%96%B0%E8%81%9E%EF%BD%9C%E6%97%A5%E7%B5%8CMJ%EF%BD%9C%E6%97%A5%E7%B5%8C%E3%83%B4%E3%82%A7%E3%83%AA%E3%82%BF%E3%82%B9%EF%BD%9C" async=""></script><script async="" src="//img.ak.impact-ad.jp/ut/a1/tracking.min.js"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" src="https://consumer.krxd.net/consent/set/eea6ac13-671f-4220-a862-d176e3ff4fc5?idt=device&amp;dt=kxcookie&amp;dc=1&amp;al=1&amp;tg=1&amp;cd=1&amp;sh=1&amp;re=1&amp;callback=Krux.ns._default.kxjsonp_consent_set_1"></script><script type="text/javascript" src="https://cdn.krxd.net/userdata/get?pub=eea6ac13-671f-4220-a862-d176e3ff4fc5&amp;technographics=1&amp;callback=Krux.ns._default.kxjsonp_userdata"></script><script type="text/javascript" src="https://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck"></script><script type="text/javascript" src="https://consumer.krxd.net/consent/get/eea6ac13-671f-4220-a862-d176e3ff4fc5?idt=device&amp;dt=kxcookie&amp;callback=Krux.ns._default.kxjsonp_consent_get_0"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.05f9d0dad02f8a1b0b028b868bc3a3e2"></script><script type="text/javascript" async="" src="https://cdn.krxd.net/controltag/KDu05POx.js"></script><script type="text/javascript" src="https://id.nikkei.com/lounge/nl/script/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript" src="https://id.nikkei.com/lounge/nl/script/display.js"></script>
+	<script type="text/javascript" src="/lounge/help/script/help.js"></script>
+	<title>NIKKEI.com:日本経済新聞ニュースサイト－日経朝刊｜日経夕刊｜速報｜日経平均｜市況｜日経産業新聞｜日経MJ｜日経ヴェリタス｜</title>
+<script src="//assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/satelliteLib-f111f9ba39867252079783186a3954a05ce68264.js"></script><!-- BEGIN Krux ControlTag for "nikkei.com" -->
+<script class="kxct" data-id="KDu05POx" data-timing="async" data-version="3.0" type="text/javascript">
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/KDu05POx.js';
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+</script>
+<!-- END Krux ControlTag --><script src="https://assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/scripts/satellite-5bda8dff64746d3e10001c3b.js"></script>
+<script src="https://assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/scripts/satellite-573572e664746d251a0037ab.js"></script></head>
+<body class="help">
+
+	<div id="PAGE_TOP">
+		<div id="PAGE">
+
+			<!-- ▼======▼======▼======▼ サイトタイトル ▼======▼======▼======▼ -->
+			<div id="SITE_TITLE" class="cmn-clearfix">
+				<h1><a href="/lounge/help/"><img src="/lounge/help/images/logo_nid.svg" alt="NIKKEI ID ラウンジ" class="logo_nikkeiid"></a><span class="logo_text">ヘルプセンター</span></h1>
+				<ul class="bs-menu"><li class="bsc-link"><a href="/lounge/help/tos.html">規約</a></li><li class="bsc-link"><a href="https://support.nikkei.com/app/answers/list/p/1/" target="_blank">お問い合わせ</a></li></ul>
+			</div>
+			<!-- ▲======▲======▲======▲ サイトタイトル ▲======▲======▲======▲ -->
+
+			<hr class="cmn-hide">
+
+			<!-- ▼======▼======▼======▼ コンテンツ ▼======▼======▼======▼ -->
+			<div id="CONTENTS_WIDE" class="cmn-clearfix"><div id="HELP_MENU"><p id="HIDE_MENU">メニューを閉じる</p>
+					<h3><a href="/lounge/help/">日経ID利用案内</a></h3>
+						<h4><a href="/lounge/help/#nikkeiid">日経IDとは</a></h4>
+						<h4><a href="/lounge/help/#service">日経IDを取得して利用可能となるサービス</a></h4>
+						<h4><a href="/lounge/help/#regist">日経IDの取得方法</a></h4>
+						<h4><a href="/lounge/help/#overseas">海外にお住まいの方の、日経ID取得について</a></h4>
+						<h4><a href="/lounge/help/#research">日経IDリサーチモニターについて</a></h4>
+						<h4><a href="/lounge/help/#modify">日経IDに登録した会員情報の変更方法</a></h4>
+						<h4><a href="/lounge/help/#remove">電子版「日経Wプラン（宅配＋電子版）」の方の、新聞配達先住所変更方法について</a></h4>
+						<h4><a href="/lounge/help/#mail">お知らせメールの配信について</a></h4>
+						<h4><a href="/lounge/help/#optout">お知らせメールの配信停止について</a></h4>
+						<h4><a href="/lounge/help/#pw">パスワードを忘れた方へ</a></h4>
+						<h4><a href="/lounge/help/#id_terminate">日経IDの退会方法</a></h4>
+						<h4><a href="/lounge/help/#terminate">利用中のサービスの解約・登録解除方法</a></h4>
+						<h4><a href="/lounge/help/#certify">2段階認証について</a></h4>
+
+					<h3><a href="/lounge/help/togo.html">日経BPパスポートとの統合</a></h3>						<h4><a href="/lounge/help/togo.html">ID統合の概要</a></h4>
+						<h4><a href="/lounge/help/togo.html#steps">BPパスポートから移行したサービスをご利用中の方の日経ID</a></h4>
+						<h4><a href="/lounge/help/togo.html#notes">統合による変更点と注意点</a></h4>
+						<h4><a href="/lounge/help/togo.html#inquiry">ID統合に関するお問い合わせ
+</a></h4>
+
+
+					<h3><a href="/lounge/help/payment/">有料個別サービスのお支払いについて</a></h3>
+
+<p><a href="/lounge/help/payment/#services">日経ID決済を利用するサービス</a></p>
+						<h4><a href="/lounge/help/payment/credit/">クレジットカード情報の変更・更新について
+</a></h4>
+<p><a href="/lounge/help/payment/credit/#card">利用できるクレジットカード</a></p>
+<p><a href="/lounge/help/payment/credit/#debit">デビットカードの取り扱いについて</a></p>
+<p><a href="/lounge/help/payment/credit/#setup">クレジットカード情報の確認</a></p>
+<p><a href="/lounge/help/payment/credit/#change">クレジットカード情報の変更・更新</a></p>
+<p><a href="/lounge/help/payment/credit/#delete">クレジットカード情報の削除</a></p>
+<p><a href="/lounge/help/payment/credit/#invalid">カードがご利用できなくなった場合</a></p>
+<p><a href="/lounge/help/payment/credit/#resumption">有料サービスの利用制限の解除について</a></p>
+<p><a href="/lounge/help/payment/credit/#cancellation">有料サービスの利用制限によるご解約</a></p>
+
+
+
+						<h4><a href="/lounge/help/payment/details/">お支払い履歴の確認</a></h4>
+
+
+					<h3><a href="/lounge/help/tos.html">日経ID利用規約</a></h3>
+					<h3><a href="/lounge/help/privacy.html">プライバシーポリシー</a></h3>
+						<h4><a href="/lounge/help/groupprv.html">日経IDを利用している日経グループ各社の個人情報取り扱いの考え方</a></h4>
+						<h4><a href="http://www.nikkei.co.jp/nikkeiinfo/corporate/group/">日経グループ会社一覧</a></h4>
+					<h3><a href="/lounge/help/cookie.html">データの利用について</a></h3>
+					<h3><a href="/lounge/help/tokumei.html">匿名加工情報の作成・提供について</a></h3>
+				</div><div id="HELP_MAIN"><p id="SHOW_MENU">≪ メニュー表示</p>
+<br>
+<h2 id="privacy">日経IDプライバシーポリシー<br>
+<span style="font-size:14px;
+             font-weight: normal;
+             padding: 8px 8px 3px;
+             display: block;">
+※EU居住の方は<a href="#privacy_eu" target="_self">こちら</a>をご覧ください</span></h2>
+<p>このプライバシーポリシーは、株式会社日本経済新聞社および日経グループ会社各社（以下、「日経」と総称します。）が、日経IDを利用した情報提供サービス等の様々なサービス（以下、「本サービス」といいます。）をご利用される皆様（以下、「利用者」といいます。）から取得する個人情報について、その取扱方針を定めるものです。</p>
+<h3>1. 個人情報を共同で利用する者の範囲</h3>
+<p>株式会社日本経済新聞社ならびに<a href="http://www.nikkei.co.jp/nikkeiinfo/company/group.html" target="_blank">日経グループ会社各社</a></p>
+<p>共同利用における管理責任者は、株式会社日本経済新聞社となります。</p>
+<h3>2. 個人情報の利用目的</h3>
+<p>日経は、本サービスを通じて利用者から取得した個人情報を次の目的に利用します。</p>
+<h4>(1) 日経による本サービスの提供、および利用者による本サービスの利用のため</h4>
+<ol>
+<li>登録された利用者として本サービスを利用する際の、ログイン時またはログイン後の本人認証のため</li>
+<li>登録していただいた情報（以下、「登録情報」といいます。）の閲覧・修正、または本サービスのご利用状況（以下、「利用状況」といいます。）の確認をしていただく場合の各種画面における、これらの情報の自動表示のため</li>
+<li>どの利用者が投稿・ページ作成等を行っているかを識別していただくため</li>
+<li>利用者のデータ入力を簡便にするための、登録情報の入力画面への自動表示、または利用者の指示に基づく登録情報の他のサービス等への転送のため</li>
+<li>電子メール配信サービスのお申し込みの確認や各種メール送信のため</li>
+<li>有料サービスへのご登録の確認やサービス提供のため</li>
+<li>新聞・雑誌・書籍その他商品のご購入の確認や配送のため</li>
+<li>各種アフターサービスの提供のため</li>
+<li>有料サービス・各種商品に関するご請求、お支払いとその確認のため</li>
+<li>ご購読いただいている新聞、雑誌等の定期刊行物の継続購読等のご案内の送付のため</li>
+<li>イベント/セミナーのお申し込みの確認や入場券等の送付のため</li>
+<li>ご協力いただいたアンケートに対する謝礼等の送付のため</li>
+<li>ご応募いただいた懸賞などに対する景品等の送付のため</li>
+<li>ご要望いただいた広告掲載会社への資料請求等の仲介のため</li>
+<li>利用者からのお問い合わせへの対応、または日経から利用者へのお問い合わせのため</li>
+<li>本サービスに関する規約に違反した利用者への対応のため</li>
+</ol>
+<h4>(2) 本サービスの改良、カスタマイズその他利便性向上のため</h4>
+<ol>
+<li>本サービス・商品等の内容の改善や新サービス・新商品の開発のため</li>
+<li>本サービスのご利用にあたってご覧いただくコンテンツや広告を、登録情報、利用状況等により、それぞれの利用者向けにカスタマイズするため</li>
+<li>利用者が注文されたサービス・商品等に関する満足度等、本サービスに関する調査・アンケートのため</li>
+<li>本サービスのご利用にあたってご覧いただく、第三者から提供されるコンテンツや広告を利用者にとって利便性の高いものとするための、登録情報や利用状況の分析、または分析のためのアンケート対象の抽出、分析結果の第三者への提供のため</li>
+</ol>
+<p>なお、日経が第三者に提供する分析結果に個人が特定されるような情報は含まれません。</p>
+<h4>(3) その他本サービスの提供のため</h4>
+<p>上記(1)、(2)に付随して必要な範囲で、日経による本サービスの提供のため</p>
+<h4>(4) 提携先への提供のため</h4>
+<ol>
+<li>提携先（日経ID利用規約にて定めます。）に対し、［4. 個人情報の開示］に従い、個人情報を提供するため</li>
+<li>広告配信事業者に対し登録情報の一部を提供するため（当該事業者の広告配信サービスで利用します。提供する情報に特定の個人が識別されるような情報は含まれません）</li>
+</ol>
+<h4>(5) 本サービス以外のサービス・商品に関連した情報の提供等のため</h4>
+<ol>
+<li>日経が提供する定期刊行物、書籍、デジタル・コンテンツ、各種有料サービス、その他各種サービスのご案内の送付のため</li>
+<li>日経が実施するアンケートへのご協力やイベント/セミナーへのご参加のお願い、その結果等の報告のため</li>
+<li>日経をはじめ利用者に有益と思われる企業/団体の情報やアンケート、または第三者の広告等の送付のため</li>
+</ol>
+<h4>(6) その他の利用目的のため</h4>
+<p>個別のサービスにおいて、上記に規定のない目的で個人情報を利用する場合があります。その場合には、事前に同意を得るものとします。</p>
+<p>なお、個人情報は、日経が別途取得・管理する個人情報と関連付けたうえで利用する場合があります。</p>
+
+<h3>3. 個人情報の取得</h3>
+<p>日経は、本サービスの提供にあたって必要となる範囲で、主に次のような場合に利用者に関する情報を取得します。なお、以下は例示であり、また、情報の具体的内容によっては個人情報に該当しない場合もあります。</p>
+<h4>(1) 本サービスへご登録いただく場合</h4>
+<p>本サービスへご登録いただく場合、利用者の『氏名、メールアドレス、生年月日、性別、職業』等の個人情報をお伺いします。</p>
+<ol>
+<li>本サービスの利用にあたって必要となる登録をしていただく場合</li>
+<li>イベント/セミナーへのお申し込み、アンケートへのご協力、懸賞へのご応募をいただく場合</li>
+<li>本サービスに関して日経にお問い合わせをいただく場合</li>
+<li>提携先が本サービスとは別に取得した個人情報が日経に提供される場合</li>
+</ol>
+<h4>(2) 本サービスをご利用いただく場合</h4>
+<p>ご登録いただいた後に本サービスを利用されますと、日経は、利用状況に関する以下のような情報を、利用者を識別できる情報と関連付けて取得します。</p>
+<ol>
+<li>サービス・商品の利用・購入等の取引履歴</li>
+<li>個別のサービスへの登録状況</li>
+<li>イベント/セミナーへのお申し込み、アンケートへのご協力、懸賞へのご応募の状況</li>
+<li>アンケートへの参加、掲示板の利用、本サービスへの評価についての発言または記載内容</li>
+</ol>
+<p>また、日経は、提携先から、利用者と日経や提携先との間でなされた取引記録や決済に関する情報の提供を受ける場合があります。</p>
+<h4>(3) 本サービスを提供するウェブサイトへアクセスしていただく場合等</h4>
+<p>日経は、利用者が本サービスを提供するウェブサイトへアクセスした場合等において、利用者のブラウザーから、IPアドレス、クッキーやウェブビーコン等を利用して、利用者の広告やウェブサイトの閲覧履歴や閲覧状況、ご利用環境などの情報を自動的に取得します。</p>
+<h3>4. 個人情報の開示</h3>
+<ol>
+<li>日経は、利用者の事前の同意がない限り、個人情報を第三者に提供せず、また、個人情報の販売や貸し出しは行いません。</li>
+<li>法令、裁判所の判決・決定・命令、官公庁等により開示を要求された場合、必要最小限度の範囲で第三者に対して個人情報を提供する場合があります。</li>
+<li>以下のようなケースで本人の同意を得ることが困難な場合にも、日経または提携先が提供するサービスの利用に関連して、必要最小限度の範囲で第三者に対して個人情報を提供する場合があります。</li>
+<ol>
+<li>利用者が法令や関連する規約等に反し、第三者または日経の権利、財産、サービスなどを保護するために必要と認められる場合</li>
+<li>人の生命、身体および財産などに対する差し迫った危険があり、緊急の必要性がある場合</li>
+</ol>
+<li>日経は、利用者が提携先に対してサービスや商品の購入、懸賞やアンケートの応募、その他の取引を申し込まれた場合、利用者の指示に基づいてその取引に必要な範囲で、日経が取得した個人情報を提携先に提供します。このように提供された個人情報は、提携先が管理します。提携先は、その取引を遂行することに加え、取引後の利用者向けメール等による情報提供、利用者のサービスの利用状況等の分析をして、提携先の事業運営/サービスの改善を行うために、個人情報を利用します。日経は、提携先に対し、個人情報の保護に関する法律（以下、「個人情報保護法」といいます。）を遵守し、利用者のプライバシーに配慮した個人情報の取り扱いをすることを契約等で義務づけております。なお、提携先における個人情報の取り扱いの詳細につきましては、提携先にお問い合わせください。</li>
+</ol>
+
+<h3>5. 個人情報の修正</h3>
+<ol>
+<li>日経は、利用者の個人情報の正確性、最新性を確保するため、利用者にご協力をお願いする場合があります。</li>
+<li>利用者は、本サービスのウェブサイトにおいて、個人情報の、(1)確認、(2)訂正・追加・削除、(3)利用停止および(4)提携先への提供停止（以下、「確認等」といいます。）の手続を行うことができます。なお、直接来社いただいてのお申し出や、あらかじめ指定させていただいている ケース以外でのメールでのお問い合わせはお受けできませんのでご了承ください。</li>
+<li>上記の方法で確認等を行うことのできない、日経が保有する個人情報については、別途日経が定める手続に従い、確認等をご請求ください。この場合、日 経所定の手数料をお支払いいただく必要があります。なお、日経は個人情報保護法に定める事由がある場合、確認等のご請求に対応できない場合があります。</li>
+</ol>
+
+<h3>6. お問い合わせ窓口</h3>
+<p>利用者ご本人からの、法令に基づく個人情報の照会等に関しては<a href="http://www.nikkei.co.jp/privacy/tetuduki.html" target="_blank">こちら</a>をご覧ください。</p>
+
+<h3>7. データ利用について</h3>
+<p><a href="//www.nikkei.com/lounge/help/cookie.html" target="_blank">「データ利用について」</a>をご参照ください。</p>
+
+<h3>8. 匿名加工情報について</h3>
+<p><a href="//www.nikkei.com/lounge/help/tokumei.html" target="_blank">「匿名加工情報の作成・提供について」</a>をご参照ください。</p>
+
+<h3>9. セキュリティについて</h3>
+<p>日経は、本サービスにおけるセキュリティ確保のため、クレジットカード番号などの重要な情報の入力時には、これらの情報が傍受、妨害または改ざんされることを防ぐ目的でSSL（Secure Sockets Layer）技術を使用しています。</p>
+
+<h3>10. その他</h3>
+<ol>
+<li>日経は、個人情報保護法の規定により、上記と異なる取り扱いをする場合があります。</li>
+<li>日経は、プライバシーポリシーの全部または一部を変更する場合があります。重要な変更がある場合には、本サービスが提供されるウェブサイトにおいて、分かりやすい方法でお知らせします。</li>
+<li>グループ会社の個人情報取り扱いの考え方は、<a href="//www.nikkei.com/lounge/help/groupprv.html" target="_blank">「グループ会社の個人情報取り扱いの考え方」</a>に掲載しております。</li>
+</ol>
+<p class="alignR">以上</p>
+<p class="alignR">(2009年2月6日制定)<br>
+(2010年3月1日改定)<br>
+(2012年5月1日改定)<br>
+(2014年1月10日改定)<br>
+(2015年7月1日改定)<br>
+(2017年2月1日改定)<br>
+(2017年8月28日改定)<br>
+</p>
+
+<br>
+<h2 id="privacy_eu">日経IDプライバシーポリシー（ＥＵ限定版）<br>
+<span style="font-size:14px;
+             font-weight: normal;
+             padding: 8px 8px 3px;
+             display: block;">
+※EU以外に居住の方は<a href="#privacy" target="_self">こちら</a>をご覧ください</span></h2>
+
+<p>このプライバシーポリシーは、株式会社日本経済新聞社（以下、「日経」といいます。）が、日経IDを利用した情報提供サービス等の様々なサービス（以下、「本サービス」といいます。）をご利用される欧州連合（本ポリシーではアイスランド、リヒテンシュタイン及びノルウェーを含み、以下「ＥＵ」といいます。）に在住の皆様（以下、「利用者」といいます。）から取得する個人情報について、その取扱方針を定めるものです。</p>
+
+<h3>1. 個人情報の利用目的</h3>
+<p>日経は、本サービスを通じて利用者から取得した個人情報を次の目的に利用します。</p>
+
+<h4>(1) 日経による本サービスの提供、および利用者による本サービスの利用のため</h4>
+<ol>
+<li>登録された利用者として本サービスを利用する際の、ログイン時またはログイン後の本人認証のため</li>
+<li>登録していただいた情報（以下、「登録情報」といいます。）の閲覧・修正、または本サービスのご利用状況（以下、「利用状況」といいます。）の確認をしていただく場合の各種画面における、これらの情報の自動表示のため</li>
+<li>どの利用者が投稿・ページ作成等を行っているかを識別していただくため </li>
+<li>利用者のデータ入力を簡便にするための、登録情報の入力画面への自動表示、または利用者の指示に基づく登録情報の他のサービス等への転送のため</li>
+<li>電子メール配信サービスのお申し込みの確認や各種メール送信のため</li>
+<li>有料サービスへのご登録の確認やサービス提供のため</li>
+<li>新聞・雑誌・書籍その他商品のご購入の確認や配送のため</li>
+<li>各種アフターサービスの提供のため</li>
+<li>有料サービス・各種商品に関するご請求、お支払いとその確認のため</li>
+<li>ご購読いただいている新聞、雑誌等の定期刊行物の継続購読等のご案内の送付のため</li>
+<li>イベント/セミナーのお申し込みの確認や入場券等の送付のため</li>
+<li>ご協力いただいたアンケートに対する謝礼等の送付のため</li>
+<li>ご応募いただいた懸賞などに対する景品等の送付のため</li>
+<li>ご要望いただいた広告掲載会社への資料請求等の仲介のため</li>
+<li>利用者からのお問い合わせへの対応、または日経から利用者へのお問い合わせのため</li>
+<li>本サービスに関する規約に違反した利用者への対応のため</li>
+</ol>
+
+<h4>(2) 本サービスの改良、カスタマイズその他利便性向上のため</h4>
+<ol>
+<li>本サービス・商品等の内容の改善や新サービス・新商品の開発のため</li>
+<li>本サービスのご利用にあたってご覧いただくコンテンツや広告を、登録情報、利用状況等により、それぞれの利用者向けにカスタマイズするため</li>
+<li>利用者が注文されたサービス・商品等に関する満足度等、本サービスに関する調査・アンケートのため</li>
+<li>本サービスのご利用にあたってご覧いただく、第三者から提供されるコンテンツや広告を利用者にとって利便性の高いものとするための、登録情報や利用状況の分析、または分析のためのアンケート対象の抽出、分析結果の第三者への提供のため</li>
+<li>広告の配信状況の把握、広告効果の測定及び、行動ターゲティング広告の表示（一部サイトのみ）のため</li>
+</ol>
+<p>なお、日経が第三者に提供する分析結果に個人が特定されるような情報は含まれません。</p>
+
+<h4>(3) その他本サービスの提供のため</h4>
+<p>上記(1)、(2)に付随して必要な範囲で、日経による本サービスの提供のため</p>
+
+<h4>(4) 提携先への提供のため</h4>
+<ol>
+<li>提携先（日経ID利用規約にて定めます。）に対し、［5. 個人情報の開示］に従い、個人情報を提供するため</li>
+<li>広告配信事業者に対し登録情報の一部を提供するため（当該事業者の広告配信サービスで利用します。提供する情報に特定の個人が識別されるような情報は含まれません）</li>
+</ol>
+
+<h4>(5) 本サービス以外のサービス・商品に関連した情報の提供等のため</h4>
+<ol>
+<li>日経が提供する定期刊行物、書籍、デジタル・コンテンツ、各種有料サービス、その他各種サービスのご案内の送付のため</li>
+<li>日経が実施するアンケートへのご協力やイベント/セミナーへのご参加のお願い、その結果等の報告のため</li>
+<li>日経をはじめ利用者に有益と思われる企業/団体の情報やアンケート、または第三者の広告等の送付のため</li>
+</ol>
+
+<h4>(6) その他の利用目的のため</h4>
+<p>個別のサービスにおいて、上記に規定のない目的で個人情報を利用する場合があります。その場合には、事前に同意を得るものとします。</p>
+<p>なお、個人情報は、日経が別途取得・管理する個人情報と関連付けたうえで利用する場合があります。</p>
+
+<h3>2. 個人情報の取得</h3>
+<p>日経は、本サービスの提供にあたって必要となる範囲で、主に次のような場合に利用者に関する情報を取得します。なお、以下は例示であり、また、情報の具体的内容によっては個人情報に該当しない場合もあります。</p>
+
+<h4>(1) 本サービスへご登録いただく場合</h4>
+<p>本サービスへご登録いただく場合、利用者の『氏名、メールアドレス、生年月日、性別、職業』等の個人情報をお伺いします。</p>
+<ol>
+<li>本サービスの利用にあたって必要となる登録をしていただく場合</li>
+<li>イベント/セミナーへのお申し込み、アンケートへのご協力、懸賞へのご応募をいただく場合</li>
+<li>本サービスに関して日経にお問い合わせをいただく場合</li>
+<li>提携先が本サービスとは別に取得した個人情報が日経に提供される場合</li>
+</ol>
+
+<h4>(2) 本サービスをご利用いただく場合</h4>
+<p>ご登録いただいた後に本サービスを利用されますと、日経は、利用状況に関する以下のような情報を、利用者を識別できる情報と関連付けて取得します。</p>
+<ol>
+<li>サービス・商品の利用・購入等の取引履歴</li>
+<li>個別のサービスへの登録状況</li>
+<li>イベント/セミナーへのお申し込み、アンケートへのご協力、懸賞へのご応募の状況</li>
+<li>アンケートへの参加、掲示板の利用、本サービスへの評価についての発言または記載内容</li>
+</ol>
+<p>また、日経は、提携先から、利用者と日経や提携先との間でなされた取引記録や決済に関する情報の提供を受ける場合があります。</p>
+
+<h4>(3) 本サービスを提供するウェブサイトへアクセスしていただく場合等</h4>
+<p>日経は、利用者が本サービスを提供するウェブサイトへアクセスした場合等において、利用者のブラウザーから、IPアドレス、クッキーやウェブビーコン等を利用して、利用者の広告やウェブサイトの閲覧履歴や閲覧状況、ご利用環境（オペレーティングシステム、ブラウザーの種類を含みます）などの情報を自動的に取得します。</p>
+
+<h3>3. 同意に基づく取り扱い及び同意の撤回権</h3>
+<p>利用者は、本プライバシーポリシーへの同意の意思表示を行うことによって、日経による個人情報の取り扱いについて同意したこととなり、日経は、利用者のかかる同意に基づいて、利用者の個人情報を取り扱います。ただし、利用者はかかる同意をいつでも撤回することができます。また、16歳未満の利用者が本サービスを利用するにあたっては、本サービスの利用について保護者の方に同意をしていただくか、保護者の方から許可を得たうえで本サービスの利用に同意していただく必要があります。</p>
+
+
+<h3>4．個人情報提供の必要性</h3>
+<p>利用者に提供していただく個人情報は、日経が利用者に本サービスを提供する上で、利用者にご提供いただくことが必要なものですので、ご提供いただけない利用者には、本サービスをご利用いただけない場合があります。</p>
+
+<h3>5. 個人情報の開示</h3>
+<ol>
+<li>日経は、利用者の事前の同意がない限り、下記各号の場合を除き、個人情報を第三者に提供せず、また、個人情報の販売や貸し出しは行いません。</li>
+<li>法令、裁判所の判決・決定・命令、官公庁等により開示を要求された場合、必要最小限度の範囲で第三者に対して個人情報を提供する場合があります。</li>
+<li>以下のようなケースで本人の同意を得ることが困難な場合にも、日経または提携先が提供するサービスの利用に関連して、必要最小限度の範囲で第三者に対して個人情報を提供する場合があります。</li>
+<ol>
+<li>利用者が法令や関連する規約等に反し、第三者または日経の権利、財産、サービスなどを保護するために必要と認められる場合</li>
+<li>人の生命、身体および財産などに対する差し迫った危険があり、緊急の必要性がある場合</li>
+</ol>
+<li>日経は、利用者が提携先に対してサービスや商品の購入、懸賞やアンケートの応募、その他の取引を申し込まれた場合、利用者の指示に基づいてその取引に必要な範囲で、日経が取得した個人情報を提携先に提供します。このように提供された個人情報は、提携先が管理します。提携先は、その取引を遂行することに加え、取引後の利用者向けメール等による情報提供、利用者のサービスの利用状況等の分析をして、提携先の事業運営/サービスの改善を行うために、個人情報を利用します。日経は、提携先に対し、欧州一般データ保護規則（以下「ＧＤＰＲ」といいます。）及び関連法令を遵守し、利用者のプライバシーに配慮した個人情報の取り扱いをすることを契約等で義務づけております。なお、提携先における個人情報の取り扱いの詳細につきましては、提携先にお問い合わせください。</li>
+<li>日経は、「1.個人情報の利用目的」記載の利用目的の範囲内において、「2.個人情報の取得」記載の個人情報を、<a href="http://www.nikkei.co.jp/nikkeiinfo/corporate/group/" target="_blank">日経グループ会社各社</a>と共同で利用します。</li>
+</ol>
+
+<h3>6. 個人情報の修正</h3>
+<ol>
+<li>日経は、利用者の個人情報の正確性、最新性を確保するため、利用者にご協力をお願いする場合があります。</li>
+<li>利用者は、本サービスのウェブサイトにおいて、個人情報の、(1)確認、(2)訂正・追加・削除・データポータビリティ権の行使、(3)利用停止および(4)提携先への提供停止（以下、「確認等」といいます。）の手続を行うことができます。なお、直接来社いただいてのお申し出や、あらかじめ指定させていただいているケース以外でのメールでのお問い合わせはお受けできませんのでご了承ください。</li>
+<li>上記の方法で確認等を行うことのできない、日経が保有する個人情報については、別途日経が定める手続に従い、確認等をご請求ください。</li>
+<li>利用者は、利用者に関連する個人情報の取り扱いにつき管轄を有する各国データ保護当局に対して異議を申し立てる権利を有します。</li>
+</ol>
+
+<h3>7. 保存期間</h3>
+<p>日経は、利用者に本サービスを提供するために必要がある限り、利用者の個人情報を保持しますが、必要性がなくなった場合には、速やかにこれを消去します。</p>
+
+<h3>8. 個人情報の域外移転</h3>
+<p>日経は上記の利用目的の達成のために、利用者の個人情報を日本を含むＥＵ域外の国に移転して取り扱う場合があります。ＥＵ域外の国においてはＧＤＰＲと同様のデータ主体の権利が認められない場合がありますが、日経は利用者の個人情報をＧＤＰＲに基づく標準契約条項の締結等により、利用者の個人情報の保護に関する十分な措置が確保されることを担保いたします。</p>
+
+<h3>9. お問い合わせ窓口</h3>
+<p>利用者ご本人からの、法令に基づく個人情報の照会等に関しては下記窓口までご連絡ください。</p>
+
+<p>〒１００－８０６６<br>
+東京都千代田区大手町１－３－７<br>
+(株)日本経済新聞社 法務室 個人情報管理センター（ＧＤＰＲ対応事務局）<br>
+privacy@nex.nikkei.co.jp</p>
+
+<p>０３－３２７０－０２５１（代表）</p>
+
+<h3>10. セキュリティについて</h3>
+<p>日経は、本サービスにおけるセキュリティ確保のため、クレジットカード番号などの重要な情報の入力時には、これらの情報が傍受、妨害または改ざんされることを防ぐ目的でSSL（Secure Sockets Layer）技術を使用しています。</p>
+
+<h3>11. その他</h3>
+<ol>
+<li>日経は、ＧＤＰＲ及びその他の関連法令の規定により、上記と異なる取り扱いをする場合があります。</li>
+<li>日経は、プライバシーポリシーの全部または一部を変更する場合があります。重要な変更がある場合には、本サービスが提供されるウェブサイトにおいて、分かりやすい方法でお知らせします。</li>
+</ol>
+<p class="alignR">以上</p>
+<p class="alignR">(2018年5月25日制定)</p>
+
+
+
+				</div></div><!-- id="CONTENTS" class="cmn-clearfix" -->
+			<!-- ▲======▲======▲======▲ コンテンツ ▲======▲======▲======▲ -->
+
+			<hr class="cmn-hide">
+
+			<!-- ▼======▼======▼======▼ このサイトについて ▼======▼======▼======▼ -->
+			<div id="ABOUT_SITE_SMALL">
+				<div class="base-pagetop"><div id="GOTO_TOP"><a href="#PAGE_TOP"><img src="https://id.nikkei.com/lounge/nl/images/base/btn_gototop_small_off.gif" width="114" height="20" alt="ページの先頭へ"></a></div></div>
+				<p class="base-copyright"><img src="https://id.nikkei.com/lounge/nl/images/common/logo_aboutnikkei_nikkei.gif" width="63" height="16" alt="日本経済新聞社">Copyright © <script type="text/javascript">document.write(new Date().getFullYear());</script>2019 Nikkei Inc. All rights reserved.</p>
+
+			</div>
+			<!-- ▲======▲======▲======▲ このサイトについて ▲======▲======▲======▲ -->
+
+		</div>
+	</div>
+<div id="SITE_CATALIST">
+<!-- SiteCatalyst code version: H.9. Copyright 1997-2007 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" src="//partsa.nikkei.com/parts/SC/help/SiteCatalystTag_help_utf8.js"></script>
+<script language="JavaScript" src="//partsa.nikkei.com/parts/SC/help/s_codeDShelp.js"></script>
+<script language="JavaScript" src="//partsa.nikkei.com/parts/SC2/s_cDS.js"></script> <script language="JavaScript">
+<!-- if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-') //--></script>
+<noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="//nikkei.d1.sc.omtrdc.net/b/ss/nikkeicojpdsmstdsprod,nikkeicojpdsmstallprod,nikkeicojpgrpmstallprod,nikkeicojpdshelpprod/1/H.9--NS/0" height="1" width="1" border="0" alt="" />
+</a></noscript>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.9. -->
+<!--/SiteCatalyst code-->
+
+</div>
+<script type="text/javascript">_satellite.pageBottom();</script><script type="text/javascript" src="//tr.webantenna.info/js/webantenna.js"></script><div class="kxhead" data-id="KDu05POx" style="display:none !important;"><span class="kxtag kxinvisible" data-id="27542"><script>
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="27543"></span><span class="kxtag kxinvisible" data-id="27548"></span><span class="kxtag kxinvisible" data-id="27549"><script>
+window.kxsiteurl = location.href;
+Krux('scrape', { "page_attr_nc_pageurl": {js_global: "kxsiteurl"}});
+
+window.kxpagetitle = document.title;
+Krux('scrape', { "page_attr_nc_page_title": {js_global: "kxpagetitle"}});
+
+Krux('scrape', { 'page_attr_nc_meta_keywords': {meta_name: 'keywords'}});
+
+if (1 < document.location.search.length) {
+ window.kxquery = document.location.search.substring(1); 
+ }
+Krux('scrape', { "page_attr_nc_queryparam": {js_global:"kxquery"}});
+
+window.kxrefdomain = document.referrer.split('/')[2];
+if(!kxrefdomain){
+  kxrefdomain = "no_referrer";
+}
+if(kxrefdomain == location.hostname){
+  kxrefdomain = "internal_path";
+}
+Krux('scrape', { "page_attr_nc_ref-domain": {js_global: "kxrefdomain"}});
+
+window.kxtime = new Date(); 
+window.kxmonth = kxtime.getMonth()+1;
+window.kxday = kxtime.getDate();
+window.kxweek = kxtime.getDay();
+window.kxyobi = new Array("日","月","火","水","木","金","土");
+window.kxhour = kxtime.getHours();
+window.kxdayandhour = kxyobi[kxweek]+"曜："+kxhour+"時";
+Krux('scrape', { "page_attr_nc_dayandhour": {js_global: "kxdayandhour"}});
+
+window.kxdate = kxmonth + "/" + kxday;
+Krux('scrape', { "page_attr_nc_date": {js_global: "kxdate"}});
+
+Krux('scrape', { 'user_attr_nc_nid_serial_id': {cookie: 'NID-Serial-Cookie'}});
+
+Krux('set', 'page_attr_nc_adobe_channel', typeof window.s =='object' && window.s['channel']);
+Krux('set', 'page_attr_nc_adobe_prop1', typeof window.s =='object' && window.s['prop1']);
+Krux('set', 'page_attr_nc_adobe_prop2', typeof window.s =='object' && window.s['prop2']);
+Krux('set', 'page_attr_nc_adobe_prop9', typeof window.s =='object' && window.s['prop9']);
+Krux('set', 'page_attr_nc_adobe_prop10', typeof window.s =='object' && window.s['prop10']);
+Krux('set', 'page_attr_nc_adobe_prop11', typeof window.s =='object' && window.s['prop11']);
+Krux('set', 'page_attr_nc_adobe_prop39', typeof window.s =='object' && window.s['prop39']);
+
+Krux('set', 'page_attr_nc_adobe_prop22', typeof window.s =='object' && window.s['prop22']);
+Krux('set', 'page_attr_nc_adobe_prop23', typeof window.s =='object' && window.s['prop23']);
+Krux('set', 'page_attr_nc_adobe_prop24', typeof window.s =='object' && window.s['prop24']);
+Krux('set', 'page_attr_nc_adobe_prop25', typeof window.s =='object' && window.s['prop25']);
+
+Krux('set', 'page_attr_nc_adobe_prop16', typeof window.s =='object' && window.s['prop16']);
+Krux('set', 'page_attr_nc_adobe_evar2', typeof window.s =='object' && window.s['eVar2']);
+
+</script></span><span class="kxtag kxinvisible" data-id="27550"><script>
+(function() {
+  if (Krux('get', 'user') != null) {
+      new Image().src = 'https://usermatch.krxd.net/um/v2?partner=google';
+  }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="30026"><script>
+(function() {
+	var res = '';
+	var obj = document.getElementsByClassName('m-relatedTags');
+
+	try {
+		if(obj.length > 0) {
+			var obj_li = obj[0].getElementsByTagName('li');
+			var cnt = obj_li.length;
+
+			switch(cnt) {
+				case 1:
+					if(obj_li[0].getElementsByClassName('m-relatedTags_title')[0].textContent == '企業') {
+						var obj_div = obj_li[0].getElementsByClassName('m-relatedTags_tags');
+						var obj_a = obj_div[0].getElementsByClassName('m-relatedTags_tags_item');
+
+						var arr = new Array();
+						for(var i = 0; i < obj_a.length; i++) {
+							if(obj_a[i].getElementsByTagName('span').length > 0) {
+								arr.push(obj_a[i].getElementsByTagName('span')[0].textContent);
+							}
+						}
+						window.cci_acorp = arr.join(',');
+					}
+					else if(obj_li[0].getElementsByClassName('m-relatedTags_title')[0].textContent == '業界') {
+						var obj_div = obj_li[0].getElementsByClassName('m-relatedTags_tags');
+						var obj_a = obj_div[0].getElementsByClassName('m-relatedTags_tags_item');
+
+						var arr = new Array();
+						for(var i = 0; i < obj_a.length; i++) {
+							if(obj_a[i].getElementsByTagName('span').length > 0) {
+								arr.push(obj_a[i].getElementsByTagName('span')[0].textContent);
+							}
+						}
+						window.cci_aind = arr.join(',');
+					}
+
+					break;
+				case 2:
+					for(var j = 0; j < cnt; j++) {
+						if(obj_li[j].getElementsByClassName('m-relatedTags_title')[0].textContent == '企業') {
+							var obj_div = obj_li[j].getElementsByClassName('m-relatedTags_tags');
+							var obj_a = obj_div[0].getElementsByClassName('m-relatedTags_tags_item');
+
+							var arr = new Array();
+							for(var i = 0; i < obj_a.length; i++) {
+								if(obj_a[i].getElementsByTagName('span').length > 0) {
+									arr.push(obj_a[i].getElementsByTagName('span')[0].textContent);
+								}
+							}
+							window.cci_acorp = arr.join(',');
+						}
+						else if(obj_li[j].getElementsByClassName('m-relatedTags_title')[0].textContent == '業界') {
+							var obj_div = obj_li[j].getElementsByClassName('m-relatedTags_tags');
+							var obj_a = obj_div[0].getElementsByClassName('m-relatedTags_tags_item');
+
+							var arr = new Array();
+							for(var i = 0; i < obj_a.length; i++) {
+								if(obj_a[i].getElementsByTagName('span').length > 0) {
+									arr.push(obj_a[i].getElementsByTagName('span')[0].textContent);
+								}
+							}
+							window.cci_aind = arr.join(',');
+						}
+					}
+
+					break;
+			}
+		}
+	}
+	catch(e) {}
+　
+	if(typeof(window.cci_acorp) === 'string') {
+		Krux('scrape', { "page_attr_nc_article_corp": {js_global: "cci_acorp"}});
+	}
+
+	if(typeof(window.cci_aind) === 'string') {
+		Krux('scrape', { "page_attr_nc_article_industry": {js_global: "cci_aind"}});
+	}
+})();
+</script></span><span class="kxtag kxinvisible" data-id="32713"><script type="text/javascript"> 
+var dir = location.href.split(/\?|\//g);
+window.cci_aid = "";
+for(var i = 0; i < dir.length; i++) {
+ if(dir[i] == "article"){
+  try { window.cci_aid = dir[1+i]; } catch(e) {}
+  break;
+ }
+}
+
+ Krux('scrape', { "page_attr_nc_article_id": {js_global: "cci_aid"}});
+</script></span><span class="kxtag kxinvisible" data-id="33048"><script>
+try {
+	window.kxrcategory_l = window.s.eVar6.replace(/\s|　|\[|\]|\"/gm, '');
+	window.kxrcategory_m = window.s.eVar7.replace(/\s|　|\[|\]|\"/gm, '');
+	Krux('scrape', { "page_attr_nc_rcategory_l": {js_global: "kxrcategory_l"}});
+	Krux('scrape', { "page_attr_nc_rcategory_m": {js_global: "kxrcategory_m"}});
+}catch(e) {}
+</script></span><span class="kxtag kxinvisible" data-id="33138"><img src="//tg.socdm.com/aux/extsync?aid=dentsupmp&amp;sid=nikkei&amp;attr_raw=nikkei_visitor%3d1" width="1" height="1" style="display:none;position:absolute;border:none;padding:0;margin:0;"></span><span class="kxtag kxinvisible" data-id="33139"><img src="//tg.socdm.com/aux/extsync?aid=dentsupmp&amp;sid=nikkei&amp;attr_raw=nikkei_s_visitor%3d1" width="1" height="1" style="display:none;position:absolute;border:none;padding:0;margin:0;"></span><span class="kxtag kxinvisible" data-id="34426"><script>
+(function() {
+  window.cci_rkw = "";
+  var obj = document.getElementsByClassName('m-relatedTags');
+  try {
+    if(obj.length > 0) {
+      for(var j = 0; j < obj.length; j++) {
+        if(!obj[j].getElementsByClassName('m-relatedTags_title')[0]) {
+          var obj_div = obj[j].getElementsByClassName('m-relatedTags_tags');
+
+          var arr = new Array();
+          if(obj_div[0].getElementsByTagName('span').length > 0) {
+            for(var i = 0; i < obj_div[0].getElementsByTagName('span').length; i++) {
+              arr.push(obj_div[0].getElementsByTagName('span')[i].textContent);
+            }
+          }
+          window.cci_rkw = arr.join(',');
+
+        }
+      }
+    }
+　} catch(e) {}
+  if(typeof(window.cci_rkw) === 'string') {
+    Krux('scrape', { "page_attr_nc_rkeyword": {js_global: "cci_rkw"}});
+  }
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="39225"><script type="text/JavaScript"> 
+Krux('consent:set', { dc: true, al: true, tg: true, cd: true, sh: true, re: true}, function(errors, body) {}); 
+</script></span></div>
+<script type="text/javascript">
+var webantenna_tag_code = "dummy";
+switch (window.prop2){
+	case "DSsu-電子有料購読申込-申込-国内-月ぎめ":
+		webantenna_tag_code = "ds_plan";
+		break;
+	case "DSsu-電子有料購読申込-申込-国内-W現読":
+		webantenna_tag_code = "ds_plan";
+		break;
+	case "DSsu-電子有料購読申込-申込-国内-W新規":
+		webantenna_tag_code = "ds_plan";
+		break;
+	case "DSsu-電子有料購読申込-完了-国内-月ぎめ":
+		webantenna_tag_code = "charge_complete";
+		break;
+	case "DSsu-電子有料購読申込-完了-国内-W現読":
+		webantenna_tag_code = "charge_complete";
+		break;
+	case "DSsu-電子有料購読申込-完了-国内-W新規":
+		webantenna_tag_code = "charge_complete";
+		break;
+	case "DSsu-有料紙購読申込-有料紙支払選択":
+		webantenna_tag_code = "pk_charge";
+		break;
+	case "DSsu-有料紙購読申込-申込入力":
+		webantenna_tag_code = "pk_entry";
+		break;
+	case "DSsu-有料紙購読申込-完了":
+		webantenna_tag_code = "pk_confirm";
+		break;
+	case "DSsu-電子無料購読申込-確認":
+    webantenna_tag_code = "free_confirm";
+		break;
+	case "DSsu-電子無料購読申込-完了":
+    webantenna_tag_code = "free_complete";
+		break;
+	case "DSsu-電子お試し申込-完了":
+		webantenna_tag_code = "otameshi_complete";
+		break;
+	case "DSsu-購読状況の確認・変更-転居-支払選択":
+		webantenna_tag_code = "pk_mv_charge";
+		break;
+	case "DSsu-購読状況の確認・変更-転居-申込-ク入":
+		webantenna_tag_code = "pk_mv_cd_entry";
+		break;
+	case "DSsu-購読状況の確認・変更-転居-申込-転前-集金":
+		webantenna_tag_code = "pk_mv_col_entry";
+		break;
+	case "DSsu-購読状況の確認・変更-転居-完了-クレカ":
+		webantenna_tag_code = "pk_mv_cd_comp";
+		break;
+	case "DSsu-購読状況の確認・変更-転居-完了-集金":
+		webantenna_tag_code = "pk_mv_col_comp";
+		break;
+	case "DSsu-購読状況の確認・変更-支払-支払選択":
+		webantenna_tag_code = "pk_chpay";
+		break;
+	case "DSsu-購読状況の確認・変更-支払-変更-クレカから集金":
+		webantenna_tag_code = "pk_chpay_cd_entry";
+		break;
+	case "DSsu-購読状況の確認・変更-支払-変更-集金からクレカ":
+		webantenna_tag_code = "pk_chpay_col_entry";
+		break;
+	case "DSsu-購読状況の確認・変更-支払-完了-クレカから集金":
+		webantenna_tag_code = "pk_chpay_cd_comp";
+		break;
+	case "DSsu-購読状況の確認・変更-支払-完了-集金からクレカ":
+		webantenna_tag_code = "pk_chpay_col_comp";
+		break;
+	case "DSsu-購読状況の確認・変更-プラン変更-月W":
+
+		if(typeof window.events !== "undefined"){
+			if(window.events.indexOf("event77")){
+				webantenna_tag_code = "pk_chp_mw_entry";
+			}else if(window.events.indexOf("event78")){
+				webantenna_tag_code = "pk_chp_mw_comp";
+			}
+		}
+		break;
+	case "DSsu-購読状況の確認・変更-プラン変更-紙W":
+if(typeof window.events !== "undefined"){
+		if(window.events.indexOf("event200")){
+			webantenna_tag_code = "pk_chp_pw_entry";
+		}else if(window.events.indexOf("event201")){
+			webantenna_tag_code = "pk_chp_pw_comp";
+		}
+}
+		break;
+	case "DSsu-購読状況の確認・変更-電子有料オプション申込":
+if(typeof window.events !== "undefined"){
+		if(window.events.indexOf("event206")){
+			webantenna_tag_code = "ch_op_entry";
+		}else if(window.events.indexOf("event38")){
+			webantenna_tag_code = "ch_op_complate";
+		}
+}
+		break;
+}
+
+if(webantenna_tag_code != "dummy"){
+	if ( typeof( webantenna ) == 'function' ) {
+ 		_wa.account = 'WAA0Sk-1';
+ 		_wa.cv = webantenna_tag_code;
+ 		webantenna();
+	}
+}
+</script>
+
+<script type="text/javascript" src="//tr.webantenna.info/js/webantenna.js"></script>
+<script type="text/javascript">
+var webantenna_tag_code = "dummy";
+
+if(typeof window.products !== "undefined"){
+	if(window.products.match(/日経Goodayマイドクター/gi)){
+		switch (window.prop2){
+			case "DSsu-電子有料購読申込-完了-海外":
+				webantenna_tag_code = 'DScomplete';
+				break;
+			case "DSsu-有料紙購読申込-完了":
+				webantenna_tag_code = 'DScomplete';
+				break;
+			case "DSsu-電子有料購読申込-完了-国内-月ぎめ":
+				webantenna_tag_code = 'DScomplete';
+				break;
+			case "DSsu-電子有料購読申込-完了-国内-W現読":
+				webantenna_tag_code = 'DScomplete';
+				break;
+			case "DSsu-電子有料購読申込-完了-国内-W新規":
+				webantenna_tag_code = 'DScomplete';
+				break;
+		}
+	}
+}
+if(webantenna_tag_code != "dummy"){
+	if ( typeof( webantenna ) == 'function' ) {
+		_wa.account = 'WA8L6G-1';
+		_wa.cv = webantenna_tag_code;
+		webantenna();
+	}
+}
+</script><script src="https://assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/scripts/satellite-568cbc4064746d270a00cce4.js"></script><script src="https://assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/scripts/satellite-568cb93564746d071200d264.js"></script><!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "20514388" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=20514388&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag --><script type="text/javascript" charset="UTF-8">document.write(unescape("%3Cscript src='//img.ak.impact-ad.jp/ut/f9647ca0f4a5e33f_1987.js' type='text/javascript' charset='UTF-8' %3E%3C/script%3E"));</script><script src="//img.ak.impact-ad.jp/ut/f9647ca0f4a5e33f_1987.js" type="text/javascript" charset="UTF-8"></script><noscript><iframe src="//nspt.unitag.jp/f9647ca0f4a5e33f_1987.php" width="0" height="0" frameborder="0"></iframe></noscript><script src="https://assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/scripts/satellite-5937d0a264746d51d3011979.js"></script><script src="https://assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/scripts/satellite-5937d18e64746d3860007182.js"></script>
+
+<div id="itm_1987" style="visibility: hidden; display: none;"><script type="text/javascript" charset="UTF-8">
+(function(){
+	var s = {
+		api : "//aw.dw.impact-ad.jp/c/map/?",
+		oid : "f9647ca0f4a5e33f",
+		sp : "nid",
+		nid_cookie : "NID-Serial-Cookie",
+		expire : 14,
+		expire_cookie : "_aomap"
+	}
+	var d = document;
+	var utils = {
+		getCookie : function(k){
+			var cs = d.cookie;
+			if(cs){
+				var acs = cs.split("; ");
+				for(var i=0;i<acs.length;i++){
+					var cs = acs[i].split("=");
+					if(cs[0] === k){
+						return cs[1];
+					}
+				}
+			}
+			return "";
+		},
+		setCookie : function(key, val, expire_days){
+			var cookie_params = [];
+			cookie_params.push(key + "=" + val);
+			var expireDate = new Date();
+			expireDate.setTime(expireDate.getTime() + 86400000*expire_days);
+			cookie_params.push("expires=" + expireDate.toGMTString());
+			cookie_params.push("path=/");
+
+			d.cookie = cookie_params.join("; ");
+		},
+		createimg : function(src){
+			var obj = d.createElement("img");
+			obj.style.width = 1;
+			obj.style.height = 1;
+			obj.style.display = "none";
+			obj.src = src;
+			d.body.appendChild(obj);
+		}
+	};
+	if( !utils.getCookie(s.expire_cookie) ) {
+		var nid = utils.getCookie(s.nid_cookie);
+		if(nid){
+			var params = [];
+			params.push("oid=" + s.oid);
+			params.push("cid=" + nid);
+			params.push("sp=" + s.sp);
+			utils.createimg(s.api + params.join("&"));
+			utils.setCookie(s.expire_cookie, "1", s.expire);
+		}
+	}
+})();
+</script><script type="text/javascript">
+(function(){
+  if (!window.a1tracker || a1tracker.completeDcCall) { return; }
+  var doh = "f9647ca0f4a5e33f";
+  var propParams = (function() {
+      var props = [];
+      var evars = [];
+      if (typeof(s) === "undefined") return props;
+      for(var val in s) {
+          if(val.indexOf("prop") !== -1 && s[val]) {
+              var key = "tm" + val.replace("prop", "");
+              props.push(key + "=" + encodeURIComponent(s[val]));
+          }
+          if(val.indexOf("eVar") !== -1 && s[val]) {
+              var key = "ev" + val.replace("eVar", "");
+              evars.push(key + "=" + encodeURIComponent(s[val]));
+          }
+      }
+      return props.concat(evars);
+  })();
+  if (propParams.length > 0) a1tracker.setParams(doh, "url", location.href + (location.href.indexOf('?') == -1 ? '?' : '&') + propParams.join('&'));
+  a1tracker.send(doh, function(){}, {
+    storeSegmentIds: {
+      cookieName: 'a1_segment_ids',
+      delimiter: ',',
+      expire: 90
+    }
+  });
+  a1tracker.completeDcCall = true;
+})();
+</script></div><iframe id="aopb_f9647ca0f4a5e33f" frameborder="0" scrolling="no" width="1" height="1" style="display: none" src="https://img.ak.impact-ad.jp/ut/pb.html"></iframe><img src="//aw.dw.impact-ad.jp/ut/rep?u=1987&amp;v=62&amp;r=https%3A%2F%2Fwww.nikkei.com%2Flounge%2Fhelp%2Fprivacy.html&amp;t=7062" style="display: none;"></body><iframe id="kx-proxy-KDu05POx" src="https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=KDu05POx&amp;kxt=https%3A%2F%2Fwww.nikkei.com&amp;kxcl=cdn&amp;kxp=" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe></html>
